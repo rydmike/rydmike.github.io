@@ -38154,17 +38154,17 @@ F.ml.prototype={
 aD:function(){return new F.yQ(C.p)}}
 F.yQ.prototype={
 I:function(a){var t,s,r,q,p=this,o=null,n=L.Sg("MaskFilter.blur Outer Blur Issue",K.aJ(a).y2.f),m=p.y,l=p.x,k=p.d,j=p.e,i=p.f,h=p.r,g=l?T.Rr(F.Tl(j,k,i,h),C.aQ):F.Tl(j,k,i,h)
-h=O.xA(new F.MA(p),C.By,C.Bu,h)
-i=O.xA(new F.MB(p),C.BD,C.Br,i)
-k=O.xA(new F.MC(p),C.Bt,C.Bs,k)
-j=O.xA(new F.MD(p),C.Bw,C.Bz,j)
-l=O.xA(new F.ME(p),C.BB,C.BC,l)
+h=O.xA(new F.MA(p),C.BD,C.Bs,h)
+i=O.xA(new F.MB(p),C.Bz,C.BB,i)
+k=O.xA(new F.MC(p),C.Bw,C.Bt,k)
+j=O.xA(new F.MD(p),C.Br,C.Bx,j)
+l=O.xA(new F.ME(p),C.BA,C.BC,l)
 t=C.e.lS(300)
 s=C.e.i(J.lR(p.y))
 r=p.y
 q=u.t
-q=T.TE(H.a([C.qm,n,C.qm,new T.bN(420,420,new T.cG(C.J,o,o,new T.bN(m,m,g,o),o),o),C.me,C.k9,new T.cG(C.J,o,o,new T.bN(450,o,h,o),o),C.k9,new T.cG(C.J,o,o,new T.bN(450,o,i,o),o),new T.cG(C.J,o,o,new T.bN(450,o,k,o),o),new T.cG(C.J,o,o,new T.bN(450,o,j,o),o),C.k9,C.me,new T.cG(C.J,o,o,new T.bN(450,o,l,o),o),C.me,new T.cG(C.J,o,o,new T.bN(450,o,Q.Uh(!1,o,o,!0,!1,o,o,!1,new R.oI(r,new F.MF(p),200,400,t,s,o),C.Bv,new T.f7(C.uZ,T.TE(H.a([C.BA,L.Sg(C.e.i(J.lR(r)),C.AU)],q),C.k2,C.lf),o)),o),o)],q),C.nT,C.lf)
-return new M.os(new E.m3(C.Bx,0,!0,new P.Z(1/0,56),o),new E.x6(!0,q,o),o)}}
+q=T.TE(H.a([C.qm,n,C.qm,new T.bN(420,420,new T.cG(C.J,o,o,new T.bN(m,m,g,o),o),o),C.me,C.k9,new T.cG(C.J,o,o,new T.bN(450,o,h,o),o),C.k9,new T.cG(C.J,o,o,new T.bN(450,o,i,o),o),new T.cG(C.J,o,o,new T.bN(450,o,k,o),o),new T.cG(C.J,o,o,new T.bN(450,o,j,o),o),C.k9,C.me,new T.cG(C.J,o,o,new T.bN(450,o,l,o),o),C.me,new T.cG(C.J,o,o,new T.bN(450,o,Q.Uh(!1,o,o,!0,!1,o,o,!1,new R.oI(r,new F.MF(p),200,400,t,s,o),C.Bu,new T.f7(C.uZ,T.TE(H.a([C.By,L.Sg(C.e.i(J.lR(r)),C.AU)],q),C.k2,C.lf),o)),o),o)],q),C.nT,C.lf)
+return new M.os(new E.m3(C.Bv,0,!0,new P.Z(1/0,56),o),new E.x6(!0,q,o),o)}}
 F.MA.prototype={
 $1:function(a){var t=this.a
 t.aq(new F.Mz(t,a))}}
@@ -41485,20 +41485,20 @@ C.Ah=new A.l(!0,C.k,null,".SF UI Text",null,null,null,null,null,null,null,null,n
 C.zS=new A.l(!0,C.k,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"whiteCupertino overline",null,null)
 C.Bp=new R.cC(C.z1,C.zG,C.Bd,C.AK,C.zl,C.z2,C.A9,C.AX,C.Bb,C.zw,C.Bc,C.Ah,C.zS)
 C.Bq=new U.xM("TextWidthBasis.longestLine")
-C.Br=new L.cf("Show waves on the lake",null,null)
-C.Bs=new L.cf("Show house over a blood-red sun",null,null)
-C.Bt=new L.cf("This one is just here to look cool...",null,null)
-C.Bu=new L.cf("MaskFilter.blur ON/OFF",null,null)
-C.Bv=new L.cf("Change Container size",null,null)
-C.Bw=new L.cf("Just show and test this effect was not what caused on DomCanvas ",null,null)
-C.Bx=new L.cf("MaskFilter Issue Demo",null,null)
-C.By=new L.cf("Turn on too compare difference between CanvasKit (SKIA) and DomCanvas. The filter causes an expected a blur effect outside the paint canvas that we can cut away with ClipRect.",null,null)
-C.Bz=new L.cf("Make a frosted glass lake",null,null)
+C.Br=new L.cf("Just to show and test that this effect is not what caused the issue on DomCanvas.",null,null)
+C.Bs=new L.cf("MaskFilter.blur outer ON/OFF",null,null)
+C.Bt=new L.cf("Show house over a blood-red sun",null,null)
+C.Bu=new L.cf("Change Container size",null,null)
+C.Bv=new L.cf("MaskFilter Issue Demo",null,null)
+C.Bw=new L.cf("This one is just here to look cool.",null,null)
+C.Bx=new L.cf("Make a frosted glass lake",null,null)
 C.AW=new A.l(!0,null,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.BA=new L.cf("Width",C.AW,null)
-C.BB=new L.cf("Turn on ClipRect to see edge remnants. \nIf you resize window/media size or change container size, you can observe the edge remnants appearing and dissapearing at different sizes.",null,null)
+C.By=new L.cf("Width",C.AW,null)
+C.Bz=new L.cf("The above MaskFilter.blur outer is only applied to these CustomPaint wave objects.",null,null)
+C.BA=new L.cf("Turn on ClipRect to see edge remnants. \nIf you resize window/media size or change container size, you can observe the edge remnants appearing and dissapearing at different edges.",null,null)
+C.BB=new L.cf("Show static waves on the lake",null,null)
 C.BC=new L.cf("ClipRect ON/OFF",null,null)
-C.BD=new L.cf("The MaskFilter.blur is only applied to these CustomPaint wave objects.",null,null)
+C.BD=new L.cf("Turn on too compare the difference between CanvasKit (SKIA) and DomCanvas.\nThe filter causes an expected blur effect outside the paint canvas that we will also cut away with ClipRect.",null,null)
 C.CZ=new S.Lw("ThemeMode.system")
 C.BE=new M.p0(null)
 C.ml=new P.Ly(0,"TileMode.clamp")
