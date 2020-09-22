@@ -14190,7 +14190,7 @@ a6u:function a6u(a,b){this.a=a
 this.b=b
 this.c=null}},E={
 aEz:function(a){var s=null,r=K.r(a,!1),q=r.B.cx===C.w,p=r.F.y,o=p.rz(K.r(a,!1).y1,C.aj),n=r.b,m=p.by(n),l=q?O.qC(n,15):O.aC(n,10),k=q?C.tS:C.l5
-A.aEy(new K.H4(!1,new E.ahM(l,k),C.L3,s),"\xa9 2020 M.Rydstrom - MIT License","Flexfold Demo","0.89.3 pre-release demo",H.d([new T.I(C.JH,T.ajx(s,s,C.as,!0,s,new Q.ch(s,H.d([new Q.ch("Flexfold demo shows the features of the responsive Flexfold scaffold package find out more on ",s,s,p),L.aja(m,"pub.dev","https://pub.dev/"),new Q.ch(". It contains documentation and the link to the source of this demo application.\n\n",s,s,p),new Q.ch("This is a pre-release demo, the Flexfold package is not yet available on pub.dev, coming soon...\n\n",s,s,o)],t.hv),s,s),C.az,s,s,1,C.S),s)],t.t),a,!0)},
+A.aEy(new K.H4(!1,new E.ahM(l,k),C.L3,s),"\xa9 2020 M.Rydstrom - MIT License","Flexfold Demo","0.89.4 pre-release demo",H.d([new T.I(C.JH,T.ajx(s,s,C.as,!0,s,new Q.ch(s,H.d([new Q.ch("Flexfold demo shows the features of the responsive Flexfold scaffold package find out more on ",s,s,p),L.aja(m,"pub.dev","https://pub.dev/"),new Q.ch(". It contains documentation and the link to the source of this demo application.\n\n",s,s,p),new Q.ch("This is a pre-release demo, the Flexfold package is not yet available on pub.dev, coming soon...\n\n",s,s,o)],t.hv),s,s),C.az,s,s,1,C.S),s)],t.t),a,!0)},
 ahM:function ahM(a,b){this.a=a
 this.b=b},
 qn:function qn(a){this.a=a},
@@ -14478,7 +14478,7 @@ if(a3==null){s=e==null?null:e.d
 s=s==null?null:s.b
 s=56+(s==null?0:s)}else s=a3
 return new E.v0(n,c,a1,a,k,e,i,q,r,d,g,l,b,a0,!0,h,!1,a2,a4,f,new P.G(1/0,s),a3,o,m)},
-aoA:function(a,b,c,d,e,f,g,h,i,j,k,l,m){return new E.z3(h,b,m,a,f,d,c,e,g,i,j,k,l,null)},
+aoA:function(a,b,c,d,e,f,g,h,i,j,k,l,m){return new E.z3(h,!1,m,a,f,d,c,e,g,i,j,k,l,null)},
 afd:function afd(a){this.b=a},
 v0:function v0(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4){var _=this
 _.c=a
@@ -16536,20 +16536,22 @@ _.eM$=d},
 RI:function RI(){}},D={wR:function wR(a){this.a=a},NW:function NW(a){var _=this
 _.a=_.d=null
 _.b=a
-_.c=null},aad:function aad(a){this.a=a},aac:function aac(a,b,c,d,e,f){var _=this
-_.a=a
-_.b=b
-_.c=c
-_.d=d
-_.e=e
-_.f=f},aab:function aab(a,b,c,d,e,f,g){var _=this
+_.c=null},aad:function aad(a){this.a=a},aac:function aac(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e
 _.f=f
-_.r=g},aaa:function aaa(a,b){this.a=a
+_.r=g},aab:function aab(a,b,c,d,e,f,g,h){var _=this
+_.a=a
+_.b=b
+_.c=c
+_.d=d
+_.e=e
+_.f=f
+_.r=g
+_.x=h},aaa:function aaa(a,b){this.a=a
 this.b=b},JZ:function JZ(a){this.a=a},a2w:function a2w(a){this.a=a},a2v:function a2v(){},a2u:function a2u(a){this.a=a},K2:function K2(a){this.a=a},a2B:function a2B(a){this.a=a},a2A:function a2A(a){this.a=a},
 zh:function(a,b,c,d,e,f,g,h,i,j){return new D.zg(b,c,g,h,i,a,d,e,j,f,null)},
 wP:function wP(a){this.b=a},
@@ -32427,7 +32429,7 @@ $S:381}
 T.Ec.prototype={
 t:function(a,b){var s=null,r=Y.bZ(b,!1,t.Y).a,q=C.aD[r.a],p=L.S(q.c,s,s,s,s,s,s),o=F.ad(b,!1).f,n=F.ad(b,!1).f,m=K.r(b,!1),l=L.aoH(new Q.ch("This application's main purpose is to demonstrate the Flexfold responsive scaffold package and its core features.\n\nAs an extra feature it also shows Flutter application theming with FlexColorScheme. You can also use the theming feature demo to design and test application themes based on FlexColorScheme which is an enhanced version of Flutter's newer ColorScheme based theming.\n\nThe lovely images are courtesy of ",H.d([L.aja(m.F.y.by(m.x),"unDraw","https://undraw.co/"),C.RT],t.cn),s,s)),k=C.bx.h(0,"/about")
 k=H.d(k.slice(0),H.bA(k).i("z<1>"))
-return E.m5(T.ct(new T.bs(C.dc,B.iZ(H.d([new O.f5(q.b,p,r,s),C.ah,new M.fF(l,C.Wm,k,s),C.kI,T.ct(A.o_(C.VE,new T.T0(b),s,s),s,s),C.kI,T.ct(L.S("Version: 0.89.3 pre-release demo\n",s,s,s,s,K.r(b,!1).F.r,s),s,s),T.ct(L.S("This is a pre-release feature demo!",s,s,s,s,K.r(b,!1).F.f.rz(K.r(b,!1).b,C.aj),s),s,s),T.ct(L.S("Flexfold is not yet available on pub.dev",s,s,s,s,K.r(b,!1).F.f.rz(K.r(b,!1).b,C.aj),s),s,s),T.ct(L.S("Coming soon...",s,s,s,s,K.r(b,!1).F.f.rz(K.r(b,!1).b,C.aj),s),s,s)],t.t),s,s,new V.a1(15,15+o.b,15,15+n.d)),s),s,s),C.PQ)}}
+return E.m5(T.ct(new T.bs(C.dc,B.iZ(H.d([new O.f5(q.b,p,r,s),C.ah,new M.fF(l,C.Wm,k,s),C.kI,T.ct(A.o_(C.VE,new T.T0(b),s,s),s,s),C.kI,T.ct(L.S("Version: 0.89.4 pre-release demo\n",s,s,s,s,K.r(b,!1).F.r,s),s,s),T.ct(L.S("This is a pre-release feature demo!",s,s,s,s,K.r(b,!1).F.f.rz(K.r(b,!1).b,C.aj),s),s,s),T.ct(L.S("Flexfold is not yet available on pub.dev",s,s,s,s,K.r(b,!1).F.f.rz(K.r(b,!1).b,C.aj),s),s,s),T.ct(L.S("Coming soon...",s,s,s,s,K.r(b,!1).F.f.rz(K.r(b,!1).b,C.aj),s),s,s)],t.t),s,s,new V.a1(15,15+o.b,15,15+n.d)),s),s,s),C.PQ)}}
 T.T0.prototype={
 $0:function(){E.aEz(this.a)},
 $S:0}
@@ -32461,21 +32463,21 @@ s.bG(null,new B.b4(new D.aad(this)),!1)
 this.av()},
 n:function(a){this.aC(0)},
 t:function(a,b){var s=null,r=t.Y,q=Y.bZ(b,!1,r).a,p=C.aD[q.a],o=L.S(p.c,s,s,s,s,s,s),n=E.WA("/settings",C.aD,!1,C.lv,!1)
-return U.e6(new D.aac(F.ad(b,!1).f.b,F.ad(b,!1).f.d,p.b,o,q,n),r)}}
+return U.e6(new D.aac(this,F.ad(b,!1).f.b,F.ad(b,!1).f.d,p.b,o,q,n),r)}}
 D.aad.prototype={
 $0:function(){var s=this.a
 D.p2(s.c,s.d)},
 $S:0}
 D.aac.prototype={
 $3:function(a,b,c){var s=this,r=null
-return E.m5(T.ct(new T.e5(new D.aab(s.a,s.b,s.c,s.d,s.e,b,s.f),r),r,r),r)},
+return E.m5(T.ct(new T.e5(new D.aab(s.a,s.b,s.c,s.d,s.e,s.f,b,s.r),r),r,r),r)},
 $C:"$3",
 $R:3,
 $S:387}
 D.aab.prototype={
-$1:function(a){var s=this,r=null,q=C.bx.h(0,"/info")
-q=H.d(q.slice(0),H.bA(q).i("z<1>"))
-return new T.bs(C.dc,B.iZ(H.d([new O.f5(s.c,s.d,s.e,r),C.ah,new M.fF(C.W0,C.Wd,q,r),C.kI,T.ct(A.o_(C.Xl,new D.aaa(s.f,s.r),r,r),r,r)],t.t),r,r,new V.a1(15,15+s.a,15,15+s.b)),r)},
+$1:function(a){var s=this,r=null,q=s.a.d,p=C.bx.h(0,"/info")
+p=H.d(p.slice(0),H.bA(p).i("z<1>"))
+return new T.bs(C.dc,B.iZ(H.d([new O.f5(s.d,s.e,s.f,r),C.ah,new M.fF(C.W0,C.Wd,p,r),C.kI,T.ct(A.o_(C.Xl,new D.aaa(s.r,s.x),r,r),r,r)],t.t),q,r,new V.a1(15,15+s.b,15,15+s.c)),r)},
 $S:390}
 D.aaa.prototype={
 $0:function(){var s,r=this.a,q=this.b
@@ -32865,7 +32867,7 @@ e=L.S(e.c,g,g,g,g,A.dP(g,g,q,g,g,g,g,g,g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g),g)
 i=U.amN(n,r,b,o,56,a1,!1,a3)
 h=C.bx.h(0,"/slivers")
 h=H.d(h.slice(0),H.bA(h).i("z<1>"))
-return E.aoA(l,!0,C.a0,0,250,new Z.wu(e,T.fe(C.aA,H.d([i,D.zh(C.Y,h,K.r(a5,!1).B.a,C.tZ,g,C.jp,C.Js,C.oD,C.jt,g)],s),C.L,C.yS),!1,C.MZ,g),!0,k,!1,!0,!0,200,g)}}
+return E.aoA(l,!1,C.a0,0,250,new Z.wu(e,T.fe(C.aA,H.d([i,D.zh(C.Y,h,K.r(a5,!1).B.a,C.tZ,g,C.jp,C.Js,C.oD,C.jt,g)],s),C.L,C.yS),!1,C.MZ,g),!0,k,!1,!0,!0,200,g)}}
 R.a3W.prototype={
 $0:function(){M.fM(this.a,!1).A_()},
 $C:"$0",
@@ -38969,27 +38971,26 @@ r.b1(a)
 s=r.a
 if(s.k4!==a.k4||s.k1!==a.k1)r.I2()
 if(r.a.r1!==a.r1)r.I3()},
-t:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null
-d.a.toString
+t:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null
+e.a.toString
 s=F.ad(b,!1)
 r=s.f.b
-s=d.a
+s=e.a
 q=s.k2
 q
 p=56+r
 o=s.k1
 n=s.c
-m=s.d
-l=s.e
-k=s.f
-j=s.r
-i=s.y
-h=s.ch
+m=s.e
+l=s.f
+k=s.r
+j=s.y
+i=s.ch
 s=s.id
-g=d.d
-f=d.e
-e=d.f
-return F.Zn(new U.Kq(new E.adM(n,m,l,k,j,c,i,c,!1,h,c,c,c,c,!0,c,!1,16,s,p,r,o,q,c,56,c,0,d,g,f,e),q,o,c),b,!0,!1,!1,!1)}}
+h=e.d
+g=e.e
+f=e.f
+return F.Zn(new U.Kq(new E.adM(n,!1,m,l,k,d,j,d,!1,i,d,d,d,d,!0,d,!1,16,s,p,r,o,q,d,56,d,0,e,h,g,f),q,o,d),b,!0,!1,!1,!1)}}
 E.LU.prototype={
 ah:function(a){var s=new E.Pc(C.Y,T.as(a),null)
 s.gab()
@@ -64787,7 +64788,7 @@ cl:function(a,b){var s,r,q,p,o=t.UY.a(N.H.prototype.gH.call(this))
 this.fX(0,b)
 s=b.c
 r=o.c
-if(s!==r)if(H.M(s)===H.M(r))if(J.e(s.a,r.a))if(s.b===r.b)if(J.e(s.c,r.c)){q=s.d
+if(s!==r)if(H.M(s)===H.M(r))if(J.e(s.a,r.a))if(J.e(s.c,r.c)){q=s.d
 p=r.d
 if(q==null?p==null:q===p)if(J.e(s.e,r.e))if(s.r1===r.r1)if(s.r==r.r)if(J.e(s.z,r.z))if(s.fr===r.fr)if(s.fx==r.fx)if(s.go==r.go)if(s.k1===r.k1)if(s.id===r.id)if(s.r2===r.r2)if(s.rx==r.rx)if(s.ry==r.ry)if(s.x1==r.x1)q=s.k3!==r.k3||!1
 else q=!0
@@ -64804,7 +64805,6 @@ else q=!0
 else q=!0
 else q=!0
 else q=!0}else q=!0
-else q=!0
 else q=!0
 else q=!0
 else q=!1
@@ -64836,7 +64836,7 @@ else h=!0
 if(h){h=i.r
 if(h==null)h=4}else h=0
 g=g?1:C.A.M(f/d,0,1)
-m=Z.amT(E.Er(i.d,i.cx,i.b,i.z,i.f,g,i.Q,i.dx,h,!1,o,i.ch,l,i.a,i.k4,!0,i.x,i.k2,i.cy,p,i.fr,c,s),q,r,e,s)
+m=Z.amT(E.Er(i.d,i.cx,!1,i.z,i.f,g,i.Q,i.dx,h,!1,o,i.ch,l,i.a,i.k4,!0,i.x,i.k2,i.cy,p,i.fr,c,s),q,r,e,s)
 k.K=k.cm(j,i.id?new E.AO(m,l):m,l)},
 $S:0}
 U.kN.prototype={
