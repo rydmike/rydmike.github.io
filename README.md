@@ -5,6 +5,7 @@ This GitHub Pages site with a custom domain linked to it contains demos and test
 ## [Flexfold](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried here [Flexfold demo](http://rydmike.com/demoflexfold).
+![Animated Flexfold demo](/resources/WithDevPreview3.gif)
 
 The beta version of the package is ready, but has not been published on [pub.dev](https://pub.dev) yet. It is pending documentation.
 
@@ -23,7 +24,7 @@ This a place holder for a package the can be used to easily create sophisticated
 ### [Grid demo and test](http://rydmike.com/gridtest/#/)
 A very early Flutter grid demo and test that I made ages ago. It includes a Web test of the Flutter Staggered Grid View package. You can try it here [Grid demo](http://rydmike.com/gridtest/#/)
 
-The staggered grid has bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report the bug if it has not been reported and fixed already in the latest version here: https://github.com/letsar/flutter_staggered_grid_view
+The staggered grid has bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report the bug if it has not been reported and fixed already in the latest version [here](https://github.com/letsar/flutter_staggered_grid_view).
 
 ----
 
