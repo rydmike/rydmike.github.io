@@ -2,19 +2,17 @@
 
 This GitHub pages site with a custom domain linked to it contains demos and tests of various Flutter packages, projects and Flutter issue reports, that have been published as single page web sites.
 
-## Flexfold
+## [Flexfold](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried here [Flexfold demo](http://rydmike.com/demoflexfold).
 
-The beta version of the package is ready, but has not been published on pub.dev yet. It is pending documentation.
+The beta version of the package is ready, but has not been published on [pub.dev](https://pub.dev) yet. It is pending documentation.
 
-## ColorPicker
+## [ColorPicker](http://rydmike.com/pickerdemo)
 
-A Flutter color picker package. A web demo that shows the features of the color picker are available here:
-* http://rydmike.com/pickerdemo  (BROKEN)
+A Flutter color picker package. A web demo that shows the features of the color picker are available here [ColorPicker demo](http://rydmike.com/pickerdemo). (BROKEN)
 
-For some reason GitHub refuses to udpate this page, I'm still trying to get it to work...
-A GitHub public version will be published shortly and pub.dev version will follow pretty quickly after that.
+For some reason GitHub refuses to udpate this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
 
 ## FlexColorScheme
 
@@ -25,7 +23,7 @@ This a place holder for a package the can be used to easily create sophisticated
 ### Grid demo and test
 A grid demo and test, including a Web test of the staggered grid view package. 
 
-* http://rydmike.com/gridtest/#/
+* (http://rydmike.com/gridtest/#/)
 
 The staggered grid has bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report the bug if it has not been reported and fixed already in the latest version here: https://github.com/letsar/flutter_staggered_grid_view
 
