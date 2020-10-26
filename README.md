@@ -12,7 +12,7 @@ The beta version of the package is ready, but has not been published on [pub.dev
 
 A Flutter color picker package. A web demo that shows the features of the color picker are available here [ColorPicker demo](http://rydmike.com/pickerdemo). (BROKEN)
 
-For some reason GitHub refuses to udpate this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
+For some reason GitHub refuses to update this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
 
 ## FlexColorScheme
 
@@ -39,7 +39,7 @@ This is a known Flutter issue and can studied further here [#51237](https://gith
 
 ### [Clipping issue](https://rydmike.com/clipissue/#/)
 
-This demo shows a [clipping issue](https://rydmike.com/clipissue/#/) in Flutter. 
+This demo shows a [clipping issue](https://rydmike.com/clipissue/#/) in Flutter.
 
 The issue has been discussed in [#58547](https://github.com/flutter/flutter/issues/58547). The issue was closed via work around, for the actual root cause of the issue in SKIA there is no solution and the issue show up in all SKIA renderings if one looks closely at them. At some point I will gather the energy to raise the issue again as stated in the above reported issue.
 
@@ -75,9 +75,4 @@ The demo was made for the issue report [#64960](https://github.com/flutter/flutt
 
 Both issues were found to be cause by this root cause in the dart2js compiler [Dart lang SDK issue #43366](https://github.com/dart-lang/sdk/issues/43366).
 
-The issue has now been fully resolved and closed, but the demos made for the report was rather fancy so I'm keeping it around here. The source code for the demos are also availabel as Gist files and links the source can be found in the issue reports. They actually use some VERY simplified versions of code use in Flexfold package.
-
-
-
-
-
+The issue has now been fully resolved and closed, but the demos made for the report was rather fancy so I'm keeping it around here. The source code for the demos are also available as Gist files and links the source can be found in the issue reports. They actually use some VERY simplified versions of code use in Flexfold package.
