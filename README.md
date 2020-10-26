@@ -5,10 +5,28 @@ This GitHub Pages site with a custom domain linked to it contains demos and test
 ## [Flexfold](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried here [Flexfold demo](http://rydmike.com/demoflexfold).
-A Twitter thread presenting Flexfold features with a series of animated GIFs is available [here](https://twitter.com/RydMike/status/1308281235723055107?s=20).
-![Animated Flexfold demo](/assets/WithDevPreview3.gif)
 
-The beta version of the package is ready, but has not been published on [pub.dev](https://pub.dev) yet. It is pending documentation.
+A key feature of Flexfold is that navigation mode changes are animated.
+![Animated Flexfold](/assets/FelxfoldDemo01.gif)
+
+If desired the animations can even be customized to make it really wild, not really recommended for an app, but it looks cool in a demo.
+![Crazy Animated Flexfold](/assets/FelxfoldWinCrazyAnim.gif)
+
+The Web demo also incorporate a Device Preview so the responsive behavior can be tested od different simulated devices.
+![Animated Flexfold DevicePreview](/assets/WithDevPreview3.gif)
+
+A long Twitter thread presenting key Flexfold features with a series of animated GIFs is available [here](https://twitter.com/RydMike/status/1308281235723055107?s=20).
+
+
+The beta version of the Flutter package is ready, but has not yet been published on [pub.dev](https://pub.dev) yet, it is still pending proper documentation.
+
+## FlexColorScheme
+
+This a place holder for a package the can be used to easily create sophisticated ColorScheme based Flutter color themes for your app.
+The Flexfold live web demo uses the FlexColorScheme package for its theming and the themes used in the Flexfold demo are available as pre-configured themes in FlexColorScheme. You can of course also easily define and make custom themes.
+
+![FlexColorScheme in Flexfold](/assets/FoldTheme1.gif)
+
 
 ## [ColorPicker](http://rydmike.com/pickerdemo)
 
@@ -18,9 +36,7 @@ A Flutter color picker package. A web demo that shows the features of the color 
 For some reason GitHub refuses to update this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
 ![Phone pickers](/assets/pickers.png)
 
-## FlexColorScheme
 
-This a place holder for a package the can be used to easily create sophisticated ColorScheme based Flutter color themes for your app.
 
 ## Other Flutter demos
 
