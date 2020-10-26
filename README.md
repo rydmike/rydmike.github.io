@@ -4,7 +4,7 @@ This GitHub pages site with a custom domain linked to it contains demos and test
 
 ## Flexfold
 
-Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried here Flexfold demo](http://rydmike.com/demoflexfold).
+Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried here [Flexfold demo](http://rydmike.com/demoflexfold).
 
 The beta version of the package is ready, but has not been published on pub.dev yet. It is pending documentation.
 
