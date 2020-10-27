@@ -36,9 +36,9 @@ This package is also pending publication and a simpler example app.
 
 ---
 
-## [ColorPicker Demo](http://rydmike.com/pickerdemo)
+## [ColorPicker Demo](http://rydmike.com/democolorpicker)
 
-A web demo that shows the features of the Flutter ColorPicker is available [here](http://rydmike.com/pickerdemo).
+A web demo that shows the features of the Flutter ColorPicker is available [here](http://rydmike.com/democolorpicker).
 
 ![Animated ColorPicker demo](/assets/ColorPickerWeb.gif)
 
