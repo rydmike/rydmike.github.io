@@ -104,6 +104,7 @@ The mask filter issue refers to this Flutter GitHub issue [#58546](https://githu
 * Demo with [DomCanvas FAIL](https://rydmike.com/maskfilterdom/).
 * Demo with [CanvasKit OK](https://rydmike.com/maskfilterskia).
 
+A fix for it is discussed in [#47163](https://github.com/flutter/flutter/issues/47163) where it is mentioned that engine pull [#13768](https://github.com/flutter/engine/pull/13768) should resolve it, but I have not verified it yet. The discussions in #47163 seem to indicate that it might not be completely solved. I should test it and follow up.
 
 ![Mask filter issue](/assets/MaskFilterIssue.png)
 
@@ -114,11 +115,17 @@ The mask filter issue refers to this Flutter GitHub issue [#58546](https://githu
 The canvas kit font issue and demo refers to issue [#56319](https://github.com/flutter/flutter/issues/56319). It has been fully resolved and can no longer be observed with newer builds.
 
 * Demo with [DomCanvas OK](https://rydmike.com/fontissue/domcanvas/#/demo3).
+
+![Font DomCanvas OK](/assets/FontDomCanvasOK.png)
+
 * Demo with [CanvasKit FAIL here, but in newer builds OK](https://rydmike.com/fontissue/canvaskit/#/demo3).
+
+![Font CanvasKit FAIL](/assets/FontCanvasKitFAIL.png)
+
 
 ---
 
-### Regression in [AnimatedContainer](https://rydmike.com/animatedcontainermaster/#/) and [AnimatedCrossFade]()
+### Regression in [AnimatedContainer](https://rydmike.com/animatedcontainermaster/#/) and [AnimatedCrossFade](https://rydmike.com/animatedcrossfademaster/#/)
 
 These demos show how animated container and animated cross fade started to regress and break down at one point on Flutter master channel builds compared to beta channel builds.
 
@@ -130,7 +137,7 @@ The demo was made for the issue report [#63740](https://github.com/flutter/flutt
 ![Animated container issue](/assets/AnimatedContainerIssueDemo.gif)
 
 * AnimatedCrossFade demo with [Beta OK](https://rydmike.com/animatedcrossfadebeta/#/)
-* AnimatedCrossFade demo with [Beta OK](https://rydmike.com/animatedcrossfademaster/#/)
+* AnimatedCrossFade demo with [Master FAIL](https://rydmike.com/animatedcrossfademaster/#/)
 
 The demo was made for the issue report [#64960](https://github.com/flutter/flutter/issues/64960). The source code for the issue demo is available in this [Gist](https://gist.github.com/rydmike/2a3efd05ba677fe98f65771c4e1fa62e). When the issue was present it looked like this:
 
