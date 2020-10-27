@@ -42,8 +42,6 @@ A web demo that shows the features of the Flutter ColorPicker is available [here
 
 ![Animated ColorPicker demo](/assets/ColorPickerWeb.gif)
 
-For some reason GitHub refuses to update this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
-![Phone pickers](/assets/pickers.png)
 
 ---
 
