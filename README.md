@@ -2,6 +2,8 @@
 
 This **GitHub Pages** web site with a personal domain linked to it, contains demos and tests of various Flutter projects and repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites in sub-folders. They are presented and linked below for easy access.
 
+---
+
 ## [Flexfold Demo App](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried [here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application as well.
@@ -20,6 +22,8 @@ A long Twitter thread presenting key Flexfold features with a series of animated
 
 The beta version of the Flutter package is ready, but has not yet been published on [pub.dev](https://pub.dev) yet, it is still pending proper documentation.
 
+---
+
 ## FlexColorScheme Demo
 
 FlexColorScheme is a package the can be used to easily create sophisticated Flutter ColorScheme based color themes for your app.
@@ -29,6 +33,7 @@ This package is also pending publication and a simpler example app.
 
 ![FlexColorScheme in Flexfold](/assets/FoldTheme1.gif)
 
+---
 
 ## [ColorPicker Demo App](http://rydmike.com/pickerdemo)
 
@@ -39,6 +44,7 @@ A Flutter color picker package. A web demo that shows the features of the ColorP
 For some reason GitHub refuses to update this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
 ![Phone pickers](/assets/pickers.png)
 
+---
 
 ### [Responsive Grid Demo App](http://rydmike.com/gridtest/#/)
 A very early Flutter web grid demo and test that I made ages ago. It includes a web test of the [Flutter Staggered Grid View package](https://pub.dev/packages/flutter_staggered_grid_view).
@@ -58,15 +64,22 @@ The staggered grid has bug that can be seen in this demo when only resizing the 
 
 ---
 
-## Flutter issues
+## Flutter Issue Report
 
-The pages below are related to various reported Flutter issues that have been reported in the Flutter [repo](https://github.com/flutter/flutter/issues).
+The code samples below are related to some of the Flutter issues I have reported in the Flutter [repository](https://github.com/flutter/flutter/issues). The samples were just made to be used to be able to demonstrate the reported issue at the time. Some of the samples may be generally useful and interesting, so I decided to keep them available. I will add more of them as well, comment them a bit and make them look nicer by adding screenshots for them them as well.
 
-### [Elevation issue](https://rydmike.com/elevation)
+I also have a large number of issue reports with simpler sample code, that is just available as Gists that cen be run in DartPad, I might add some of them as well if they are interesting enough.
 
-Using Material elevation on CanvasKit (SKIA) in Flutter does not produce very nice results, check it out [here](https://rydmike.com/elevation).
 
-This is a known Flutter issue and more info can be found [here #51237](https://github.com/flutter/flutter/issues/51237). A solution is expected to land via this [skia fix](https://bugs.chromium.org/p/skia/issues/detail?id=10781).
+### [Material Elevation Issue Demo](https://rydmike.com/elevation)
+
+Using Material elevation on CanvasKit (SKIA) Web builds and also normal device and desktop builds that uses SKIA for rendering in Flutter, does not produce very nice results on large screens.
+
+![Elevation issue](/assets/elevation_issue.png)
+
+The sample code for this demo is available as a [Gist here](https://gist.github.com/rydmike/145828269bd8d24ee9c44a9df26ec7fb). You can try a live web version of it built with CanvasKit [here](https://rydmike.com/elevation). If you run this in a DomCanvas build, eg by using the Gist in a [DartPad here](https://dartpad.dartlang.org/145828269bd8d24ee9c44a9df26ec7fb) there is no elevation issue.
+
+This is a known Flutter issue and more info can be found [here #51237](https://github.com/flutter/flutter/issues/51237). A solution is expected to land via this [Skia fix](https://bugs.chromium.org/p/skia/issues/detail?id=10781).
 
 ### [Clipping issue](https://rydmike.com/clipissue/#/)
 
@@ -97,13 +110,17 @@ These demos show how animated container and animated cross fade started to regre
 * AnimatedContainer demo with [Beta OK](https://rydmike.com/animatedcontainerbeta/#/)
 * AnimatedContainer demo with [Master FAIL](https://rydmike.com/animatedcontainermaster/#/)
 
-The demo was made for the issue report [#63740](https://github.com/flutter/flutter/issues/63740)
+The demo was made for the issue report [#63740](https://github.com/flutter/flutter/issues/63740). The source code for the issue demo is available in this [Gist](https://gist.github.com/rydmike/2e8e6a4cc9126dbe6f95e81e674f6d6b). When the issue was present it looked like this:
+
+![Animated container issue](/assets/AnimatedContainerIssueDemo.gif)
 
 * AnimatedCrossFade demo with [Beta OK](https://rydmike.com/animatedcrossfadebeta/#/)
 * AnimatedCrossFade demo with [Beta OK](https://rydmike.com/animatedcrossfademaster/#/)
 
-The demo was made for the issue report [#64960](https://github.com/flutter/flutter/issues/64960)
+The demo was made for the issue report [#64960](https://github.com/flutter/flutter/issues/64960). The source code for the issue demo is available in this [Gist](https://gist.github.com/rydmike/2a3efd05ba677fe98f65771c4e1fa62e). When the issue was present it looked like this:
+
+![Animated cross fade issue](/assets/AnimatedCrossFadeIssue.gif)
 
 Both issues were found to be caused by this root cause in the dart2js compiler [Dart lang SDK issue #43366](https://github.com/dart-lang/sdk/issues/43366).
 
-The issue has now been fully resolved and closed, but the demos made for the report was rather fancy so I'm keeping them around here. The source code for the demos are also available as Gist files and links to their the source can be found in the issue reports. They actually use some VERY simplified versions of code use in Flexfold package.
+The above issue has now been fully resolved and closed, but the demos made for the report was rather fancy so I'm keeping them around here. The source code for the demos that are available as Gist file links above. They actually use some very simplified versions of code use in Flexfold package and are useful as starting point for various Flutter demos with just one file.
