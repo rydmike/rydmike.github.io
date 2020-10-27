@@ -1,10 +1,10 @@
 # RydMike.com a Flutter Site
 
-This **GitHub Pages** web site with a personal domain linked to it contains demos and tests of various Flutter projects and repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites. They are presented and linked below for easy access.
+This **GitHub Pages** web site with a personal domain linked to it, contains demos and tests of various Flutter projects and repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites in sub-folders. They are presented and linked below for easy access.
 
 ## [Flexfold Demo App](http://rydmike.com/demoflexfold)
 
-Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried [here](http://rydmike.com/demoflexfold).
+Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried [here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application as well.
 
 A key feature of Flexfold is that navigation mode changes are animated.
 ![Animated Flexfold](/assets/FelxfoldDemo01.gif)
@@ -42,7 +42,7 @@ For some reason GitHub refuses to update this page, I'm still trying to get it t
 ## Other Flutter demos
 
 ### [Responsive Grid Demo App](http://rydmike.com/gridtest/#/)
-A very early Flutter web grid demo and test that I made ages ago. It includes a web test of the Flutter Staggered Grid View package. You can try it [here](http://rydmike.com/gridtest/#/)
+A very early Flutter web grid demo and test that I made ages ago. It includes a web test of the Flutter Staggered Grid View package. You can try it [here](http://rydmike.com/gridtest/#/). The source code for this for me very early test and demo is available in the public [resp_stag_grid](https://github.com/rydmike/resp_stag_grid) repository.
 
 The staggered grid has bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report the bug if it has not been reported and fixed already in the latest version [here](https://github.com/letsar/flutter_staggered_grid_view).
 
