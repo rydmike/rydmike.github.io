@@ -33,18 +33,25 @@ This package is also pending publication and a simpler example app.
 ## [ColorPicker Demo App](http://rydmike.com/pickerdemo)
 
 A Flutter color picker package. A web demo that shows the features of the ColorPicker is available [here](http://rydmike.com/pickerdemo).
+
 ![Animated ColorPicker demo](/assets/ColorPickerWeb.gif)
 
 For some reason GitHub refuses to update this page, I'm still trying to get it to work. A GitHub public version will be published shortly and [pub.dev](https://pub.dev) version will follow pretty quickly after that.
 ![Phone pickers](/assets/pickers.png)
 
 
-## Other Flutter demos
-
 ### [Responsive Grid Demo App](http://rydmike.com/gridtest/#/)
-A very early Flutter web grid demo and test that I made ages ago. It includes a web test of the Flutter Staggered Grid View package. You can try it [here](http://rydmike.com/gridtest/#/). The source code for this for me very early test and demo is available in the public [resp_stag_grid](https://github.com/rydmike/resp_stag_grid) repository.
+A very early Flutter web grid demo and test that I made ages ago. It includes a web test of the [Flutter Staggered Grid View package](https://pub.dev/packages/flutter_staggered_grid_view).
 
-The staggered grid has bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report the bug if it has not been reported and fixed already in the latest version [here](https://github.com/letsar/flutter_staggered_grid_view).
+You can try it [here](http://rydmike.com/gridtest/#/). The source code for this for me very early test and demo is available in this public [resp_stag_grid](https://github.com/rydmike/resp_stag_grid) repository.
+
+![Staggered grid 1](/assets/stag_grid1.png)
+
+![Staggered grid 2](/assets/stag_grid2.png)
+
+The staggered grid has bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report the bug if it has not been reported and fixed already in the latest version [here](https://github.com/letsar/flutter_staggered_grid_view). You can observe the issue in this GIF animation.
+
+![Staggered grid issue gif](/assets/StagGridIssueDemo1.gif)
 
 **Update 27.10.2020:** Found a recent report about the staggered grid view package width horizontal resizing issue [here](https://github.com/letsar/flutter_staggered_grid_view/issues/138) and added my comment to it. I will try to make a more up to date sample repo for it.
 
