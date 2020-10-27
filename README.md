@@ -4,7 +4,7 @@ This **GitHub Pages** web site with a domain linked to it, contains demos and te
 
 ---
 
-## [Flexfold Demo App](http://rydmike.com/demoflexfold)
+## [Flexfold Demo](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live web demo of an app using the package can be [played with here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application as well.
 
@@ -35,9 +35,9 @@ This package is also pending publication and a simpler example app.
 
 ---
 
-## [ColorPicker Demo App](http://rydmike.com/pickerdemo)
+## [ColorPicker Demo](http://rydmike.com/pickerdemo)
 
-A Flutter color picker package. A web demo that shows the features of the ColorPicker is available [here](http://rydmike.com/pickerdemo).
+A web demo that shows the features of the Flutter ColorPicker is available [here](http://rydmike.com/pickerdemo).
 
 ![Animated ColorPicker demo](/assets/ColorPickerWeb.gif)
 
@@ -46,7 +46,7 @@ For some reason GitHub refuses to update this page, I'm still trying to get it t
 
 ---
 
-### [Responsive Grid Demo App](http://rydmike.com/gridtest/#/)
+### [Responsive Grid Demo](http://rydmike.com/gridtest)
 A very early Flutter web grid demo and test that I made ages ago. It includes a web test of the [Flutter Staggered Grid View package](https://pub.dev/packages/flutter_staggered_grid_view).
 
 You can try it [here](http://rydmike.com/gridtest/#/). The source code for this for me very early test and demo is available in this public [resp_stag_grid](https://github.com/rydmike/resp_stag_grid) repository.
