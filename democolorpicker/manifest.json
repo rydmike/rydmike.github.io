@@ -1,6 +1,6 @@
 {
-    "name": "flexfold_demo",
-    "short_name": "flexfold_demo",
+    "name": "color_picker_demo",
+    "short_name": "color_picker_demo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
