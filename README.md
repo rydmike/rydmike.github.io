@@ -118,7 +118,7 @@ The canvas kit font issue and demo refers to issue [#56319](https://github.com/f
 
 ![Font DomCanvas OK](/assets/FontDomCanvasOK.png)
 
-* Demo with [CanvasKit FAIL here, but in newer builds OK](https://rydmike.com/fontissue/canvaskit/#/demo3).
+* Demo with [CanvasKit FAIL here](https://rydmike.com/fontissue/canvaskit/#/demo3), but in newer builds OK.
 
 ![Font CanvasKit FAIL](/assets/FontCanvasKitFAIL.png)
 
