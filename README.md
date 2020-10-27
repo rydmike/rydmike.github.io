@@ -89,7 +89,11 @@ This is a known Flutter issue and more info can be found [here #51237](https://g
 
 This demo shows a [clipping issue](https://rydmike.com/clipissue/#/) in Flutter.
 
-The issue has been discussed in [#58547](https://github.com/flutter/flutter/issues/58547). The issue was closed via a work around, for the actual root cause of the issue in SKIA there is no solution and the issue show up in all SKIA renderings if one looks closely at them. At some point I will gather the energy to raise the issue again as stated in the above reported issue. The clip behavior mentioned [here](https://flutter.dev/docs/release/breaking-changes) in the Flutter docs as a coming breaking change after version 1.22 does seem a bit related to the clipping issue I tried to describe. The [solution](https://github.com/flutter/flutter/issues/18057) for it does however only seem to avoid alias based clipping whenever possible. It sounds more like another work around to the root SKIA based issue.
+The issue has been discussed in [#58547](https://github.com/flutter/flutter/issues/58547). The issue was closed via a work around, for the actual root cause of the issue in SKIA there is no solution and the issue show up in all SKIA renderings if one looks closely at them. At some point I will gather the energy to raise the issue again as stated in the above reported issue.
+
+![Clipping issue](/assets/FlutterClippingIssue.png)
+
+The clip behavior mentioned [here](https://flutter.dev/docs/release/breaking-changes) in the Flutter docs as a coming breaking change after version 1.22 does seem a bit related to the clipping issue described here as well. The [solution](https://github.com/flutter/flutter/issues/18057) for it does however only seem to avoid the alias based clipping whenever possible, not to actually fix it so it sounds more like another work around to the root SKIA based issue. We will see when the fix lands, I could try to build this issue demo code on latest master to test it again there as well.
 
 ---
 
@@ -132,5 +136,3 @@ The demo was made for the issue report [#64960](https://github.com/flutter/flutt
 Both issues were found to be caused by this root cause in the dart2js compiler [Dart lang SDK issue #43366](https://github.com/dart-lang/sdk/issues/43366).
 
 The above root cause of both the issues has now been fully resolved and above two issues are closed as well. The demos made for the report were rather fancy so I'm keeping them around here. The source code for the demos that are available as Gist file links above. The samples actually use some very simplified versions of code use in Flexfold package. They are useful as starting point for various Flutter demos with just one file and no other than Flutter SDK dependencies.
-
----
