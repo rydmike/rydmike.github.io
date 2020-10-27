@@ -1,12 +1,12 @@
 # RydMike.com a Flutter Site
 
-This **GitHub Pages** web site with a personal domain linked to it, contains demos and tests of various Flutter projects and repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites in sub-folders. They are presented and linked below for easy access.
+This **GitHub Pages** web site with a domain linked to it, contains demos and tests of various Flutter projects as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites in sub-folders. They are presented and linked below for easy access.
 
 ---
 
 ## [Flexfold Demo App](http://rydmike.com/demoflexfold)
 
-Flexfold is a responsive scaffold package for Flutter. A live Web demo of an app using the package can be tried [here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application as well.
+Flexfold is a responsive scaffold package for Flutter. A live web demo of an app using the package can be [played with here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application as well.
 
 A key feature of Flexfold is that navigation mode changes are animated.
 ![Animated Flexfold](/assets/FelxfoldDemo01.gif)
@@ -63,13 +63,15 @@ The staggered grid has bug that can be seen in this demo when only resizing the 
 
 
 ---
+---
 
-## Flutter Issue Report
+## Flutter Issue Reports
 
 The code samples below are related to some of the Flutter issues I have reported in the Flutter [repository](https://github.com/flutter/flutter/issues). The samples were just made to be used to be able to demonstrate the reported issue at the time. Some of the samples may be generally useful and interesting, so I decided to keep them available. I will add more of them as well, comment them a bit and make them look nicer by adding screenshots for them them as well.
 
-I also have a large number of issue reports with simpler sample code, that is just available as Gists that cen be run in DartPad, I might add some of them as well if they are interesting enough.
+I also have a large number of issue reports with simpler sample code, that are just available as Gists that cen be run in DartPad, I might add references to some of them as well if they are interesting enough.
 
+---
 
 ### [Material Elevation Issue Demo](https://rydmike.com/elevation)
 
@@ -81,11 +83,15 @@ The sample code for this demo is available as a [Gist here](https://gist.github.
 
 This is a known Flutter issue and more info can be found [here #51237](https://github.com/flutter/flutter/issues/51237). A solution is expected to land via this [Skia fix](https://bugs.chromium.org/p/skia/issues/detail?id=10781).
 
+---
+
 ### [Clipping issue](https://rydmike.com/clipissue/#/)
 
 This demo shows a [clipping issue](https://rydmike.com/clipissue/#/) in Flutter.
 
 The issue has been discussed in [#58547](https://github.com/flutter/flutter/issues/58547). The issue was closed via a work around, for the actual root cause of the issue in SKIA there is no solution and the issue show up in all SKIA renderings if one looks closely at them. At some point I will gather the energy to raise the issue again as stated in the above reported issue. The clip behavior mentioned [here](https://flutter.dev/docs/release/breaking-changes) in the Flutter docs as a coming breaking change after version 1.22 does seem a bit related to the clipping issue I tried to describe. The [solution](https://github.com/flutter/flutter/issues/18057) for it does however only seem to avoid alias based clipping whenever possible. It sounds more like another work around to the root SKIA based issue.
+
+---
 
 ### [Mask Filter Issue](https://rydmike.com/maskfilterskia)
 
@@ -94,6 +100,7 @@ The mask filter issue refers to this Flutter GitHub issue [#58546](https://githu
 * Demo with [DomCanvas FAIL](https://rydmike.com/maskfilterdom/).
 * Demo with [CanvasKit OK](https://rydmike.com/maskfilterskia).
 
+---
 
 ### [CanvasKit Font Issue](https://rydmike.com/fontissue/canvaskit/#/demo3)
 
@@ -102,6 +109,7 @@ The canvas kit font issue and demo refers to issue [#56319](https://github.com/f
 * Demo with [DomCanvas OK](https://rydmike.com/fontissue/domcanvas/#/demo3).
 * Demo with [CanvasKit FAIL here, but in newer builds OK](https://rydmike.com/fontissue/canvaskit/#/demo3).
 
+---
 
 ### Regression in [AnimatedContainer](https://rydmike.com/animatedcontainermaster/#/) and [AnimatedCrossFade]()
 
@@ -123,4 +131,6 @@ The demo was made for the issue report [#64960](https://github.com/flutter/flutt
 
 Both issues were found to be caused by this root cause in the dart2js compiler [Dart lang SDK issue #43366](https://github.com/dart-lang/sdk/issues/43366).
 
-The above issue has now been fully resolved and closed, but the demos made for the report was rather fancy so I'm keeping them around here. The source code for the demos that are available as Gist file links above. They actually use some very simplified versions of code use in Flexfold package and are useful as starting point for various Flutter demos with just one file.
+The above root cause of both the issues has now been fully resolved and above two issues are closed as well. The demos made for the report were rather fancy so I'm keeping them around here. The source code for the demos that are available as Gist file links above. The samples actually use some very simplified versions of code use in Flexfold package. They are useful as starting point for various Flutter demos with just one file and no other than Flutter SDK dependencies.
+
+---
