@@ -15,6 +15,7 @@ If desired the animations can be customized to make it really wild, not really r
 ![Crazy Animated Flexfold](/assets/FelxfoldWinCrazyAnim.gif)
 
 The live demo app also incorporates the DevicePreview package, so the responsive behavior can be tested on different simulated devices.
+
 ![Animated Flexfold DevicePreview](/assets/WithDevPreview3.gif)
 
 A long Twitter thread presenting key Flexfold features with a series of animated GIFs is available [here](https://twitter.com/RydMike/status/1308281235723055107?s=20).
