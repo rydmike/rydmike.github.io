@@ -104,6 +104,9 @@ The mask filter issue refers to this Flutter GitHub issue [#58546](https://githu
 * Demo with [DomCanvas FAIL](https://rydmike.com/maskfilterdom/).
 * Demo with [CanvasKit OK](https://rydmike.com/maskfilterskia).
 
+
+![Mask filter issue](/assets/MaskFilterIssue.png)
+
 ---
 
 ### [CanvasKit Font Issue](https://rydmike.com/fontissue/canvaskit/#/demo3)
