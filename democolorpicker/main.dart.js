@@ -25759,7 +25759,7 @@ F.xz.prototype={
 G:function(a,b){var s,r=null
 X.a49(C.Gc)
 s=C.a_.h(0,50)
-return new S.q5(C.Bz,"Material Color Picker",X.a4g(new V.l3(C.O,P.T(C.D.af(229.5),255,255,255),0,r,C.lR,r,r,r,r),r,M.a_k(!1,r,A.a2c(r,r,C.O,r,r,r,C.im),r,r,36,r,r,C.j5,r,88,r,r,r,C.c5),C.im,s),!1,r)}}
+return new S.q5(C.Bz,"ColorPicker Demo",X.a4g(new V.l3(C.O,P.T(C.D.af(229.5),255,255,255),0,r,C.lR,r,r,r,r),r,M.a_k(!1,r,A.a2c(r,r,C.O,r,r,r,C.im),r,r,36,r,r,C.j5,r,88,r,r,r,C.c5),C.im,s),!1,r)}}
 F.pE.prototype={
 aw:function(){return new F.DE(C.m)}}
 F.DE.prototype={
@@ -25800,18 +25800,18 @@ f=K.V(a2,!1).b
 n=K.V(a2,!1).b
 c=K.V(a2,!1).d
 h=t.k
-d=Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ra(H.c([new T.aF(C.Bd,new E.Bm(s.k2,s.k3,new F.U0(s),k,o,a0,K.V(a2,!1).e,c,f,n,2,d,r),r)],h),C.bp,C.h3,C.J),r,C.J7,r)
+d=Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ra(H.c([new T.aF(C.Bd,new E.Bm(s.k2,s.k3,new F.U0(s),k,o,a0,K.V(a2,!1).e,c,f,n,2,d,r),r)],h),C.bp,C.h3,C.J),r,C.J8,r)
 n=O.ky(new F.U9(s),C.Jl,C.Jg,s.d)
 f=O.ky(new F.Ua(s),C.Jj,C.IX,s.Q)
-c=O.ky(new F.Ub(s),C.J9,C.IZ,s.x)
-a0=O.ky(new F.Uc(s),C.Jd,C.J6,s.e)
+c=O.ky(new F.Ub(s),C.Ja,C.IZ,s.x)
+a0=O.ky(new F.Uc(s),C.Je,C.J6,s.e)
 o=O.ky(new F.Ud(s),C.J3,C.IV,s.y)
 k=O.ky(new F.Ue(s),C.IW,C.Jk,s.z)
 i=O.ky(new F.Uf(s),C.tA,C.Jm,s.f)
 g=O.ky(new F.Ug(s),C.tA,C.J5,s.r)
 l=Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(C.e.fm(40),C.e.i(C.d.fm(s.cy)),60,20,new F.U1(s),s.cy)],h),C.ai,C.P,C.J),r,C.J4,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(C.d.fm(s.cy)),r,C.cF,r)],h),C.b7,C.P,C.J),r))
 p=s.cy/2
-return M.a3T(new E.ov(C.Je,1,!0,new P.P(1/0,56),r),new E.rm(E.a43(T.ce(H.c([q,a,e,m,C.B5,new T.aF(C.Be,b,r),d,n,f,c,a0,o,k,i,g,l,Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(C.D.fm(p),C.e.i(J.dz(s.dx)),p,0,new F.U2(s),s.dx)],h),C.ai,C.P,C.J),r,C.IY,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.dx)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(16,C.e.i(J.dz(s.db)),16,0,new F.U3(s),s.db)],h),C.ai,C.P,C.J),r,C.J8,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.db)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(25,C.e.i(J.dz(s.dy)),25,0,new F.U4(s),s.dy)],h),C.ai,C.P,C.J),r,C.Jc,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.dy)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(25,C.e.i(J.dz(s.fr)),25,0,new F.U5(s),s.fr)],h),C.ai,C.P,C.J),r,C.J0,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.fr)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(40,C.e.i(J.dz(s.fx)),40,0,new F.U6(s),s.fx)],h),C.ai,C.P,C.J),r,C.J2,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.fx)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(40,C.e.i(J.dz(s.fy)),500,150,new F.U7(s),s.fy)],h),C.ai,C.P,C.J),r,C.IS,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.fy)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(r,C.e.i(J.dz(s.go)),50,4,new F.U8(s),s.go)],h),C.ai,C.P,C.J),r,C.IT,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.go)),r,C.cF,r)],h),C.b7,C.P,C.J),r))],h),C.ai,C.P,C.J),C.q5),r),!0,!0)},
+return M.a3T(new E.ov(C.J7,1,!0,new P.P(1/0,56),r),new E.rm(E.a43(T.ce(H.c([q,a,e,m,C.B5,new T.aF(C.Be,b,r),d,n,f,c,a0,o,k,i,g,l,Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(C.D.fm(p),C.e.i(J.dz(s.dx)),p,0,new F.U2(s),s.dx)],h),C.ai,C.P,C.J),r,C.IY,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.dx)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(16,C.e.i(J.dz(s.db)),16,0,new F.U3(s),s.db)],h),C.ai,C.P,C.J),r,C.J9,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.db)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(25,C.e.i(J.dz(s.dy)),25,0,new F.U4(s),s.dy)],h),C.ai,C.P,C.J),r,C.Jd,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.dy)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(25,C.e.i(J.dz(s.fr)),25,0,new F.U5(s),s.fr)],h),C.ai,C.P,C.J),r,C.J0,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.fr)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(40,C.e.i(J.dz(s.fx)),40,0,new F.U6(s),s.fx)],h),C.ai,C.P,C.J),r,C.J2,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.fx)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(40,C.e.i(J.dz(s.fy)),500,150,new F.U7(s),s.fy)],h),C.ai,C.P,C.J),r,C.IS,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.fy)),r,C.cF,r)],h),C.b7,C.P,C.J),r)),Q.eG(!1,r,r,!0,!1,r,r,!1,r,r,T.ce(H.c([R.kw(r,C.e.i(J.dz(s.go)),50,4,new F.U8(s),s.go)],h),C.ai,C.P,C.J),r,C.IT,new T.aF(C.c8,T.ce(H.c([C.cG,L.bF(C.e.i(J.dz(s.go)),r,C.cF,r)],h),C.b7,C.P,C.J),r))],h),C.ai,C.P,C.J),C.q5),r),!0,!0)},
 v2:function(){var s=0,r=P.ak(t.w5),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$v2=P.ag(function(a1,a2){if(a1===1)return P.ah(a2,r)
 while(true)switch(s){case 0:l=p.k1
@@ -53812,14 +53812,14 @@ C.Ji=new L.aY("Material &\nAccent",C.hD,C.bj,null,null)
 C.EM=new T.aF(C.fq,C.Ji,null)
 C.Jf=new L.aY("Material",C.hD,null,null,null)
 C.EN=new T.aF(C.fq,C.Jf,null)
-C.Ja=new L.aY("Accent",C.hD,null,null,null)
-C.EO=new T.aF(C.fq,C.Ja,null)
+C.Jb=new L.aY("Accent",C.hD,null,null,null)
+C.EO=new T.aF(C.fq,C.Jb,null)
 C.IU=new L.aY("Custom ",C.hD,null,null,null)
 C.EP=new T.aF(C.fq,C.IU,null)
 C.Jn=new L.aY("Black &\nWhite",C.hD,C.bj,null,null)
 C.EQ=new T.aF(C.fq,C.Jn,null)
-C.Jb=new L.aY("Any\ncolor",C.hD,null,null,null)
-C.ER=new T.aF(C.fq,C.Jb,null)
+C.Jc=new L.aY("Any\ncolor",C.hD,null,null,null)
+C.ER=new T.aF(C.fq,C.Jc,null)
 C.c_=new P.zs(0,"PaintingStyle.fill")
 C.an=new P.zs(1,"PaintingStyle.stroke")
 C.ES=new P.iB(60)
@@ -54223,13 +54223,13 @@ C.J3=new L.aY("You can provide your own heading widget, if it is null there is n
 C.J4=new L.aY("Color picker item size",null,null,null,null)
 C.J5=new L.aY("Border around color wheel",null,null,null,null)
 C.J6=new L.aY("Show selected color name and code",null,null,null,null)
-C.J7=new L.aY("Select colors swatches to use in the picker",null,null,null,null)
-C.J8=new L.aY("Color picker item elevation",null,null,null,null)
-C.J9=new L.aY("Keep OFF for left aligned",null,null,null,null)
-C.Jc=new L.aY("Color picker item spacing",null,null,null,null)
-C.Jd=new L.aY("If color has a material name it is shown along with shade index and Flutter HEX code",null,null,null,null)
 C.GY=new A.u(!0,C.n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.Je=new L.aY("Color Picker Web Demo",C.GY,null,null,null)
+C.J7=new L.aY("ColorPicker Demo",C.GY,null,null,null)
+C.J8=new L.aY("Select colors swatches to use in the picker",null,null,null,null)
+C.J9=new L.aY("Color picker item elevation",null,null,null,null)
+C.Ja=new L.aY("Keep OFF for left aligned",null,null,null,null)
+C.Jd=new L.aY("Color picker item spacing",null,null,null,null)
+C.Je=new L.aY("If color has a material name it is shown along with shade index and Flutter HEX code",null,null,null,null)
 C.tA=new L.aY("With the API you can also adjust the border color",null,null,null,null)
 C.Jg=new L.aY("Enable shades selection",null,null,null,null)
 C.Jh=new L.aY("Select color above to change this color",null,null,null,null)
