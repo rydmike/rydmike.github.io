@@ -1,4 +1,4 @@
-# Flutter Demos by RydMike
+# Flutter Demos by @RydMike
 
 This **GitHub Pages** web site, contains demos and tests of various **Flutter** projects, as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web apps in site sub-folders. They are presented and linked below for easy access.
 
