@@ -1,12 +1,16 @@
-# RydMike.com a Flutter Site
+# RydMike.com
 
-This **GitHub Pages** web site with a domain linked to it, contains demos and tests of various Flutter projects as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites in sub-folders. They are presented and linked below for easy access.
+This **GitHub Pages** web site with a domain linked to it, contains demos and tests of various **Flutter** projects as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web sites in site sub-folders. They are presented and linked below for easy access.
+
+### Note
+
+This site is just simple markdown file converted to a **GitHub Pages** site by GitHub, it even uses the default GitHub Jekyll theme. Eventually I will change the content to maybe be managed by a Flutter application. It could be an interesting exercise to make a simple web content management system with Flutter, even if that is not one of Flutter's core strengths, well let's see later.
 
 ---
 
 ## [Flexfold Demo](http://rydmike.com/demoflexfold)
 
-Flexfold is a responsive scaffold package for Flutter. A live web demo of an app using the package can be [played with here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application as well.
+Flexfold is a responsive scaffold package for Flutter. A live web demo of an app using the package can be [played with here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application.
 
 A key feature of Flexfold is that navigation mode changes are animated.
 ![Animated Flexfold](/assets/FelxfoldDemo01.gif)
@@ -40,8 +44,11 @@ This package is also pending publication and a simpler example app.
 
 A web demo that shows the features of the Flutter ColorPicker is available [here](http://rydmike.com/democolorpicker). The source code for this simple web color picker demo app can be found [here](https://github.com/rydmike/color_picker_demo).
 
-![Animated ColorPicker demo](/assets/ColorPickerWeb.gif)
+![Animated ColorPicker demo](/assets/ColorPickerWeb2.gif)
 
+Even though this demo is a web version, it works well on mobile devices too. One advantage of the ColorPicker package is that it can be configured in many different ways to provide just the right amount of color picking feature with a style that fits with your application.
+
+![Color picker styles](/assets/pickers.png)
 
 ---
 
