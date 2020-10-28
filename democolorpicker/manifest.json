@@ -1,11 +1,11 @@
 {
-    "name": "color_picker_demo",
-    "short_name": "color_picker_demo",
+    "name": "ColorPickerDemo",
+    "short_name": "ColorPickerDemo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Web demo of the ColorPicker package.",
+    "description": "Web demo of the Flutter ColorPicker package.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
