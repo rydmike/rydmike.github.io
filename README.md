@@ -45,7 +45,7 @@ A web demo that shows the features of the ColorPicker is available [here](http:/
 
 Even though this demo is a web version, it works well on mobile devices too. One advantage of the ColorPicker package is that it can be configured in many different ways to provide just the right amount of color picking features, with a style that fits with your application.
 
-![Color picker styles](/assets/pickers.png)
+![Color picker styles](/assets/ColorPickerAllSize100.png)
 
 ---
 
