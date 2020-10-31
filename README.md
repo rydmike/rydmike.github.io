@@ -24,7 +24,7 @@ A long Twitter thread presenting key Flexfold features with a series of animated
 
 The beta version of the Flutter package is ready, but it has not been published on [pub.dev](https://pub.dev) yet, it is still pending documentation.
 
-[Flexfold Test page](FlexFold.md)
+[Flexfold Test page](Flexfold.html)
 
 ---
 

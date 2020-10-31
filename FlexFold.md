@@ -1,4 +1,4 @@
-| [Home](http://rydmike.com) | Flexfold | FlexColorScheme | Flex ColorPicker |
+| [Home](http://rydmike.com) | [Flexfold](Flexfold.html) | FlexColorScheme | Flex ColorPicker |
 
 
 ## [Flexfold Demo](http://rydmike.com/demoflexfold)
