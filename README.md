@@ -49,7 +49,7 @@ A web demo that shows the features of the ColorPicker is [available here](http:/
 
 ![Animated ColorPicker demo](/assets/ColorPickerWeb2.gif)
 
-Even though this demo is a web version, it works well on mobile devices too. One advantage of the Flex ColorPicker package is that it can be configured in many different ways to provide just the right amount of color picking features, with a style that fits with your application.
+This above demo is a web version, but it works very well on mobile devices and Flutter desktop builds too. One advantage of the **Flex ColorPicker** package is that it can be configured in many different ways to provide just the right amount of color picking features, with a style that fits with your application.
 
 ![Color picker styles](/assets/ColorPickerAllSize50.png)
 
