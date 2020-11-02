@@ -1,6 +1,6 @@
 # Flutter Demos by @RydMike
 
-This **GitHub Pages** web site, contains demos and tests of various **Flutter** projects, as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web apps in site sub-folders. They are presented and linked below for easy access.
+This **GitHub Pages** web site, contains demos and tests of various **Flutter** packages and projects, as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web apps in site sub-folders. They are presented and linked below for easy access.
 
 This site is just simple markdown file converted to a **GitHub Pages** site by GitHub, it even uses the default GitHub Jekyll theme. Eventually I will change the content, maybe to a Flutter web application. It could be an interesting experiment to make a simple web content management system with Flutter, even if that is not one of Flutter's core strengths.
 
@@ -39,13 +39,17 @@ This package is also pending publication and a simpler example app than the Flex
 
 ---
 
-## [ColorPicker Demo](http://rydmike.com/democolorpicker)
+## [Flex ColorPicker](https://pub.dev/packages/flex_color_picker)
 
-A web demo that shows the features of the ColorPicker is available [here](http://rydmike.com/democolorpicker). The source code for this simple web color picker demo app can be found [here](https://github.com/rydmike/color_picker_demo).
+Flex ColorPicker is a customizable color picker for Flutter. The ColorPicker can show six different types of color pickers, three of which are used for the standard Flutter Material colors and their shades. The size and style used for the pick items can be customized.
+
+Flex ColorPicker is available a pre-release on [pub.dev here](https://pub.dev/packages/flex_color_picker).
+
+A web demo that shows the features of the ColorPicker is [available here](http://rydmike.com/democolorpicker). The source code for this simple web color picker demo app can be [found here](https://github.com/rydmike/color_picker_demo).
 
 ![Animated ColorPicker demo](/assets/ColorPickerWeb2.gif)
 
-Even though this demo is a web version, it works well on mobile devices too. One advantage of the ColorPicker package is that it can be configured in many different ways to provide just the right amount of color picking features, with a style that fits with your application.
+Even though this demo is a web version, it works well on mobile devices too. One advantage of the Flex ColorPicker package is that it can be configured in many different ways to provide just the right amount of color picking features, with a style that fits with your application.
 
 ![Color picker styles](/assets/ColorPickerAllSize50.png)
 
