@@ -43,7 +43,7 @@ This package is also pending publication and a simpler example app than the Flex
 
 Flex ColorPicker is a customizable color picker for Flutter. The ColorPicker can show six different types of color pickers, three of which are used for the standard Flutter Material colors and their shades. The size and style used for the pick items can be customized.
 
-Flex ColorPicker is available as a published package [pub.dev here](https://pub.dev/packages/flex_color_picker).
+Flex ColorPicker is available as a published package on [pub.dev here](https://pub.dev/packages/flex_color_picker).
 
 A web demo that shows the features of the ColorPicker [can be tested here](http://rydmike.com/democolorpicker). The source code for this web ColorPicker demo app can be [found here](https://github.com/rydmike/color_picker_demo).
 
