@@ -1,4 +1,4 @@
-| Flexfold | [Color Scheme](colorscheme) | [Color Picker](colorpicker) | [Grid](gridview) | [Flutter Issues](flutterissues) |
+| Home | [Color Scheme](colorscheme) | [Color Picker](colorpicker) | [Grid](gridview) | [Flutter Issues](flutterissues) |
 
 ### Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
