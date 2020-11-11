@@ -8,4 +8,4 @@ The Flexfold web demo app also uses the FlexColorScheme package for its theming.
 
 This package is also pending publication, and a simpler example app than the Flexfold demo app.
 
-<img src="https://rydmike.com/assets/FoldTheme1.gif?raw=true" alt="FlexColorScheme in Flexfold"/>
+<img src="https://rydmike.com/assets/FoldTheme1.gif?raw=true" alt="FlexColorScheme in Flexfold" width="800"/>

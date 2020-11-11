@@ -13,6 +13,6 @@ The key feature of this small demo is the responsive grid based on the Material 
 
 The staggered grid view package has a small bug that can be seen in this demo when only resizing the window horizontally. I need to make a simpler demo case for the bug demo and report it, if it has not been reported and fixed already in the latest version [here](https://github.com/letsar/flutter_staggered_grid_view). You can observe the issue in this GIF animation.
 
-<img src="https://rydmike.com/assets/StagGridIssueDemo1.gif?raw=true" alt="Staggered grid issue gif"/>
+<img src="https://rydmike.com/assets/StagGridIssueDemo1.gif?raw=true" alt="Staggered grid issue gif" width="800"/>
 
 **Update 27.10.2020:** Found a recent report about in staggered grid view package about the width horizontal resizing issue [here](https://github.com/letsar/flutter_staggered_grid_view/issues/138) and added my comment to it. I will try to make a more up to date sample repo that reproduces the issue.
