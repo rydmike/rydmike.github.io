@@ -1,4 +1,4 @@
-| Home | [Color Scheme](colorscheme) | [Color Picker](colorpicker) | [Grid](gridview) | [Flutter Issues](flutterissues) |
+|Home|[Scheme](colorscheme)|[Picker](colorpicker)|[Grid](gridview)|[Issues](flutterissues)|
 
 ### Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 

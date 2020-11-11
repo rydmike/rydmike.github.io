@@ -1,4 +1,4 @@
-| [Home](https://rydmike.com/) | Scheme | [Picker](colorpicker) | [Grid](gridview) | [Issues](flutterissues) |
+|[Home](https://rydmike.com/)|Scheme|[Picker](colorpicker)|[Grid](gridview)|[Issues](flutterissues)|
 
 ## FlexColorScheme Demo
 

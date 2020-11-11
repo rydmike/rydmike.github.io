@@ -1,4 +1,4 @@
-| [Home](https://rydmike.com/) | [Scheme](colorscheme) | [Picker](colorpicker) | [Grid](gridview) | Issues |
+|[Home](https://rydmike.com/)|[Scheme](colorscheme)|[Picker](colorpicker)|[Grid](gridview)|Issues|
 
 ### Flutter Issue Reports
 
