@@ -1,6 +1,6 @@
 | [Flexfold](https://rydmike.com/) | Color Scheme | [Color Picker](colorpicker) | [Grid](gridview) | [Flutter Issues](flutterissues) |
 
-## FlexColorScheme Demo
+# FlexColorScheme Demo
 
 The FlexColorScheme package can be used to easily create sophisticated **Flutter ColorScheme** based color themes for your app.
 
