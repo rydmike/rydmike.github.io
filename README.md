@@ -8,7 +8,7 @@
 
 ---
 
-# [Flexfold](http://rydmike.com/demoflexfold)
+## [Flexfold](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live web demo of an app using the package can be [played with here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application when Flexfold is ready.
 

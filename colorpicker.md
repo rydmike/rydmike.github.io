@@ -1,6 +1,6 @@
-| [Flexfold](https://rydmike.com/) | [Color Scheme](colorscheme) | Color Picker | [Grid](gridview) | [Flutter Issues](flutterissues) |
+| [Home](https://rydmike.com/) | [Scheme](colorscheme) | Picker | [Grid](gridview) | [Issues](flutterissues) |
 
-# [Flex ColorPicker](https://pub.dev/packages/flex_color_picker)
+## [Flex ColorPicker](https://pub.dev/packages/flex_color_picker)
 
 Flex ColorPicker is a customizable color picker for Flutter. The ColorPicker can show six different types of color pickers, three of which are used for the standard Flutter Material colors and their shades. The size and style used for the pick items can be customized.
 
