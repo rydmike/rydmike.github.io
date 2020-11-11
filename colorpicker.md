@@ -1,4 +1,4 @@
-| [Flexfold](https://rydmike.com/) | [FlexColorScheme](colorscheme) | Flex ColorPicker | [Responsive grid](gridview) | [Flutter issues](flutterissues) |
+| [Flexfold](https://rydmike.com/) | [Color Scheme](colorscheme) | Color Picker | [Grid](gridview) | [Flutter Issues](flutterissues) |
 
 ## [Flex ColorPicker](https://pub.dev/packages/flex_color_picker)
 

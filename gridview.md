@@ -1,4 +1,4 @@
-| [Flexfold](https://rydmike.com/) | [FlexColorScheme](colorscheme) | [Flex ColorPicker](colorpicker) | Responsive grid | [Flutter issues](flutterissues) |
+| [Flexfold](https://rydmike.com/) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) | Grid | [Flutter Issues](flutterissues) |
 
 ## [Responsive Grid Demo](http://rydmike.com/gridtest)
 This is a very early Flutter web grid demo and test that I made with very early versions of Flutter for Web. The current published build is also from a very old version of Flutter. It includes a web test of the [Flutter Staggered Grid View package](https://pub.dev/packages/flutter_staggered_grid_view).
