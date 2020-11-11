@@ -2,9 +2,9 @@
 
 ### Flutter Issue Reports
 
-> The code samples below are related to some of the Flutter issues I have reported in the Flutter [repository](https://github.com/flutter/flutter/issues). These samples were made to demonstrate the reported issues at the time. Some samples may be generally useful and interesting, so I decided to keep them available.
+> The code samples below are from Flutter issues I have reported in the Flutter [repository](https://github.com/flutter/flutter/issues). These samples were made to demonstrate the reported issues at the time. Some samples may be generally useful and interesting, so I decided to keep them available.
 >
-> I also have issue reports with sample code that are just available as Gists, some that can be run in DartPad, I might add links to some of them later, if they are interesting enough.
+> I also have issue reports with sample code that are just available as Gists, some that can be run in DartPad. I might add links to some of them later, if they are interesting enough.
 
 ---
 
