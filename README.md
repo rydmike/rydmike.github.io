@@ -1,14 +1,14 @@
 | Flexfold | [FlexColorScheme](colorscheme) | [Flex ColorPicker](colorpicker) | [Responsive grid](gridview) | [Flutter issues](flutterissues) |
 
-### Flutter Demos by @RydMike
+### Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
 >This **GitHub Pages** website contains demos and tests of various **Flutter** packages and projects, as well as repositories linked to Flutter issue reports. The apps, demos and issue support demos have been published as single page web apps in site sub-folders. They are presented and linked below for easy access.
 >
->This site is just simple markdown file converted to a **GitHub Pages** site by GitHub, it even uses the default GitHub Jekyll theme. Eventually I will change the content, maybe to a Flutter web application. It could be an interesting experiment to make a simple web content management system with Flutter, even if that is not one of Flutter's core strengths.
+>This site is just a simple markdown file converted to a **GitHub Pages** website by GitHub, it even uses the default GitHub Jekyll theme. Eventually I will change the content, maybe to a Flutter web application. It could be an interesting experiment to make a simple web content management system with Flutter, even if that is not one of Flutter's core strengths.
 
 ---
 
-# [Flexfold Demo](http://rydmike.com/demoflexfold)
+## [Flexfold Demo](http://rydmike.com/demoflexfold)
 
 Flexfold is a responsive scaffold package for Flutter. A live web demo of an app using the package can be [played with here](http://rydmike.com/demoflexfold). It is my intention to open source this demo application when Flexfold is ready.
 

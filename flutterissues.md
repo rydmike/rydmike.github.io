@@ -8,7 +8,7 @@ I also have issue reports with sample code that are just available as Gists, som
 
 ---
 
-### [Material Elevation Issue](https://rydmike.com/elevation)
+## [Material Elevation Issue](https://rydmike.com/elevation)
 
 Using Material elevation on CanvasKit (SKIA) Web builds, and on device builds, or desktop builds, that also use SKIA for rendering in Flutter, does not produce very nice results on a large canvas. The poor elevation effect can be seen already at widths or heights larger than 1000 dp. The light source is simply at a too low height, and the shadows get too exaggerated.
 
@@ -20,7 +20,7 @@ This is a known Flutter issue and more info can be found [here in issue #51237](
 
 ---
 
-### [Clipping issue](https://rydmike.com/clipissue/#/)
+## [Clipping issue](https://rydmike.com/clipissue/#/)
 
 This demo shows a [clipping issue](https://rydmike.com/clipissue/#/) in Flutter.
 
@@ -32,7 +32,7 @@ The clip behavior mentioned [here](https://flutter.dev/docs/release/breaking-cha
 
 ---
 
-### [Mask Filter Issue](https://rydmike.com/maskfilterskia)
+## [Mask Filter Issue](https://rydmike.com/maskfilterskia)
 
 The mask filter issue refers to this Flutter GitHub issue [#58546](https://github.com/flutter/flutter/issues/58546). It is still an active and open issue. A demo of it on both CanvasKit and DomCanvas are shown below, the CanvasKit version produces correct results.
 
@@ -45,7 +45,7 @@ A fix for it is discussed in [#47163](https://github.com/flutter/flutter/issues/
 
 ---
 
-### [CanvasKit Font Issue](https://rydmike.com/fontissue/canvaskit/#/demo3)
+## [CanvasKit Font Issue](https://rydmike.com/fontissue/canvaskit/#/demo3)
 
 The CanvasKit font issue and demo refers to issue [#56319](https://github.com/flutter/flutter/issues/56319). It has been fully resolved and can no longer be observed with newer builds.
 
@@ -59,7 +59,7 @@ The CanvasKit font issue and demo refers to issue [#56319](https://github.com/fl
 
 ---
 
-### Regression in [AnimatedContainer](https://rydmike.com/animatedcontainermaster/#/) and [AnimatedCrossFade](https://rydmike.com/animatedcrossfademaster/#/)
+## Regression in [AnimatedContainer](https://rydmike.com/animatedcontainermaster/#/) and [AnimatedCrossFade](https://rydmike.com/animatedcrossfademaster/#/)
 
 These demos show how the AnimatedContainer and AnimatedCrossFade Widgets started to regress and break down at one point on Flutter master channel builds compared to beta channel builds.
 

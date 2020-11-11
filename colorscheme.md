@@ -2,7 +2,7 @@
 
 ## FlexColorScheme Demo
 
-The FlexColorScheme package can be used to easily create sophisticated Flutter ColorScheme based color themes for your app.
+The FlexColorScheme package can be used to easily create sophisticated **Flutter ColorScheme** based color themes for your app.
 
 The Flexfold web demo app also uses the FlexColorScheme package for its theming. The themes used in the Flexfold demo are available as pre-configured themes when using the FlexColorScheme package. You can of course also easily define and create similar custom themes.
 
