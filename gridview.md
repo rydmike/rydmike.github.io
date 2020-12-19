@@ -1,5 +1,5 @@
-| [Home](README)   |[Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
-| [Grid](gridview) |[Issues](issues)     | [Experiments](experiments)     | [TALO](talo)                   |
+| [Home](README)   | [Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
+| [Grid]           | [Issues](issues)     | [Experiments](experiments)     | [TALO](talo)                   |
 
 ## [Responsive Grid](http://rydmike.com/gridtest)
 

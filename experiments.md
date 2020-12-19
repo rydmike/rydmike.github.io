@@ -1,11 +1,11 @@
-| [Home](README)   |[Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
-| [Grid](gridview) |[Issues](issues)     | [Experiments](experiments)     | [TALO](talo)                   |
+| [Home](README)   | [Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
+| [Grid](gridview) | [Issues](issues)     | Experiments                    | [TALO](talo)                   |
 
 ## Experiments - Github Flutter and Dart Gists
 
 Occasionally I publish Flutter and Dart Gists that you can try in DartPad online. Usually the Gists were made
 to present something that does not look quite right, but sometimes it can just be a Flutter example and snippet 
-I found useful.
+I found useful and wanted to share.
 
 ### Correct way to add padding to Slivers
 

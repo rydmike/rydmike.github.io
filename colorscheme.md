@@ -1,5 +1,5 @@
-| [Home](README)   |[Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
-| [Grid](gridview) |[Issues](issues)     | [Experiments](experiments)     | [TALO](talo)                   |
+| [Home](README)   | [Flexfold](flexfold) | FlexColorScheme                | [FlexColorPicker](colorpicker) |  
+| [Grid](gridview) | [Issues](issues)     | [Experiments](experiments)     | [TALO](talo)                   |
 
 ## FlexColorScheme
 
@@ -9,9 +9,9 @@ but with a few interesting twists and additional features.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
-The **FlexColorScheme** package is now available on [pub.dev](https://pub.dev/packages/flex_color_scheme) as
-a pre-release dev version. Documentation is still being improved and there are some pending API changes planned
-before the 1.0.0 release.
+**FlexColorScheme** is available on pub.dev as a [package](https://pub.dev/packages/flex_color_scheme), it is currently 
+released as a pre-release development version. Documentation is still being improved and there are some pending 
+API changes planned before the 1.0.0 release.
 
  ### Live WEB versions of the FlexColorScheme examples in the pub.dev package
 
