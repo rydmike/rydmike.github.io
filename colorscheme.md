@@ -13,7 +13,7 @@ but with a few interesting twists and additional features.
 released as a pre-release development version. Documentation is still being improved and there are some pending 
 API changes planned before the 1.0.0 release.
 
- ### Live WEB versions of the FlexColorScheme examples in the pub.dev package
+### Live WEB versions of the FlexColorScheme examples in the pub.dev package
 
 The package documentation contains five different usage examples. It starts with simplest case, and increase in
 complexity with each example. The last example, number 5, has almost everything that you can also see and try 
