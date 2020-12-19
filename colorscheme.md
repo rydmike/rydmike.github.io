@@ -9,9 +9,9 @@ but with a few interesting twists and additional features.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
-**FlexColorScheme** is available on pub.dev as a [package](https://pub.dev/packages/flex_color_scheme), it is currently 
-released as a pre-release development version. Documentation is still being improved and there are some pending 
-API changes planned before the 1.0.0 release.
+**FlexColorScheme** is available on pub.dev as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme), 
+it is currently released as a pre-release development version. Documentation is still being improved and there 
+are some pending API changes planned before the 1.0.0 release.
 
 ### Live WEB versions of the FlexColorScheme examples in the pub.dev package
 
@@ -71,9 +71,9 @@ exactly the same themes via the **FlexColorScheme** package, but yeah it can loo
 
 <img src="https://rydmike.com/assets/FoldTheme1.gif?raw=true" alt="FlexColorScheme" width="800"/>
 
-To play with the themes in the Flexfold app, just head over to the [Flexfold demo](https://rydmike.com/demoflexfold)
+To play with the themes in the Flexfold app, just head over to the [**Flexfold demo**](https://rydmike.com/demoflexfold)
 and go to themes. If you select the custom theme, custom surface and custom app bar, you can pretty much build
-any kind of theme interactively using [FlexColorPicker](https://rydmike.com/colorpicker) to pick colors.
+any kind of theme interactively using [**FlexColorPicker**](https://rydmike.com/colorpicker) to pick colors.
 
 So where do the funny theme names come from, like Mandy red, Hippie blue among other. I actually used Flexfold
 customizable FlexColorScheme mode to design some of the themes in FlexColorScheme, and when you do that
@@ -81,7 +81,7 @@ FlexColorPicker can name the chosen color automatically, sometimes the color nam
 use in the theme name.
 
 Now that the secret of the fancy and interactive theming in Flexfold has been revealed, why not 
-head over to [pub.dev and give FlexColorScheme](https://pub.dev/packages/flex_color_scheme) a spin!
+head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) a spin!
 
 **So what's next?**  
-Yes eventually the animated responsive scaffold, Flexfold itself is coming to pub.dev too...
+Yes eventually the animated responsive scaffold, **Flexfold** itself is coming to pub.dev too...

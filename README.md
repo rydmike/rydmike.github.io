@@ -3,7 +3,7 @@
 
 ## Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
-This [GitHub Pages](https://pages.github.com/) website contains [Flutter](https://flutter.dev/) Web app 
+This [**GitHub Pages**](https://pages.github.com/) website contains [**Flutter**](https://flutter.dev/) Web app 
 demos I've made. It also presents some of the Flutter issues I have submitted and provides links to the issue samples 
 for cases that contained code snippets that might be of more general interest.   
  
@@ -13,9 +13,9 @@ You can use the links in the above table to read more about the demos and try th
 <img src="https://rydmike.com/assets/mr1_round400_tr.png?raw=true" alt="rydmike" width="200"/>
 
 I also use this site's **rydmike.com** domain as my
-[verified package publisher account](https://pub.dev/publishers/rydmike.com/packages) 
-on [pub.dev](https://pub.dev/). My Twitter handle is [@RydMike](https://twitter.com/RydMike) and I Tweet 
-almost exclusively about #[Flutter](https://twitter.com/RydMike/with_replies). 
+verified package [**publisher account**](https://pub.dev/publishers/rydmike.com/packages) 
+on [**pub.dev**](https://pub.dev/). My Twitter handle is [**@RydMike**](https://twitter.com/RydMike) and I Tweet 
+almost exclusively about [**#Flutter**](https://twitter.com/RydMike/with_replies). 
 
 This website is just a simple markdown file converted to a website by GitHub, so don't expect any fancy features on
 the site pages, but the **Flutter apps** in the site's sub-folders is another story. 
