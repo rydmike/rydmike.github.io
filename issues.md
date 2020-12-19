@@ -1,5 +1,5 @@
-| [Home](README)   | [Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
-| [Grid](gridview) | Issues               | [Experiments](experiments)     | [TALO](talo)                   |
+| [Home](README) | [Flexfold](flexfold) | [FlexColorScheme](colorscheme) | [FlexColorPicker](colorpicker) |  
+| [Talo](talo)   | [Grid](gridview)     | Issues                         | [Experiments](experiments)     |
 
 ### Flutter Issue Reports
 

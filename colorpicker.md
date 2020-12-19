@@ -1,9 +1,9 @@
-| [Home](README)   | [Flexfold](flexfold) | [FlexColorScheme](colorscheme) | FlexColorPicker                |  
-| [Grid](gridview) | [Issues](issues)     | [Experiments](experiments)     | [TALO](talo)                   |
+| [Home](README) | [Flexfold](flexfold) | [FlexColorScheme](colorscheme) | FlexColorPicker                |  
+| [Talo](talo)   | [Grid](gridview)     | [Issues](issues)               | [Experiments](experiments)     |
 
 ## FlexColorPicker
 
-**FlexColorPicker** is a customizable color picker for Flutter. The color picker can show six different types of 
+**FlexColorPicker** is a highly customizable color picker for Flutter. The color picker can show six different types of 
 pickers, three of which are used for the standard Flutter Material colors and their shades. 
 The size and style used for the pick items can be customized.
 
@@ -12,7 +12,7 @@ on pub.dev.
 
 <img src="https://rydmike.com/assets/ColorPickerAllSize50.png?raw=true" width="650" alt="Animated ColorPicker demo"/>  
 
-A web demo that shows the features of the color picker can be tested [**here**](http://rydmike.com/democolorpicker).
+A web demo that shows the features of the color picker can be tried [**here**](http://rydmike.com/democolorpicker).
 The source code for this Web FlexColorPicker demo app is 
 available on [**GitHub**](https://github.com/rydmike/color_picker_demo).
 
