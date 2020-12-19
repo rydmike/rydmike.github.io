@@ -7,7 +7,10 @@ relative_links:
   collections: true
 include:
   - README.md
+  - flexfold.md
   - colorscheme.md
   - colorpicker.md
   - gridview.md
-  - flutterissues.md
+  - issues.md
+  - gists.md
+  - experiments.md
