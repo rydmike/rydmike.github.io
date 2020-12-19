@@ -5,7 +5,7 @@
 ## Development of TALO
 
 Professionally I'm working on a project we call **TALO**. I'm not at liberty to talk too much about TALO at its
-current stage, but below is a short description and backstory.
+current stage, but below is a short description and backstory of Flutter and TALO.
 
 Our resources are a bit limited when it comes to TALO's development, so while it is progressing, it is a bit of a
 slow burn. We are however currently looking for investors and partners to help us speed up the development.
@@ -48,6 +48,8 @@ can be used in back office roles on desktop as installed apps, primarily on Wind
 Naturally we also need to be able to offer TALO as a Web app for zero deployment, and as a PWA for users with less
 frequent participation roles, that therefore might not want to have it installed as an app on their device.
 
+### Desktop and Web
+
 I tested Flutter on Windows desktop and Web quite early, this was back when it was still exotic on Windows and
 you had to clone runners from a separate repository to make Windows desktop apps. Instructions on how to get it
 all to work, was also a bit limited back then. To my surprise and despite all this, it was still quite easy to set 
@@ -55,11 +57,14 @@ everything up, and the concept apps worked, actually it was all pretty slick. Wi
 great, but Web performance was not quite there yet, and is perhaps not quite so even today, but getting quite close
 now in my opinion.
 
-Below is one of my concepts and attempts to make a UI for TALO that runs on all above mentioned platforms, is adaptive
-and responsive, in a way that works as expected at different canvas sizes on each platform. We were quite
-happy with these results. This is a long animated GIF screen recording, so stay with it... 
+Below is one of my concepts and attempts to make a version of TALO that runs on all above mentioned platforms, 
+is adaptive and responsive in a way that works as expected at different canvas sizes on each platform. We were quite
+happy with these results. This is a very long animated GIF screen recording, so stay with it... 
 
 <img src="https://rydmike.com/assets/TaloDesktopDemo.gif?raw=true" alt="talo splash" />
+
+
+### Conclusion
 
 Some aspects of Flutter were not quite ready for prime time on all of our required platforms when we evaluated it, 
 and is not quite there yet either. We were however impressed and convinced by the level and readiness observed already
@@ -73,6 +78,8 @@ the right fit for our use-case. So yes, we selected **Flutter** for TALO's UI de
 Hopefully I can share some more details later.
 
 [-Mike Rydstrom](https://twitter.com/RydMike)
+
+PS. Talo is Finnish and means building.
 
 ---
 Published 19.12.2020

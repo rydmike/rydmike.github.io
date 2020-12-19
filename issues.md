@@ -124,3 +124,6 @@ demos made for the report were rather fancy, so I'm keeping them around here. Th
 use **very** simplified versions of code use in the **Flexfold package**. I often also use these samples as starting
 points for various Flutter demos with just one file and no other than Flutter SDK dependencies to make them a bit
 more interesting and fancy looking.
+
+---
+Page updated 20.12.2020

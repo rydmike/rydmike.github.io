@@ -55,16 +55,28 @@ that shows the impact of some of its key settings.
 
 There are some playful things in the **Flexfold demo** app that are not really relevant 
 to the **Flexfold package**. One such thing are the lovely [**Undraw**](https://undraw.co/) SVG drawings made by 
-[**Katerina Limpitsouni**](https://twitter.com/ninaLimpi) that in the demo change color and are themed to match
+[**Katerina Limpitsouni**](https://twitter.com/ninaLimpi) that in the demo app change color and are themed to match
 the color of the primary color of selected [FlexColorScheme] based theme, like the theme changes in Flutter the
 colors also animate in the SVG drawings while theme changes.
 
 The SVG drawings also animate in/out between a few selected one related to the page they are one. 
-The order is random betwen the ones that included for each page.
+The order is random between the ones that included for each page.
+
+<img src="https://rydmike.com/assets/undraw1.gif?raw=true" alt="Flexfold undraw" width="800"/>
 
 ### Flexfold goes Plasma
 
 Last but not least of the wild things is a toggle that enable background Plasma effect on the side bar and home page.
-The plasma effect is something I found in Flex Blasche simple_animations_package.
-The custom Plasma effect I used it tied the primary theme color and light/dark mode toggle, so that it always fits 
-as as a page background effect. It looks best in dark mode though.
+The plasma effect is something I found in Flex Blaschke's 
+[**simple_animations_package**](https://pub.dev/packages/simple_animations). He also has Flutter web app
+called [**Liquid Studio**](https://felixblaschke.github.io/liquid-studio/#/) where you can try it and design your
+custom plasma effects.
+
+The custom Plasma effect I used are just defined in code and tied to the primary theme color and light/dark
+mode toggle, so that it always fits as a page background effect. It looks best in dark mode though.
+
+<img src="https://rydmike.com/assets/FlexFoldPlasma3.gif?raw=true" alt="Flexfold plasma" width="800"/>
+
+
+---
+Page updated 20.12.2020

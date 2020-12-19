@@ -26,3 +26,6 @@ the right amount of color picking features you need, with a style that fits your
 example of the package bundled simple demo application running as a Windows desktop application.
 
 <img src="https://github.com/rydmike/flex_color_picker/blob/master/resources/ColorPickerEnterCode.gif?raw=true" alt="ColorPicker on Windows" width="450"/>
+
+---
+Page updated 20.12.2020

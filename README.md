@@ -23,3 +23,7 @@ the site pages, but the **Flutter apps** in the site's sub-folders is another st
 >Sure it would be nice with fancier layout, proper blog with comments for the site pages. Who knows, I might change the 
 >site content to a Flutter web application some day. It could be an interesting experiment to make a simple
 >web content management system with Flutter, even if that is not one of Flutter's core strengths.
+
+
+---
+Page updated 20.12.2020

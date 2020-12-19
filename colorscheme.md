@@ -85,3 +85,6 @@ head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/fle
 
 **So what's next?**  
 Yes eventually the animated responsive scaffold, **Flexfold** itself is coming to pub.dev too...
+
+---
+Page updated 20.12.2020

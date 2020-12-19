@@ -33,3 +33,6 @@ You can observe the issue more clearly in this GIF animation:
 **Update 27.10.2020:** I found a recent report in the staggered grid view package GitHub repo about the 
 width horizontal resizing issue [**here**](https://github.com/letsar/flutter_staggered_grid_view/issues/138) and 
 added my comment to it. I will still try to make a more up to date sample repo that reproduces the issue.
+
+---
+Page updated 20.12.2020
