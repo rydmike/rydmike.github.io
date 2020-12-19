@@ -8,7 +8,7 @@ This **GitHub Pages** website contains WEB demos of **Flutter** packages, as wel
 Flutter issue reports. The demos have been published as single page web apps in this site as sub-folders. 
 Use the links in the above table to find them and learn more about them.
 
-<img src="https://rydmike.com/assets/mr1_round400_tr.jpg?raw=true" alt="rydmike" width="200"/>
+<img src="https://rydmike.com/assets/mr1_round400_tr.png?raw=true" alt="rydmike" width="200"/>
 
 I also use this domain as as my [verified package publisher account](https://pub.dev/publishers/rydmike.com/packages) 
 on [pub.dev](https://pub.dev/). My Twitter handle is [@RydMike](https://twitter.com/RydMike) and I Tweet 
