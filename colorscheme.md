@@ -9,15 +9,16 @@ but with a few interesting twists and additional features.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
-**FlexColorScheme** is available on pub.dev as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme), 
-it is currently released as a pre-release development version. Documentation is still being improved and there 
+**FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme). 
+
+It is currently released as a pre-release development version, because documentation is still being improved and there 
 are some pending API changes planned before the 1.0.0 release.
 
-### Live WEB versions of the FlexColorScheme examples in the pub.dev package
+### Web versions of the FlexColorScheme examples in the pub.dev package
 
-The package documentation contains five different usage examples. It starts with simplest case, and increase in
-complexity with each example. The last example, number 5, has almost everything that you can also see and try 
-in the Flexfold web demo app.
+The package documentation contains five different examples. It starts with the simplest case, and increase in
+complexity with each example. The last example, number 5, has almost everything that you might have seen
+before in the [**Flexfold web demo**](http://rydmike.com/demoflexfold) app on its **Theme** page.
 
 [**In example 1**](https://rydmike.com/flexcolorscheme1)
 we just use a built-in scheme as application theme and toggle between its light and dark variant, or allow device
