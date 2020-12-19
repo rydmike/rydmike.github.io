@@ -13,12 +13,12 @@ The demo also includes an early Web layout test I made with [**Romain Rastel's**
 You can try this example [**here**](http://rydmike.com/gridtest/#/). The source code for this early Flutter web demo
 is available in my [**resp_stag_grid**](https://github.com/rydmike/resp_stag_grid) GitHub repository. 
 
-<img src="https://rydmike.com/assets/stag_grid1.png?raw=true" alt="Staggered grid 1" width="800"/>
+<img src="https://rydmike.com/assets/stag_grid1.png?raw=true" alt="Staggered grid 1" width="600"/>
 
 The key feature of this small demo is the responsive grid using the Material breakpoint system,
 demoed with the standard Flutter **GridView**, and the masonry style **StaggeredGridView** layout.
 
-<img src="https://rydmike.com/assets/stag_grid2.png?raw=true" alt="Staggered grid 2" width="800"/>
+<img src="https://rydmike.com/assets/stag_grid2.png?raw=true" alt="Staggered grid 2" width="600"/>
 
 A keen observer can see that **StaggeredGridView** package has a bug that can be seen in this demo when only
 resizing the browser window horizontally. I need to make a simpler demo case for the bug demo and report it,
