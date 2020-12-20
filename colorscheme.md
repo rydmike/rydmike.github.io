@@ -1,5 +1,5 @@
-| [Home](README) | [Flexfold](flexfold) | FlexColorScheme                | [FlexColorPicker](colorpicker) |  
-| [Talo](talo)   | [Grid](gridview)     | [Issues](issues)               | [Experiments](experiments)     |
+| [Home](README) | [Flexfold](flexfold) | Color Scheme                | [Color Picker](colorpicker) |  
+| [Talo](talo)   | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
 
 ## FlexColorScheme
 
@@ -30,7 +30,7 @@ theme mode to control if the dark or light theme is used.
 is a lot like the previous example, but here we use our own custom colors to make a scheme and turn it into a theme.
 In this case I used a bit more dignified looking dark purple and deep green.
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2al.png?raw=true" alt="ColorScheme example 2 light" width="260"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2ad.png?raw=true" alt="ColorScheme example 2 dark" width="260"/> 
+<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2al.png?raw=true" alt="ColorScheme example 2 light" width="260"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2ad.png?raw=true" alt="ColorScheme example 2 dark" width="190"/> 
 
 [**With example 3**](https://rydmike.com/flexcolorscheme3)
 we are getting a bit fancier, we can now switch active theme between 3 different predefined color schemes,
