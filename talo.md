@@ -49,18 +49,19 @@ as a PWA for users with less frequent participation roles that only use it occas
 Given these requirements, we were intrigued by Flutter's ambition and goal to deliver all of this with
 a single code base.
 
-### Desktop and Web
+### Windows and Web
 
 I tested Flutter on Windows desktop and Web quite early, this was back when it was still exotic on Windows, and
-you had to clone runners from a separate repository to make Windows desktop apps. Instructions on how to get it
-all to work, was a bit limited back then. To my surprise and despite all this, it was still quite easy to set 
-everything up, and the concept apps worked, it was all really slick. Windows desktop performance was already 
+you had to clone runners from a separate repository to even make Flutter Windows desktop apps. Instructions on
+how to get it all to work, was a bit limited back then. To my surprise and despite all this, it was still quite easy
+to set everything up, and the concept apps worked, it was all really slick. Windows desktop performance was already 
 great, but Web performance was not quite there yet, and it is not quite there today either, but getting close
 now in my opinion.
 
-Below is one of my concepts and attempts to make a version of TALO that runs on all platforms, 
+Below is one of my concepts and attempts to make a version of TALO that runs on our needed platforms, 
 is adaptive and responsive in a way that works as expected at different canvas sizes on each platform. We were quite
-happy with these early results. This is by the way a long animated GIF screen recording, so stay with it. 
+happy with these early results. This is by the way a long animated GIF screen recording, it shows desktop sizes 
+after a while too, so stay with it. 
 
 <img src="https://rydmike.com/assets/TaloDesktopDemo.gif?raw=true" alt="talo desktop" />
 
@@ -68,10 +69,11 @@ happy with these early results. This is by the way a long animated GIF screen re
 ### Conclusions
 
 Some aspects of Flutter were not quite ready for prime time on all of our required platforms when we evaluated it, 
-and it is not quite there today either. We were however impressed and convinced by the level and readiness observed 
-already during these concept tests. Additionally, we found that the Flutter SDK and Dart was easy to learn, and as a 
-developer experience, it and the tooling were a pure joy to use and code in. The Flutter Community is always positive, 
-ready to lend a helping hand regarding questions, and Google has been very supportive with SDK issues.
+and it is not quite there today either. We were still impressed and convinced by the level and readiness observed 
+already during these concept tests. We also found that the Flutter SDK and Dart language was easy
+to learn, and as a developer experience, it and the tooling, were a pure joy to use and code in.
+The Flutter Community is very positive and always ready to lend a helping hand regarding questions, 
+and Google has been very forthcoming and supportive with SDK issues.
  
 All this, plus the continued development and progress of Flutter, has further cemented our conviction that Flutter is
 the right fit for our use-case. So yes, we selected **Flutter** for TALO's UI development and are proceeding with it.
