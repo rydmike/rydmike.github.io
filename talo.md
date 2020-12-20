@@ -1,5 +1,5 @@
-| [Home](README) | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
-| Talo           | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
+| [Home](https://rydmike.com) | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
+| Talo                        | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
 
 
 ## Development of TALO

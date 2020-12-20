@@ -1,5 +1,5 @@
-| Home           | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
-| [Talo](talo)   | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
+| Home                        | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
 
 ## Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
@@ -29,7 +29,7 @@ Welcome and I hope you enjoy the demos!
 ---
 
 This website is just a simple collection of static markdown files converted to a website by GitHub Pages,
-so don't expect any fancy features on the site pages itself, but the **Flutter apps** in the site's sub-folders are 
+so don't expect any fancy features on the site pages itself, but the demo apps in the site's sub-folders are 
 another story, they contain **pixie dust** and **Flutter magic**. 
 
 >Sure, it would be nice with fancier layout, proper blog with comments for this site's pages too. So who knows,

@@ -1,5 +1,5 @@
-| [Home](README) | [Flexfold](flexfold) | [Color Scheme](colorscheme) | Color Picker                |  
-| [Talo](talo)   | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
+| [Home](https://rydmike.com) | [Flexfold](flexfold) | [Color Scheme](colorscheme) | Color Picker                |  
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
 
 ## FlexColorPicker
 
