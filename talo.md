@@ -63,7 +63,7 @@ is adaptive and responsive in a way that works as expected at different canvas s
 happy with these early results. This is by the way a long animated GIF screen recording, it shows desktop sizes 
 after a while too, so stay with it. 
 
-<img src="https://rydmike.com/assets/TaloDesktopDemo.gif?raw=true" alt="talo desktop" />
+<img src="https://rydmike.com/assets/TaloDesktopDemo.gif?raw=true" alt="talo desktop"/>
 
 
 ### Conclusions
