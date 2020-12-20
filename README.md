@@ -4,7 +4,8 @@
 ## Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
 On this [**GitHub** Pages](https://pages.github.com/) site I publish and present [**Flutter**](https://flutter.dev/)
-web application demos. Some demos are related to Flutter packages I have published.
+web application demos. Some of the demos are related to Flutter packages I have published or am working on in my
+free time.
   
 I also go through selected Flutter issues that I have submitted, provide links to code samples and demos of them. 
 These are selected cases with code samples that might be of more general interest than just the issue itself.
