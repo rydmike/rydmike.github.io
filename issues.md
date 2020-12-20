@@ -5,10 +5,12 @@
 
 The code samples below are from Flutter issues I have reported in the main Flutter GitHub
 [**repository**](https://github.com/flutter/flutter/issues). These samples were made to demonstrate issues 
-I discovered while working with Flutter and are as the situation was at the time the report was submitted.
+I discovered while working with Flutter and are documented below as the situation was at the time the 
+report was submitted.
 
-Many of the issues might be resolved by the time you read this here. Some of these samples may contain generally 
-useful and interesting code snippets, so I decided to make selected ones available here as well.
+Many of the issues might be resolved by the time you read this here. These cases were selected because
+they may contain generally useful and interesting code snippets, so I decided to make them available here as well.
+It is far from all the Flutter issues I have reported.
 
 ---
 
@@ -73,7 +75,9 @@ I will test it again and follow up.
 ## CanvasKit Font Issue
 
 The CanvasKit font issue and demo refers to issue [**#56319**](https://github.com/flutter/flutter/issues/56319). It has 
-been fully resolved and can no longer be observed with newer builds.
+been fully resolved and can no longer be observed with newer builds, the builds below are from the time when the issue
+stil existed show the live FAIL example still shows it. This demo might be of general interest since it shows
+multiple mobile sized page routes on the same web page used for the font comparison demo. 
 
 * Demo with [**DomCanvas OK**](https://rydmike.com/fontissue/domcanvas/#/demo3).
 
@@ -85,9 +89,10 @@ been fully resolved and can no longer be observed with newer builds.
 
 ---
 
-## Null Check Issue
+## Dart2JS Compiler null Check Issue
 
-The null check issue caused a regression in [**AnimatedContainer**](https://rydmike.com/animatedcontainermaster/#/)
+A nul check issue in the dart2js compiler caused a regression
+in Flutter [**AnimatedContainer**](https://rydmike.com/animatedcontainermaster/#/)
 and [**AnimatedCrossFade**](https://rydmike.com/animatedcrossfademaster/#/)
 
 These demos show how the AnimatedContainer and AnimatedCrossFade Widgets started to regress and break down at one
@@ -119,11 +124,12 @@ When the issue was present it looked like this:
 Both issues were found to be caused by this root issue in the dart2js compiler
 [**Dart lang SDK issue #43366**](https://github.com/dart-lang/sdk/issues/43366).
 
-The above root cause of the issue has now been fully resolved and above two issues are closed as well. The
-demos made for the report were rather fancy, so I'm keeping them around here. The samples actually 
-use **very** simplified versions of code use in the **Flexfold package**. I often also use these samples as starting
-points for various Flutter demos with just one file and no other than Flutter SDK dependencies to make them a bit
-more interesting and fancy looking.
+The above root cause of the issue has now been fully resolved and above two issues are closed as well.
+
+The demos made for this report were rather elaborate, so I'm making the examples available here. The samples actually 
+use **very** simplified code from the **Flexfold package**. I sometimes use these samples as 
+starting points for various Flutter examples, especially if it is a DartPad single file Gist example with no other than
+Flutter SDK dependencies, to make the example a bit more interesting and fancy looking.
 
 ---
 Page updated 20.12.2020

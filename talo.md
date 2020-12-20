@@ -27,7 +27,7 @@ Companies offering services to them are also users with a key role in the TALO e
 more limited roles by any party participating in activities and processes in a building, including
 users and tenants.
 
-<img src="https://rydmike.com/assets/splashdemo3.gif?raw=true" alt="talo splash" width="220"/>
+<img src="https://rydmike.com/assets/splashdemo3.gif?raw=true" alt="talo splash" width="240"/>
 
 Our initial target is to build and release an MVP with focus on sustainability and energy efficiency, 
 that migrates features already covered in our stable production Web based system, that while working fine
@@ -39,7 +39,7 @@ We evaluated Flutter to see if it could be used to build modern and beautiful UI
 surprise it was fairly easy, even I could do it. These are some early tests I made during the evaluation. 
 They are not final designs, more like early concepts.
 
-<img src="https://rydmike.com/assets/TaloDemoV1.gif?raw=true" alt="talo features" width="220"/>
+<img src="https://rydmike.com/assets/TaloDemoV1.gif?raw=true" alt="talo features" width="240"/>
 
 A key requirement for our use case is that we need not only Android and iOS apps, but also versions that 
 can be used in back office roles on desktop as installed apps, primarily on Windows, but Mac and Linux are welcome too.

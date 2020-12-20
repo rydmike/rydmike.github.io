@@ -3,9 +3,9 @@
 
 ## Responsive Grids in Flutter
 
-This is a Flutter responsive Web grid demo and test. I made it with a very early version of Flutter for Web.
+This is a Flutter responsive web grid demo and test. I made it with a very early version of Flutter for Web.
 The current published build is made with a much older version of Flutter than recent ones.
-I should really refresh the build and update the demo a bit too, but is still works and serves it purposes as is.
+I should really refresh the build and update the demo a bit too, but it still works and serves it purposes as it is too.
  
 The demo also includes an early Web layout test I made with [**Romain Rastel's**](https://twitter.com/lets4r) popular
 [**Flutter Staggered Grid View package**](https://pub.dev/packages/flutter_staggered_grid_view).
@@ -32,7 +32,7 @@ You can observe the issue more clearly in this GIF animation:
 ---
 **Update 27.10.2020:** I found a recent report in the staggered grid view package GitHub repo about the 
 width horizontal resizing issue [**here**](https://github.com/letsar/flutter_staggered_grid_view/issues/138) and 
-added my comment to it. I will still try to make a more up to date sample repo that reproduces the issue.
+added my comment to it. 
 
 ---
 Page updated 20.12.2020
