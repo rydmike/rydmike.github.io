@@ -24,7 +24,7 @@ keen eye, below is a composite image showing the difference.
 
 You can try, and see this in a browser with [**DartPad here**](https://www.dartpad.dev/e199cb754fc08f4e1500efc96e322eee?).
 
-<img src="https://rydmike.com/assets/sliverpadding.png?raw=true" alt="Sliver padding"/>
+<img src="https://rydmike.com/assets/sliverpadding.png?raw=true" alt="Sliver padding" width="816"/>
 
 Source GIST: [**Padding Slivers with SliverPadding and demo of why Padding does not work**](https://gist.github.com/rydmike/e199cb754fc08f4e1500efc96e322eee)
 
