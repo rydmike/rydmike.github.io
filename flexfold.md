@@ -75,16 +75,16 @@ but works.
 ### Flexfold goes Plasma
 
 Last but not least of the wild things, is a toggle that enables an animated **plasma background** effect on the side bar 
-and Flexfold Home page. This plasma effect is something I found in Flex Blaschke's 
+and Flexfold Home page. This plasma effect is something I found in [Felix Blaschke's](https://github.com/felixblaschke) 
 [**simple_animations_package**](https://pub.dev/packages/simple_animations). He also has a Flutter web app
 called [**Liquid Studio**](https://felixblaschke.github.io/liquid-studio/#/) where you can try it and design 
 custom plasma effects.
 
-The Plasma effect I used are defined in code and tied to the primary theme color and light/dark
-mode toggle, so that it always fits as a page background effect. It looks cooler in dark mode though.
+The Plasma effects I used are defined in code and tied to the primary theme color and light/dark
+mode, so that it always fits as a page background effect. It looks cooler in dark mode though.
 
 <img src="https://rydmike.com/assets/FlexFoldPlasma3.gif?raw=true" alt="Flexfold plasma" width="800"/>
 
 
 ---
-Page updated 20.12.2020
+Page updated 21.12.2020
