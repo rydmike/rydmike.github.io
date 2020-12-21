@@ -9,11 +9,16 @@ but with a few interesting twists and additional features.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
-**FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme). 
-It is currently released as a pre-release development version, because documentation is still being improved and there 
-are some pending API changes planned before the 1.0.0 release.
+FlexColorScheme was born when I was trying to make pretty themes for the [Flexfold](flexfold) demo app and from
+some other real projects as well. I wanted a way to make it easier to make pretty color branded themes that also
+work well for web and desktop apps. I also wanted to fix some theming gaps in Flutter's default ColorScheme based 
+themes that I found myself fixing in pretty much every app. I also wanted to make it easy to build and support
+interactive in app theming, which actually is pretty easy to do already with the basic SDK, but FlexColorScheme
+makes it even easier.
 
-### Web versions of the FlexColorScheme examples in the pub.dev package
+**FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme). 
+
+### Live Web Versions of the FlexColorScheme Examples
 
 The package documentation contains five different examples. They start with a really simple use case and increase in
 complexity with each example. The last example, number 5, has almost everything that you might have seen
@@ -63,13 +68,13 @@ its theming magic in comparison.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5al.png?raw=true" alt="ColorScheme example 5 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5bl.png?raw=true" alt="ColorScheme example 5b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5fl.png?raw=true" alt="ColorScheme example 5f light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5gl.png?raw=true" alt="ColorScheme example 5g light" width="190"/>
 
-### Flexfold demo using FlexColorScheme
+### Flexfold Demo App Uses FlexColorScheme
 
-As mentioned, the Flexfold web demo app also uses this **FlexColorScheme** package for all of its theming.
+The Flexfold web demo app uses **FlexColorScheme** package for all of its theming.
 The Flexfold demo app just has quite a bit much more surface areas visible that uses color branded surfaces, it 
-thus tends to look a bit cooler than the above phone images, even when they are run as web apps. The Flexfold demo
-app is however using exactly the same themes via the **FlexColorScheme** package, showing that it can look 
-really nice, like shown here.
+thus tends to look a bit cooler than the above phone images, even when they are run as web apps. It might not seem so 
+when looking at the phone screenshots above, but yes the Flexfold demo app is really using exactly the same 
+themes via the **FlexColorScheme** package, proving that it can look pretty cool, like this:
 
 <img src="https://rydmike.com/assets/FoldTheme1.gif?raw=true" alt="FlexColorScheme" width="800"/>
 
@@ -78,7 +83,6 @@ To play with the **FlexColorScheme** based themes in the Flexfold demo app, just
 
 If you select custom theme, custom surface and custom app bar, you can pretty much build
 any kind of theme you want interactively using [**FlexColorPicker**](https://rydmike.com/colorpicker) to pick colors.
-
 
 ### Funky Built-in Theme Names
 
@@ -90,8 +94,11 @@ color names where just too hip to not use them in the scheme names too.
 Now when the secrets of the color schemes and interactive theming in the Flexfold demo app have been revealed, why not 
 head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) and give it a try!
 
+---
+
 **So what's next?**  
 Yes eventually the animated responsive scaffold, **Flexfold** itself is coming to pub.dev too...
 
----
-Page updated 20.12.2020
+----
+
+Page updated 21.12.2020
