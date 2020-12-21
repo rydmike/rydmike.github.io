@@ -7,49 +7,47 @@
 surfaces. The created themes are based on the same concept as Flutter's `ColorScheme` based themes,
 but with a few interesting twists and additional features.
 
+**FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme).
+
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
 FlexColorScheme was born when I was trying to make pretty themes for the [Flexfold](flexfold) demo app and from
 some other real projects as well. I wanted a way to make it easier to make pretty color branded themes that also
-work well for web and desktop apps. I also wanted to fix some theming gaps in Flutter's default ColorScheme based 
+work well for web and desktop apps. 
+
+I also wanted to fix some theming gaps in Flutter's default ColorScheme based 
 themes that I found myself fixing in pretty much every app. I also wanted to make it easy to build and support
 interactive in app theming, which actually is pretty easy to do already with the basic SDK, but FlexColorScheme
 makes it even easier.
 
-**FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme). 
-
 ### Live Web Versions of the FlexColorScheme Examples
 
-The package documentation contains five different examples. They start with a really simple use case and increase in
-complexity with each example. The last example, number 5, has almost everything that you might have seen
-before in the [**Flexfold web demo**](http://rydmike.com/demoflexfold) app on its **Theme** page.
+The package documentation contains five usage examples. Starting with a really simple use case and increasing in
+complexity with each example. The last example, number 5, does almost everything that you might have seen
+before in the [**Flexfold demo**](http://rydmike.com/demoflexfold) web app on its **Theme** page.
 
 [**In example 1**](https://rydmike.com/flexcolorscheme1)
 we just use a built-in scheme as application theme and toggle between its light and dark variant, or allow device
-theme mode to control if the dark or light theme is used.
-
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1al.png?raw=true" alt="ColorScheme example 1 light" width="190"/>
+theme mode to control if the dark or light theme is used.  
+<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1al.png?raw=true" alt="ColorScheme example 1 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1ad.png?raw=true" alt="ColorScheme example 1 dark" width="190"/>
 
 [**Example 2**](https://rydmike.com/flexcolorscheme2)
 is a lot like the previous example, but we use our own custom colors to make a scheme and turn it into a theme.
-In this case I used a bit more dignified looking dark purple and deep green colors.
-
+In this case I used a bit more dignified looking dark purple and deep green colors.  
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2al.png?raw=true" alt="ColorScheme example 2 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2ad.png?raw=true" alt="ColorScheme example 2 dark" width="190"/> 
 
 [**With example 3**](https://rydmike.com/flexcolorscheme3)
 we are getting a bit fancier, we can now switch active theme between 3 different predefined color schemes,
 plus the custom one we made in the previous example. Since previous color scheme was a bit too somber, I added 
 the Hippie blue scheme to this example. New in this example is also that the surface and background colors receives a
-strong blend of the primary color in both dark and light mode.
-
+strong blend of the primary color in both dark and light mode.  
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3al.png?raw=true" alt="ColorScheme example 3a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3ad.png?raw=true" alt="ColorScheme example 3a dark" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3bl.png?raw=true" alt="ColorScheme example 3b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3bd.png?raw=true" alt="ColorScheme example 3b dark" width="190"/>
 
 [**In example 4**](https://rydmike.com/flexcolorscheme4)
 we are going all in, we can now use a popup dialog to select any of the predefined schemes, plus the one we
 made above and even one more, an olive green scheme defined from just one color per theme mode. Despite that only one 
 color was used, it still has automatic default nuances. Surface and background branding level is a bit lower in
-this example than in the previous one, it is set to medium.
-
+this example than in the previous one, it is set to medium.  
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4al.png?raw=true" alt="ColorScheme example 4a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4bl.png?raw=true" alt="ColorScheme example 4b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cl.png?raw=true" alt="ColorScheme example 4c light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cd.png?raw=true" alt="ColorScheme example 4c dark" width="190"/>
 
 [**Example 5**](https://rydmike.com/flexcolorscheme5)
