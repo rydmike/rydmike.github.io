@@ -1,5 +1,5 @@
-| [Home](https://rydmike.com) | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)            | Experiments                 |
+| [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | Experiments                |
 
 ## Experiments - Github Flutter Gists
 

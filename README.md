@@ -1,18 +1,17 @@
-| Home                        | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
+| Home                        | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Experiments](experiments) |
 
 ## Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
 On this [**GitHub** Pages](https://pages.github.com/) site I publish and present [**Flutter**](https://flutter.dev/)
-web application demos. Some of the demos are related to Flutter packages I have published or am working on in my
+web application demos. Some of the demos are related to Flutter packages I have published or am still working on in my
 free time.
   
 I also go through selected Flutter issues that I have submitted, provide links to code samples and demos of them. 
 These are selected cases with code samples that might be of more general interest than just the issue itself.
  
 All the demos and samples here are published as single page web apps in sub-folders to this **GitHub** Pages site. 
-Use the links in the above table to get to presentations of them, where you can learn more about each demo
-and try it live.
+Use the links in the above table to get to presentations of them, where you can learn more and try them.
 
 <img src="https://rydmike.com/assets/mr1_round400_tr.png?raw=true" alt="rydmike" width="200"/>
 

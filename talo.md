@@ -1,5 +1,5 @@
-| [Home](https://rydmike.com) | [Flexfold](flexfold) | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
-| Talo                        | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
+| [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
+| Talo                        | [Grid](gridview)     | [Issues](issues)           | [Experiments](experiments)  |
 
 
 ## Development of TALO
@@ -69,8 +69,8 @@ after a while too, so stay with it.
 ### Conclusions
 
 Some aspects of Flutter were not quite ready for prime time on all of our required platforms when we evaluated it, 
-and it is not quite there today either. We were still impressed and convinced by the level and readiness observed 
-already during these concept tests. We also found that the Flutter SDK and Dart language was easy
+and it is not quite there today either. We were however impressed and convinced by the level and 
+readiness observed already during these concept tests. We also found that the Flutter SDK and Dart language was easy
 to learn, and as a developer experience, it and the tooling, were a pure joy to use and code in.
 The Flutter Community is very positive and always ready to lend a helping hand regarding questions, 
 and Google has been very forthcoming and supportive with SDK issues.
@@ -85,4 +85,4 @@ Hopefully I can share some more details later.
 PS. Talo is Finnish and means building.
 
 ---
-Published 19.12.2020
+Published 19.12.2020, Updated 22.12.2020

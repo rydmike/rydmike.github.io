@@ -1,10 +1,10 @@
-| [Home](https://rydmike.com) | Flexfold             | [Color Scheme](colorscheme) | [Color Picker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)            | [Experiments](experiments)  |
+| [Home](https://rydmike.com) | Flexfold             | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Experiments](experiments) |
 
 ## Flexfold
 
 **Flexfold** is a responsive and adaptive Scaffold package for Flutter. A live web demo of an example app using the 
-package can be seen [**tested here**](http://rydmike.com/demoflexfold). It is my intention to
+package can be seen and [**tested here**](http://rydmike.com/demoflexfold). It is my intention to
 open source this demo application after the **Flexfold package** itself has been published.
 
 A beta version of the Flutter **Flexfold package** is being used in this demo, but it has not been published 
