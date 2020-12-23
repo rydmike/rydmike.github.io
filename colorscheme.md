@@ -175,22 +175,24 @@ wanted to show the difference in the look you get when you also use slight color
 the surface and background colors.
 
 The chosen color scheme for the demonstration below was selected because it uses colors that makes the differences 
-obvious. Depending on your color scheme's colors, the differences might be less obvious.
+obvious. Depending on your color scheme's colors, the differences might be less obvious. The key differences are marked
+with red boxes on the image from standard method on the left side.
 
-#### Light Theme
+#### Light Theme Mode Comparison
 
 Apart from the more nuanced and selective surface and background color branding, we see some highlighted differences on
 Material UI widgets in the Theme Showcase section. There are also some colors in the old ThemeData that do not get 
 color scheme based colors applied to them. The fact that those are missing impacts colors of some widgets that still use
 them for their defaults, they will be left at the blue shades even in this orange and green colored theme.
 
-This screenshot is straight from package [**Example 5**](https://rydmike.com/flexcolorscheme5), it has a built-in
-toggle that allows you to try a ColorScheme colored theme, based on ThemeData.from(colorscheme) or 
-FlexColorScheme().toTheme.
+These screenshots are straight from package [**Example 5**](https://rydmike.com/flexcolorscheme5). The example 
+has a built-in toggle that allows you to try a ColorScheme theme, using the standard ThemeData.from(colorscheme) theme
+creation method or the FlexColorScheme().toTheme method. The toggle that switches between these options, 
+is marked in the screenshots below.
 
 <img src="https://rydmike.com/assets/ColorSchemeCompareLight.png?raw=true" alt="compare light"/>
 
-#### Dark Theme
+#### Dark Theme Mode Comparison
 
 In dark-mode there is an additional difference. Flutter's current version of ThemeData.from(colorscheme),
 does not set the ThemeData property toggleableActive to a color from the ColorScheme in dark-mode.
@@ -198,6 +200,7 @@ The ThemeData factory sets this to accent color, which would be
 the equivalent of secondary color in a ColorScheme. Why it does not set this property
 is unknown, it really should in order to make a dark theme that follows the used color scheme. This was also
 reported as the first point in issue and analysis [**(#65782)**](https://github.com/flutter/flutter/issues/65782).
+
 ThemeData.from(colorScheme) does set a number of other color properties in ThemeData, why not this one too?
 In any case, FlexColorScheme takes care of this color scheme based theme inconsistency as well.
 
