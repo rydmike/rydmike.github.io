@@ -176,7 +176,7 @@ This screenshot is straight from package [**Example 5**](https://rydmike.com/fle
 toggle that allows you to try a ColorScheme colored theme, based on ThemeData.from(colorscheme) or 
 FlexColorScheme().toTheme.
 
-<img src="https://rydmike.com/assets/ColorSchemeCompareLight.png?raw=true" alt="rydmike"/>
+<img src="https://rydmike.com/assets/ColorSchemeCompareLight.png?raw=true" alt="compare light"/>
 
 #### Dark Theme
 
@@ -189,7 +189,7 @@ reported as the first point in issue and analysis [**(#65782)**](https://github.
 ThemeData.from(colorScheme) does set a number of other color properties in ThemeData, why not this one too?
 In any case, FlexColorScheme takes care of this color scheme based theme inconsistency as well.
 
-<img src="https://rydmike.com/assets/ColorSchemeCompareDark.png?raw=true" alt="rydmike"/>
+<img src="https://rydmike.com/assets/ColorSchemeCompareDark.png?raw=true" alt="compare dark"/>
 
 
 ### Built-in Color Schemes
@@ -208,11 +208,54 @@ make you own custom flex color schemes.
 
 #### Light Mode Color Schemes
 
-(Image, to be added.)
+Below you will find all the light theme mode color schemes, with the scheme colors shown and their names.
+
+<img src="https://rydmike.com/assets/LightScheme001.png?raw=true" alt="light 01" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme002.png?raw=true" alt="light 02" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme003.png?raw=true" alt="light 03" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme004.png?raw=true" alt="light 04" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme005.png?raw=true" alt="light 05" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme006.png?raw=true" alt="light 06" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme007.png?raw=true" alt="light 07" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme008.png?raw=true" alt="light 07" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme009.png?raw=true" alt="light 09" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme010.png?raw=true" alt="light 10" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme011.png?raw=true" alt="light 11" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme012.png?raw=true" alt="light 12" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme013.png?raw=true" alt="light 13" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme014.png?raw=true" alt="light 14" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme015.png?raw=true" alt="light 15" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme016.png?raw=true" alt="light 16" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme017.png?raw=true" alt="light 17" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme018.png?raw=true" alt="light 18" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme019.png?raw=true" alt="light 19" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme020.png?raw=true" alt="light 20" width="180"/>
+
 
 #### Dark Mode Color Schemes
 
-(Image, to be added.)
+Below you will find all the dark theme mode color schemes, with the scheme colors shown and their names.
+
+<img src="https://rydmike.com/assets/DarkScheme001.png?raw=true" alt="dark 01" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme002.png?raw=true" alt="light 02" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme003.png?raw=true" alt="light 03" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme004.png?raw=true" alt="light 04" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme005.png?raw=true" alt="light 05" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme006.png?raw=true" alt="light 06" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme007.png?raw=true" alt="light 07" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme008.png?raw=true" alt="light 07" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme009.png?raw=true" alt="light 09" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme010.png?raw=true" alt="light 10" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme011.png?raw=true" alt="light 11" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme012.png?raw=true" alt="light 12" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme013.png?raw=true" alt="light 13" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme014.png?raw=true" alt="light 14" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme015.png?raw=true" alt="light 15" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme016.png?raw=true" alt="light 16" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme017.png?raw=true" alt="light 17" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme018.png?raw=true" alt="light 18" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme019.png?raw=true" alt="light 19" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme020.png?raw=true" alt="light 20" width="180"/>
 
 ## Funky Theme Names?
 
