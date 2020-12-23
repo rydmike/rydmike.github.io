@@ -4,24 +4,32 @@
 ## FlexColorScheme
 
 **FlexColorScheme** can help you make beautiful color scheme based Flutter themes, using optional color branded
-surfaces. The created themes are based on the same concept as Flutter's `ColorScheme` based themes,
+surfaces. The created themes are based on the same concept as Flutter's **ColorScheme** based themes,
 but with a few interesting twists and additional features.
 
 **FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme).
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
-
 ### Background
 
+When you make and design Flutter applications you should base the colors your application use on a light theme mode
+ColorScheme and a dark theme mode ColorScheme. Then make your light and dark ThemeData from these color schemes, and in 
+your MaterialApp use these themes for the light and dark mode. This gives you an application that uses the defined 
+color scheme on the built-in Material UI Widgets, well on most of them anyway. 
+
+Your custom theme's and custom widgets should also use these colors
+via the color scheme colors in the ThemeData, so that your app gets a consistent design, that animates theme color 
+changes, and can be easily maintained when you need to change the look of your application.
+
 FlexColorScheme was born when I was trying to make pretty themes for the [Flexfold](flexfold) demo app and from
-some other real projects as well. I wanted a way to make it easier to make pretty color branded themes that also
+some other real projects as well. I needed a way to make it easier to make pretty color branded themes, that 
 work well for web and desktop apps. 
 
-I also wanted to fix some theming gaps in Flutter's default ColorScheme based 
-themes that I found myself fixing in pretty much every app. I also wanted to make it easy to build and support
-interactive in app theming, which actually is pretty easy to do already with the basic SDK, but FlexColorScheme
-makes it even easier.
+I also wanted to address ColorScheme based theming gaps in Flutter's default ColorScheme based ThemeData creation,
+that I found myself fixing in pretty much every app. Additionally, I wanted to make it easy to build and support
+interactive in application theming, which actually is pretty easy to do already with the basic SDK, but FlexColorScheme
+makes it even easier to switch among many themes, and vary a few other custom theme preference settings as well.
 
 ### Live Web Versions of the FlexColorScheme Examples
 
@@ -152,15 +160,19 @@ ThemeData only. I still recommend using the newer buttons for their nicer intera
 theming possibilities. However, if you happen to use the old buttons, at least they won't look out of place with the
 rest of the used colors in your application's color scheme.
 
-### The end result?
+### The Difference
 
-In the package documentation read.me file there is detailed list of all the corrections, and some minor opinionated
-adjustments FlexColorScheme does to a theme made from a ColorScheme compared to the standard ThemeData.from factory.
+In the package documentation read.me file there is 
+[**detailed list**](https://pub.dev/packages/flex_color_scheme#used-theme-customizations)
+of all the corrections, and some minor opinionated adjustments FlexColorScheme does to a theme made from a 
+ColorScheme compared to the standard ThemeData.from factory.
 
 The best way to show this is via a visual comparison. To make it more applicable to the case of also using
-branded surfaces, the surface and background use a slight primary color branding in this example. The default in
-Flutter is of course to not use any color branding, when doing, so the backgrounds would just be plain white or dark
-instead.
+branded surfaces, the surface and background colors use a slight primary color branding in this example. The default in
+Flutter is to not use any color branding, when doing, so the backgrounds would just be plain white or dark
+instead, for both cases. FlexColorScheme certainly does normal plain backgrounds too, but for this comparison I 
+wanted to show the difference in the look you get when you also use slight color branding on 
+the surface and background colors.
 
 The chosen color scheme for the demonstration below was selected because it uses colors that makes the differences 
 obvious. Depending on your color scheme's colors, the differences might be less obvious.
@@ -210,52 +222,52 @@ make you own custom flex color schemes.
 
 Below you will find all the light theme mode color schemes, with the scheme colors shown and their names.
 
-<img src="https://rydmike.com/assets/LightScheme001.png?raw=true" alt="light 01" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme002.png?raw=true" alt="light 02" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme003.png?raw=true" alt="light 03" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme004.png?raw=true" alt="light 04" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme005.png?raw=true" alt="light 05" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme006.png?raw=true" alt="light 06" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme007.png?raw=true" alt="light 07" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme008.png?raw=true" alt="light 07" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme009.png?raw=true" alt="light 09" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme010.png?raw=true" alt="light 10" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme011.png?raw=true" alt="light 11" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme012.png?raw=true" alt="light 12" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme013.png?raw=true" alt="light 13" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme014.png?raw=true" alt="light 14" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme015.png?raw=true" alt="light 15" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme016.png?raw=true" alt="light 16" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme017.png?raw=true" alt="light 17" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme018.png?raw=true" alt="light 18" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme019.png?raw=true" alt="light 19" width="180"/>
-<img src="https://rydmike.com/assets/LightScheme020.png?raw=true" alt="light 20" width="180"/>
+<img src="https://rydmike.com/assets/LightScheme001.png?raw=true" alt="light 01" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme002.png?raw=true" alt="light 02" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme003.png?raw=true" alt="light 03" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme004.png?raw=true" alt="light 04" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme005.png?raw=true" alt="light 05" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme006.png?raw=true" alt="light 06" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme007.png?raw=true" alt="light 07" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme008.png?raw=true" alt="light 07" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme009.png?raw=true" alt="light 09" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme010.png?raw=true" alt="light 10" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme011.png?raw=true" alt="light 11" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme012.png?raw=true" alt="light 12" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme013.png?raw=true" alt="light 13" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme014.png?raw=true" alt="light 14" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme015.png?raw=true" alt="light 15" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme016.png?raw=true" alt="light 16" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme017.png?raw=true" alt="light 17" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme018.png?raw=true" alt="light 18" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme019.png?raw=true" alt="light 19" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme020.png?raw=true" alt="light 20" width="200"/>
 
 
 #### Dark Mode Color Schemes
 
 Below you will find all the dark theme mode color schemes, with the scheme colors shown and their names.
 
-<img src="https://rydmike.com/assets/DarkScheme001.png?raw=true" alt="dark 01" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme002.png?raw=true" alt="light 02" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme003.png?raw=true" alt="light 03" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme004.png?raw=true" alt="light 04" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme005.png?raw=true" alt="light 05" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme006.png?raw=true" alt="light 06" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme007.png?raw=true" alt="light 07" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme008.png?raw=true" alt="light 07" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme009.png?raw=true" alt="light 09" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme010.png?raw=true" alt="light 10" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme011.png?raw=true" alt="light 11" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme012.png?raw=true" alt="light 12" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme013.png?raw=true" alt="light 13" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme014.png?raw=true" alt="light 14" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme015.png?raw=true" alt="light 15" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme016.png?raw=true" alt="light 16" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme017.png?raw=true" alt="light 17" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme018.png?raw=true" alt="light 18" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme019.png?raw=true" alt="light 19" width="180"/>
-<img src="https://rydmike.com/assets/DarkScheme020.png?raw=true" alt="light 20" width="180"/>
+<img src="https://rydmike.com/assets/DarkScheme001.png?raw=true" alt="dark 01" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme002.png?raw=true" alt="light 02" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme003.png?raw=true" alt="light 03" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme004.png?raw=true" alt="light 04" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme005.png?raw=true" alt="light 05" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme006.png?raw=true" alt="light 06" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme007.png?raw=true" alt="light 07" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme008.png?raw=true" alt="light 07" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme009.png?raw=true" alt="light 09" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme010.png?raw=true" alt="light 10" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme011.png?raw=true" alt="light 11" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme012.png?raw=true" alt="light 12" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme013.png?raw=true" alt="light 13" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme014.png?raw=true" alt="light 14" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme015.png?raw=true" alt="light 15" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme016.png?raw=true" alt="light 16" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme017.png?raw=true" alt="light 17" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme018.png?raw=true" alt="light 18" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme019.png?raw=true" alt="light 19" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme020.png?raw=true" alt="light 20" width="200"/>
 
 ## Funky Theme Names?
 
