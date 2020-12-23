@@ -160,9 +160,9 @@ ThemeData only. I still recommend using the newer buttons for their nicer intera
 theming possibilities. However, if you happen to use the old buttons, at least they won't look out of place with the
 rest of the used colors in your application's color scheme.
 
-### The Difference
+### The Difference?
 
-In the package documentation read.me file there is 
+In the package documentation read.me file there is a 
 [**detailed list**](https://pub.dev/packages/flex_color_scheme#used-theme-customizations)
 of all the corrections, and some minor opinionated adjustments FlexColorScheme does to a theme made from a 
 ColorScheme compared to the standard ThemeData.from factory.
@@ -207,21 +207,21 @@ In any case, FlexColorScheme takes care of this color scheme based theme inconsi
 <img src="https://rydmike.com/assets/ColorSchemeCompareDark.png?raw=true" alt="compare dark"/>
 
 
-### Built-in Color Schemes
+## Built-in Color Schemes
 
 Naturally we have to have some ready to use and built-in example color scheme to use and play with. 
 **FlexColorScheme** comes with 20 ready to go color schemes that you can try, and use in you apps if you like. 
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
-the Flutter and Material Design guide examples of light and dark mode themes, an the high contrast light and 
+the Flutter and Material Design guide examples of light and dark mode themes, and the high contrast light and 
 dark color version as well. So OK, there is actually "only" 18 new ready-made bonus color schemes.
-I might add more designs later versions if there are requests for more, or perhaps some proposed nice 
+I might add more designs in later versions if there are requests, or some proposed nice 
 additional color schemes you would like to have included. 
 
 There is of course no need to use any of the built-in color schemes, the package examples show how you can easily 
-make you own custom flex color schemes.
+make you own custom flex color schemes. Maybe these will inspire you.
 
-#### Light Mode Color Schemes
+### Light Mode Color Schemes
 
 Below you will find all the light theme mode color schemes, with the scheme colors shown and their names.
 
@@ -247,7 +247,7 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 <img src="https://rydmike.com/assets/LightScheme020.png?raw=true" alt="light 20" width="200"/>
 
 
-#### Dark Mode Color Schemes
+### Dark Mode Color Schemes
 
 Below you will find all the dark theme mode color schemes, with the scheme colors shown and their names.
 
