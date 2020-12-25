@@ -24,7 +24,11 @@ on [**pub.dev**](https://pub.dev/).
 ### Public Projects
 
 My three main public Flutter projects are [**FlexColorPicker**](colorpicker), [**FlexColorScheme**](colorscheme)
-and [**Flexfold**](flexfold). The first two are published as reusable packages, and have live Flutter web 
+and [**Flexfold**](flexfold). 
+
+<img src="https://rydmike.com/assets/FlexFamily01.png?raw=true" alt="flexfamily"/>
+
+The first two are published as reusable packages, and have live Flutter web 
 examples demonstrating their usage. Flexfold is still a work in progress. There is a live web 
 demo of it, showing its features in great detail, but it is not yet available as a public package.
 
