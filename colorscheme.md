@@ -297,4 +297,4 @@ color names where just too hip to not use them in its scheme name too.
 Now when the secrets of the color schemes and interactive theming in the Flexfold demo app have been revealed, why not
 head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) and give it a try!
 
-Page updated 23.12.2020
+Page updated 27.12.2020
