@@ -32,7 +32,7 @@ The first two are published as reusable packages, and have live Flutter web
 examples demonstrating their usage. Flexfold is still a work in progress. There is a live web 
 demo of it, showing its features in great detail, but it is not yet available as a public package.
 
-Welcome, enjoy the packages and demos!
+Welcome, and enjoy the demos!
 
 [-Mike](https://twitter.com/RydMike)
 
@@ -46,4 +46,4 @@ another story, they contain **pixie dust** and **Flutter magic**.
 >I might change the site content to a Flutter web application some day. It would be an interesting experiment
 >to make a basic web content management system with Flutter, even if that is not one of Flutter's core strengths.
 
-Page updated 23.12.2020
+Page updated 29.12.2020

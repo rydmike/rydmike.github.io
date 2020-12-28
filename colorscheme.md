@@ -15,20 +15,21 @@ but with a few interesting twists and additional features.
 
 When you make and design Flutter applications you should base the colors your application use on a light theme mode
 ColorScheme and a dark theme mode ColorScheme. Then make your light and dark ThemeData from these color schemes, and in 
-your MaterialApp use these themes for the light and dark mode. This gives you an application that uses the defined 
-color scheme on the built-in Material UI Widgets, well on most of them anyway. 
+your MaterialApp use these themes for the light and dark-mode. This gives you an application that uses the defined 
+color scheme on the built-in Material UI Widgets, well on most of them anyway, Flutter's `ThemeData.from` a 
+`ColorScheme` has a few gaps, the defined color scheme is not consistently applied to all standard built in Widgets. 
 
-Your custom theme's and custom widgets should also use these colors
-via the color scheme colors in the ThemeData, so that your app gets a consistent design, that animates theme color 
-changes, and can be easily maintained when you need to change the look of your application.
+Your custom theme's and custom widgets should also use these colors via the color scheme colors in the ThemeData, 
+so that your app gets a consistent design, that animates theme color changes, and can be easily maintained when you 
+need to change the look of your application.
 
-FlexColorScheme was born when I was trying to make pretty themes for the [Flexfold](flexfold) demo app and from
-some other real projects as well. I needed a way to make it easier to make pretty color branded themes, that 
-work well for web and desktop apps. 
+**FlexColorScheme** was born when I was trying to make pretty themes for the [Flexfold](flexfold) demo app and from
+some other real projects as well. I needed a way to make it easier to make pretty surface color branded themes, that 
+work well for Web and desktop apps. 
 
-I also wanted to address ColorScheme based theming gaps in Flutter's default ColorScheme based ThemeData creation,
-that I found myself fixing in pretty much every app. Additionally, I wanted to make it easy to build and support
-interactive in application theming, which actually is pretty easy to do already with the basic SDK, but FlexColorScheme
+I also wanted to address the `ColorScheme` based theming gaps in Flutter's default ColorScheme based ThemeData creation,
+since I found myself fixing it in pretty much every app. Additionally, I wanted to make it easy to build and support
+interactive in-application theming, which actually is pretty easy to do already with the basic SDK. FlexColorScheme
 makes it even easier to switch among many themes, and vary a few other custom theme preference settings as well.
 
 ### Live Web Versions of the FlexColorScheme Examples
@@ -39,52 +40,58 @@ before in the [**Flexfold demo**](http://rydmike.com/demoflexfold) web app on it
 
 [**In example 1**](https://rydmike.com/flexcolorscheme1)
 we just use a built-in scheme as our application's theme and toggle between its light and dark variant, or allow device
-theme mode to control if the dark or light theme is used.  
+theme-mode to control if the dark or light theme is used.
+
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1al.png?raw=true" alt="ColorScheme example 1 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1ad.png?raw=true" alt="ColorScheme example 1 dark" width="190"/>
 
 [**Example 2**](https://rydmike.com/flexcolorscheme2)
 is a lot like the previous example, but we use our own custom defined colors to make a scheme and turn it into a theme.
 In this case I used a bit more dignified looking dark purple and deep green colors.  
+
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2al.png?raw=true" alt="ColorScheme example 2 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2ad.png?raw=true" alt="ColorScheme example 2 dark" width="190"/> 
 
 [**With example 3**](https://rydmike.com/flexcolorscheme3)
 we are getting a bit fancier, we can now switch active theme between 3 different predefined color schemes,
 plus the custom one we made in the previous example. Since previous color scheme was a bit too somber, I added 
-the Hippie blue scheme to this example. New in this example is also that the surface and background colors receives a
+the Hippie blue scheme to this example. New in this example is also that the surface and background colors receive a
 strong blend of the primary color in both dark and light mode.  
+
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3al.png?raw=true" alt="ColorScheme example 3a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3ad.png?raw=true" alt="ColorScheme example 3a dark" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3bl.png?raw=true" alt="ColorScheme example 3b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3bd.png?raw=true" alt="ColorScheme example 3b dark" width="190"/>
 
 [**In example 4**](https://rydmike.com/flexcolorscheme4)
-we are going all in, we can now use a popup dialog to select any of the predefined schemes, plus the one we
-made above and two more. An olive green scheme defined from just one color per theme mode. Despite that only one 
-color was used, it still has automatic default nuances when created with the `FlexSchemeColor.from` method. 
-For the third custom Toledo orange scheme we define the primary and secondary scheme colors, but only for the 
-light scheme. The dark scheme we create from the light scheme with the `FlexSchemeColor.toDark` method.
+we are going all in, we can now use a popup dialog to select any of the predefined schemes, and the one we
+made above, plus two more. 
+* An olive green scheme defined from just one color per theme mode. Despite that only one
+  color was used, it still has automatic default nuances when created with the `FlexSchemeColor.from` method. 
+* For the third scheme, custom Toledo orange, we define the primary and secondary scheme colors, but only for the 
+  light scheme. The dark scheme is created from the light scheme with the `FlexSchemeColor.toDark` method.
+  This demonstrates that if you don't have time to make custom tuned color scheme for dak mode, you can do it
+  automatically from the light color scheme. This is a **new feature in version 1.1.0** of FlexColorScheme.
 
-Surface and background branding level is a bit lower in this example than in the previous one, it is set to medium.  
+Surface and background branding level is a bit lower in this example than in the previous one, it is set to medium.
+
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4al.png?raw=true" alt="ColorScheme example 4a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4bl.png?raw=true" alt="ColorScheme example 4b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cl.png?raw=true" alt="ColorScheme example 4c light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cd.png?raw=true" alt="ColorScheme example 4c dark" width="190"/>
 
 [**Example 5**](https://rydmike.com/flexcolorscheme5)
 is the last, and most complex one of the package bundled examples. It presents more configuration options that we
 can play with interactively. This example is best seen and tested on a tablet, desktop or web browser, 
-rather than on a phone, but it certainly works dandy on a phone too. 
+rather than on a phone, but it certainly works well on a phone too. 
 This example can do a lot of the things seen on the **Theme** page in 
 the [**Flexfold demo app**](https://rydmike.com/demoflexfold). It even has a fake semi responsive menu/rail included, 
-so that we can see more of the branded surfaces. 
+so that we can see more of the primary color branded background surface. 
 
 This example can even do two tricks that the [**Flexfold demo app**](https://rydmike.com/demoflexfold) cannot:
 
-1. It allows you to toggle the dark theme between using the defined hand tune dark scheme colors, or calculating 
+1. It allows you to toggle the dark theme between using the predefined hand-tuned dark colors, or calculating 
    them with the `FlexSchemeColor.toDark` method and using this result for the dark scheme instead. This 
-   demonstrates that for quick dark mode schemes, from a set of colors for a light theme, you can also create quick 
-   matching dark mode scheme of it without hand-picking the colors. For actual apps you use in a theme you propably 
+   demonstrates that for quick dark mode schemes, from a set of existing colors for a light scheme, you can create  
+   matching dark mode scheme of it without hand-picking the colors. For actual apps you use in a theme you probably 
    want to define and tune the dark mode colors, but as quick way to get matching dark mode colors the method works
-   surprisingly well and it can also be tuned with its `whiteBlend` parameter.
-   
+   surprisingly well, and its result can also be adjusted a bit with its optional `whiteBlend` parameter.
 
-2. It can use the `ColorScheme` data that it has defined, and instead of creating the theme with its own `toTheme` 
-   method, it can do it with the standard `ThemeData.from` factory using this `ColorScheme`. If you open two versions 
-   of the example side by side, in two browser-windows, you can compare the results, not quite the same thing!
+2. It can use the `ColorScheme` data that it is defined, and instead of creating the theme with its own `toTheme` 
+   getter, it can do it with the standard `ThemeData.from` factory using its defined `ColorScheme`. If you open two
+   versions of example 5 side by side, in two browser-windows, you can compare the results. Not quite the same thing!
    **FlexSchemeColors** is working a bit of its theming magic in comparison.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5al.png?raw=true" alt="ColorScheme example 5 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5bl.png?raw=true" alt="ColorScheme example 5b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5fl.png?raw=true" alt="ColorScheme example 5f light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5gl.png?raw=true" alt="ColorScheme example 5g light" width="190"/>
@@ -92,9 +99,9 @@ This example can even do two tricks that the [**Flexfold demo app**](https://ryd
 ### Flexfold Demo App Uses FlexColorScheme
 
 The Flexfold web demo app uses the **FlexColorScheme** package for all of its theming.
-The Flexfold demo just has quite a bit much more surface areas visible that uses color branded surfaces, this 
+It just has more surface area visible that use color branded surfaces and backgrounds. This 
 tends to look a bit cooler than the above phone images, even when they are run as web apps. It might not seem so 
-when looking at the phone screenshots above, but yes the Flexfold demo app is really using exactly the same 
+when looking at the phone screenshots above, but yes the Flexfold demo app is using exactly the same 
 themes via the **FlexColorScheme** package, proving that it can look pretty cool, like this:
 
 <img src="https://rydmike.com/assets/FoldTheme1.gif?raw=true" alt="FlexColorScheme" width="800"/>
@@ -103,7 +110,8 @@ To play with the **FlexColorScheme** based themes in the Flexfold demo app, just
 [**Flexfold demo**](https://rydmike.com/demoflexfold) and go to the **Theme** page. 
 
 If you select custom theme, custom surface and custom app bar, you can pretty much build
-any kind of theme you want interactively using [**FlexColorPicker**](https://rydmike.com/colorpicker) to pick colors.
+any kind of theme you want interactively using [**FlexColorPicker**](https://rydmike.com/colorpicker) to select colors
+interactively for the scheme colors and even surfaces.
 
 ## Why FlexColorScheme?
 
@@ -114,10 +122,9 @@ The colors in a `ColorScheme` and their usage follow the Material Guide's
 [**color design guide**](https://material.io/design/color/).
 
 The migration to move all Flutter Material UI widgets to only use `ColorScheme` derived colors is still in progress.
-Some changes will inevitable also break with past default behavior from `ThemeData` factory. This public design
+Some changes will inevitable also break with past default behavior from the `ThemeData` factory. This public design
 [**document**](https://docs.google.com/document/d/1kzIOQN4QYfVsc5lMZgy_A-FWGXBAJBMySGqZqsJytcE/edit#heading=h.pub7jnop54q0) 
 explains the ongoing migration in detail.
-
 
 ### ColorScheme Theme Gaps
 
@@ -188,20 +195,20 @@ the surface and background colors.
 
 The chosen color scheme for the demonstration below was selected because it uses colors that makes the differences 
 obvious. Depending on your color scheme's colors, the differences might be less obvious. The key differences are marked
-with red boxes on the image from standard method on the left side.
+with red boxes on the image from standard method, shown on the left side.
 
 #### Light Theme Mode Comparison
 
 Apart from the more nuanced and selective surface and background color branding, we see some highlighted differences on
 Material UI widgets in the **Theme Showcase** section. There are also some colors in the old ThemeData that do not get 
-color scheme based colors applied to them at all! The fact that those are missing, impacts colors of some widgets that
-still use them for their defaults, they will be left at the blue shades even in this orange and green colored theme.
+color scheme based colors applied at all! The fact that those are missing, impacts colors of some widgets that
+still use them for their default colors, they will be left at the blue shades even in this orange and green colored 
+theme.
 
 These screenshots are straight from package [**Example 5**](https://rydmike.com/flexcolorscheme5). The example 
 has a built-in toggle that allows you to try a `ColorScheme` based theme, using the standard 
-`ThemeData.from(colorscheme)` theme
-creation method or the `FlexColorScheme.toTheme` property (getter). The toggle that switches between these options, 
-is marked in the screenshot below.
+`ThemeData.from(colorscheme)` theme creation method or the `FlexColorScheme.toTheme` property (getter). The 
+toggle that switches between these options, is marked in the screenshot below.
 
 <img src="https://rydmike.com/assets/ColorSchemeCompareLight.png?raw=true" alt="compare light"/>
 
@@ -209,34 +216,33 @@ is marked in the screenshot below.
 
 In dark-mode there is an additional difference. Flutter's current version of `ThemeData.from(colorscheme)`,
 does not set the `ThemeData` property `toggleableActive` to a color from the `ColorScheme` in dark-mode.
-The ThemeData factory sets this to accent color, which would be
-the equivalent of secondary color in a ColorScheme. Why it does not set this property
-is unknown, it really should in order to make a dark theme that follows the used color scheme. This was also
-reported as the first point in issue and analysis [**(#65782)**](https://github.com/flutter/flutter/issues/65782).
-
+The ThemeData factory sets this to `accentColor`, which would be
+the equivalent of `secondary` color in a ColorScheme. This was also reported as the first point in issue and analysis 
+[**(#65782)**](https://github.com/flutter/flutter/issues/65782).
 The Flutter `ThemeData.from(colorScheme)` factory sets a number of other color properties in `ThemeData`, why not this 
-one too? In any case, **FlexColorScheme** takes care of this color scheme based theme inconsistency as well.
+one too? It really should in order to make a dark theme that follows the used color scheme. 
+In any case, **FlexColorScheme** takes care of this color scheme based theme inconsistency as well.
 
 <img src="https://rydmike.com/assets/ColorSchemeCompareDark.png?raw=true" alt="compare dark"/>
 
-
 ## Built-in Color Schemes
 
-Naturally we have to have some ready to use and built-in example color schemes to use and play with. 
+Color Schemes are no fun without some built-in example color schemes to use and play with. 
 **FlexColorScheme** comes with 20 ready to go color schemes that you can use in your apps if you like. 
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
 the Flutter and Material Design guide examples of light and dark mode themes, and the high contrast light and 
 dark color version as well. So OK, there are actually "only" 18 new ready-made bonus color schemes.
+
 I might add more designs in later versions if there are requests, or some proposed nice 
 additional color schemes you would like to have included. 
 
 There is of course no need to use any of the built-in color schemes, the package examples show how you can easily 
-make you own custom flex color schemes, maybe these will inspire you.
+make your own custom ones, but maybe these will at leas inspire you.
 
 ### Light Mode Color Schemes
 
-Below you will find all the light theme mode color schemes, with the scheme colors shown and their names.
+Below you will find all the light theme mode color schemes, with the scheme colors shown.
 
 <img src="https://rydmike.com/assets/LightScheme001.png?raw=true" alt="light 01" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme002.png?raw=true" alt="light 02" width="200"/>
@@ -262,7 +268,7 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 
 ### Dark Mode Color Schemes
 
-Below you will find all the dark theme mode color schemes, with the scheme colors shown and their names.
+Below you will find all the dark theme mode color schemes, with the scheme colors shown.
 
 <img src="https://rydmike.com/assets/DarkScheme001.png?raw=true" alt="dark 01" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme002.png?raw=true" alt="light 02" width="200"/>
@@ -285,16 +291,16 @@ Below you will find all the dark theme mode color schemes, with the scheme color
 <img src="https://rydmike.com/assets/DarkScheme019.png?raw=true" alt="light 19" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme020.png?raw=true" alt="light 20" width="200"/>
 
-## Funky Theme Names?
+## Funky Color Scheme Names?
 
-So where do the funky theme names come from? Like Mandy red and Hippie blue among others. I used the Flexfold
-demo app's custom theme mode, to design s§ome of the color schemes in FlexColorScheme. When you do that
-the used [**FlexColorPicker**](https://rydmike.com/colorpicker) names the chosen color automatically. Sometimes the
-color names where just too hip to not use them in its scheme name too.
+So where do the funky scheme names come from? Like Mandy red and Hippie blue among others. I used the Flexfold
+demo app's custom theme mode, to design some of the color schemes in FlexColorScheme. While doing that, 
+[**FlexColorPicker**](https://rydmike.com/colorpicker) names the chosen color automatically.
+Sometimes the automatically assigned color names where just so hip, that I had to use them in the scheme names too.
 
 ---
 
 Now when the secrets of the color schemes and interactive theming in the Flexfold demo app have been revealed, why not
 head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) and give it a try!
 
-Page updated 27.12.2020
+Page updated 29.12.2020
