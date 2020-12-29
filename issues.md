@@ -1,4 +1,4 @@
-| [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [Color icker](colorpicker) |  
+| [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
 | [Talo](talo)                | [Grid](gridview)     | Issues                     | [Experiments](experiments) |
 
 ## Flutter Issue Reports
