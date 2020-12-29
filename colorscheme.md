@@ -82,13 +82,13 @@ so that we can see more of the primary color branded background surface.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5al.png?raw=true" alt="ColorScheme example 5 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5bl.png?raw=true" alt="ColorScheme example 5b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5fl.png?raw=true" alt="ColorScheme example 5f light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5gl.png?raw=true" alt="ColorScheme example 5g light" width="190"/>
 
-This example can even do two tricks that the [**Flexfold demo app**](https://rydmike.com/demoflexfold) cannot.
+Example 5 can even do two tricks that the [**Flexfold demo app**](https://rydmike.com/demoflexfold) cannot.
 
 It allows you to toggle the dark theme between using the predefined hand-tuned dark colors, or calculating 
-them with the `FlexSchemeColor.toDark` method and using this result for the dark scheme instead. This 
+them all with the `FlexSchemeColor.toDark` method and using this result for the dark scheme instead. This 
 demonstrates that for quick dark mode schemes, from a set of existing colors for a light scheme, you can create  
-matching dark mode scheme of it without hand-picking the colors. For actual apps you use in a theme you probably 
-want to define and tune the dark mode colors, but as quick way to get matching dark mode colors the method works
+matching dark mode scheme of it without hand-picking the colors. For actual apps you probably 
+want to define and tune the dark mode colors, but as quick way to get matching dark mode colors, this method works
 surprisingly well, and its result can also be adjusted a bit with its optional `whiteBlend` parameter.
 
 With the above **deep blue sea** scheme, the computed ones are a bit more dull and muted in this example.
@@ -97,15 +97,18 @@ These screenshots are using medium surface branding, the computed dark scheme is
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5ad.png?raw=true" alt="ColorScheme example 5 dark" width="280"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5ad-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
 
 With some other schemes, like the **Aqua blue** one there is only a minor difference. These screenshots
-are using strong surface branding, the computed dark scheme is on the right.
+are using strong surface branding, the computed dark scheme is on the right. This demo is quite interesting and I
+will probably add it to the Flexfold demo soon as well.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5a2d.png?raw=true" alt="ColorScheme example 5a2 dark" width="280"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5a2d-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
 
-Example 5 can use the `ColorScheme` data that is defined, and instead of creating the theme with its own `toTheme` 
-getter, it can do it with the standard `ThemeData.from` factory using its defined `ColorScheme`. If you open two
-versions of example 5 side by side, in two browser-windows, you can compare the results. Not quite the same thing,
-**FlexSchemeColors** is working a bit of its theming magic in comparison. You can also see the differences with 
-explanations in the comparison examples further [below](#light-theme-mode-comparison).
+Another thing example 5 can do, that the Flexfold demo app cannot, is to use `FlexColorScheme.toScheme` to
+extract a standard `ColorScheme` object and instead of creating the theme with its own `toTheme` method, it can 
+and do it with the standard `ThemeData.from` factory using this extracted `ColorScheme`. If you open two
+versions of example 5 side by side, in two browser-windows, you can compare the results by turning OFF the
+"Make the theme with FlexColorScheme toTheme method" toggle in one window. Not quite the same thing,
+**FlexSchemeColors** is working a bit of its theming magic in comparison. You can also see these differences, with 
+explanations, in the light and dark comparison examples further [below](#light-theme-mode-comparison).
 
 ### Flexfold Demo App Uses FlexColorScheme
 
