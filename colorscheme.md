@@ -231,14 +231,14 @@ Color Schemes are no fun without some built-in example color schemes to use and 
 **FlexColorScheme** comes with 20 ready to go color schemes that you can use in your apps if you like. 
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
-the Flutter and Material Design guide examples of light and dark mode themes, and the high contrast light and 
-dark color version as well. So OK, there are actually "only" 18 new ready-made bonus color schemes.
+the Flutter and Material Design guide examples of light and dark mode themes, and the Flutter high contrast light and 
+dark version as well. So OK, there are actually "only" 18 new ready-made color schemes.
 
 I might add more designs in later versions if there are requests, or some proposed nice 
 additional color schemes you would like to have included. 
 
 There is of course no need to use any of the built-in color schemes, the package examples show how you can easily 
-make your own custom ones, but maybe these will at leas inspire you.
+make your own custom ones, but maybe these will at least inspire you.
 
 ### Light Mode Color Schemes
 
