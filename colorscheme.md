@@ -269,7 +269,7 @@ In any case, **FlexColorScheme** takes care of this color scheme based theme inc
 
 ## Built-in Color Schemes
 
-Color Schemes are no fun without some built-in example color schemes to use and play with. 
+Color schemes are no fun without some built-in examples to use and play with. 
 **FlexColorScheme** comes with 20 ready to go color schemes that you can use in your apps if you like. 
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
