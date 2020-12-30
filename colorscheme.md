@@ -92,12 +92,12 @@ them all with the `FlexSchemeColor.toDark` method and using this result for the 
 demonstrates that for quick dark mode schemes, from a set of existing colors for a light scheme, you can create a  
 very decent matching dark mode scheme from it, without need to hand-pick the dark scheme colors. 
 
-For actual apps you probably want to define and tune the dark mode colors, but as a quick way to get matching dark-mode
+For actual apps you probably want to define and tune the dark theme colors, but as a quick way to get matching dark-mode
 colors, this works surprisingly well. The result can also be adjusted with the optional `whiteBlend` 
 level parameter.
 
-With the **deep blue sea** scheme, the computed dark scheme colors are a bit more muted compared to the ones that were
-hand-picked for its dark scheme. These screenshots are using medium surface branding, the computed dark scheme 
+With the **deep blue sea** scheme, the computed dark scheme colors are a bit more muted when compared to the ones that 
+were hand-picked for its dark scheme. These screenshots are using medium surface branding, the computed dark scheme 
 is on the right.
 
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5ad.png?raw=true" alt="ColorScheme example 5 dark" width="280"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5ad-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
