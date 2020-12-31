@@ -112,7 +112,7 @@ a slider that can be used to interactively change the `whiteBlend` level for the
 Let's select a color scheme, say the **Brand blues** one, then go dark. By default, it uses the built-in predefined 
 hand-picked matching dark scheme colors for the dark theme mode. 
 
-Now turn on the "Compute dark theme" mode, the result is pretty close the predefined one for this dark scheme with
+Now turn on the "Compute dark theme" mode, the result is pretty close to the predefined one for this dark scheme with
 the default level of 35%. Then adjust the white level blend to tune how saturated the computed dark scheme colors are 
 compared to their light scheme master. At 0% they are the same as the light scheme, at 100%, well then they are white, 
 not so useful. A range of 10...50% can produce excellent results. What is best depends on how saturated your starting 
