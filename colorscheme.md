@@ -37,7 +37,7 @@ settings as well.
 ### Live Web Versions of the FlexColorScheme Examples
 
 The FlexColorScheme package [documentation](https://pub.dev/packages/flex_color_scheme) contains five usage examples, 
-they are also available as Live Web demos. The examples ttart with a really simple use case and increase in
+they are also available as Live Web demos. The examples start with a really simple use case and increase in
 complexity with each example. The last example, number 5, does almost everything that you might have seen
 before in the [**Flexfold demo**](http://rydmike.com/demoflexfold) web app on its **Theme** page.
 
@@ -75,7 +75,7 @@ Surface and background branding level is a bit lower in this example than in the
 <img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4al.png?raw=true" alt="ColorScheme example 4a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4bl.png?raw=true" alt="ColorScheme example 4b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cl.png?raw=true" alt="ColorScheme example 4c light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cd.png?raw=true" alt="ColorScheme example 4c dark" width="190"/>
 
 [**Example 5**](https://rydmike.com/flexcolorscheme5) is the last, and most complex one of the package bundled examples.
-It has many scheme and theming configuration options that we can modify interactively. This example is best seen 
+It has many schemes and theming configuration options that we can modify interactively. This example is best seen 
 and tested on a tablet, desktop or web browser, rather than on a phone, but it certainly works well on a phone too.
 
 This example can do a lot of the things seen on the **Theme** page in the 
@@ -211,6 +211,21 @@ The convenience app bar theming features offered by **FlexColorScheme**, that al
 background or surface, or even a custom color that is not specified or included in the ColorScheme at all, 
 will remain unchanged by this implementation detail change.
 
+### TabBarTheme for the AppBar or Scaffold Usage (New in upcoming release 1.2.0)
+
+By default, the TabBar is designed to fit with the AppBar's theme, just as default Flutter ColorScheme do.
+FlexColorScheme will also adjust the TabBarTheme to match the active custom AppBarTheme choice you use. 
+
+Alternatively you can choose a TabBar designed for background and surface colors. This style works well if you intend to
+use the TabBar in a Scaffold, Sidebar, Drawer and Dialogs. If you do not plan to use the TabBar at all in the AppBar, 
+then you can choose this style, and you do not have to theme it separately to work well and match the used color scheme.
+
+Note that if your app bar background color is background styled, meaning dark, black, white, surface or background 
+colored, including the primary branded versions, then the TabBarTheme style for backgrounds will also work in the 
+AppBar, but that is however the only case when the same style fits for both use cases. 
+If you plan to use the TabBar both in AppBars and on Surfaces, then you have to pick one theme style and create 
+another custom theme for the use case you did not choose. The situation is equivalent with Flutter standard ColorScheme.
+
 ### Material Buttons
 
 FlexColorScheme also by default themes the old Flutter Material buttons to follow the same visual design that 
@@ -270,11 +285,12 @@ In any case, **FlexColorScheme** takes care of this color scheme based theme inc
 ## Built-in Color Schemes
 
 Color schemes are no fun without some built-in examples to use and play with. 
-**FlexColorScheme** comes with 20 ready to go color schemes that you can use in your apps if you like. 
+**FlexColorScheme** comes with 24 ready to go color schemes that you can use in your apps if you like.
+(The last 4 are new in upcoming version 1.2.0)
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
 the Flutter and Material Design guide examples of light and dark mode themes, and the Flutter high contrast light and 
-dark version as well. So OK, there are actually "only" 18 new ready-made color schemes.
+dark version as well. So OK, there are actually "only" 22 new ready-made color schemes.
 
 I might add more designs in later versions if there are requests, or some proposed nice 
 additional color schemes you would like to have included. 
@@ -306,6 +322,10 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 <img src="https://rydmike.com/assets/LightScheme018.png?raw=true" alt="light 18" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme019.png?raw=true" alt="light 19" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme020.png?raw=true" alt="light 20" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme021.png?raw=true" alt="light 21" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme022.png?raw=true" alt="light 22" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme023.png?raw=true" alt="light 23" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme024.png?raw=true" alt="light 24" width="200"/>
 
 
 ### Dark Mode Color Schemes
@@ -313,25 +333,29 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 Below you will find all the dark theme mode color schemes, with the scheme colors shown.
 
 <img src="https://rydmike.com/assets/DarkScheme001.png?raw=true" alt="dark 01" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme002.png?raw=true" alt="light 02" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme003.png?raw=true" alt="light 03" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme004.png?raw=true" alt="light 04" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme005.png?raw=true" alt="light 05" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme006.png?raw=true" alt="light 06" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme007.png?raw=true" alt="light 07" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme008.png?raw=true" alt="light 07" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme009.png?raw=true" alt="light 09" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme010.png?raw=true" alt="light 10" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme011.png?raw=true" alt="light 11" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme012.png?raw=true" alt="light 12" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme013.png?raw=true" alt="light 13" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme014.png?raw=true" alt="light 14" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme015.png?raw=true" alt="light 15" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme016.png?raw=true" alt="light 16" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme017.png?raw=true" alt="light 17" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme018.png?raw=true" alt="light 18" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme019.png?raw=true" alt="light 19" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme020.png?raw=true" alt="light 20" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme002.png?raw=true" alt="dark 02" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme003.png?raw=true" alt="dark 03" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme004.png?raw=true" alt="dark 04" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme005.png?raw=true" alt="dark 05" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme006.png?raw=true" alt="dark 06" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme007.png?raw=true" alt="dark 07" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme008.png?raw=true" alt="dark 07" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme009.png?raw=true" alt="dark 09" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme010.png?raw=true" alt="dark 10" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme011.png?raw=true" alt="dark 11" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme012.png?raw=true" alt="dark 12" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme013.png?raw=true" alt="dark 13" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme014.png?raw=true" alt="dark 14" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme015.png?raw=true" alt="dark 15" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme016.png?raw=true" alt="dark 16" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme017.png?raw=true" alt="dark 17" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme018.png?raw=true" alt="dark 18" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme019.png?raw=true" alt="dark 19" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme020.png?raw=true" alt="dark 20" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme021.png?raw=true" alt="dark 21" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme022.png?raw=true" alt="dark 22" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme023.png?raw=true" alt="dark 23" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme024.png?raw=true" alt="dark 24" width="200"/>
 
 ## Funky Color Scheme Names?
 
@@ -345,4 +369,4 @@ Sometimes the automatically assigned color names where just so hip, that I had t
 Now when the secrets of the color schemes and interactive theming in the Flexfold demo app have been revealed, why not
 head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) and give it a try!
 
-Page updated 30.12.2020
+Page updated 3.1.2021
