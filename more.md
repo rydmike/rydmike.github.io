@@ -40,26 +40,26 @@ errors:
 # Otherwise cause the import of all_lint_rules to warn because of some rules conflicts.
 # We explicitly enabled even conflicting rules and are fixing the conflict
 # in this file.
-included_file_warning: ignore
+  included_file_warning: ignore
 
-    # Treat missing required parameters as an error, not as a hint or a warning.
-    missing_required_param: error
+  # Treat missing required parameters as an error, not as a hint or a warning.
+  missing_required_param: error
 
-    # Treat missing returns as an error, not as a hint or a warning.
-    missing_return: error
+  # Treat missing returns as an error, not as a hint or a warning.
+  missing_return: error
 
-    # Allow having TODOs in the code.
-    todo: ignore
+  # Allow having TODOs in the code.
+  todo: ignore
 
-    # Causes false positives (https://github.com/dart-lang/sdk/issues/41571
-    top_level_function_literal_block: ignore
+  # Causes false positives (https://github.com/dart-lang/sdk/issues/41571
+  top_level_function_literal_block: ignore
 
-    # Treat assigning new values to a parameter as a warning.
-    # This warning rule can be a bit problematic sometimes when
-    # including other code. It does make code much safer though when this cannot
-    # be done without involving an extra variable for clarity and safety.
-    # https://dart-lang.github.io/linter/lints/parameter_assignments.html
-    parameter_assignments: warning
+  # Treat assigning new values to a parameter as a warning.
+  # This warning rule can be a bit problematic sometimes when
+  # including other code. It does make code much safer though when this cannot
+  # be done without involving an extra variable for clarity and safety.
+  # https://dart-lang.github.io/linter/lints/parameter_assignments.html
+  parameter_assignments: warning
 
 # Disable unwanted or conflicting lint rules
 linter:
