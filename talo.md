@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| Talo                        | [Grid](gridview)     | [Issues](issues)           | [Experiments](experiments)  |
+| Talo                        | [Grid](gridview)     | [Issues](issues)           | [More...](more)            |
 
 
 ## Development of TALO
@@ -82,7 +82,7 @@ Hopefully I can share some more details later.
 
 [-Mike](https://twitter.com/RydMike)
 
-PS. Talo is Finnish and means building.
+PS. Talo is Finnish and means house.
 
 ---
 Published 19.12.2020, Updated 22.12.2020

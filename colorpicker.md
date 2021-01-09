@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | ColorPicker                |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Experiments](experiments)  |
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [More...](more)            |
 
 ## FlexColorPicker
 

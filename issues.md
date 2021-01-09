@@ -1,7 +1,7 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | Issues                     | [Experiments](experiments) |
+| [Talo](talo)                | [Grid](gridview)     | Issues                     | [More...](more)            |
 
-## Flutter Issue Reports
+## Flutter Issues
 
 The code samples below are from Flutter issues I have reported in the main Flutter GitHub
 [**repository**](https://github.com/flutter/flutter/issues). These samples were made to demonstrate issues 
