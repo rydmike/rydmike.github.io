@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | Flexfold             | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [More ...](more)           |
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 ## Flexfold
 
@@ -67,8 +67,7 @@ The display order is random between the ones that are included for each page. On
 demo we go nuts and display hundreds of Undraw SVGs, where each one gets a random color and is animated in/out to
 another random image at random time intervals. This is just a wild test to stress Flutter on different platforms,
 especially on Web. I doubt it is really relevant to any real world use case, nevertheless it is interesting to
-see that it actually works. On desktop it is actually quite smooth in release builds, in Web builds it is a bit janky,
-but works.
+see that it actually works. On desktop builds it is actually really smooth in release mode, in Web builds it is a bit janky, but it works OK.
 
 <img src="https://rydmike.com/assets/undraw1.gif?raw=true" alt="Flexfold undraw" width="800"/>
 

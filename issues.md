@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | Issues                     | [More ...](more)           |
+| [Talo](talo)                | [Grid](gridview)     | Issues                     | [Blog](blog)               |
 
 ## Flutter Issues
 
@@ -25,7 +25,7 @@ shadows get too exaggerated.
 
 The sample code for this demo is available as a
 [**Gist here**](https://gist.github.com/rydmike/145828269bd8d24ee9c44a9df26ec7fb). You can try a live web version of 
-it built with CanvasKit [**here**](https://rydmike.com/elevation). If you run this in a DomCanvas build, eg by using 
+it built with CanvasKit [**here**](https://rydmike.com/elevation). If you run this in a DomCanvas build, e.g. by using 
 the Gist in a [**DartPad here**](https://dartpad.dartlang.org/145828269bd8d24ee9c44a9df26ec7fb) there is no elevation issue.
 
 This is a known Flutter issue and more info can be found 
@@ -46,7 +46,7 @@ point I will gather the energy to raise the issue again as stated in the above r
 <img src="https://rydmike.com/assets/FlutterClippingIssue.png?raw=true" alt="Clipping issue" width="600"/>
 
 The clip behavior mentioned [**here**](https://flutter.dev/docs/release/breaking-changes) in the Flutter docs, as a
-coming breaking change after version 1.22, does seem a bit related to the same clipping issue.
+coming breaking change after version 1.22, it does seem a bit related to the same clipping issue.
 The [**solution**](https://github.com/flutter/flutter/issues/18057) for it does however only seem to avoid the
 alias based clipping whenever possible, not to actually fix it, so it sounds more like another work around to
 the root SKIA based issue. We will see when the fix lands what its impact is. I will build the issue demo
@@ -76,7 +76,7 @@ I will test it again and follow up.
 
 The CanvasKit font issue and demo refers to issue [**#56319**](https://github.com/flutter/flutter/issues/56319). It has 
 been fully resolved and can no longer be observed with newer builds, the builds below are from the time when the issue
-stil existed show the live FAIL example still shows it. This demo might be of general interest since it shows
+still existed show the live FAIL example still shows it. This demo might be of general interest since it shows
 multiple mobile sized page routes on the same web page used for the font comparison demo. 
 
 * Demo with [**DomCanvas OK**](https://rydmike.com/fontissue/domcanvas/#/demo3).

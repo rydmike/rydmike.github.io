@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | ColorPicker                |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [More ...](more)           |
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 ## FlexColorPicker
 
@@ -22,7 +22,7 @@ The above demo shows the web version, but it works very well on mobile devices a
 One feature of the **FlexColorPicker** package is that it can be configured in many ways to provide just 
 the right amount of color picking features you need, with a style that fits your application.
 
-**FlexColorPicker** works on all Flutter platforms, Android, iOS, Web, Windows, MacOS and Linux. Here is an
+**FlexColorPicker** works on all Flutter platforms, Android, iOS, Web, Windows, macOS and Linux. Here is an
 example of the package bundled simple demo application running as a Windows desktop application.
 
 <img src="https://github.com/rydmike/flex_color_picker/blob/master/resources/ColorPickerEnterCode.gif?raw=true" 

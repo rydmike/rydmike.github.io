@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| Talo                        | [Grid](gridview)     | [Issues](issues)           | [More ...](more)           |
+| Talo                        | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 
 ## Development of TALO
@@ -8,7 +8,7 @@ Professionally I'm working on a project we call **TALO**. I am not at liberty to
 current stage, but below is a short summary and backstory of TALO and Flutter. Our resources are a bit
 limited when it comes to TALO's development, so while it is progressing, it is a bit of a
 slow burn at the moment. We are currently looking for investors and partners to help us speed up the development.
-If you want to contact us regarding TALO, my [Twitter DM's](https://twitter.com/RydMike) are open. 
+If you want to contact us regarding TALO, my [Twitter direct messages](https://twitter.com/RydMike) are open. 
 
 <img src="https://rydmike.com/assets/mr2_round400_tr.png?raw=true" alt="rydmike" width="200"/>
 

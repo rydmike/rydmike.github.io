@@ -1,10 +1,10 @@
 | Home                        | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [More ...](more)           |
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 ## Flutter Demos by [@RydMike](https://twitter.com/RydMike)
 
 On this [**GitHub** Pages](https://pages.github.com/) site I publish and present [**Flutter**](https://flutter.dev/)
-web application demos. Some of the demos are related to Flutter packages I have published and work on in my
+web application demos. Some demos are related to Flutter packages I have published and work on in my
 free time.
   
 I also go through selected Flutter issues that I have submitted, provide links to code samples and demos of them. 
@@ -26,7 +26,7 @@ on [**pub.dev**](https://pub.dev/).
 My three main public Flutter projects are [**FlexColorPicker**](colorpicker), [**FlexColorScheme**](colorscheme)
 and [**Flexfold**](flexfold). 
 
-<img src="https://rydmike.com/assets/FlexFamily01.png?raw=true" alt="flexfamily"/>
+<img src="https://rydmike.com/assets/FlexFamily01.png?raw=true" alt="flex family"/>
 
 The first two are published as reusable packages, and have live Flutter web 
 examples demonstrating their usage. Flexfold is still a work in progress. There is a live web 
