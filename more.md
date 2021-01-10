@@ -10,82 +10,104 @@ setup I found useful and wanted to share.
 ---
 
 ### My Dart and Flutter Analyzer and Linting Preferences
-*(Jan 9, 2021)*
+*(Jan 10, 2021)*
 
 In your own projects you can set up the Dart analyzer and linter to do your bidding, the way you like it, 
 without having to follow any corporate shared standard for it. I like to start by enabling all lint rules 
-in a file and including it in my `analysis_options.yaml` file.
+in a file, and including it in my `analysis_options.yaml` file. I simply call this file `all_lint_rules.yaml`,
+you can grab the latest official and always up to date version
+[**here**](https://dart-lang.github.io/linter/lints/options/options.html).
 
-I enable strong-mode, and lift things to error level that I think should be errors, so the analyzer won't even 
-let me compile stuff that does not comply to those settings.
+In my `analysis_options.yaml` I include this file. Exclude generated Dart files from being analyzed and enable 
+strong-mode. I lift things to error level that I think should be errors, then the analyzer won't even 
+let me compile things that do not comply.
 
-The rest is just turning OFF a few lint rules that conflicts with each other by using the choice I want when there 
-are mutually exclusive rules, and then of course turning OFF the rules I don't want. The `analysis_options.yaml` 
-starts like this:
+The rest is just turning OFF a few lint rules that conflicts with each other, by disabling the choice I 
+do not want for cases when there are mutually exclusive rules. finally I turn OFF the rules I don't want. 
+The `analysis_options.yaml` for this starts like this:
 
 
 ```yaml
 # Include and activate all lint rules, later below we disable the not used or desired ones.
 include: all_lint_rules.yaml
 analyzer:
-exclude:
-- "**/*.g.dart"
-- "**/*.freezed.dart"
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
 
-strong-mode:
-implicit-casts: false
-implicit-dynamic: false
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
 
-errors:
-# Otherwise cause the import of all_lint_rules to warn because of some rules conflicts.
-# We explicitly enabled even conflicting rules and are fixing the conflict
-# in this file.
-  included_file_warning: ignore
+  errors:
+    # Otherwise cause the import of all_lint_rules to warn because of some rules conflicts.
+    # We explicitly enabled even conflicting rules and are fixing the conflicts in this file.
+    included_file_warning: ignore
 
-  # Treat missing required parameters as an error, not as a hint or a warning.
-  missing_required_param: error
+    # Treat missing required parameters as an error, not as a hint or a warning.
+    missing_required_param: error
 
-  # Treat missing returns as an error, not as a hint or a warning.
-  missing_return: error
+    # Treat missing returns as an error, not as a hint or a warning.
+    missing_return: error
 
-  # Allow having TODOs in the code.
-  todo: ignore
+    # Allow having TODOs in the code.
+    todo: ignore
 
-  # Causes false positives (https://github.com/dart-lang/sdk/issues/41571
-  top_level_function_literal_block: ignore
+    # Causes false positives (https://github.com/dart-lang/sdk/issues/41571
+    top_level_function_literal_block: ignore
 
-  # Treat assigning new values to a parameter as a warning.
-  # This warning rule can be a bit problematic sometimes when
-  # including other code. It does make code much safer though when this cannot
-  # be done without involving an extra variable for clarity and safety.
-  # https://dart-lang.github.io/linter/lints/parameter_assignments.html
-  parameter_assignments: warning
+    # Treat assigning new values to a parameter as a warning. This warning rule or even more so if set to an error,
+    # can sometimes be a bit problematic you include other code directly that does it a lot. It does however, make code
+    # safer when this cannot be done without involving an extra local variable for clarity and safety. Enabling
+    # this error, even as just a warning, does get in the way a bit if all you want to do is a null to default
+    # value release runtime safety/fallback assignment. For that use case you have to add a local rule override.
+    # With null-safety the need for this kind of null check and re-assignment to default if null, pretty much goes away.
+    # Considering this comment in https://dart-lang.github.io/linter/lints/parameter_assignments.html:
+    #  "Assigning new values to parameters is generally a bad practice unless an operator
+    #   such as ??= is used. Otherwise, arbitrarily reassigning parameters is usually a mistake."
+    # One might even think the rule would allow using the ??= operator, but it does not. For now just keeping this lint
+    # as warning and overriding locally with "// ignore: parameter_assignments" when I need it for the "??=" operator,
+    # or some copy/paste in of some code that does crazy things and needs it too and that I don't want to deal with
+    # fixing at the moment.
+    parameter_assignments: warning
 
 # Disable unwanted or conflicting lint rules
 linter:
 ```
-
-As for what gets turned OFF in the above `linter:` section. Apart from anything that conflicts with its own 
+The rest, the `linter:` section is just a list of what should be turned OFF. As for what actually gets turned OFF, 
+apart from anything that conflicts with its own 
 counter-part, not much. I prefer things pretty strict, but that is just my personal preference. I documented the choices
 I made, and the reasoning behind the choices at the point in time when I made them. I vary it slightly depending on if I
 use it for a package or an app, keeping it even stricter for a public package, these options are also documented.
 
-[Here is the Gist](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full details of the 
+[**Here is the Gist**](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full details of the 
 settings I use in `analysis_options.yaml` for my personal projects.
 
 I might change a few settings as things evolve. One rule I found myself disliking recently is
 the `sort_constructors_first`. Sounds like it is all good, right? For the default constructor I agree, I want it first
 too, but **after that** I want to see all the properties of the default constructor with their comments, and not be 
-forced to scroll down to see them after all named constructors and factories.
+forced to scroll down to see them after all other named constructors and factories.
 
 ```yaml
-# I do like this lint rule, but I want to have the default constructor first, followed
-# by its properties, after this other named constructors and factories. This rule gets
-# in the way of that and forces you to put (often final) constructor properties after 
-# the named constructors and factories, making them tedious to find and disconnected from 
-# where I want to see and read them. This is especially the case if there are many 
-# constructors and factories and they have a lot of parameters.
-sort_constructors_first: false
+  # DO sort constructor declarations before other members.
+  #
+  # I do like this lint rule, but I want to have the default constructor first, followed
+  # by its properties, after this other named constructors and factories. This rule gets
+  # in the way of that and forces you to put (often final) constructor properties after all
+  # the named constructors and factories, making them tedious to find and disconnected from
+  # where I want to see, read and handily edit them. This is especially the case if there are many
+  # constructors and factories and they have a lot of parameters.
+  # For now, I disable this rules and order things as described above, which apart from the
+  # default constructor properties coming right after the constructor, is the only minor point
+  # where it I deviates from this rule, so other than that I do put constructors first.
+  #
+  # Other known linters use:
+  # Pedantic       disabled : https://pub.dev/packages/pedantic
+  # Effective Dart disabled : https://pub.dev/packages/effective_dart
+  # Lint           disabled : https://pub.dev/packages/lint
+  #                           Discussion https://github.com/passsy/dart-lint/issues/1
+  # Flutter repo   enabled  : https://github.com/flutter/flutter/blob/master/analysis_options.yaml
+  sort_constructors_first: false
 ```
 
 #### Why Not Use a Linting Package?
@@ -139,4 +161,4 @@ Source GIST: [**Padding Slivers with SliverPadding and demo of why Padding does 
 
 
 ---
-Page updated 9.1.2021
+Page updated 10.1.2021
