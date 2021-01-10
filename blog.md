@@ -8,8 +8,9 @@ to present something that did not look quite right, but sometimes they can just 
 example, snippet or a setup I found useful and wanted to share in short Blog like format,
 and also document it, so I can find it myself when I need it again.
 
-<img src="https://rydmike.com/assets/flutter_santa.jpg?raw=true" alt="flutter santa" width="200"/>   
-Chill, peace and Flutter love to ya all! 💙
+Chill, peace and Flutter love to ya all! 💙  
+<img src="https://rydmike.com/assets/flutter_santa.jpg?raw=true" alt="flutter santa" width="300"/>   
+
 
 ---
 
