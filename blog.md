@@ -14,7 +14,7 @@ Chill, peace and Flutter love to ya all! 💙
 
 ---
 
-## My Flutter Analyzer and Linting Preferences
+## My Flutter Linting Preferences
 *(Jan 10, 2021)*
 
 In your own projects you can set up the Dart analyzer and linter to do your bidding, the way you like it, 
