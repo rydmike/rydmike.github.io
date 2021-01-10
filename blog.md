@@ -113,7 +113,7 @@ comments, and not be forced to scroll down to find them far below after all othe
 # the named constructors and factories, making them tedious to find and disconnected from
 # where I want to see, read and handily edit them. This is especially the case if there are
 # many constructors and factories and they have a lot of parameters. For now, I disable
-# this rules and order things as described above, which apart from the default constructor
+# this rule and order things as described above, which apart from the default constructor
 # properties coming right after the constructor, is the only part where I in practice
 # deviate from this rule, so other than that I do put constructors first as well.
 #
