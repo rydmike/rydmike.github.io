@@ -1,5 +1,5 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | More...                    |
+| [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | More ...                   |
 
 ## Gist Experiments and Mixed Goodies
 
