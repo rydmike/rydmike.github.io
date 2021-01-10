@@ -24,7 +24,7 @@ strong-mode. I lift things to error level that I think should be errors, then th
 let me compile things that do not comply.
 
 The rest is just turning OFF a few linting rules that conflicts with each other, by disabling the choice I 
-do not use. Finally, I turn OFF the rules I really don't want. The `analysis_options.yaml` for looks
+do not use. Finally, I turn OFF the rules I really don't want. The `analysis_options.yaml` for it looks
 like this:
 
 
