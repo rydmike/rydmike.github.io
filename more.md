@@ -56,19 +56,21 @@ analyzer:
     # Causes false positives (https://github.com/dart-lang/sdk/issues/41571
     top_level_function_literal_block: ignore
 
-    # Treat assigning new values to a parameter as a warning. This warning rule or even more so if set to an error,
-    # can sometimes be a bit problematic you include other code directly that does it a lot. It does however, make code
-    # safer when this cannot be done without involving an extra local variable for clarity and safety. Enabling
-    # this error, even as just a warning, does get in the way a bit if all you want to do is a null to default
-    # value release runtime safety/fallback assignment. For that use case you have to add a local rule override.
-    # With null-safety the need for this kind of null check and re-assignment to default if null, pretty much goes away.
+    # Treat assigning new values to a parameter as a warning. This warning rule or even more so if set 
+    # to an error, can sometimes be a bit problematic you include other code directly that does it a 
+    # lot. It does however, make code safer when this cannot be done without involving an extra local 
+    # variable for clarity and safety. Enabling this error, even as just a warning, does get in the 
+    # way a bit if all you want to do is a null to default value release runtime safety/fallback 
+    # assignment. For that use case you have to add a local rule override. With null-safety the need
+    # for this kind of null check and re-assignment to default if null, pretty much goes away.
     # Considering this comment in https://dart-lang.github.io/linter/lints/parameter_assignments.html:
     #  "Assigning new values to parameters is generally a bad practice unless an operator
     #   such as ??= is used. Otherwise, arbitrarily reassigning parameters is usually a mistake."
-    # One might even think the rule would allow using the ??= operator, but it does not. For now just keeping this lint
-    # as warning and overriding locally with "// ignore: parameter_assignments" when I need it for the "??=" operator,
-    # or some copy/paste in of some code that does crazy things and needs it too and that I don't want to deal with
-    # fixing at the moment.
+    # One might even think the rule would allow using the ??= operator, but it does not. For now just 
+    # keeping this lint as warning and overriding locally with 
+    #   "// ignore: parameter_assignments" 
+    # when I need it for the "??=" operator, or some copy/paste in of some code that does crazy things
+    # and needs it too and that I don't want to deal with fixing at the moment.
     parameter_assignments: warning
 
 # Disable unwanted or conflicting lint rules
