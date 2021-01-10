@@ -9,7 +9,7 @@ example, snippet or a setup I found useful and wanted to share in short Blog lik
 and also document it, so I can find it myself when I need it again.
 
 <img src="https://rydmike.com/assets/flutter_santa.jpg?raw=true" alt="flutter santa" width="200"/>   
-Chill, peace and Flutter love to ya all! :blue_heart:
+Chill, peace and Flutter love to ya all! 💙
 
 ---
 
