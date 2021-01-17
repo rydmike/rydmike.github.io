@@ -239,7 +239,7 @@ rest of the used colors in your application's color scheme.
 ### The Difference?
 
 In the package documentation read.me file there is a 
-[**detailed list**](https://pub.dev/packages/flex_color_scheme#used-theme-customizations)
+[**detailed list**](https://pub.dev/packages/flex_color_scheme#behind-the-scenes)
 of all the corrections, and some minor opinionated adjustments that **FlexColorScheme** does to a theme made from a 
 ColorScheme with its `FlexColorScheme.toTheme` property, compared to the standard `ThemeData.from` factory.
 
