@@ -285,8 +285,8 @@ In any case, **FlexColorScheme** takes care of this color scheme based theme inc
 ## Built-in Color Schemes
 
 Color schemes are no fun without some built-in examples to use and play with. 
-**FlexColorScheme** comes with 24 ready to go color schemes that you can use in your apps if you like.
-(The last 4 are new in upcoming version 1.2.0)
+**FlexColorScheme** comes with 28 ready to go color schemes that you can use in your apps if you like.
+(The last 4 are new in upcoming version 1.4.1)
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
 the Flutter and Material Design guide examples of light and dark mode themes, and the Flutter high contrast light and 
@@ -326,6 +326,10 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 <img src="https://rydmike.com/assets/LightScheme022.png?raw=true" alt="light 22" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme023.png?raw=true" alt="light 23" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme024.png?raw=true" alt="light 24" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme025.png?raw=true" alt="light 25" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme026.png?raw=true" alt="light 26" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme027.png?raw=true" alt="light 27" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme028.png?raw=true" alt="light 28" width="200"/>
 
 
 ### Dark Mode Color Schemes
@@ -356,6 +360,10 @@ Below you will find all the dark theme mode color schemes, with the scheme color
 <img src="https://rydmike.com/assets/DarkScheme022.png?raw=true" alt="dark 22" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme023.png?raw=true" alt="dark 23" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme024.png?raw=true" alt="dark 24" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme025.png?raw=true" alt="dark 25" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme026.png?raw=true" alt="dark 26" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme027.png?raw=true" alt="dark 27" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme028.png?raw=true" alt="dark 28" width="200"/>
 
 ## Funky Color Scheme Names?
 
