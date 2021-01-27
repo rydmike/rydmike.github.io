@@ -286,7 +286,6 @@ In any case, **FlexColorScheme** takes care of this color scheme based theme inc
 
 Color schemes are no fun without some built-in examples to use and play with. 
 **FlexColorScheme** comes with 28 ready to go color schemes that you can use in your apps if you like.
-(The last 4 are new in upcoming version 1.4.1)
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
 the Flutter and Material Design guide examples of light and dark mode themes, and the Flutter high contrast light and 
@@ -377,4 +376,4 @@ Sometimes the automatically assigned color names where just so hip, that I had t
 Now when the secrets of the color schemes and interactive theming in the Flexfold demo app have been revealed, why not
 head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) and give it a try!
 
-Page updated 3.1.2021
+Page updated 27.1.2021
