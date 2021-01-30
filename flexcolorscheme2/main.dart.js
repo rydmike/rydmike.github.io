@@ -30272,7 +30272,7 @@ s=B.D5(null,C.mC,new A.OB(b),null)
 return s}}
 A.OB.prototype={
 $0:function(){var s=null,r=this.a,q=K.K(r),p=q.L,o=p.y
-A.auw(C.zs,"\xa9 2020 Mike Rydstrom BSD 3-Clause License","FlexColorScheme","1.4.1",H.c([new T.ay(C.yG,T.abk(s,s,C.bg,!0,s,new Q.cA(s,H.c([new Q.cA("This example shows some of the features of the FlexColorScheme theming package. To learn more, check out the package on ",s,s,o),L.ap7(o.cf(q.b),"pub.dev","https://pub.dev/packages/flex_color_scheme"),new Q.cA(". It contains extensive documentation and the source of this example application.\n\n",s,s,o),new Q.cA("Built with Channel dev 1.26.0-12.0.pre, CanvasKit, using FlexColorScheme package 1.4.1\n\n",s,s,p.Q)],t.ru),s,s),C.b1,s,s,1,C.ab),s)],t.t),r)},
+A.auw(C.zs,"\xa9 2020 Mike Rydstrom BSD 3-Clause License","FlexColorScheme","1.4.1",H.c([new T.ay(C.yG,T.abk(s,s,C.bg,!0,s,new Q.cA(s,H.c([new Q.cA("This example shows some of the features of the FlexColorScheme theming package. To learn more, check out the package on ",s,s,o),L.ap7(o.cf(q.b),"pub.dev","https://pub.dev/packages/flex_color_scheme"),new Q.cA(". It contains extensive documentation and the source of this example application.\n\n",s,s,o),new Q.cA("Built with Channel dev 1.26.0-17.1.pre, CanvasKit, using FlexColorScheme package 1.4.1\n\n",s,s,p.Q)],t.ru),s,s),C.b1,s,s,1,C.ab),s)],t.t),r)},
 $C:"$0",
 $R:0,
 $S:2}
