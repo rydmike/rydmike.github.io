@@ -70288,13 +70288,13 @@ q($,"aAP","anj",function(){var p=null
 return A.adi(p,p,p,C.AW,p,C.rQ,p)})
 q($,"aAQ","ank",function(){var p=null
 return A.adi(p,p,p,C.Aw,p,C.rG,p)})
-q($,"aAH","acy",function(){var p,o="Testing scheme 1 for Viver app.",n=P.aK($.am_(),!0,H.a2("bj*"))
-n.push(C.F2)
+q($,"aAH","acy",function(){var p,o=P.aK($.am_(),!0,H.a2("bj*"))
+o.push(C.F2)
 p=$.anj()
-n.push(A.ahv(p.Mp(),o,p,"Viver 2"))
+o.push(A.ahv(p.Mp(),"Testing scheme 2 for Viver app.",p,"Viver 2"))
 p=$.ank()
-n.push(A.ahv(p.Mp(),o,p,"Viver 3"))
-return n})
+o.push(A.ahv(p.Mp(),"Testing scheme 3 for Viver app.",p,"Viver 3"))
+return o})
 q($,"az5","amq",function(){return new P.E()})})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
