@@ -12,7 +12,7 @@ on pub.dev.
 
 <img src="https://rydmike.com/assets/ColorPickerAllSize50.png?raw=true" alt="ColorPicker screens"/>  
 
-A web demo that shows the features of the color picker can be tried [**here**](http://rydmike.com/democolorpicker).
+A web demo that shows the features of the color picker can be tried [**here**](http://rydmike.com/flexcolorpicker).
 The source code for this web FlexColorPicker demo app is available on 
 [**GitHub**](https://github.com/rydmike/color_picker_demo).
 
@@ -29,4 +29,4 @@ example of the package bundled simple demo application running as a Windows desk
 alt="ColorPicker on Windows" width="400"/>
 
 ---
-Page updated 29.12.2020
+Page updated 3.3.2021

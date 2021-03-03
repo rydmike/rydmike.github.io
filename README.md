@@ -46,4 +46,4 @@ another story, they contain **pixie dust** and **Flutter magic**.
 >I might change the site content to a Flutter web application some day. It would be an interesting experiment
 >to make a basic web content management system with Flutter, even if that is not one of Flutter's core strengths.
 
-Page updated 29.12.2020
+Page updated 3.3.2021
