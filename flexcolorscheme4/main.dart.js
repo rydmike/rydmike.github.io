@@ -29518,7 +29518,7 @@ g=i?C.i:C.p
 f=i?C.cM:C.fk
 e=i?C.cM:C.fk
 i=i?C.M:C.u
-i=V.aee(e,s,!1,a1,a1,a0.fr,g,f,a1,new X.iZ(a1,a1,a1,C.aa,r,i),a1,a1,a1,a1)
+i=V.aee(e,s,!1,a1,a1,a0.fr,g,f,a1,new X.iZ(C.p,a1,C.u,C.aa,r,i),a1,a1,a1,a1)
 g=a3?P.Z(C.c.aK(127.5),a5.gl(a5)>>>16&255,a5.gl(a5)>>>8&255,a5.gl(a5)&255):P.Z(C.c.aK(76.5),a5.gl(a5)>>>16&255,a5.gl(a5)>>>8&255,a5.gl(a5)&255)
 f=a3?P.Z(15,a5.gl(a5)>>>16&255,a5.gl(a5)>>>8&255,a5.gl(a5)&255):P.Z(9,a5.gl(a5)>>>16&255,a5.gl(a5)>>>8&255,a5.gl(a5)&255)
 e=M.aer(a1,b2,a1,a1,a1,a1,C.b_,C.bd,a1,C.eW)
@@ -29727,7 +29727,7 @@ $0:function(){var s=null,r=this.a,q=K.I(r),p=q.M,o=p.y
 o.toString
 p=p.Q
 p.toString
-A.av6(C.x7,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorScheme","2.0.0",H.a([new T.aA(C.uy,T.abI(s,s,C.aK,!0,s,new Q.cR(s,H.a([new Q.cR("This example shows some of the features of the FlexColorScheme theming package. To learn more, check out the package on ",s,s,o),L.apD(o.cu(q.b),"pub.dev","https://pub.dev/packages/flex_color_scheme"),new Q.cR(". It contains extensive documentation and the source of this example application.\n\n",s,s,o),new Q.cR("Built with Channel dev, 2.1.0-12.1.pre, CanvasKit, using FlexColorScheme package 2.0.0\n\n",s,s,p)],t.sU),s,s),C.aG,s,s,1,C.ab),s)],t.p),r)},
+A.av6(C.x7,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorScheme","2.1.0",H.a([new T.aA(C.uy,T.abI(s,s,C.aK,!0,s,new Q.cR(s,H.a([new Q.cR("This example shows some of the features of the FlexColorScheme theming package. To learn more, check out the package on ",s,s,o),L.apD(o.cu(q.b),"pub.dev","https://pub.dev/packages/flex_color_scheme"),new Q.cR(". It contains extensive documentation and the source of this example application.\n\n",s,s,o),new Q.cR("Built with Channel dev, 2.1.0-12.1.pre, CanvasKit, using FlexColorScheme package 2.1.0\n\n",s,s,p)],t.sU),s,s),C.aG,s,s,1,C.ab),s)],t.p),r)},
 $C:"$0",
 $R:0,
 $S:0}

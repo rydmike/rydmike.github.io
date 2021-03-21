@@ -24,10 +24,10 @@ const RESOURCES = {
 "assets/AssetManifest.json": "6e685115eae5683e7d63027e044724c2",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "d700d4531d8657e051e68a5849d2c6d5",
-"index.html": "cc1924321bb2b225f717e181cefb3eba",
-"/": "cc1924321bb2b225f717e181cefb3eba",
-"main.dart.js": "5fd34334e65f9002a3af607b3ab8b375",
-"version.json": "443e10bcac40cfcbd42a82f505364cc8",
+"index.html": "c801ce43eab105654f2714635ebe0cc8",
+"/": "c801ce43eab105654f2714635ebe0cc8",
+"main.dart.js": "653c728ee3a2033fba14edb0d36bfc99",
+"version.json": "8d6e6a93fade8bcaaf2c66d803acf223",
 "favicon.png": "61f2a2a3efb6c6d241c57b14cb4cdcc4"
 };
 
