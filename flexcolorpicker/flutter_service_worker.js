@@ -11,18 +11,18 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "android-chrome-192x192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
 "manifest.json": "32b0e511822fd0bd7b30c6049960a8fa",
-"index.html": "2d162975542a337904d247287375cdcd",
-"/": "2d162975542a337904d247287375cdcd",
+"index.html": "84d60bccb366d436e09528d766c798d6",
+"/": "84d60bccb366d436e09528d766c798d6",
 "favicon.ico": "331b787e798a290f177f8122529e3872",
 "assets/packages/flex_color_picker/assets/opacity.png": "49c4f3bcb1b25364bb4c255edcaaf5b2",
-"assets/NOTICES": "4bca73fc68bc4498cecd1a5921902ee7",
+"assets/NOTICES": "a21aa4cc93778d5ee0ef9af57d2c99bc",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/AssetManifest.json": "671c916fa48a1df7cb869e0fb56ca07d",
 "assets/assets/images/app_icon.png": "a33ef1dc860be70315471d859f0ea72c",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"main.dart.js": "dc40f5409d8d088c3354cf3c3c301eea",
+"main.dart.js": "5ae0f8e5a418b96c0d14779b1e8ba198",
 "apple-touch-icon.png": "a33ef1dc860be70315471d859f0ea72c",
-"version.json": "aea0930c443e9bcc3a04491633673f73"
+"version.json": "0d7f332e41b3344c8e0319dfbef96e3e"
 };
 
 // The application shell files that are downloaded before a service worker can
