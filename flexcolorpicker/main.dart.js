@@ -33032,8 +33032,8 @@ o.toString
 p=p.Q
 p.toString
 o=H.c([new Q.cD("This example shows the features of the FlexColorPicker package. To learn more, check out the package on ",s,s,o),A.aA6(o.cd(q.b),"pub.dev","https://pub.dev/packages/flex_color_picker"),new Q.cD(". It contains extensive documentation and the source of this example application.\n\n",s,s,o)],t.Ne)
-o.push(new Q.cD("Live Web demo built with Channel dev 2.1.0-12.1.pre, CanvasKit, using FlexColorScheme package 2.0.0-nullsafety.5 PRE1\n\n",s,s,p))
-A.aGc(C.a8h,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","2.0.0-nullsafety.5 PRE1",H.c([new T.ao(C.WL,T.al2(s,s,C.aR,!0,s,new Q.cD(s,o,s,s),C.aP,s,s,1,C.ad),s)],t.p),r)},
+o.push(new Q.cD("Live Web demo built with Channel beta 2.1.0-12.2.pre, CanvasKit, using FlexColorScheme package 2.0.0-nullsafety.5\n\n",s,s,p))
+A.aGc(C.a8h,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","2.0.0-nullsafety.5",H.c([new T.ao(C.WL,T.al2(s,s,C.aR,!0,s,new Q.cD(s,o,s,s),C.aP,s,s,1,C.ad),s)],t.p),r)},
 $C:"$0",
 $R:0,
 $S:0}
@@ -34155,7 +34155,7 @@ s.toString
 s=M.ia(n,30,s,1,!1,60,!0,n,!0,C.at,!1,60)
 o=C.i_.h(0,800)
 o.toString
-return X.anV(M.JW(n,T.cb(H.c([new T.bj(n,h.f.b,n,n),C.j6,g,C.cX,r,C.cX,p,C.cX,T.hw(H.c([f,C.cW,s,C.cW,M.ia(n,10,o,0,!1,60,!1,n,!0,C.at,!1,60)],q),C.aq,C.cJ,C.Q),C.a8j,B.a16(new T.ao(C.lt,L.ar("Try the color picker",n,n,n,K.J(b).S.f,n,n),n),new V.Zw(b)),C.cX,C.ad9,C.cX,C.a7t,C.cX,C.ado,C.j6,L.ar("Using flex_color_picker version 2.0.0-nullsafety.5 PRE1",n,n,n,K.J(b).S.Q,n,n),L.ar("Web build with Flutter Channel dev 2.1.0-12.1.pre, CanvasKit",n,n,n,K.J(b).S.Q,n,n),C.a8i],q),C.aq,C.cJ,C.Q,C.G),!0,!0,n,n),new X.iH(j,n,i,C.ac,l,k),t.lu)}}
+return X.anV(M.JW(n,T.cb(H.c([new T.bj(n,h.f.b,n,n),C.j6,g,C.cX,r,C.cX,p,C.cX,T.hw(H.c([f,C.cW,s,C.cW,M.ia(n,10,o,0,!1,60,!1,n,!0,C.at,!1,60)],q),C.aq,C.cJ,C.Q),C.a8j,B.a16(new T.ao(C.lt,L.ar("Try the color picker",n,n,n,K.J(b).S.f,n,n),n),new V.Zw(b)),C.cX,C.ad9,C.cX,C.a7t,C.cX,C.ado,C.j6,L.ar("Using flex_color_picker version 2.0.0-nullsafety.5",n,n,n,K.J(b).S.Q,n,n),L.ar("Web build with Flutter Channel beta 2.1.0-12.2.pre, CanvasKit",n,n,n,K.J(b).S.Q,n,n),C.a8i],q),C.aq,C.cJ,C.Q,C.G),!0,!0,n,n),new X.iH(j,n,i,C.ac,l,k),t.lu)}}
 V.Zw.prototype={
 $0:function(){var s=V.HK(new V.Zv(),null,t.K)
 K.cn(this.a,!1).ku(s)},
