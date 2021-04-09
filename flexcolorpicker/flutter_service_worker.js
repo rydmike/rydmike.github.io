@@ -11,8 +11,8 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "android-chrome-192x192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
 "manifest.json": "32b0e511822fd0bd7b30c6049960a8fa",
-"index.html": "84d60bccb366d436e09528d766c798d6",
-"/": "84d60bccb366d436e09528d766c798d6",
+"index.html": "00c994a151c0085abc830aa87a390ab0",
+"/": "00c994a151c0085abc830aa87a390ab0",
 "favicon.ico": "331b787e798a290f177f8122529e3872",
 "assets/packages/flex_color_picker/assets/opacity.png": "49c4f3bcb1b25364bb4c255edcaaf5b2",
 "assets/NOTICES": "a21aa4cc93778d5ee0ef9af57d2c99bc",
@@ -20,7 +20,7 @@ const RESOURCES = {
 "assets/AssetManifest.json": "671c916fa48a1df7cb869e0fb56ca07d",
 "assets/assets/images/app_icon.png": "a33ef1dc860be70315471d859f0ea72c",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"main.dart.js": "5ae0f8e5a418b96c0d14779b1e8ba198",
+"main.dart.js": "3ce6a16018fab17a182d7f6e305f1e96",
 "apple-touch-icon.png": "a33ef1dc860be70315471d859f0ea72c",
 "version.json": "0d7f332e41b3344c8e0319dfbef96e3e"
 };
