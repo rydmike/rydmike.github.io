@@ -33043,8 +33043,8 @@ o.toString
 p=p.Q
 p.toString
 o=H.c([new Q.cD("This example shows the features of the FlexColorPicker package. To learn more, check out the package on ",s,s,o),A.aAb(o.cd(q.b),"pub.dev","https://pub.dev/packages/flex_color_picker"),new Q.cD(". It contains extensive documentation and the source of this example application.\n\n",s,s,o)],t.Ne)
-o.push(new Q.cD("Live Web demo built with Channel beta 2.1.0-12.2.pre, CanvasKit, using FlexColorScheme package 2.0.1 PRE\n\n",s,s,p))
-A.aGh(C.a8u,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","2.0.1 PRE",H.c([new T.ao(C.WW,T.al8(s,s,C.aS,!0,s,new Q.cD(s,o,s,s),C.aQ,s,s,1,C.ad),s)],t.p),r)},
+o.push(new Q.cD("Live Web demo built with Channel beta 2.1.0-12.2.pre, CanvasKit, using FlexColorScheme package 2.0.1\n\n",s,s,p))
+A.aGh(C.a8u,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","2.0.1",H.c([new T.ao(C.WW,T.al8(s,s,C.aS,!0,s,new Q.cD(s,o,s,s),C.aQ,s,s,1,C.ad),s)],t.p),r)},
 $C:"$0",
 $R:0,
 $S:0}
@@ -34229,7 +34229,7 @@ s.toString
 s=M.fH(n,30,s,1,!1,60,!0,n,!0,C.al,!1,60)
 o=C.i_.h(0,800)
 o.toString
-return X.ao_(M.K_(n,T.cb(H.c([new T.bj(n,h.f.b,n,n),C.j6,g,C.cY,r,C.cY,p,C.cY,T.hx(H.c([f,C.cX,s,C.cX,M.fH(n,10,o,0,!1,60,!1,n,!0,C.al,!1,60)],q),C.ar,C.cK,C.Q),C.a8w,B.a1b(new T.ao(C.lw,L.ar("Try the color picker",n,n,n,K.J(b).S.f,n,n),n),new V.ZA(b)),C.cY,C.adl,C.cY,C.a7G,C.cY,C.adC,C.j6,L.ar("Using flex_color_picker version 2.0.1 PRE",n,n,n,K.J(b).S.Q,n,n),L.ar("Web build with Flutter Channel beta 2.1.0-12.2.pre, CanvasKit",n,n,n,K.J(b).S.Q,n,n),C.a8v],q),C.ar,C.cK,C.Q,C.G),!0,!0,n,n),new X.iI(j,n,i,C.ac,l,k),t.lu)}}
+return X.ao_(M.K_(n,T.cb(H.c([new T.bj(n,h.f.b,n,n),C.j6,g,C.cY,r,C.cY,p,C.cY,T.hx(H.c([f,C.cX,s,C.cX,M.fH(n,10,o,0,!1,60,!1,n,!0,C.al,!1,60)],q),C.ar,C.cK,C.Q),C.a8w,B.a1b(new T.ao(C.lw,L.ar("Try the color picker",n,n,n,K.J(b).S.f,n,n),n),new V.ZA(b)),C.cY,C.adl,C.cY,C.a7G,C.cY,C.adC,C.j6,L.ar("Using flex_color_picker version 2.0.1",n,n,n,K.J(b).S.Q,n,n),L.ar("Web build with Flutter Channel beta 2.1.0-12.2.pre, CanvasKit",n,n,n,K.J(b).S.Q,n,n),C.a8v],q),C.ar,C.cK,C.Q,C.G),!0,!0,n,n),new X.iI(j,n,i,C.ac,l,k),t.lu)}}
 V.ZA.prototype={
 $0:function(){var s=V.HN(new V.Zz(),null,t.K)
 K.cn(this.a,!1).ku(s)},
