@@ -29645,7 +29645,7 @@ $0:function(){var s=null,r=this.a,q=K.I(r),p=q.O,o=p.y
 o.toString
 p=p.Q
 p.toString
-A.auK(C.wW,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorScheme","2.1.0",H.a([new T.ax(C.ut,T.abt(s,s,C.aI,!0,s,new Q.cP(s,H.a([new Q.cP("This example shows some of the features of the FlexColorScheme theming package. To learn more, check out the package on ",s,s,o),L.api(o.cq(q.b),"pub.dev","https://pub.dev/packages/flex_color_scheme"),new Q.cP(". It contains extensive documentation and the source of this example application.\n\n",s,s,o),new Q.cP("Built with Channel dev, 2.1.0-12.1.pre, CanvasKit, using FlexColorScheme package 2.1.0\n\n",s,s,p)],t.sU),s,s),C.aA,s,s,1,C.a8),s)],t.p),r)},
+A.auK(C.wW,"\xa9 2020, 2021 Mike Rydstrom BSD 3-Clause License","FlexColorScheme","2.1.1",H.a([new T.ax(C.ut,T.abt(s,s,C.aI,!0,s,new Q.cP(s,H.a([new Q.cP("This example shows some of the features of the FlexColorScheme theming package. To learn more, check out the package on ",s,s,o),L.api(o.cq(q.b),"pub.dev","https://pub.dev/packages/flex_color_scheme"),new Q.cP(". It contains extensive documentation and the source of this example application.\n\n",s,s,o),new Q.cP("Built with Channel dev, 2.1.0-12.1.pre, CanvasKit, using FlexColorScheme package 2.1.1\n\n",s,s,p)],t.sU),s,s),C.aA,s,s,1,C.a8),s)],t.p),r)},
 $C:"$0",
 $R:0,
 $S:0}
