@@ -16,7 +16,6 @@ The **FlexColorPicker** is available as a published Flutter
 
 <img src="https://rydmike.com/assets/web_color_picker_v2-0-1-small.gif?raw=true" alt="Web demo"/>
 
-
 The source code for this web FlexColorPicker demo app is bundled with the published package on
 [**pub.dev**](https://pub.dev/packages/flex_color_picker)
 
@@ -28,11 +27,7 @@ the right amount of color picking features you need, with a style that fits your
 **FlexColorPicker** works on all Flutter platforms, Android, iOS, Web, Windows, macOS and Linux. Here is an
 example of the package bundled simple demo application running as a Windows desktop application. 
 
-<img src="https://github.com/rydmike/flex_color_picker/blob/master/resources/ColorPickerEnterCode.gif?raw=true" 
-alt="ColorPicker on Windows" width="400"/>
-
 <img src="https://rydmike.com/assets/ColorPickerEnterCode?raw=true" alt="Windows demo" width="550"/>
-
 
 On desktop and Web it has keyboard control navigation and platform adaptive COPY-PASTE keyboard shortcuts, for copying
 and pasting the color code from and to the color picker.
