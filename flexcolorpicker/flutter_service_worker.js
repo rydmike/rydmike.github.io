@@ -3,26 +3,26 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "favicon-16x16.png": "242be32adbef097c7030c9eaa72473ea",
-"android-chrome-512x512.png": "954a77ce2d4acb711e74d706eb6ea229",
-"favicon-32x32.png": "d2b5fd1e4312718ae51494745b2a1855",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"android-chrome-192x192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
-"manifest.json": "32b0e511822fd0bd7b30c6049960a8fa",
-"index.html": "b9c05f64be2f3f4e4220b40b11a0f12c",
-"/": "b9c05f64be2f3f4e4220b40b11a0f12c",
+  "android-chrome-192x192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
+"version.json": "721ab8c50ce04a8b9f9db571f54424ee",
 "favicon.ico": "331b787e798a290f177f8122529e3872",
+"main.dart.js": "ad8da5bfea0eb5b134533c68f9cbf835",
+"apple-touch-icon.png": "a33ef1dc860be70315471d859f0ea72c",
+"index.html": "3ae9497aadde98f5fbcfcca869b2cc76",
+"/": "3ae9497aadde98f5fbcfcca869b2cc76",
+"favicon-16x16.png": "242be32adbef097c7030c9eaa72473ea",
+"favicon-32x32.png": "d2b5fd1e4312718ae51494745b2a1855",
 "assets/packages/flex_color_picker/assets/opacity.png": "49c4f3bcb1b25364bb4c255edcaaf5b2",
-"assets/NOTICES": "4bca73fc68bc4498cecd1a5921902ee7",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/AssetManifest.json": "671c916fa48a1df7cb869e0fb56ca07d",
+"assets/NOTICES": "497d179ab61ff39f501ab5e2b1c2c4d4",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/images/app_icon.png": "a33ef1dc860be70315471d859f0ea72c",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"main.dart.js": "8757a65a1990b18d07162dfc5c4e57e0",
-"apple-touch-icon.png": "a33ef1dc860be70315471d859f0ea72c",
-"version.json": "6f74912cb8297a01ae32f42f451e335c"
+"icons/Icon-512.png": "954a77ce2d4acb711e74d706eb6ea229",
+"icons/Icon-192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
+"manifest.json": "32b0e511822fd0bd7b30c6049960a8fa",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"android-chrome-512x512.png": "954a77ce2d4acb711e74d706eb6ea229"
 };
 
 // The application shell files that are downloaded before a service worker can
