@@ -13,4 +13,7 @@ include:
   - gridview.md
   - issues.md
   - talo.md
-  - blog.md
+  - blog_old.md
+  - blog_flutter_linting.md
+  - blog_cliprect_boxshadow.md
+  - blog_sliver_padding.md
