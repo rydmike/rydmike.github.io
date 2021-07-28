@@ -111,8 +111,8 @@ linter:
 ```
 
 The rest of the settings is just turning OFF linting rules I do not want to use.
-Since all rules are now ON by default, the rest is just a simple list of the rules
-that should NOT be used.
+Since all rules are now ON by default, it is a list of rules
+that should NOT be used. I try to keep it short.
 
 As for what actually gets turned OFF, first there are some linting rules that conflict 
 with each other. When it comes to them, you can go two ways. If you don't want to 
