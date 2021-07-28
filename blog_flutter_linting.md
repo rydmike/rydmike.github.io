@@ -110,11 +110,11 @@ linter:
     ...
 ```
 
-The rest of the settings is just turning OFF a linting rules I do not want to use.
-since all rules are now ON by default the rest is just a simple list of the rules
+The rest of the settings is just turning OFF linting rules I do not want to use.
+Since all rules are now ON by default, the rest is just a simple list of the rules
 that should NOT be used.
 
-As for what actually gets turned OFF, first there are some linting rules that conflicts 
+As for what actually gets turned OFF, first there are some linting rules that conflict 
 with each other. When it comes to them, you can go two ways. If you don't want to 
 make a choice and want to be able to use both alternatives, then disable 
 both rules. Alternatively choose one of them and disable the one you do not want to use.
@@ -123,6 +123,7 @@ I prefer to make choice, the conflicting rules are often highly opinionated.
 A typical example of this is the `prefer_double_quotes` versus `prefer_single_quotes` choice.
 
 Here is my choice and my rationale on this topic:
+
 ```yaml
 # DO use double quotes where they wouldn't require additional escapes.
 #
@@ -156,28 +157,30 @@ Here is my choice and my rationale on this topic:
 # RydMike        disabled : https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c
 prefer_double_quotes: false
 ```
-In addition to things that conflicts with their own opposite counter-part, what else do I turn off? 
+
+In addition to things that conflict with their own opposite counter-part, what else do I turn off? 
 As little as possible, I prefer things pretty strict, but that is just my personal preference. 
 
 I documented the choices I made, and the reasoning behind the choices at the point in time when I 
 made them. I vary it slightly depending on if I am using linting for a package or an app, 
 keeping it even stricter for a public package, these options are also documented.
 
-[**Here is the Gist**](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full 
+[**Here is a Gist**](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full 
 details of the settings I use in `analysis_options.yaml` for my personal projects.
 
 I might change a few settings as things evolve. One rule I found myself disliking recently and disabling, is
-the `sort_constructors_first`. Sounds like it is fine rule, right? For the default constructor I 
+the `sort_constructors_first`. Sounds like it is a fine rule, right? For the default constructor I 
 agree, I want it first too. However, **after that** I want to see all the properties of the 
-default constructor, with their documentation comments. 
+default constructor, with their documentation comments. I find this useful for more complex
+packages that may have constructors with a lot of named parameters.
 
 If the `sort_constructors_first` rule is enabled, I am forced to scroll down to find the
 properties far below after other named constructors and factories. This is just another minor 
 example of personal style preference. There are many lint rules that 
-are style code consistency related, get to know them and find your personal preferences.
+are style code consistency related. Get to know them and find your own personal preferences.
 
 When you disable a lint rule, try to write a short note to your future self why you disabled it.
-This is what I wrote down concerning why I turned it off. 
+This is what I wrote down concerning why I turned off the `sort_constructors_first` rule. 
 
 ```yaml
 # DO sort constructor declarations before other members.
@@ -212,7 +215,7 @@ I turn OFF. Yes it is verbose, but now I can find my past reasoning for the choi
 I can also find references to what others have chosen as their lint preference for each rule 
 that I do not use.
 
-### What About Using a Third Party Linting Package?
+## What About Using a Third Party Linting Package?
 
 There are many 3rd party packages that define linting rules for you. Previously most notably 
 [Effective Dart](https://pub.dev/packages/effective_dart), [Pedantic](https://pub.dev/packages/pedantic) and 
@@ -226,7 +229,7 @@ occasionally, then please do use a package. I have a personal recommendation reg
 which one as well.
 
 For my personal projects I just prefer the clarity of enabling all rules in one file, and then 
-disabling the ones that do not fit my usage and preferences. 
+disabling the ones that do not fit my use case and preferences. 
 
 Earlier I started with one of the above packages too, but I noticed that when I needed or wanted to modify a few 
 rules. I then ended up with **enabling or disabling** rules in relation to used package settings. This got a bit messy
@@ -235,8 +238,8 @@ to keep track of. Eventually it felt cleaner to just turn everything ON, and the
 Plus no need for a package for this relatively simple setup.
 
 In a big project the lint rules have probably been agreed and defined already for you, then just stick to that. If you
-find that the lint rules have not been defined, nor documented why they are a certain way in the project, they really 
-should be.
+find that the lint rules have not been defined, nor documented why they are a certain way in the project, well 
+then they really should be.
 
 ## Which Lint Package Should I Use?
 
@@ -245,24 +248,24 @@ Answering this question recently got a lot easier. First, both the package
 [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic)
 have been deprecated. For a new project I do not recommend them anymore. 
 
-Pedantic was from Google, despite its name, it was not very strict or pedantic. 
+Pedantic was from Google, despite its name, it was not very strict nor pedantic.
 Dart and Flutter teams recently launched two new lint packages, let us take a look at them.
 
 ### Lints
 The first one is called [lints](https://pub.dev/packages/lints). 
 It was launched as version 1.0.0 on May 12, 2021.
 This package contains the official recommended selection of lint rules for Dart projects.
+
 It comes in two flavors, the absolute minimum lints, called **Core lints**, and a broader set
 called **Recommended lints**. The recommended set also includes the core lints.
-
 In the Dart guide you can read more about it [here](https://dart.dev/guides/language/analysis-options#enabling-linter-rules).
 
 ### Flutter lints
 
 The second package is called [flutter_lints](https://pub.dev/packages/flutter_lints), 
-It was also launched as version 1.0.0 on May 12, 2021. The Flutter lints includes the recommended set
-from Dart lints, plus a few more rules that are relevant in Flutter projects. These Dart and Flutter lint 
-rule sets are built as supersets with increasing amount of rules enabled.
+It was also launched as version 1.0.0 on May 12, 2021. The Flutter lints package includes the recommended set
+from Dart lints, plus a few more rules that are important in Flutter projects. These Dart and Flutter lint 
+rule sets are built as supersets, with increasing amount of rules enabled.
 
 Starting from Flutter version 2.3.0-12.0.pre, the package
 [flutter_lints](https://pub.dev/packages/flutter_lints) defines the latest set of officially 
@@ -272,37 +275,39 @@ Here is the even bigger thing making it the obvious choice. Projects created
 with **flutter create** using Flutter **version 2.3.0-12.0.pre or newer** are 
 automatically enabled to use the **Flutter lints** package. 
 
-When this is written, Flutter stable channel is still on version 2.2.3, so you will not yet get
-these lints automatically included and enabled when you create a new Flutter project. It is however
-coming soon, and you can of course easily make your Flutter project use these lints already now.
+When this is written, Flutter stable channel is still on version 2.2.3, you will not yet get
+these lints automatically enabled when you create a new Flutter project on stable 
+channel. It is however coming soon, and you can of course easily make your Flutter project 
+use these lints already now.
+
 You can find the instructions [here](https://flutter.dev/docs/release/breaking-changes/flutter-lints-package).
 
-Since this lint rule set is soon arriving as the new default lint package for new Flutter
+Since this lint rule set is arriving soon as the new default lint package for new Flutter
 projects, there is no sense in recommending any other linter package than 
-[**flutter_lints**](https://pub.dev/packages/flutter_lints). 
+[**flutter_lints**](https://pub.dev/packages/flutter_lints).
 
 ### I Prefer...
 
-All this being said, as long as [**Lint**](https://pub.dev/packages/lint) or 
+All that being said, as long as [**Lint**](https://pub.dev/packages/lint) or 
 [**Very Good Analysis**](https://pub.dev/packages/very_good_analysis) 
-have not been deprecated, and you are used to them or already using them, or just prefer them or 
-even som other comparable lint package, they are still perfectly good choices as well.
+have not been deprecated, and you are used to them, or already using them, or just prefer them, or 
+even some other comparable lint package, they are still perfectly good choices as well.
 
 If you want to stay on top of your linting rule setup yourself, then do as I do and roll your
-own. Mostly I do this to use even stricter lint rules than any other linters use,
+own. Mostly I do this to use even stricter lint rules than package linters use,
 and to make the opinionated choices I prefer. Most lint packages on purpose avoid making 
-any choice for you when it comes to the opinionated personal preference rules.
+any choice for you when it comes to the opinionated personal preferences rules.
+
 I also like the clean setup of enabling all rules and turning off 
 the ones I don't use, it keeps the setup easy to maintain. 
-
 Feel free to do the same **or** take the easy
 route and start using [flutter_lints](https://pub.dev/packages/flutter_lints) now. 
 
 If you don't care about linting and tuning it yourself, the really nice part is that a good 
-linting setup is coming your way anyway. In the next stable version of Flutter, you will 
-get an excellent rule set enabled by default for new projects. It is really cool
+linting setup is coming your way anyway. In the next stable version of Flutter you will 
+get an excellent rule set enabled by default for new projects. It is a really cool
 and a smart move by the Dart and Flutter teams to offer this. It means that eventually 
-all Flutter developers will use more strict lint rules by default, rules that help 
+all Flutter developers will use more strict lint rules by default, rules that will help 
 improve the quality of produced Flutter apps.
 
 ## What Are the Rule Differences Between All These Packages?
@@ -326,6 +331,6 @@ Ok enough talk, here is the comparison in a [**Google Sheet**](https://docs.goog
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare"/>](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA)
 
 *PS. I may have made some mistakes in my first review of the settings, if you
-notice any, please let me know, and I will update it.*
+notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 ---
 Page updated 28.7.2021
