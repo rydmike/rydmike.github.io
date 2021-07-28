@@ -335,5 +335,6 @@ Ok enough talk, here is the comparison in a [**Google Sheet**](https://docs.goog
 
 *PS. I may have made some mistakes in the review of the settings, if you
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
+
 ---
-Page updated 28.7.2021
+*(Page updated July 28, 2021)*
