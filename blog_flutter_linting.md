@@ -54,8 +54,8 @@ My `analysis_options.yaml` file starts like this:
 ```yaml
 # RydMike LINTER Preferences v1.2.0
 # Include and activate all lint rules, later below we disable the not used or desired ones.
-# For a comparison of all lint rules settings in rule style listed below, please see
-# this Google sheet: https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA
+# For a comparison of all lint rules settings in rule style listed below, please see this 
+# sheet: https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA
 include: all_lint_rules.yaml
 analyzer:
   exclude:
