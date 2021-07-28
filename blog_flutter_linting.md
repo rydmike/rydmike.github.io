@@ -25,14 +25,14 @@ be very time-consuming. For such cases, gradually introducing more stringent lin
 idea. To do that, you may want to get to know the lint rules better and how to set them up
 yourself, without using a package.
 
-To study and read more about each lint rule, you can head over to the [**Linter for Dart**](https://dart-lang.github.io/linter/lints/) site.
+To study and read more about each lint rule, you can head over to the [Linter for Dart](https://dart-lang.github.io/linter/lints/) site.
 
 ## How Do I Use the Dart Linter?
 
 Personally I like to start by enabling all lint rules in one file, and then including it in 
 my `analysis_options.yaml` file. I simply call this file `all_lint_rules.yaml`.
 You can grab the latest official and always up to date version of all lint rules
-[**here**](https://dart-lang.github.io/linter/lints/options/options.html).
+[here](https://dart-lang.github.io/linter/lints/options/options.html).
 
 Both the `analysis_options.yaml` and the `all_lint_rules.yaml` can be placed in the root of your
 Flutter project folder, same place where you have your `pubspec.yaml` file.
@@ -178,7 +178,7 @@ packages that may have constructors with a lot of named parameters.
 If the `sort_constructors_first` rule is enabled, I am forced to scroll down to find the
 properties far below after other named constructors and factories. This is just another minor 
 example of personal style preference. There are many lint rules that 
-are style code consistency related. Get to know them and find your own personal preferences.
+are style and code consistency related. Get to know them and find your own personal preferences.
 
 When you disable a lint rule, try to write a short note to your future self why you disabled it.
 This is what I wrote down concerning why I turned off the `sort_constructors_first` rule. 
