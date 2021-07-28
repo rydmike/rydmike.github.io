@@ -1,17 +1,19 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
 | [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
-## Flutter Linting Comparison
+# Flutter Linting Comparison
 *(July 28, 2021)*
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now.
 At the end of this article I also present a comparison of different popular lint packages and the
 Dart and Flutter lint rules they use.
 
-## What is the Dart Linter?
+[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="400"/>](#what-are-the-rule-differences-between-all-these-packages)
+
+## What Is the Dart Linter?
 
 The Dart linter is a static analyzer for identifying possible problems in your Dart source code. 
-There are more than a hundred linter rules are available, checking anything from potential 
+There are close to two hundred linter rules are available, checking anything from potential 
 typing issues, coding style and formatting.
 
 You can set up the Dart analyzer and linter to do your bidding
@@ -331,7 +333,7 @@ Ok enough talk, here is the comparison in a [**Google Sheet**](https://docs.goog
 
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare"/>](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA)
 
-*PS. I may have made some mistakes in this first review of the settings, if you
+*PS. I may have made some mistakes in the review of the settings, if you
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 ---
 Page updated 28.7.2021

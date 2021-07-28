@@ -26,7 +26,8 @@ Dart and Flutter linting is important, if you have not used it before it is a go
 At the end of this article I also present a comparison of different popular lint packages and the 
 Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
 
-[<img src="https://rydmike.com/assets/linting.png?raw=true" alt="linting" width="300"/>](blog_flutter_linting)
+[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="300"/>](blog_flutter_linting)
+
 
 ---
 
