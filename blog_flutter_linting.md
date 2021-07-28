@@ -158,19 +158,20 @@ Here is my choice and my rationale on this topic:
 prefer_double_quotes: false
 ```
 
-In addition to things that conflict with their own opposite counter-part, what else do I turn off? 
+In addition to things that conflict with their own counter-part, what else do I turn off? 
 As little as possible, I prefer things pretty strict, but that is just my personal preference. 
 
 I documented the choices I made, and the reasoning behind the choices at the point in time when I 
 made them. I vary it slightly depending on if I am using linting for a package or an app, 
-keeping it even stricter for a public package, these options are also documented.
+keeping it even stricter for public packages. These options and selections are also documented.
 
 [**Here is a Gist**](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full 
 details of the settings I use in `analysis_options.yaml` for my personal projects.
 
-I might change a few settings as things evolve. One rule I found myself disliking recently and disabling, is
-the `sort_constructors_first`. Sounds like it is a fine rule, right? For the default constructor I 
-agree, I want it first too. However, **after that** I want to see all the properties of the 
+I might change a few settings as things evolve. One rule I found myself disliking recently and 
+disabling, is the `sort_constructors_first`. Sounds like it is a fine rule, right? 
+For the default constructor I agree, I want it first too. 
+However, **after that** I want to see all the properties of the 
 default constructor, with their documentation comments. I find this useful for more complex
 packages that may have constructors with a lot of named parameters.
 
