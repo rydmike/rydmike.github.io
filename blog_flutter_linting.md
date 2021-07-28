@@ -255,7 +255,7 @@ Dart and Flutter teams recently launched two new lint packages, let us take a lo
 ### Lints
 The first one is called [lints](https://pub.dev/packages/lints). 
 It was launched as version 1.0.0 on May 12, 2021.
-This package contains the official recommended selection of lint rules for Dart projects.
+This package contains the new official recommended selection of lint rules for Dart projects.
 
 It comes in two flavors, the absolute minimum lints, called **Core lints**, and a broader set
 called **Recommended lints**. The recommended set also includes the core lints.
@@ -331,7 +331,7 @@ Ok enough talk, here is the comparison in a [**Google Sheet**](https://docs.goog
 
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare"/>](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA)
 
-*PS. I may have made some mistakes in my first review of the settings, if you
+*PS. I may have made some mistakes in this first review of the settings, if you
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 ---
 Page updated 28.7.2021
