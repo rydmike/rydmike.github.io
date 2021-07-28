@@ -21,9 +21,9 @@ When it comes to them, there is no real right or wrong, do what you prefer if a 
 style is not mandated in your project.
 
 Enabling very strict linting rules on a code base that previously did not use it, can also
-be very time-consuming. For such cases gradually introducing more stringent lint rules is a good
-idea. To do that, you may want to get to know the lint rules better, and how to use set them up
-yourself, instead of applying a package.
+be very time-consuming. For such cases, gradually introducing more stringent lint rules is a good
+idea. To do that, you may want to get to know the lint rules better and how to set them up
+yourself, without using a package.
 
 To study and read more about each lint rule, you can head over to the [**Linter for Dart**](https://dart-lang.github.io/linter/lints/) site.
 
