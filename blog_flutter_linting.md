@@ -33,7 +33,7 @@ To study and read more about each lint rule, you can head over to the [Linter fo
 
 Personally I like to start by enabling all lint rules in one file, and then including it in 
 my `analysis_options.yaml` file. I simply call this file `all_lint_rules.yaml`.
-You can grab the latest official and always up to date version of all lint rules
+You can grab the latest official and always up-to-date version of all lint rules
 [here](https://dart-lang.github.io/linter/lints/options/options.html).
 
 Both the `analysis_options.yaml` and the `all_lint_rules.yaml` can be placed in the root of your
@@ -71,7 +71,7 @@ analyzer:
     implicit-dynamic: false
 
   errors:
-    # Otherwise we cause the import of all_lint_rules to warn, because of some rules conflicts.
+    # Without ignore here, we cause import of all_lint_rules to warn, because some rules conflict.
     # We explicitly enabled even conflicting rules and are fixing the conflicts in this file.
     included_file_warning: ignore
 
@@ -96,12 +96,14 @@ analyzer:
     # pretty much goes away. Considering the comment in:
     # https://dart-lang.github.io/linter/lints/parameter_assignments.html:
     # "Assigning new values to parameters is generally a bad practice unless an operator
-    #  such as ??= is used. Otherwise, arbitrarily reassigning parameters is usually a mistake."
-    # One might even think the rule would allow using the ??= operator, but it does not. For now
+    # such as ??= is used. Otherwise, arbitrarily reassigning parameters is usually a mistake."
+    # One might even think the rule would allow using the ??= operator, but it does not. For now,
     # I am keeping this lint as warning and overriding locally with
-    #  ignore: parameter_assignments
+    #
+    # ignore: parameter_assignments
+    #
     # when I need it for the ??= operator, or some copy/paste in of some code that does things
-    # that needs it too and that I don't want to deal with fixing at the moment.
+    # that needs it too, and that I don't want to deal with fixing at the moment.
     parameter_assignments: warning
 
     # Allow having TODOs in the code.
@@ -120,11 +122,15 @@ As for what actually gets turned OFF, first there are some linting rules that co
 with each other. When it comes to them, you can go two ways. If you don't want to 
 make a choice and want to be able to use both alternatives, then disable 
 both rules. Alternatively choose one of them and disable the one you do not want to use.
-I prefer to make choice, the conflicting rules are often highly opinionated.
+I prefer to make a choice, the conflicting rules are often highly opinionated, in certain
+scenarios, it might be more lenient to allow both options, but if it is a personal
+project, then go ahead and use what you prefer.
 
-A typical example of this is the `prefer_double_quotes` versus `prefer_single_quotes` choice.
+A typical example of a personal preference linting rule, is the `prefer_double_quotes` 
+versus `prefer_single_quotes` choice. Even if a linting rule is highly opinionated, in 
+large project you may still want to make choice to enforce a consistent style.
 
-Here is my choice and my rationale on this topic:
+Here is my choice and my rationale on the quote style:
 
 ```yaml
 # DO use double quotes where they wouldn't require additional escapes.
@@ -136,15 +142,15 @@ Here is my choice and my rationale on this topic:
 # `prefer_single_quotes` : "DO use single quotes where they wouldn't require additional escapes."
 # https://dart-lang.github.io/linter/lints/prefer_single_quotes.html
 #
-# Imo single quotes are easier to type. On my ISO keyboard it is next to Enter key and I don't need
-# the Shit plus the far to reach nr 2 key on R1 to type it. Also, I don't think they compromise on
+# Imo single quotes are easier to type. On my ISO keyboard it is next to Enter key, and I don't need
+# the Shift plus the far to reach nr 2 key on R1 to type it. Also, I don't think they compromise on
 # readability. Then again if you don't care and don't mind mixing and matching, then ALSO
-# turning OFF `prefer_single_quotes` works fine too and you can use either.
+# turning OFF `prefer_single_quotes` works fine too, and then you can use both options.
 #
-# I thought it was cleaner to stick to one style and, single quotes are easier to type for me,
+# I thought it was cleaner to stick to one style. Single quotes are easier to type for me,
 # thus I turn OFF this `prefer_double_quotes` rule. There is another lint rules that recommends you
 # to use double quotes when you otherwise would need to escape the single quote char, it works
-# well you use the prefer_single_quotes rule as well.
+# well when you use the prefer_single_quotes rule as well.
 #
 # Other known linters use:
 #
@@ -167,7 +173,7 @@ I documented the choices I made, and the reasoning behind the choices at the poi
 made them. I vary it slightly depending on if I am using linting for a package or an app, 
 keeping it even stricter for public packages. These options and selections are also documented.
 
-[**Here is a Gist**](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full 
+[Here is a Gist](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full 
 details of the settings I use in `analysis_options.yaml` for my personal projects.
 
 I might change a few settings as things evolve. One rule I found myself disliking recently and 
@@ -177,10 +183,11 @@ However, **after that** I want to see all the properties of the
 default constructor, with their documentation comments. I find this useful for more complex
 packages that may have constructors with a lot of named parameters.
 
-If the `sort_constructors_first` rule is enabled, I am forced to scroll down to find the
-properties far below after other named constructors and factories. This is just another minor 
-example of personal style preference. There are many lint rules that 
-are style and code consistency related. Get to know them and find your own personal preferences.
+If the `sort_constructors_first` rule is enabled, I am forced to use an order where I have to 
+scroll far down to find the properties much further below, after all the named constructors 
+and factories. I find this very inconvenient. This is another minor example of personal style 
+preference. There are many lint rules that are style and code consistency related. 
+Get to know them and find your own personal preferences.
 
 When you disable a lint rule, try to write a short note to your future self why you disabled it.
 This is what I wrote down concerning why I turned off the `sort_constructors_first` rule. 
@@ -193,7 +200,7 @@ This is what I wrote down concerning why I turned off the `sort_constructors_fir
 # in the way of that and forces you to put (often final) constructor properties after all
 # the named constructors and factories, making them tedious to find and disconnected from
 # where I want to see, read and handily edit them. This is especially the case if there are
-# many constructors and factories and they have a lot of parameters. For now, I disable
+# many constructors and factories, and they have a lot of parameters. For now, I disable
 # this rule and order things as described above, which apart from the default constructor
 # properties coming right after the constructor, is the only part where I in practice
 # deviate from this rule, so other than that I do put constructors first as well.
@@ -214,7 +221,7 @@ sort_constructors_first: false
 ```
 
 The above is also an example of the documentation style I use for all lint rules that
-I turn OFF. Yes it is verbose, but now I can find my past reasoning for the choice I made. 
+I turned OFF. Yes it is verbose, but now I can find my past reasoning for the choice I made. 
 I can also find references to what others have chosen as their lint preference for each rule 
 that I do not use.
 
@@ -250,8 +257,8 @@ If I want to use a package, which lint package should I use?
 Answering this question recently got a lot easier. First, both the package
 [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic)
 have been deprecated. For a new project I do not recommend them anymore. 
-
 Pedantic was from Google, despite its name, it was not very strict nor pedantic.
+
 Dart and Flutter teams recently launched two new lint packages, let us take a look at them.
 
 ### Lints
@@ -278,7 +285,7 @@ Here is the even bigger thing making it the obvious choice. Projects created
 with **flutter create** using Flutter **version 2.3.0-12.0.pre or newer** are 
 automatically enabled to use the **Flutter lints** package. 
 
-When this is written, Flutter stable channel is still on version 2.2.3, you will not yet get
+When this is written, Flutter stable channel is still on version 2.2.3, so you will not yet get
 these lints automatically enabled when you create a new Flutter project on stable 
 channel. It is however coming soon, and you can of course easily make your Flutter project 
 use these lints already now.
@@ -287,22 +294,32 @@ You can find the instructions [here](https://flutter.dev/docs/release/breaking-c
 
 Since this lint rule set is arriving soon as the new default lint package for new Flutter
 projects, there is no sense in recommending any other linter package than 
-[**flutter_lints**](https://pub.dev/packages/flutter_lints).
+[flutter_lints](https://pub.dev/packages/flutter_lints).
 
 ### I Prefer...
 
-All that being said, as long as [**Lint**](https://pub.dev/packages/lint) or 
-[**Very Good Analysis**](https://pub.dev/packages/very_good_analysis) 
+All that being said, as long as [Lint](https://pub.dev/packages/lint) or 
+[Very Good Analysis](https://pub.dev/packages/very_good_analysis) 
 have not been deprecated, and you are used to them, or already using them, or just prefer them, or 
 even some other comparable lint package, they are still perfectly good choices as well.
 
-If you want to stay on top of your linting rule setup yourself, then do as I do and roll your
-own. Mostly I do this to use even stricter lint rules than package linters use,
-and to make the opinionated choices I prefer. Most lint packages on purpose avoid making 
-any choice for you when it comes to the opinionated personal preferences rules.
+They both enable more lint rules than the new upcoming default **flutter_lints**. Both **lint** and 
+**very_good_analysis** use strong mode and disable implicits casts, and Very Good Analysis also
+wisely opts to disable implicit dynamic. Out of packaged linters **lint** enables the most
+rules of the compared options, if we exclude my own preferences in the comparison.
+The **lint** package also includes excellent reasoning documentation for its lint rule choices 
+in the source, allowing you to read and understand the author's rationale for the used
+choices. It also comes with a variant for packages, adding a few useful rules for
+public packages.
 
-I also like the clean setup of enabling all rules and turning off 
-the ones I don't use, it keeps the setup easy to maintain. 
+If you want to stay on top of your linting rule setup yourself, then do as I do, and 
+roll your own linting rule setup. Mostly I do this to use even stricter lint rules than current 
+package linters offer, and to make the opinionated choices I prefer. 
+Most lint packages on purpose avoid making any choice for you when it comes to highly  
+opinionated personal preferences rules.
+
+I also like the clean setup of enabling all rules in one file that include all currently 
+available rules and turning off the ones I don't use. This keeps the setup easy to maintain. 
 Feel free to do the same **or** take the easy
 route and start using [flutter_lints](https://pub.dev/packages/flutter_lints) now. 
 
@@ -316,20 +333,23 @@ improve the quality of produced Flutter apps.
 ## What Are the Rule Differences Between All These Packages?
 
 What are the lint rule differences between all these packages? That is a **very** good question.
-I guess I saved the most interesting part for last. I was very curious about this as well, so I went through 
-the lint settings for the following lint packages and setups:
+I guess I saved the most interesting part for last. I was very curious about this as well, so I went 
+through **all** the lint settings for the following lint packages and setups:
 
-- [Dart Core](https://pub.dev/packages/lint)
-- [Dart Recommended](https://pub.dev/packages/lints)    
-- [Flutter Lints](https://pub.dev/packages/flutter_lints)  
-- [Pedantic *(Deprecated)*](https://pub.dev/packages/pedantic)
-- [Effective Dart *(Deprecated)*](https://pub.dev/packages/effective_dart)
-- [Flutter SDK repository](https://github.com/flutter/flutter/blob/master/analysis_options.yaml)
-- [Lint](https://pub.dev/packages/lint)
-- [Very Good Analysis](https://pub.dev/packages/very_good_analysis)
-- [RydMike - Turn ON all and then turn a few selected ones OFF](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c)
+| Lint style   | Used rules             |  % |
+| ----         | ----                   | ---- |
+|[Dart Core *(v1.0.1)*](https://pub.dev/packages/lint) | 26 | 13.6%|
+|[Dart Recommended *(v1.0.1)*](https://pub.dev/packages/lints) | 74 | 38.7% |    
+|[Flutter Lints *(v1.0.4)*](https://pub.dev/packages/flutter_lints) | 85 | 44.5% |  
+|[Pedantic *(v1.11.1) (Deprecated)*](https://pub.dev/packages/pedantic) | 52 | 27.2% |
+|[Effective Dart *(v1.3.2) (Deprecated)*](https://pub.dev/packages/effective_dart) | 57 | 29.8% |
+|[Flutter SDK repository *(v2.2.3)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.5% |
+|[Lint *(v1.5.3)*](https://pub.dev/packages/lint) | 135 | 70.7% |
+|[Very Good Analysis *(v2.2.0)*](https://pub.dev/packages/very_good_analysis) | 114 | 59.7% |
+|[RydMike - All ON, then turn a few OFF *(v1.2.1)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.5%|
+|[All lint rules](https://dart-lang.github.io/linter/lints/options/options.html) | 191 | 100.0% |
 
-Ok enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA), enjoy!
+Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA), enjoy!
 
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare"/>](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA)
 
@@ -337,4 +357,4 @@ Ok enough talk, here is the comparison in a [**Google Sheet**](https://docs.goog
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 
 ---
-*(Page updated July 28, 2021)*
+*(Page updated July 31, 2021)*
