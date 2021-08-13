@@ -331,7 +331,8 @@ opinionated personal preferences rules.
 I also like the clean setup of enabling all rules in one file, that include all currently 
 available rules and turning off the ones I don't use. This keeps the setup easy to maintain. 
 Feel free to do the same **or** take the easy
-route and start using [flutter_lints](https://pub.dev/packages/flutter_lints) now. 
+route and start using [flutter_lints](https://pub.dev/packages/flutter_lints) now or
+walk the narrow and strict path with [Very Good Analysis](https://pub.dev/packages/very_good_analysis).
 
 If you don't care about linting and tuning it yourself, the really nice part is that a good 
 linting setup is coming your way anyway. In the next stable version of Flutter you will 
