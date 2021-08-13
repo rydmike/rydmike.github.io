@@ -317,7 +317,7 @@ public packages.
 
 Out of packaged linters **very_good_analysis**, starting from version 2.3.0 enables 
 the most rules of the compared packaged linters. With 80.1% of available lint rules enabled, 
-it is the most strict and "pedantic" of the compared packaged linters, at least  
+it is the most strict and "pedantic" of the compared packaged linters, at least
 if we exclude my own custom setup from the comparison. My personal choice for
 a packaged linter would be **very_good_analysis**, but that is because I like it very
 strict.
@@ -325,7 +325,7 @@ strict.
 If you want to stay on top of your linting rule setup yourself, then do as I do, and 
 roll your own linting rule setup. Mostly I do this to use even stricter lint rules than current 
 package linters offer, and to make the opinionated choices I prefer. 
-Most lint packages on purpose avoid making any choice for you when it comes to highly  
+Most lint packages on purpose avoid making any choice for you when it comes to highly
 opinionated personal preferences rules.
 
 I also like the clean setup of enabling all rules in one file, that include all currently 
