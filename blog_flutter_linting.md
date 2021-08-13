@@ -2,7 +2,7 @@
 | [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 # Flutter Linting Comparison
-*(July 28, 2021)*
+*(Published July 28, 2021, Updated August 14, 2021)*
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now.
 At the end of this article I also present a comparison of different popular lint packages and the
@@ -54,7 +54,7 @@ My `analysis_options.yaml` file starts like this:
 
 
 ```yaml
-# RydMike LINTER Preferences v1.2.0
+# RydMike LINTER Preferences v1.2.2
 # Include and activate all lint rules, later below we disable the not used or desired ones.
 # For a comparison of all lint rules settings in rule style listed below, please see this 
 # sheet: https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA
@@ -65,6 +65,7 @@ analyzer:
     - "**/*.freezed.dart"
     - "test/.test_coverage.dart"
     - "bin/cache/**"
+    - "lib/generated_plugin_registrant.dart"
 
   strong-mode:
     implicit-casts: false
@@ -294,23 +295,32 @@ You can find the instructions [here](https://flutter.dev/docs/release/breaking-c
 
 Since this lint rule set is arriving soon as the new default lint package for new Flutter
 projects, there is no sense in recommending any other linter package than 
-[flutter_lints](https://pub.dev/packages/flutter_lints).
+[flutter_lints](https://pub.dev/packages/flutter_lints) as a general good starting point.
 
-### I Prefer...
+### Other Packaged Linters
 
 All that being said, as long as [Lint](https://pub.dev/packages/lint) or 
 [Very Good Analysis](https://pub.dev/packages/very_good_analysis) 
-have not been deprecated, and you are used to them, or already using them, or just prefer them, or 
-even some other comparable lint package, they are still perfectly good choices as well.
+have not been deprecated, and you are used to them, or already using them, or just prefer them, 
+they are still perfectly good choices as well.
 
 They both enable more lint rules than the new upcoming default **flutter_lints**. Both **lint** and 
 **very_good_analysis** use strong mode and disable implicits casts, and Very Good Analysis also
-wisely opts to disable implicit dynamic. Out of packaged linters **lint** enables the most
-rules of the compared options, if we exclude my own preferences in the comparison.
-The **lint** package also includes excellent reasoning documentation for its lint rule choices 
+wisely opts to disable implicit dynamic. From version 2.3.0 Very Good Analysis also started
+treating missing required parameters and missing return, as code errors. I consider this
+a wise and welcome addition.
+
+The **lint** package includes excellent reasoning documentation for its lint rule choices 
 in the source, allowing you to read and understand the author's rationale for the used
 choices. It also comes with a variant for packages, adding a few useful rules for
 public packages.
+
+Out of packaged linters **very_good_analysis**, starting from version 2.3.0 enables 
+the most rules of the compared packaged linters. With 80.1% of available lint rules enabled, 
+it is the most strict and "pedantic" of the compared packaged linters, at least  
+if we exclude my own custom setup from the comparison. My personal choice for
+a packaged linter would be **very_good_analysis**, but that is because I like it very
+strict.
 
 If you want to stay on top of your linting rule setup yourself, then do as I do, and 
 roll your own linting rule setup. Mostly I do this to use even stricter lint rules than current 
@@ -318,7 +328,7 @@ package linters offer, and to make the opinionated choices I prefer.
 Most lint packages on purpose avoid making any choice for you when it comes to highly  
 opinionated personal preferences rules.
 
-I also like the clean setup of enabling all rules in one file that include all currently 
+I also like the clean setup of enabling all rules in one file, that include all currently 
 available rules and turning off the ones I don't use. This keeps the setup easy to maintain. 
 Feel free to do the same **or** take the easy
 route and start using [flutter_lints](https://pub.dev/packages/flutter_lints) now. 
@@ -345,9 +355,9 @@ through **all** the lint settings for the following lint packages and setups:
 |[Effective Dart *(v1.3.2) (Deprecated)*](https://pub.dev/packages/effective_dart) | 57 | 29.8% |
 |[Flutter SDK repository *(v2.2.3)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.5% |
 |[Lint *(v1.5.3)*](https://pub.dev/packages/lint) | 135 | 70.7% |
-|[Very Good Analysis *(v2.2.0)*](https://pub.dev/packages/very_good_analysis) | 114 | 59.7% |
-|[RydMike - All ON, then turn a few OFF *(v1.2.1)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.5%|
-|[All lint rules](https://dart-lang.github.io/linter/lints/options/options.html) | 191 | 100.0% |
+|[Very Good Analysis *(v2.3.0)*](https://pub.dev/packages/very_good_analysis) | 153 | 80.1% |
+|[RydMike - All ON, then turn a few OFF *(v1.2.2)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.5%|
+|[All LINT rules](https://dart-lang.github.io/linter/lints/options/options.html) | 191 | 100.0% |
 
 Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA), enjoy!
 
@@ -357,4 +367,4 @@ Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 
 ---
-*(Page updated July 31, 2021)*
+*(Page updated August 14, 2021)*
