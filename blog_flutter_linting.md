@@ -2,7 +2,7 @@
 | [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 # Flutter Linting Comparison
-*(Published July 28, 2021, Updated August 14, 2021)*
+*(Published July 28, 2021, Updated Sep 1, 2021)*
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now.
 At the end of this article I also present a comparison of different popular lint packages and the
@@ -34,7 +34,8 @@ To study and read more about each lint rule, you can head over to the [Linter fo
 Personally I like to start by enabling all lint rules in one file, and then including it in 
 my `analysis_options.yaml` file. I simply call this file `all_lint_rules.yaml`.
 You can grab the latest official and always up-to-date version of all lint rules
-[here](https://dart-lang.github.io/linter/lints/options/options.html).
+[here](https://dart-lang.github.io/linter/lints/options/options.html), grab its content
+and put it in a file called `all_lint_rules.yaml`.
 
 Both the `analysis_options.yaml` and the `all_lint_rules.yaml` can be placed in the root of your
 Flutter project folder, same place where you have your `pubspec.yaml` file.
@@ -54,9 +55,9 @@ My `analysis_options.yaml` file starts like this:
 
 
 ```yaml
-# RydMike LINTER Preferences v1.2.2
+# RydMike LINTER Preferences v1.2.4
 # Include and activate all lint rules, later below we disable the not used or desired ones.
-# For a comparison of all lint rules settings in rule style listed below, please see this 
+# For a comparison of all lint rules settings in rule style listed below, please see this
 # sheet: https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA
 include: all_lint_rules.yaml
 analyzer:
@@ -86,7 +87,7 @@ analyzer:
     #
     # https://dart-lang.github.io/linter/lints/parameter_assignments.html
     #
-    # Treat assigning new values to a parameter as a warning. I would almost like to set this
+    # Treat assigning new values to a parameter as a warning. We would almost like to set this
     # to an error. However, this warning rule or even more so if set to an error, can sometimes
     # be a bit problematic you include other code directly that does it a lot.
     # It does however, make code safer when this cannot be done without involving
@@ -99,20 +100,17 @@ analyzer:
     # "Assigning new values to parameters is generally a bad practice unless an operator
     # such as ??= is used. Otherwise, arbitrarily reassigning parameters is usually a mistake."
     # One might even think the rule would allow using the ??= operator, but it does not. For now,
-    # I am keeping this lint as warning and overriding locally with
+    # we keep this lint as warning and overriding locally with:
     #
     # ignore: parameter_assignments
     #
-    # when I need it for the ??= operator, or some copy/paste in of some code that does things
-    # that needs it too, and that I don't want to deal with fixing at the moment.
+    # When we need it for the ??= operator, or some copy/paste in of some code that does things
+    # that needs it too, and that we don't want to deal with fixing at the moment.
     parameter_assignments: warning
 
     # Allow having TODOs in the code.
     todo: ignore
 
-linter:
-  rules:
-    ...
 ```
 
 The rest of the settings is just turning OFF linting rules I do not want to use.
@@ -134,37 +132,38 @@ large project you may still want to make choice to enforce a consistent style.
 Here is my choice and my rationale on the quote style:
 
 ```yaml
-# DO use double quotes where they wouldn't require additional escapes.
-#
-# https://dart-lang.github.io/linter/lints/prefer_double_quotes.html
-#
-# This rule is mostly about what style you want to use and enforce, if any.
-# It of course conflicts with rule:
-# `prefer_single_quotes` : "DO use single quotes where they wouldn't require additional escapes."
-# https://dart-lang.github.io/linter/lints/prefer_single_quotes.html
-#
-# Imo single quotes are easier to type. On my ISO keyboard it is next to Enter key, and I don't need
-# the Shift plus the far to reach nr 2 key on R1 to type it. Also, I don't think they compromise on
-# readability. Then again if you don't care and don't mind mixing and matching, then ALSO
-# turning OFF `prefer_single_quotes` works fine too, and then you can use both options.
-#
-# I thought it was cleaner to stick to one style. Single quotes are easier to type for me,
-# thus I turn OFF this `prefer_double_quotes` rule. There is another lint rules that recommends you
-# to use double quotes when you otherwise would need to escape the single quote char, it works
-# well when you use the prefer_single_quotes rule as well.
-#
-# Other known linters use:
-#
-# Core           disabled : https://pub.dev/packages/lints
-# Recommended    disabled : https://pub.dev/packages/lints
-# Flutter Lints  disabled : https://pub.dev/packages/flutter_lints
-# Pedantic       disabled : https://pub.dev/packages/pedantic
-# Effective Dart disabled : https://pub.dev/packages/effective_dart
-# Flutter repo   disabled : https://github.com/flutter/flutter/blob/master/analysis_options.yaml
-# Lint           disabled : https://pub.dev/packages/lint
-# VG Analysis    disabled : https://pub.dev/packages/very_good_analysis
-# RydMike        disabled : https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c
-prefer_double_quotes: false
+    # DO use double quotes where they wouldn't require additional escapes.
+    #
+    # https://dart-lang.github.io/linter/lints/prefer_double_quotes.html
+    #
+    # This rule is mostly about what style you want to use and enforce, if any.
+    # It of course conflicts with rule:
+    # `prefer_single_quotes` : "DO use single quotes where they wouldn't require additional escapes."
+    # https://dart-lang.github.io/linter/lints/prefer_single_quotes.html
+    #
+    # For us single quotes are easier to type. On our ISO keyboards it is next to Enter key, and
+    # we don't need the Shift plus the far to reach nr 2 key on R1 to type it. Also, we don't think
+    # they compromise on readability.
+    # Then again if you don't care and don't mind mixing and matching, then ALSO
+    # turning OFF `prefer_single_quotes` works fine too, and then you can use both options.
+    #
+    # We thought it was cleaner to stick to one style. Single quotes are easier to type for us,
+    # thus we turn OFF this `prefer_double_quotes` rule. There is another lint rules that recommends you
+    # to use double quotes when you otherwise would need to escape the single quote char, it works
+    # well when you use the prefer_single_quotes rule as well.
+    #
+    # Other known linters use:
+    #
+    # Core           disabled : https://pub.dev/packages/lints
+    # Recommended    disabled : https://pub.dev/packages/lints
+    # Flutter Lints  disabled : https://pub.dev/packages/flutter_lints
+    # Pedantic       disabled : https://pub.dev/packages/pedantic
+    # Effective Dart disabled : https://pub.dev/packages/effective_dart
+    # Flutter repo   disabled : https://github.com/flutter/flutter/blob/master/analysis_options.yaml
+    # Lint           disabled : https://pub.dev/packages/lint
+    # VG Analysis    disabled : https://pub.dev/packages/very_good_analysis
+    # RydMike        disabled : https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c
+    prefer_double_quotes: false
 ```
 
 In addition to things that conflict with their own counter-part, what else do I turn off? 
@@ -193,32 +192,35 @@ Get to know them and find your own personal preferences.
 When you disable a lint rule, try to write a short note to your future self why you disabled it.
 This is what I wrote down concerning why I turned off the `sort_constructors_first` rule. 
 
+The good thing is you can certainly change your mind about a rule's usefulness or add more
+as you need, well at least in your personal projects.
+
 ```yaml
-# DO sort constructor declarations before other members.
-#
-# I do like this lint rule, but I want to have the default constructor first, followed
-# by its properties, after this other named constructors and factories. This rule gets
-# in the way of that and forces you to put (often final) constructor properties after all
-# the named constructors and factories, making them tedious to find and disconnected from
-# where I want to see, read and handily edit them. This is especially the case if there are
-# many constructors and factories, and they have a lot of parameters. For now, I disable
-# this rule and order things as described above, which apart from the default constructor
-# properties coming right after the constructor, is the only part where I in practice
-# deviate from this rule, so other than that I do put constructors first as well.
-#
-# Other known linters use:
-#
-# Core           disabled : https://pub.dev/packages/lints
-# Recommended    disabled : https://pub.dev/packages/lints
-# Flutter Lints  disabled : https://pub.dev/packages/flutter_lints
-# Pedantic       disabled : https://pub.dev/packages/pedantic
-# Effective Dart disabled : https://pub.dev/packages/effective_dart
-# Flutter repo   enabled  : https://github.com/flutter/flutter/blob/master/analysis_options.yaml
-# Lint           disabled : https://pub.dev/packages/lint
-#                           Discussion https://github.com/passsy/dart-lint/issues/1
-# VG Analysis    enabled  : https://pub.dev/packages/very_good_analysis
-# RydMike        disabled : https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c
-sort_constructors_first: false
+    # DO sort constructor declarations before other members.
+    #
+    # We do like this lint rule, but we want to have the default constructor first, followed
+    # by its properties, after this other named constructors and factories. This rule gets
+    # in the way of that and forces you to put (often final) constructor properties after all
+    # the named constructors and factories, making them tedious to find and disconnected from
+    # where we want to see, read and handily edit them. This is especially the case if there are
+    # many constructors and factories, and they have a lot of parameters. For now, we disable
+    # this rule and order things as described above, which apart from the default constructor
+    # properties coming right after the constructor, is the only part where we in practice
+    # deviate from this rule, so other yes, we do put constructors first as well anyway.
+    #
+    # Other known linters use:
+    #
+    # Core           disabled : https://pub.dev/packages/lints
+    # Recommended    disabled : https://pub.dev/packages/lints
+    # Flutter Lints  disabled : https://pub.dev/packages/flutter_lints
+    # Pedantic       disabled : https://pub.dev/packages/pedantic
+    # Effective Dart disabled : https://pub.dev/packages/effective_dart
+    # Flutter repo   enabled  : https://github.com/flutter/flutter/blob/master/analysis_options.yaml
+    # Lint           disabled : https://pub.dev/packages/lint
+    #                           Discussion https://github.com/passsy/dart-lint/issues/1
+    # VG Analysis    enabled  : https://pub.dev/packages/very_good_analysis
+    # RydMike        disabled : https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c
+    sort_constructors_first: false
 ```
 
 The above is also an example of the documentation style I use for all lint rules that
@@ -357,7 +359,7 @@ through **all** the lint settings for the following lint packages and setups:
 |[Flutter SDK repository *(v2.2.3)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.5% |
 |[Lint *(v1.5.3)*](https://pub.dev/packages/lint) | 135 | 70.7% |
 |[Very Good Analysis *(v2.3.0)*](https://pub.dev/packages/very_good_analysis) | 153 | 80.1% |
-|[RydMike - All ON, then turn a few OFF *(v1.2.2)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.5%|
+|[RydMike - All ON, then turn a few OFF *(v1.2.4)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.5%|
 |[All LINT rules](https://dart-lang.github.io/linter/lints/options/options.html) | 191 | 100.0% |
 
 Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA), enjoy!
@@ -368,4 +370,4 @@ Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 
 ---
-*(Page updated August 14, 2021)*
+*(Page updated September 1, 2021)*
