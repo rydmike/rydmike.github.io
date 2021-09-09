@@ -326,7 +326,7 @@ if we exclude my own custom setup from the comparison. My personal choice for
 a packaged linter would be **very_good_analysis**, but that is because I like its very
 strict. The **lint** package is not far behind, with its recent 1.7.2 version 
 it is at 72.9% of rules enabled. Close call, and the differences are not big.
-You can use my comparison table to compare them.
+You can use my comparison table to compare them all and each rule setting.
 
 If you want to stay on top of your linting rule setup yourself, then do as I do. 
 Roll your own linting rule setup. Mostly I do this to use even stricter lint rules than current 
@@ -362,7 +362,7 @@ through **all** the lint settings for the following lint packages and setups:
 |[Pedantic *(v1.11.1) (Deprecated)*](https://pub.dev/packages/pedantic) | 52 | 27.1% |
 |[Effective Dart *(v1.3.2) (Deprecated)*](https://pub.dev/packages/effective_dart) | 57 | 29.7% |
 |[Flutter SDK repository *(v2.5.0)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.2% |
-|[Lint *(v1.6.0)*](https://pub.dev/packages/lint) | 147 | 76.6% |
+|[Lint *(v1.7.2)*](https://pub.dev/packages/lint) | 147 | 76.6% |
 |[Very Good Analysis *(v2.3.0)*](https://pub.dev/packages/very_good_analysis) | 153 | 79.7% |
 |[RydMike - All ON, then turn a few OFF *(v1.2.5)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.1%|
 |[All LINT rules](https://dart-lang.github.io/linter/lints/options/options.html) | 192 | 100.0% |
