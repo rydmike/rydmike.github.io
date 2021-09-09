@@ -2,7 +2,7 @@
 | [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
 # Flutter Linting Comparison
-*(Published July 28, 2021, Updated September 9, 2021)*
+*(Published July 28, 2021, Updated September 10, 2021)*
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now.
 At the end of this article I also present a comparison of different popular lint packages and the
@@ -323,13 +323,13 @@ Out of packaged linters **very_good_analysis**, starting from version 2.3.0 enab
 the most rules of the compared packaged linters. With 79.7% of available lint rules enabled, 
 it is the most strict and "pedantic" of the compared packaged linters, at least
 if we exclude my own custom setup from the comparison. My personal choice for
-a packaged linter would be **very_good_analysis**, but that is because I like it very
-strict. The **lint** package is not far behind, with its 1.6.0 were it added a few
-more rules it is at 72.9% of rules enabled. Close call, and differences are not big,
-you can use my comparison table to compare them.
+a packaged linter would be **very_good_analysis**, but that is because I like its very
+strict. The **lint** package is not far behind, with its recent 1.7.2 version 
+it is at 72.9% of rules enabled. Close call, and the differences are not big.
+You can use my comparison table to compare them.
 
-If you want to stay on top of your linting rule setup yourself, then do as I do, 
-roll your own linting rule setup. Mostly I do this to use even stricter lint rules than current 
+If you want to stay on top of your linting rule setup yourself, then do as I do. 
+Roll your own linting rule setup. Mostly I do this to use even stricter lint rules than current 
 package linters offer, and to make the opinionated choices I prefer. 
 Most lint packages on purpose avoid making any choice for you when it comes to highly
 opinionated personal preferences rules.
@@ -362,9 +362,9 @@ through **all** the lint settings for the following lint packages and setups:
 |[Pedantic *(v1.11.1) (Deprecated)*](https://pub.dev/packages/pedantic) | 52 | 27.1% |
 |[Effective Dart *(v1.3.2) (Deprecated)*](https://pub.dev/packages/effective_dart) | 57 | 29.7% |
 |[Flutter SDK repository *(v2.5.0)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.2% |
-|[Lint *(v1.6.0)*](https://pub.dev/packages/lint) | 140 | 72.9% |
+|[Lint *(v1.6.0)*](https://pub.dev/packages/lint) | 147 | 76.6% |
 |[Very Good Analysis *(v2.3.0)*](https://pub.dev/packages/very_good_analysis) | 153 | 79.7% |
-|[RydMike - All ON, then turn a few OFF *(v1.2.5)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 170 | 88.5%|
+|[RydMike - All ON, then turn a few OFF *(v1.2.5)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.1%|
 |[All LINT rules](https://dart-lang.github.io/linter/lints/options/options.html) | 192 | 100.0% |
 
 Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA), enjoy!
@@ -375,4 +375,4 @@ Enough talk, here is the comparison in a [**Google Sheet**](https://docs.google.
 notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
 
 ---
-*(Page updated September 9, 2021)*
+*(Page updated September 10, 2021)*
