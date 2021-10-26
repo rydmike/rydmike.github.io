@@ -1,7 +1,7 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
 | [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
-## ClipRect on Container with BoxShadow
+# ClipRect on Container with BoxShadow
 *(Jun 4, 2020)*
 
 A pet nit-picking rendering issue of mine is the ClipRect issue. It is mentioned in my issues page 

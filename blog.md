@@ -3,19 +3,32 @@
 
 ## Flutter Santa's Blog
 
-I will start to write more about Flutter, but probably only as simple markup files in this site. 
-Well who knows, maybe I will make some cross posts on other sites too. 
-We will see, but for now you can find Flutter Santa's rumblings here.
+I will start to write more about Flutter, but probably only as simple markup 
+files in this site. Well who knows, maybe I will make some cross posts on other
+sites too. We will see, but for now you can find Flutter Santa's rumblings here.
 
-Occasionally I also publish Flutter Gists that you can try in DartPad. The Gists were typically made
-to present something that did not look quite right. Sometimes they can be a Flutter 
-example, snippet or a setup that I found useful and wanted to share in short Blog like format,
-and also document it. This way I can find it myself when I need it again. Generally my
-more or less documented Flutter Gists can be found [here](https://gist.github.com/rydmike). 
+Occasionally I also publish Flutter Gists that you can try in DartPad. The 
+Gists were typically made to present something that did not look quite right. 
+Sometimes they can be a Flutter example, snippet or a setup that I found useful
+and wanted to share in short Blog like format, and also document it.
+
+This way I can find it myself when I need it again. Generally my more or less
+documented Flutter Gists can be found [here](https://gist.github.com/rydmike). 
 
 Chill, peace and **Flutter** love to all of you! 💙  
 <img src="https://rydmike.com/assets/flutter_santa.jpg?raw=true" alt="flutter santa" width="300"/>   
 
+
+---
+
+## [Constrained Centered Layout and Theming Flutter](blog_layout_and_theming)
+*(Oct 26, 2021)*
+
+In this article I discuss challenges with the web center constrained layout in
+Flutter, and provide a deeper introduction and example on how to theme
+Flutter applications. [[**Read more...**]](blog_layout_and_theming)
+
+[<img src="https://user-images.githubusercontent.com/39990307/138180367-17c1af54-880b-48ac-b7e6-61154f30c756.gif" width="300"/>](blog_layout_and_theming)
 
 ---
 
@@ -46,4 +59,4 @@ You cannot wrap a Sliver with normal Padding in Flutter. [[**Read more..**]](blo
 [<img src="https://rydmike.com/assets/sliverpadding.png?raw=true" alt="Sliver padding" width="300"/>](blog_sliver_padding)
 
 ---
-Page updated Jul 28, 2021
+Page updated Oct 26, 2021

@@ -1,7 +1,7 @@
 | [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
 | [Talo](talo)                | [Grid](gridview)     | [Issues](issues)           | [Blog](blog)               |
 
-## Correct Way to Add Padding to Slivers
+# Correct Way to Add Padding to Slivers
 *(Feb 21, 2020)*
 
 You cannot wrap a Sliver with a normal Padding in Flutter. Well you can, but it will not render correctly if
