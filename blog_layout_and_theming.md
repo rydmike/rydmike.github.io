@@ -11,20 +11,18 @@ Flutter applications.
 ## Why Another Theming Example?
 
 The "right", or at least easy way to effectively theme a Flutter application
-is a bit of a confusion and frustration point for many new, and even
+is a bit confusing and frustration point for many new, and even
 seasoned Flutter developers. I recently came across this issue
 [report and question](https://github.com/flutter/flutter/issues/92209). It
-inspired me to rework the [Tweet thread](https://twitter.com/RydMike/status/1445573217272299522) I did about it earlier to a 
+inspired me to rework this [Tweet thread](https://twitter.com/RydMike/status/1445573217272299522) I did about it earlier, to a 
 [Gist comment doc](https://gist.github.com/rydmike/f2f45a57d4998f3c61d3fa197b5a7370#gistcomment-3934255),
-just to answer the question. And now also to this easier to read formatted 
-article. This article also elaborates further on several points.
+just to answer the question. And now also to this easier to read and better 
+formatted article, that also elaborates further on several points.
 
 ## Used example
 
 The example in this article can be run and tested in DartPad [here](https://dartpad.dev/?id=f2f45a57d4998f3c61d3fa197b5a7370&null_safety=true), and its source code 
 is available in a GIST [here](https://gist.github.com/rydmike/f2f45a57d4998f3c61d3fa197b5a7370).
-
-
 
 # The Challenge - Constrained Center Layout
 
@@ -34,20 +32,18 @@ FlutterDev course producer and Flutter connoisseur
 web like layout in Flutter.
 
 A layout that is centered and 
-width constrained. This keeps a reasonable max column width, also on very wide
-screens. This makes the content easier to read, since it never expands to fill
-the max width of typically very wide desktop screens.
+width constrained. This keeps a reasonable max column width on the content, 
+also on very wide screens. This makes the content easier to read, since it 
+never expands to fill the max width of typically very wide desktop screens.
 
-A solution, where wrapping the child body content like this, is presented:
+A solution, where wrapping the child body content like this, is presented by 
+Andrea:
 
 ![image](https://user-images.githubusercontent.com/39990307/138179067-83b6065d-b90b-4766-8352-05e91b7fc778.png)   
 _**Shown Web style constrained center layout.**_
 
-This works and produces the desired result in the example. But, what happens if
-we use this approach with scrolling content?
-
-How have you solved this layout? Do you have the perfect solution? If you do,
-please let me know.
+This works well and produces the desired result in the example. But, what 
+happens if we use this approach with scrolling content?
 
 ## What is wrong with the above solution?
 
@@ -110,7 +106,9 @@ does not scroll.
 Web pages, using this layout, do not behave this way. They do scroll from the
 empty margins too. It is poor UX that it does not do so here as well.
 
-Do you have a simple fix for this? If you do, please, let me know.
+**Do you have a simple fix for this?** 
+Have you solved this layout problem in Flutter? Do you already have the perfect 
+solution for it? If you do, please let me know.
 
 I have not seen a good simple solution for it yet. I admit I only looked at the 
 issue briefly once. There might be a simple solution, or it might actually need
