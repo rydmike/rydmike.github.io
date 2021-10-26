@@ -107,7 +107,7 @@ There is an issue with this solution, if you touch or mouse wheel scroll
 from the expanding margins that do not contain any content, the content 
 does not scroll.
 
-Web pages using this layout do not behave this way, they do scroll from the
+Web pages, using this layout, do not behave this way. They do scroll from the
 empty margins too. It is poor UX that it does not do so here as well.
 
 Do you have a simple fix for this? If you do, please, let me know.
@@ -146,17 +146,18 @@ what is going here with the theme?
 If you look at the demo code, you can see that we have for 
 example not put the border rounding on the widgets, they are a part of the
 global theme for the demo application. If we want to make everything more round,
-like in Material You (Material 3), then obviously this is the way to do it.
+like in MaterialYou (Material 3), then obviously this is the way to do it.
 
-The dark mode and light mode also have some fancy background primary color tint. 
-This is called alpha blend of a color, in this case the primary color, into
-background and surface colors. This color design principle appears to be used
-quite extensively in the new Material You designs as well, that we
-see in Android 12.
+The dark mode and light mode also have a hint of primary color mixed into the 
+background color. This is called alpha blend of a color, in this case the 
+primary color, into background and other surface colors.
+
+This color design principle appears to be used quite extensively in the new 
+MaterialYou based designs as well. We can see it used a lot in Android 12, 
+creating very neat and personal touches to the visuals.
 
 ![scrollbars3](https://user-images.githubusercontent.com/39990307/138184008-225a4af9-61e0-4e04-8e2c-645c242735c2.gif)   
 _**Light and dark theme of the example app.**_
-
 
 ## Changing Theme Mode
 
@@ -257,7 +258,7 @@ past Flutter code that a lot of application use. You can read more about this
 design change and migration in this [Flutter design document](https://docs.google.com/document/d/1kzIOQN4QYfVsc5lMZgy_A-FWGXBAJBMySGqZqsJytcE/edit).
 
 At the time of writing we do not yet know what kind of adjustments 
-Material You will bring theming in Flutter. It could be very minimal 
+Material You will bring to theming in Flutter. It could be very minimal 
 changes, or we might even see a new cleaner theming solution.
 
 # Finally
