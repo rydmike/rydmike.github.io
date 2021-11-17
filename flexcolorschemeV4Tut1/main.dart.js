@@ -38736,7 +38736,7 @@ m.toString
 s=l.bZ(n.b)
 r=n.n
 q=t.p
-A.aFv(T.c5(H.a([Z.YJ(p,4,0,new A.am(r.a,r.b,r.c,r.d,p,p),30,p,p,!0,p,p,5,p,p,p,!0,p,p,30)],q),C.G,C.cK,C.x,p),"\xa9 2020, 2021\nMike Rydstrom\nBSD 3-Clause License","FlexColor\xadScheme","4.0.0-dev1-a",H.a([new T.b_(C.KP,T.akO(p,p,C.bg,!0,p,Q.fG(H.a([Q.fG(p,p,l,"This example shows some features of the FlexColor\xadScheme Flutter theming package. To learn more, check out the package on "),L.azq(s,"pub.dev","https://pub.dev/packages/flex_color_scheme"),Q.fG(p,p,l,". It is well documented and also includes the source code of this example.\n\n"),Q.fG(p,p,m,"Built with Flutter stable v2.5.3, using FlexColorScheme package 4.0.0-dev1-a\n\n")],t.Ne),p,p,p),C.ai,p,p,1,C.aq),p)],q),o)},
+A.aFv(T.c5(H.a([Z.YJ(p,4,0,new A.am(r.a,r.b,r.c,r.d,p,p),30,p,p,!0,p,p,5,p,p,p,!0,p,p,30)],q),C.G,C.cK,C.x,p),"\xa9 2020, 2021\nMike Rydstrom\nBSD 3-Clause License","FlexColor\xadScheme","4.0.0",H.a([new T.b_(C.KP,T.akO(p,p,C.bg,!0,p,Q.fG(H.a([Q.fG(p,p,l,"This example shows some features of the FlexColor\xadScheme Flutter theming package. To learn more, check out the package on "),L.azq(s,"pub.dev","https://pub.dev/packages/flex_color_scheme"),Q.fG(p,p,l,". It is well documented and also includes the source code of this example.\n\n"),Q.fG(p,p,m,"Built with Flutter stable v2.5.3, using FlexColorScheme package 4.0.0\n\n")],t.Ne),p,p,p),C.ai,p,p,1,C.aq),p)],q),o)},
 $S:0}
 T.I1.prototype={
 A(a,b){var s=null
@@ -78414,7 +78414,7 @@ C.K_=new P.e(4294956674)
 C.lG=new P.e(4280565325)
 C.LU=new A.am(C.Ik,C.Hx,C.K_,C.lG,C.lG,C.U)
 C.nl=new A.bp("Blumine","Blumine, easter blue and saffron mango theme",C.LP,C.LU)
-C.Mk=new A.bp("Custom","Define your own custom theme by selecting color scheme and surface colors",C.nb,C.nc)
+C.Mk=new A.bp("Custom","Define a custom color scheme",C.nb,C.nc)
 C.v1=new H.bH([C.nP,C.ne,C.nQ,C.nB,C.o0,C.nk,C.ob,C.nr,C.oi,C.nz,C.oj,C.ns,C.ok,C.nM,C.ol,C.nI,C.om,C.nv,C.e1,C.nC,C.nR,C.nw,C.nS,C.nj,C.nT,C.ny,C.nU,C.nu,C.nV,C.np,C.nW,C.nt,C.nX,C.nn,C.nY,C.ng,C.nZ,C.nJ,C.o_,C.no,C.o1,C.nD,C.o2,C.nF,C.o3,C.nE,C.o4,C.nA,C.o5,C.ni,C.o6,C.nx,C.o7,C.nd,C.o8,C.nm,C.o9,C.nG,C.oa,C.nL,C.oc,C.nH,C.od,C.nK,C.oe,C.nq,C.of,C.nf,C.og,C.nh,C.oh,C.nl,C.Ml,C.Mk],t.p5)
 C.oV=H.a(s(["*","+","-",".","/","0","1","2","3","4","5","6","7","8","9","Alt","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","Clear","Control","Delete","End","Enter","Home","Insert","Meta","PageDown","PageUp","Shift"]),t.s)
 C.pe=new G.d(42)
