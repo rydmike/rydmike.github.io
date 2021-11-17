@@ -3,15 +3,17 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "icons/Icon-512.png": "954a77ce2d4acb711e74d706eb6ea229",
+  "icons/Icon-maskable-512.png": "954a77ce2d4acb711e74d706eb6ea229",
+"icons/Icon-maskable-192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
+"icons/Icon-512.png": "954a77ce2d4acb711e74d706eb6ea229",
 "icons/Icon-192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "favicon-16x16.png": "242be32adbef097c7030c9eaa72473ea",
-"index.html": "0fcd8cff39d70dbed456a38d38fdf7de",
-"/": "0fcd8cff39d70dbed456a38d38fdf7de",
+"index.html": "7d085141b0fe829eec4f7d1c252eb551",
+"/": "7d085141b0fe829eec4f7d1c252eb551",
 "android-chrome-512x512.png": "954a77ce2d4acb711e74d706eb6ea229",
 "android-chrome-192x192.png": "2556fd553ad99a6ffbf8f8b7c8dfd2e6",
-"manifest.json": "32b0e511822fd0bd7b30c6049960a8fa",
+"manifest.json": "0867c3e13649ac4d06fe34b7b3ddce08",
 "favicon.ico": "331b787e798a290f177f8122529e3872",
 "favicon-32x32.png": "d2b5fd1e4312718ae51494745b2a1855",
 "version.json": "fa0ada4bc708f0562c40beeb13d904fc",
