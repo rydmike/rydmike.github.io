@@ -9,7 +9,7 @@ but with a few interesting twists and additional features.
 
 **FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme).
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
+<img src="https://rydmike.com/assets_fcsv4/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
 
 ### Background
 
@@ -44,13 +44,13 @@ before in the [**Flexfold demo**](http://rydmike.com/demoflexfold) web app on it
 [**In example 1**](https://rydmike.com/flexcolorscheme1) we just use a built-in scheme as our application's theme and 
 toggle between its light and dark variant, or allow the device theme-mode to control if the dark or light theme is used.
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1al.png?raw=true" alt="ColorScheme example 1 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex1ad.png?raw=true" alt="ColorScheme example 1 dark" width="190"/>
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex1al.png?raw=true" alt="ColorScheme example 1 light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex1ad.png?raw=true" alt="ColorScheme example 1 dark" width="190"/>
 
 [**Example 2**](https://rydmike.com/flexcolorscheme2) is a lot like the previous example, but we use our own custom 
 defined colors to make a scheme and turn it into a theme. In this case I used a bit more dignified looking dark purple 
 and deep green colors.  
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2al.png?raw=true" alt="ColorScheme example 2 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex2ad.png?raw=true" alt="ColorScheme example 2 dark" width="190"/> 
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex2al.png?raw=true" alt="ColorScheme example 2 light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex2ad.png?raw=true" alt="ColorScheme example 2 dark" width="190"/> 
 
 [**With example 3**](https://rydmike.com/flexcolorscheme3) we are getting a bit fancier, we can now switch active theme 
 between 3 different predefined color schemes, plus the custom one we made in the previous example. Since previous color 
@@ -58,7 +58,7 @@ scheme was a bit too somber, I added the Hippie blue scheme to this example. New
 surface and background colors receive a strong blend of the primary color in both dark and light mode. Just to show
 how, the option to use system controlled theme mode was removed in this example.
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3al.png?raw=true" alt="ColorScheme example 3a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3ad.png?raw=true" alt="ColorScheme example 3a dark" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3bl.png?raw=true" alt="ColorScheme example 3b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex3bd.png?raw=true" alt="ColorScheme example 3b dark" width="190"/>
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex3al.png?raw=true" alt="ColorScheme example 3a light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex3ad.png?raw=true" alt="ColorScheme example 3a dark" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex3bl.png?raw=true" alt="ColorScheme example 3b light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex3bd.png?raw=true" alt="ColorScheme example 3b dark" width="190"/>
 
 [**In example 4**](https://rydmike.com/flexcolorscheme4) we are going all in, we can now use a popup dialog to select 
 any of the predefined schemes, and the one we made above, plus two more color schemes created using different options. 
@@ -72,7 +72,7 @@ any of the predefined schemes, and the one we made above, plus two more color sc
 
 Surface and background branding level is a bit lower in this example than in the previous example, it is set to medium.
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4al.png?raw=true" alt="ColorScheme example 4a light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4bl.png?raw=true" alt="ColorScheme example 4b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cl.png?raw=true" alt="ColorScheme example 4c light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex4cd.png?raw=true" alt="ColorScheme example 4c dark" width="190"/>
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex4al.png?raw=true" alt="ColorScheme example 4a light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex4bl.png?raw=true" alt="ColorScheme example 4b light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex4cl.png?raw=true" alt="ColorScheme example 4c light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex4cd.png?raw=true" alt="ColorScheme example 4c dark" width="190"/>
 
 [**Example 5**](https://rydmike.com/flexcolorscheme5) is the last, and most complex one of the package bundled examples.
 It has many schemes and theming configuration options that we can modify interactively. This example is best seen 
@@ -82,7 +82,7 @@ This example can do a lot of the things seen on the **Theme** page in the
 [**Flexfold demo app**](https://rydmike.com/demoflexfold). It even has a fake semi responsive menu/rail included, 
 so that we can see more of the primary color branded background surface. 
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5al.png?raw=true" alt="ColorScheme example 5 light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5bl.png?raw=true" alt="ColorScheme example 5b light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5fl.png?raw=true" alt="ColorScheme example 5f light" width="190"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5gl.png?raw=true" alt="ColorScheme example 5g light" width="190"/>
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5al.png?raw=true" alt="ColorScheme example 5 light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5bl.png?raw=true" alt="ColorScheme example 5b light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5fl.png?raw=true" alt="ColorScheme example 5f light" width="190"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5gl.png?raw=true" alt="ColorScheme example 5g light" width="190"/>
 
 This example can even do some theme tricks that the [**Flexfold demo app**](https://rydmike.com/demoflexfold) cannot do
 in its current version.
@@ -100,12 +100,12 @@ With the **deep blue sea** scheme, the computed dark scheme colors are a bit mor
 were hand-picked for its dark scheme. These screenshots are using medium surface branding, the computed dark scheme 
 is on the right.
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5ad.png?raw=true" alt="ColorScheme example 5 dark" width="280"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5ad-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5ad.png?raw=true" alt="ColorScheme example 5 dark" width="280"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5ad-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
 
 With some other schemes, like with **Aqua blue**, there is only some minor difference. These screenshots
 are using strong surface branding, the computed dark scheme is on the right. 
 
-<img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5a2d.png?raw=true" alt="ColorScheme example 5a2 dark" width="280"/><img src="https://github.com/rydmike/flex_color_scheme/blob/master/resources/fcs_phone_ex5a2d-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
+<img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5a2d.png?raw=true" alt="ColorScheme example 5a2 dark" width="280"/><img src="https://rydmike.com/assets_fcsv4/fcs_phone_ex5a2d-to-black.png?raw=true" alt="ColorScheme example 5 dark computed" width="280"/>
 
 I updated example 5 and added a new feature to it, just to the example, no changes to FlexColorScheme itself. I included
 a slider that can be used to interactively change the `whiteBlend` level for the computed dark mode scheme colors.
