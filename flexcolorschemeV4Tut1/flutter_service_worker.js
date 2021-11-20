@@ -3,23 +3,23 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "icons/Icon-maskable-512.png": "ecb293c531ab64515888c2201a563563",
+  "manifest.json": "0867c3e13649ac4d06fe34b7b3ddce08",
+"version.json": "0ef2319e70844ec616bafaafe5020a66",
+"icons/Icon-maskable-512.png": "ecb293c531ab64515888c2201a563563",
 "icons/Icon-maskable-192.png": "3effc365b2dd62bdeb7ff18c6783c417",
-"icons/Icon-512.png": "ecb293c531ab64515888c2201a563563",
 "icons/Icon-192.png": "3effc365b2dd62bdeb7ff18c6783c417",
+"icons/Icon-512.png": "ecb293c531ab64515888c2201a563563",
 "favicon.png": "61f2a2a3efb6c6d241c57b14cb4cdcc4",
-"index.html": "fa6b6fc617373ef872f55ec8f6c86b67",
-"/": "fa6b6fc617373ef872f55ec8f6c86b67",
-"manifest.json": "0867c3e13649ac4d06fe34b7b3ddce08",
-"version.json": "fcbce13ebe0c74f91456b4176fb9a400",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "11ba95b863f5d5e4d27b488dd68fad55",
+"main.dart.js": "fcd330f42801a3beea78617cd0fe42f1",
+"index.html": "5bf61901b7c97a086996ea3cc05e6fee",
+"/": "5bf61901b7c97a086996ea3cc05e6fee",
+"assets/NOTICES": "713919b36b6bcfe4d4ba009646ebf419",
 "assets/packages/material_design_icons_flutter/lib/fonts/materialdesignicons-webfont.ttf": "015400679694f1f51047e46da0e1dc98",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flex_color_picker/assets/opacity.png": "49c4f3bcb1b25364bb4c255edcaaf5b2",
-"assets/FontManifest.json": "1b1e7812d9eb9f666db8444d7dde1b20",
 "assets/AssetManifest.json": "b627a4b535d27fd8d6fab5babcdf1697",
-"main.dart.js": "e74f23be8fd4aef30202be1d1d9629b5"
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/FontManifest.json": "1b1e7812d9eb9f666db8444d7dde1b20"
 };
 
 // The application shell files that are downloaded before a service worker can
