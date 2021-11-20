@@ -285,11 +285,11 @@ In any case, **FlexColorScheme** takes care of this color scheme based theme inc
 ## Built-in Color Schemes
 
 Color schemes are no fun without some built-in examples to use and play with. 
-**FlexColorScheme** comes with 32 ready to go color schemes that you can use in your apps if you like.
+**FlexColorScheme** comes with 36 ready to go color schemes that you can use in your apps if you like.
 
 The bundled examples are all tuned matching light and dark theme pairs. The first two color schemes are actually 
 the Flutter and Material Design guide examples of light and dark mode themes, and the Flutter high contrast light and 
-dark version as well. So OK, there are actually "only" 30 new ready-made color schemes.
+dark version as well. So OK, there are actually "only" 34 new ready-made color schemes.
 
 I might add more designs in later versions if there are requests, or some proposed nice 
 additional color schemes you would like to have included. 
@@ -333,7 +333,10 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 <img src="https://rydmike.com/assets/LightScheme030.png?raw=true" alt="light 30" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme031.png?raw=true" alt="light 31" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme032.png?raw=true" alt="light 32" width="200"/>
-
+<img src="https://rydmike.com/assets/LightScheme033.png?raw=true" alt="light 32" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme034.png?raw=true" alt="light 32" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme035.png?raw=true" alt="light 32" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme036.png?raw=true" alt="light 32" width="200"/>
 
 ### Dark Mode Color Schemes
 
@@ -371,6 +374,10 @@ Below you will find all the dark theme mode color schemes, with the scheme color
 <img src="https://rydmike.com/assets/DarkScheme030.png?raw=true" alt="dark 30" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme031.png?raw=true" alt="dark 31" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme032.png?raw=true" alt="dark 32" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme033.png?raw=true" alt="dark 32" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme034.png?raw=true" alt="dark 32" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme035.png?raw=true" alt="dark 32" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme036.png?raw=true" alt="dark 32" width="200"/>
 
 ## Funky Color Scheme Names?
 
@@ -384,4 +391,7 @@ Sometimes the automatically assigned color names where just so hip, that I had t
 Now when the secrets of the color schemes and interactive theming in the Flexfold demo app have been revealed, why not
 head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) and give it a try!
 
-Page updated 25.6.2021
+---
+
+Page updated 20.11.2021   
+_Only added the new color schemes, the article is still based on V3 not new V4_
