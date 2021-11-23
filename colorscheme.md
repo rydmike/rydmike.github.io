@@ -7,6 +7,24 @@
 surfaces. The created themes are based on the same concept as Flutter's **ColorScheme** based themes,
 but with a few interesting twists and additional features.
 
+> ### This article is based on FlexColorScheme V3
+> The documentation included in the readme for FlexColorScheme V4 package on 
+> [pub.dev](https://pub.dev/packages/flex_color_scheme)
+> contains similar and updated information for version 4. The features described here
+> are still valid for version 4, but it also has additional new features and
+> all its bundled examples have been updated. The links to the live examples further below
+> are to the FlexColorScheme version 3 examples. For links to version 4 examples please refer
+> to the package readme or use these links:
+> 
+> #### FlexColorScheme Version 4 Live Examples
+> [Example 1 - Basic Themes Usage](https://rydmike.com/flexcolorschemeV4Tut1/#/)  
+> [Example 2 - Custom Theme](https://rydmike.com/flexcolorschemeV4Tut2/#/)  
+> [Example 3 - Four Themes](https://rydmike.com/flexcolorschemeV4Tut3/#/)  
+> [Example 4 - All Themes](https://rydmike.com/flexcolorschemeV4Tut4/#/)  
+> [Example 5 - Themes Playground](https://rydmike.com/flexcolorschemeV4Tut5/#/)
+> 
+> This article will be updated later with newer version 4 information as well.
+
 **FlexColorScheme** is available on **pub.dev** as a [**Flutter package**](https://pub.dev/packages/flex_color_scheme).
 
 <img src="https://rydmike.com/assets_fcsv4/CollageSize50.png?raw=true" alt="ColorScheme Intro"/>
@@ -333,10 +351,10 @@ Below you will find all the light theme mode color schemes, with the scheme colo
 <img src="https://rydmike.com/assets/LightScheme030.png?raw=true" alt="light 30" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme031.png?raw=true" alt="light 31" width="200"/>
 <img src="https://rydmike.com/assets/LightScheme032.png?raw=true" alt="light 32" width="200"/>
-<img src="https://rydmike.com/assets/LightScheme033.png?raw=true" alt="light 32" width="200"/>
-<img src="https://rydmike.com/assets/LightScheme034.png?raw=true" alt="light 32" width="200"/>
-<img src="https://rydmike.com/assets/LightScheme035.png?raw=true" alt="light 32" width="200"/>
-<img src="https://rydmike.com/assets/LightScheme036.png?raw=true" alt="light 32" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme033.png?raw=true" alt="light 33" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme034.png?raw=true" alt="light 34" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme035.png?raw=true" alt="light 35" width="200"/>
+<img src="https://rydmike.com/assets/LightScheme036.png?raw=true" alt="light 36" width="200"/>
 
 ### Dark Mode Color Schemes
 
@@ -374,15 +392,15 @@ Below you will find all the dark theme mode color schemes, with the scheme color
 <img src="https://rydmike.com/assets/DarkScheme030.png?raw=true" alt="dark 30" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme031.png?raw=true" alt="dark 31" width="200"/>
 <img src="https://rydmike.com/assets/DarkScheme032.png?raw=true" alt="dark 32" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme033.png?raw=true" alt="dark 32" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme034.png?raw=true" alt="dark 32" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme035.png?raw=true" alt="dark 32" width="200"/>
-<img src="https://rydmike.com/assets/DarkScheme036.png?raw=true" alt="dark 32" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme033.png?raw=true" alt="dark 33" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme034.png?raw=true" alt="dark 34" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme035.png?raw=true" alt="dark 35" width="200"/>
+<img src="https://rydmike.com/assets/DarkScheme036.png?raw=true" alt="dark 36" width="200"/>
 
 ## Funky Color Scheme Names?
 
 So where do the funky scheme names come from? Like Mandy red and Hippie blue among others. I used the Flexfold
-demo app's custom theme mode, to design some of the color schemes in FlexColorScheme. While doing that, 
+demo app's custom theme mode, to design some color schemes in FlexColorScheme. While doing that, 
 [**FlexColorPicker**](https://rydmike.com/colorpicker) names the chosen color automatically.
 Sometimes the automatically assigned color names where just so hip, that I had to use them in the scheme names too.
 
@@ -393,5 +411,4 @@ head over to [**pub.dev and give FlexColorScheme**](https://pub.dev/packages/fle
 
 ---
 
-Page updated 20.11.2021   
-_Only added the new color schemes, the article is still based on V3 not new V4_
+Page updated 23.11.2021  
