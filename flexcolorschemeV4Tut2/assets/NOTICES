@@ -12514,6 +12514,8 @@ path_provider_macos
 path_provider_windows
 plugin_platform_interface
 shared_preferences
+shared_preferences_android
+shared_preferences_ios
 shared_preferences_linux
 shared_preferences_macos
 shared_preferences_web
