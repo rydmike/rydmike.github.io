@@ -3,20 +3,20 @@
 
 # Responsive Grids in Flutter
 
-This is a Flutter responsive web grid demo 
-I made first with a very early version of Flutter for Web, using Flutter master 
-v1.10.3-pre.67 on a Windows 10 desktop 18.9.2019.
-
+This is a Flutter responsive web grid demo that
+I made with a very early version of Flutter for Web, using Flutter master 
+v1.10.3-pre.67 on a Windows 10 desktop 18.9.2019. 
 The demo includes an early Web layout test I made with [**Romain Rastel's**](https://twitter.com/lets4r) popular
-[**Flutter Staggered Grid View package**](https://pub.dev/packages/flutter_staggered_grid_view).
+[**Flutter Staggered Grid View package**](https://pub.dev/packages/flutter_staggered_grid_view)
+already in 2019.
 
 ## Web Example Build from 2019
 **Using: StaggeredGridview 0.3.0** 
 
-This old build is still published [**and running here**](https://rydmike.com/gridtest).
-It showed how to set up Flutter WEB and Desktop in the same project in 2019. 
+This old build from 2019 is still published [**and running here**](https://rydmike.com/gridtest).
+The version showed how to set up Flutter WEB and Desktop in the same project in 2019. 
 Back then you needed `dart.io` in Flutter Desktop, but
-that did not compile in Flutter WEB. To get around this the use of a
+that did not compile in Flutter WEB. To get around this, the use of a
 conditional Dart lib import was needed and demonstrated. Staggered Grid version
 [0.3.0](https://pub.dev/packages/flutter_staggered_grid_view/versions/0.3.0)
 was used in this old build.
@@ -40,12 +40,13 @@ this GIF screen recording:
 
 The extra conditional import for combined desktop and web build are no longer needed
 when building the app in 2021. After migrating the old project to null-safety migration, 
-and some minor updates with random colored panels and an about-box accessible via the AppBar on the main screen. 
+and some minor updates with random colored panels and an about-box accessible 
+via the AppBar on the main screen. 
 We can build the same demo from 2019 with Flutter 2.8.0 in late 2021 and test it 
 with the latest released StaggeredGridview package version 0.4.1.
 
 When we do, we can however
-still see the issues with Staggered Grid remain in that build when using
+still see that the issues with Staggered Grid remain in that build when using
 [Staggered Grid v 0.4.1](https://pub.dev/packages/flutter_staggered_grid_view/versions/0.4.1) 
 and Flutter 2.8.0.
 It can be seen and [**tested here**](https://rydmike.com/gridtest-0-4-1).
@@ -77,7 +78,11 @@ It no longer shows the resizing issues and is much faster.
 # Source Code
 
 The source code for this Flutter web demo
-is available in my [**resp_stag_grid**](https://github.com/rydmike/resp_stag_grid) GitHub repository. 
+is available in my [**resp_stag_grid**](https://github.com/rydmike/resp_stag_grid) 
+GitHub repository. The master branch contains the version using the
+StaggeredGridView 0.5.0-dev.1 package. There is a separate branch with
+the demo using the 
+[0.4.1 release](https://github.com/rydmike/resp_stag_grid/tree/using-stg-0-4-1).
 
 
 
