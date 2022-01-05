@@ -31,7 +31,7 @@ Flutter applications. [[**Read more...**]](blog_layout_and_theming)
 ---
 
 ## [Flutter Linting Comparison](blog_flutter_linting)
-*(Jul 28, 2021, Updated Nov 23, 2021)*
+*(Jul 28, 2021, Updated Jan 5, 2022)*
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now. 
 At the end of this article I also present a comparison of different popular lint packages and the 
