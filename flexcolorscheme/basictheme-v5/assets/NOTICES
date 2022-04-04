@@ -6654,7 +6654,8 @@ flex_color_scheme
 
 BSD 3-Clause License
 
-Copyright (c) 2020, 2021 Mike Rydstrom (Twitter @RydMike GitHub rydmike)
+FlexColorScheme Copyright (c) 2020, 2021, 2022
+Mike Rydstrom (Twitter @RydMike GitHub rydmike)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -6687,7 +6688,8 @@ flex_color_scheme_example
 
 BSD 3-Clause License
 
-Copyright (c) 2020, Mike Rydstrom (Rydmike)
+FlexColorScheme usage examples Copyright (c) 2020, 2021, 2022
+Mike Rydstrom (Twitter @RydMike GitHub rydmike)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -6714,7 +6716,6 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
 --------------------------------------------------------------------------------
 flutter
 
