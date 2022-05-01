@@ -338,15 +338,12 @@ colors, and if not done correctly, it may result in themes with color schemes
 that are not entirely consistent or logical across all standard SDK
 widgets in your application.
 
-In the chapter [Roads to ThemeData](/theming_roads) where we look at all the
-different ways to define a `ThemeData` object. We will see
-different result like these, depending on how we create our **ThemeData** the 
-results can vary a lot, even if we use same input colors.
+In the article [Roads to ThemeData](blog_roads_to_theme_data) we look at all the different ways to define a `ThemeData` object. We will see different result like these, depending on how we create our **ThemeData** the results can vary a lot, even if we use same input colors.
 
 |[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-03-td-brightness-light-flex.png?raw=true" alt="TD flex Swatch2 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-03-td-brightness-light-flex.png?raw=true)|[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-05-td-brightness-light-swatch-flex.png?raw=true" alt="TD flex Swatch3 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-05-td-brightness-light-swatch-flex.png?raw=true)|[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-07-td-light-fromSwatch-flex.png?raw=true" alt="TD flex Swatch4 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-07-td-light-fromSwatch-flex.png?raw=true)|[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-09-td-light-colorScheme.png?raw=true" alt="TD Scheme5 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-09-td-light-colorScheme.png?raw=true)|
 |[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-11-td-from-Scheme-light.png?raw=true" alt="TD Scheme6 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-11-td-from-Scheme-light.png?raw=true)|[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-13-td-colorScheme-light.png?raw=true" alt="TD Scheme7 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-13-td-colorScheme-light.png?raw=true)|[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-15-td-ColorScheme-fromSeed-light.png?raw=true" alt="TD Scheme8 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-15-td-ColorScheme-fromSeed-light.png?raw=true)|[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-17-td-from-ColorScheme-fromSeed-light.png?raw=true" alt="TD Scheme9 light" width="220"/>](https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-wt-17-td-from-ColorScheme-fromSeed-light.png?raw=true)|
 
-_Many different ways to make **ThemeData** using same **ColorScheme** or same seed color_
+_Many different ways to make **ThemeData** using same **ColorScheme** or same **seed** color_
 
 ## Deprecation Road-map
 
@@ -431,4 +428,4 @@ Personally I don't even attempt it anymore, even if I could. It is so much
 quicker and simpler to use **FlexColorScheme** to accomplish many of the
 complex theme definitions it does.
 
-Head over to [FlexColorScheme.com](https://docs.flexcolorscheme.com/) to learn more.
+Head over to [FlexColorScheme.com](https://docs.flexcolorscheme.com/) to learn more. This article is also available as a [chapter](https://docs.flexcolorscheme.com/theming_guide) in the documentation.

@@ -1178,4 +1178,4 @@ and "a few" built-in color schemes that can be nice theme starting points or
 used as they are if they fit your needs.
 To top it all off, it can help you with component theming as well.
 
-Head over to [FlexColorScheme.com](https://docs.flexcolorscheme.com/) to learn more.
+Head over to [FlexColorScheme.com](https://docs.flexcolorscheme.com/) to learn more. This article is also available as a [chapter](https://docs.flexcolorscheme.com/theming_roads) in the documentation.
