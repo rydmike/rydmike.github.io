@@ -4,7 +4,7 @@
 
 ## FlexColorScheme
 
-The Flutter [FlexColorScheme](https://pub.dev/packages/flex_color_scheme) package has its own website at [docs.flexcolorscheme.com](https://docs.flexcolorscheme.com). Please head over there to learn more about it. I'm pleased to share that FlexColorScheme is a Flutter [Favorite](https://docs.flutter.dev/development/packages-and-plugins/favorites) package.
+The Flutter [FlexColorScheme](https://pub.dev/packages/flex_color_scheme) package has its own documentation website at [docs.flexcolorscheme.com](https://docs.flexcolorscheme.com). Please head over there to learn more about it. I'm also pleased to share that FlexColorScheme is a Flutter [Favorite](https://docs.flutter.dev/development/packages-and-plugins/favorites) package.
 
 [<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/flutter-favorite-logo.png?raw=true?" alt="flutter favorite logo" width="170"/>](https://docs.flutter.dev/development/packages-and-plugins/favorites)
 
