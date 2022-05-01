@@ -17,13 +17,27 @@ Chill, peace and **Flutter** love to all of you! 💙
 <img src="https://rydmike.com/assets/flutter_santa.jpg?raw=true" alt="flutter santa" width="300"/>   
 
 
+
+---
+## [Flutter Theming Guide](blog_theming_guide)
+*(Jul 28, 2021, Updated Jan 5, 2022)*
+
+Dart and Flutter linting is important, if you have not used it before it is a good idea to start now. 
+At the end of this article I also present a comparison of different popular lint packages and the 
+Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
+
+[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="300"/>](blog_flutter_linting)
+
 ---
 ## [Flutter Linting Comparison](blog_flutter_linting)
 *(Jul 28, 2021, Updated Jan 5, 2022)*
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now. 
 At the end of this article I also present a comparison of different popular lint packages and the 
-Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
+Dart and Flutter lint rules they use. 
+
+
+[[**Read more...**]](blog_flutter_linting)
 
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="300"/>](blog_flutter_linting)
 ---

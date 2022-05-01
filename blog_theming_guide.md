@@ -432,3 +432,5 @@ It is however very tedious and verbose to do all the things it can do manually.
 Personally I don't even attempt it anymore, even if I could. It is so much
 quicker and simpler to use **FlexColorScheme** to accomplish many of the
 complex theme definitions it does.
+
+Head over to [FlexColorScheme.com](https://docs.flexcolorscheme.com/) to learn more.
