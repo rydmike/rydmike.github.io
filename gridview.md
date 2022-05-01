@@ -1,5 +1,5 @@
-| [Home](https://rydmike.com) | [Flexfold](flexfold) | [ColorScheme](colorscheme) | [ColorPicker](colorpicker) |  
-| [Talo](talo)                | Grid                 | [Issues](issues)           | [Blog](blog)               |
+| [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
+| [Blog](blog)                | [FlexColorPicker](colorpicker) | Grid             | [Talo](talo)         |
 
 # Responsive Grids in Flutter
 

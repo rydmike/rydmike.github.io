@@ -1,11 +1,10 @@
-| [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
+| [Home](https://rydmike.com) | FlexColorScheme                | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 
 ## FlexColorScheme
 
-The Flutter FlexColorScheme package has its own website at [docs.flexcolorscheme.com](https://docs.flexcolorscheme.com). Please head over to its own site to learn more about it. I'm also pleased to share that FlexColorScheme is a Flutter [Favorite](https://docs.flutter.dev/development/packages-and-plugins/favorites) package.
-
+The Flutter [FlexColorScheme](https://pub.dev/packages/flex_color_scheme) package has its own website at [docs.flexcolorscheme.com](https://docs.flexcolorscheme.com). Please head over there to learn more about it. I'm pleased to share that FlexColorScheme is a Flutter [Favorite](https://docs.flutter.dev/development/packages-and-plugins/favorites) package.
 
 [<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/flutter-favorite-logo.png?raw=true?" alt="flutter favorite logo" width="170"/>](https://docs.flutter.dev/development/packages-and-plugins/favorites)
 
@@ -28,10 +27,15 @@ With **FlexColorScheme** component themes you use simple flat property values. N
 
 **FlexColorScheme** has many advanced coloring features, like using surface alpha blends. It also fully supports Material 3 based color schemes, including seed key color generated `ColorSchemes`. It offers many configuration options that you can use when you generate your `ColorScheme` from
 key colors, customization features that are currently not available in Flutter.
+
+## Themes Playground
+
+If you are here for the **FlexColorScheme** companion application that allows you to configure a theme and copy-paste its setup code for use in your application, then head over to the [**Themes Playground**](https://rydmike.com/flexcolorscheme/themesplayground-v5).
+
+[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-pg-01-pageview-3.gif?raw=true" alt="Page view demo"/>](https://rydmike.com/flexcolorscheme/themesplayground-v5)
 ## Funky Theme Names?
 
-So where do the funky scheme names come from? Like Mandy red and Hippie blue among others. I used the Flexfold demo app's custom theme mode, to design some color schemes in FlexColorScheme. While doing that, [**FlexColorPicker**](https://rydmike.com/colorpicker) names the chosen color automatically.
-Sometimes the automatically assigned color names where just so hip, that I had to use them in the scheme names too.
+So where do the funky scheme names come from? Like Mandy red and Hippie blue among others. I used the Flexfold demo app's custom theme mode, to design some color schemes in FlexColorScheme. While doing that, [**FlexColorPicker**](https://rydmike.com/colorpicker) names the chosen color automatically. Sometimes the automatically assigned color names where just so hip, that I had to use them in the scheme names too.
 
 ---
 
