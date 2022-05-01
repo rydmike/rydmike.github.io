@@ -4,11 +4,9 @@
 # Flutter Theming Guide
 *(May 1, 2022)*
 
-The Flutter `ThemeData` object defines the look of your application, and to a degree how it behaves. In section ["Defining ThemeData"](/theming_guide#defining-themedata) and chapter ["Roads to ThemeData"](/theming_roads), we look at this closer.
+The Flutter `ThemeData` object defines the look of your application, and to a degree how it behaves. The `ColorScheme` class is a data class that holds 27 `Color` properties. Flutter's built-in components use these colors in predefined ways. The property name for the used `ColorScheme` in `ThemeData` is `colorScheme`. 
 
-The `ColorScheme` class is a data class that holds 27 `Color` properties. Flutter's built-in components use these colors in predefined ways. The property name for the used `ColorScheme` in `ThemeData` is `colorScheme`. The color scheme used to be a a lot simpler before Flutter 2.10, the introduction of Material 3 makes it more complex. There are new features that can help with the color design. For more information about the color system, see the [Material 3 guide](https://m3.material.io/styles/color/overview).
-
-This tweet with 15 slides, offers an intro to the wondrous world of Material 3 ColorScheme.
+The color scheme used to be a a lot simpler before Flutter 2.10, the introduction of Material 3 makes it more complex. There are new features that can help with the color design. For more information about the color system, see the [Material 3 guide](https://m3.material.io/styles/color/overview). This tweet with 15 slides, offers an intro to the wondrous world of Material 3 ColorScheme.
 
 [<img src="https://rydmike.com/assets/dash-color-scheme-slides.png?raw=true" alt="dash colorscheme slides"/>](https://twitter.com/RydMike/status/1518201439780282370)
 
