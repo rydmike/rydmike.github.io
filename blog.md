@@ -20,7 +20,7 @@ In this article we compare different ways to define and create a `ThemeData` obj
 
 ---
 ## [Flutter Theming Guide](blog_theming_guide)
-*(May 1, 2022)*
+*(May 1, 2022, Updated May 4, 2022)*
 
 The Flutter `ThemeData` object defines the look of your application, and to a degree how it behaves. The `ColorScheme` class is a data class that holds 27 `Color` properties. Flutter's built-in components use these colors in predefined ways. [[**Read more...**]](blog_theming_guide)
 
