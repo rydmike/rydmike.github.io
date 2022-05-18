@@ -14,6 +14,7 @@ include:
   - issues.md
   - talo.md
   - blog.md
+  - blog_m3_talk.md
   - blog_flutter_linting.md
   - blog_cliprect_boxshadow.md
   - blog_sliver_padding.md
