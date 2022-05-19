@@ -4,7 +4,7 @@
 # Flutter App Theming
 *(May 19, 2022)*
 
-On May 17,2022 at Flutter Nordics meetup at Wolt HQ, I had the pleasure of talking about theming Flutter applications and the state of Material 3 design in Flutter 3.0.
+On **May 17,2022** at **Flutter Nordics meetup at Wolt HQ** in Helsinki, I had the pleasure of talking about theming Flutter applications, and the state of Material 3 design in Flutter 3.0.
 
 <img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_banner.jpg?raw=true" alt="Material 3 talk" width="600"/>
 
@@ -18,9 +18,9 @@ In the talk I cover:
 * Theme extensions
 * Easier theming with FlexColorScheme 
 
-## Slide Deck
+## Presentation Deck
 
-The presentation slide deck can be viewed here
+The presentation slide deck can be viewed here:
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_slides.png?raw=true" alt="Talk slides" width="600"/>](https://docs.google.com/presentation/d/1JRQ3w1UPSlqfaW_pbBJrzjNOQnxEcRfGkbMF0Mwtr98/present?slide=id.p1)
 
@@ -41,7 +41,6 @@ The talk uses a simple demo app to show different ways to construct a `ThemeData
 `ThemeData`. This demo app is available as single [Gist file on GitHub](https://gist.github.com/rydmike/515a014525c91ec55c86b489c30bfad5), it can be run directly in DartPad here:
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_demo.png?raw=true" alt="Demo app" width="600"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
-
 
 ## Talk by Eralp Karaduman
 Between my two part talk, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about
