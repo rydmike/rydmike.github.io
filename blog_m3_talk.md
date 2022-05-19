@@ -46,7 +46,7 @@ tun directly in DartPad here:
 
 ## Panel Discussion
 
-Thanks to [Wolt](https://wolt.com/) and [Cagatay]([Cagatay Ulusoy](https://twitter.com/ulusoyapps))
+Thanks to [Wolt](https://wolt.com/) and [Cagatay Ulusoy](https://twitter.com/ulusoyapps)
 for hosting the meetup, and to [Alessio Salvadorini](https://twitter.com/ASalvadorini) for acting as 
 our Google I/O panel moderator and speaker. If you watch the meetup recording from 
 the [beginning](https://www.youtube.com/watch?v=M6Uz4ALs2kc) you will see us, plus [Tom Gilder](https://twitter.com/tomgilder) 
@@ -57,7 +57,7 @@ and [Elliot Tikhomirov](https://twitter.com/tikhomirovi) starting the meetup by 
 
 
 ## Talk by Eralp Karaduman
-Between my talk, that is in two parts, you can find a very interesting presentation by Eralp Karaduman about
+Between my talk, that is in two parts, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about
 _"Mocking APIs using embedded web servers in Flutter apps"_.
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_video_eralp mocking API.jpg?raw=true" alt="talk eralp" width="400"/>](https://youtu.be/M6Uz4ALs2kc?t=5913)
