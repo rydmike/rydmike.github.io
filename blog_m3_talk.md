@@ -26,7 +26,7 @@ The presentation slide deck can be viewed here:
 
 ## Recording of the Talk
 
-The talk was streamed live and is available as a recording on YouTube. It is in two parts, below you can find direct links to the starting point for each part.
+The talk was streamed live and is available as a recording on YouTube. It is in two parts, below you can find direct links to the starting point of each part.
 
 #### Part one
 
@@ -37,7 +37,7 @@ The talk was streamed live and is available as a recording on YouTube. It is in 
 
 ### Demo App Used in the Talk
 
-During the talk I use a simple demo app to show different ways to construct a `ThemeData` object and the different results they produce. The same app is also used in the presentation to show what changes in Flutter 3.0, when you switch to using Material 3 design, by setting `useMaterial3` to true in `ThemeData`. This demo app is available as single [Gist file on GitHub](https://gist.github.com/rydmike/515a014525c91ec55c86b489c30bfad5), and it can be run directly in a Web **DartPad** here:
+During the talk I use a simple demo app to show different ways to construct a `ThemeData` object, and demonstrate the different results they produce. The same app is also used in the presentation to show what happens in Flutter 3.0, when you switch to using Material 3 design by setting `useMaterial3` to true in `ThemeData`. This demo app is available as a single [Gist file on GitHub](https://gist.github.com/rydmike/515a014525c91ec55c86b489c30bfad5), and it can be run directly in a Web **DartPad** here:
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_demo.png?raw=true" alt="Demo app" width="600"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
 
