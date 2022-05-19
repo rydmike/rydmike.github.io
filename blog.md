@@ -11,12 +11,14 @@ Chill, peace and Flutter love to you all! 💙
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
 
-# Flutter App Theming
+# Flutter App Theming Talk
 *(May 19, 2022)*
 
 On May 17,2022 at Flutter Nordics meetup at Wolt HQ in Helsinki, I had the 
 pleasure of talking about theming Flutter applications and state of Material 3 
-design in Flutter 3.0. [[**Read more...**]](blog_m3_talk)
+design in Flutter 3. [[**Read more...**]](blog_m3_talk)
+
+[<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_banner.jpg?raw=true" alt="Material 3 talk" width="380"/>](blog_m3_talk)
 
 ---
 ## [Roads to ThemeData](blog_roads_to_theme_data)
