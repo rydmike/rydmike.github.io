@@ -1,7 +1,7 @@
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | Blog                        | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
-## Flutter Santa's Blog
+# Flutter Santa's Blog
 
 I sometimes write blog like articles about Flutter and publish them here. Who knows, maybe I will make some cross posts on other sites too, some rainy day. We will see, but for now you can find Flutter Santa's rumblings here.
 
@@ -10,13 +10,11 @@ Occasionally I also publish Flutter Gists that you can try in DartPad. The Gists
 Chill, peace and Flutter love to you all! 💙  
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
-
-# Flutter App Theming Talk
+---
+## [Flutter App Theming Talk](blog_m3_talk)
 *(May 19, 2022)*
 
-On May 17,2022 at Flutter Nordics meetup at Wolt HQ in Helsinki, I had the 
-pleasure of talking about theming Flutter applications and state of Material 3 
-design in Flutter 3. [[**Read more...**]](blog_m3_talk)
+On **May 17,2022** at Flutter Nordics meetup at Wolt HQ in Helsinki, I had the pleasure of talking about theming Flutter applications and state of Material 3 design in Flutter 3.0. [[**Read more...**]](blog_m3_talk)
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_banner.jpg?raw=true" alt="Material 3 talk" width="380"/>](blog_m3_talk)
 
