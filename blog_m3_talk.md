@@ -24,9 +24,9 @@ The presentation slide deck can be viewed here:
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_slides.png?raw=true" alt="Talk slides" width="600"/>](https://docs.google.com/presentation/d/1JRQ3w1UPSlqfaW_pbBJrzjNOQnxEcRfGkbMF0Mwtr98/present?slide=id.p1)
 
-## Slide Deck
+## Recording of the Talk
 
-The talk was streamed live and is available as a recording on YouTube. It is in two parts, below you can find direct links to the starting time for both parts.
+The talk was streamed live and is available as a recording on YouTube. It is in two parts, below you can find direct links to the starting point for each part.
 
 #### Part one
 
@@ -37,25 +37,20 @@ The talk was streamed live and is available as a recording on YouTube. It is in 
 
 ### Demo App Used in the Talk
 
-The talk uses a simple demo app to show different ways to construct a `ThemeData` object. The same app is also used in the presentation to show what changes in Flutter 3.0, when you switch to using Material 3 design, by setting `useMaterial3` to true in 
-`ThemeData`. This demo app is available as single [Gist file on GitHub](https://gist.github.com/rydmike/515a014525c91ec55c86b489c30bfad5), it can be run directly in DartPad here:
+During the talk I use a simple demo app to show different ways to construct a `ThemeData` object and the different results they produce. The same app is also used in the presentation to show what changes in Flutter 3.0, when you switch to using Material 3 design, by setting `useMaterial3` to true in `ThemeData`. This demo app is available as single [Gist file on GitHub](https://gist.github.com/rydmike/515a014525c91ec55c86b489c30bfad5), and it can be run directly in a Web **DartPad** here:
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_demo.png?raw=true" alt="Demo app" width="600"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
 
 ## Talk by Eralp Karaduman
-Between my two part talk, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about
-**Mocking APIs using embedded web servers in Flutter apps**.
+Between my two part talk, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about **Mocking APIs using embedded web servers in Flutter apps**.
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_video_eralp mocking API.jpg?raw=true" alt="talk eralp" width="600"/>](https://youtu.be/M6Uz4ALs2kc?t=5913)
 
 ## Panel Discussion
 
-Thanks to [Wolt](https://wolt.com/) and [Cagatay Ulusoy](https://twitter.com/ulusoyapps) for hosting the meetup, and to [Alessio Salvadorini](https://twitter.com/ASalvadorini) for acting as our Google I/O panel moderator and speaker. If you watch the meetup recording from the [beginning](https://www.youtube.com/watch?v=M6Uz4ALs2kc) you will see us, plus [Tom Gilder](https://twitter.com/tomgilder) and [Elliot Tikhomirov](https://twitter.com/tikhomirovi) starting the meetup by talking about our impressions from Google I/O 2022.
+Thanks to [Wolt](https://wolt.com/) and [Cagatay Ulusoy](https://twitter.com/ulusoyapps) for hosting the meetup, and to [Alessio Salvadorini](https://twitter.com/ASalvadorini) for acting as our Google I/O panel and discussions moderator. If you watch the meetup recording from the [**beginning**](https://www.youtube.com/watch?v=M6Uz4ALs2kc), you will see us, plus [Tom Gilder](https://twitter.com/tomgilder) and [Elliot Tikhomirov](https://twitter.com/tikhomirovi) starting the meetup by talking about our impressions from Google I/O 2022.
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_panel.jpg?raw=true" alt="favorites" width="600"/>](https://youtu.be/M6Uz4ALs2kc?t=1703)
-
-
-
 
 ## Da Moods at the Meetup
 <img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_the_mood.jpg?raw=true" alt="Meetup moods"/>
