@@ -42,7 +42,7 @@ During the talk I use a simple demo app to show different ways to construct a `T
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_demo.png?raw=true" alt="Demo app" width="600"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
 
 ## Talk by Eralp Karaduman
-Between my two part talk, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about **Mocking APIs using embedded web servers in Flutter apps**.
+Between my two part talk, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about **Mocking APIs using embedded web servers in Flutter apps**. You can read about it in his [blog post](https://eralp.dev/flutter-mock-api-server/) too.
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_video_eralp mocking API.jpg?raw=true" alt="talk eralp" width="600"/>](https://youtu.be/M6Uz4ALs2kc?t=5913)
 
