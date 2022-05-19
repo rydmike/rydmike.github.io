@@ -4,7 +4,7 @@
 # Flutter App Theming
 *(May 19, 2022)*
 
-On **May 17,2022** at **Flutter Nordics meetup at Wolt HQ** in Helsinki, I had the pleasure of talking about theming Flutter applications, and the state of Material 3 design in Flutter 3.0.
+On **May 17, 2022** at **Flutter Nordics meetup at Wolt HQ** in Helsinki, I had the pleasure of talking about theming Flutter applications, and the state of Material 3 design in Flutter 3.0.
 
 <img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_banner.jpg?raw=true" alt="Material 3 talk" width="600"/>
 
