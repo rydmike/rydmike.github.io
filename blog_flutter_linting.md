@@ -2,7 +2,9 @@
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Flutter Linting Comparison
-*(Published July 28, 2021, Updated May 1, 2022)*
+*(Published July 28, 2021, Updated May 21, 2022)*
+
+> Updated May 19, 2022, to cover Flutter 3.0 and Dart 2.17 updated linters.
 
 Dart and Flutter linting is important, if you have not used it before it is a good idea to start now. At the end of this article I also present a comparison of different popular lint packages and the Dart and Flutter lint rules they use.
 
@@ -24,7 +26,10 @@ Personally I like to start by enabling all lint rules in one file, and then incl
 
 If you do not want to track the Dart lint site for updates to all available lint rules, there is also an excellent package made by [Gaëtan Schwartz @gaetschwartz](https://github.com/gaetschwartz) called [all_lint_rules_community](https://pub.dev/packages/all_lint_rules_community) that you can use to add all lint rules to your project, instead of adding and updating the file manually. The package is automatically updated when new lint rules are added to the Dart [all lint rules page](https://dart-lang.github.io/linter/lints/options/options.html) so all you have to do is bump the package version to get the latest list of all lint rules when the package has been updated. 
 
-Both the `analysis_options.yaml` and the `all_lint_rules.yaml` can be placed in the root of your Flutter project folder, same place where you have your `pubspec.yaml` file. In my `analysis_options.yaml` I include the `all_lint_rules.yaml` file. In `analysis_options.yaml` I also exclude commonly generated Dart files from being analyzed, and enable analyzer strong-mode. In strong mode, I disable implicit type casts and implicit dynamic. I highly recommend doing so. Coding with it might feel a bit tedious if you are used to dynamically typed languages, but it will save you from a bunch of potential gotchas in Dart code.
+Both the `analysis_options.yaml` and the `all_lint_rules.yaml` can be placed in the root of your Flutter project folder, same place where you have your `pubspec.yaml` file. In my `analysis_options.yaml` I include the `all_lint_rules.yaml` file. In `analysis_options.yaml` I also exclude commonly generated Dart files from being analyzed.
+
+I use the new Dart `language:` setting, where I set `strict-casts: true`, `strict-inference: true`, and `strict-raw-types: true`. These replace previous `strong-mode` settings `implicit-casts: false` and `implicit-dynamic: false`. See Dart documentation [Enabling stricter type checks](https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks) for more information. 
+I highly recommend using these settings. 
 
 I lift common mistakes that I think should be errors, to error level. Then the analyzer won't even let me compile code with these mistakes. So I set it to flag missing return and missing required parameters as errors, not as warnings or info. I keep parameter re-assignments as only a warning though, there are occasions when it may be needed, but I want a warning, so I can consider a rewrite of it, or on a case by case ignore the warning after consideration.
 
@@ -32,7 +37,7 @@ My `analysis_options.yaml` file starts like this:
 
 
 ```yaml
-# RydMike LINTER Preferences v1.2.9
+# RydMike LINTER Preferences v2.0.0
 #
 # Get this file here: https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c
 #
@@ -135,7 +140,7 @@ I documented the choices I made, and the reasoning behind the choices at the poi
 
 [Here is a Gist](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) with the full details of the settings I use in `analysis_options.yaml` for my personal projects.
 
-I might change a few settings as things evolve. One rule I found myself disliking recently and disabling, is the `sort_constructors_first`. Sounds like it is a fine rule, right? For the default constructor I agree, I want it first too. However, **after that** I want to see all the properties of the default constructor, with their documentation comments. I find this useful for more complex packages that may have constructors with a lot of named parameters.
+I might change a few settings as things evolve. One rule I found myself disliking and disabling, is the `sort_constructors_first`. Sounds like it is a fine rule, right? For the default un-named constructor I agree, I want it first too. There is a separate lint for that, that I do use, it is called `sort_unnamed_constructors_first`. However, **after that** I want to see all the properties of the default constructor, with their documentation comments. I find this useful for more complex classes that may have many named constructors or factories with a lot of named parameters.
 
 If the `sort_constructors_first` rule is enabled, I am forced to use an order where I have to scroll far down to find the properties much further below, after all the named constructors and factories. I find this very inconvenient. This is another minor example of personal style preference. There are many lint rules that are style and code consistency related. Get to know them and find your own personal preferences.
 
@@ -179,63 +184,70 @@ There is nothing wrong with using any of these packages if they fit your needs. 
 
 For my personal projects I just prefer the clarity of enabling all rules in one file, and then disabling the ones that do not fit my use case and preferences. 
 
-Earlier I started with one of the above packages too, but I noticed that when I needed or wanted to modify a few rules. I then ended up with **enabling or disabling** rules in relation to used package settings. This got a bit messy to keep track of. Eventually it felt cleaner to just turn everything ON, and then just have OFF definitions in my `analysis_options.yaml`. Super simple, clear and easy to modify when needed, without messing things up.
-Plus no need for a package for this relatively simple setup.
+Earlier I started with one of the above packages too, but I noticed that when I needed or wanted to modify a few rules. I then ended up with **enabling or disabling** rules in relation to used package settings. This got a bit messy to keep track of. Eventually it felt cleaner to just turn everything ON, and then just have OFF definitions in my `analysis_options.yaml`. Super simple, clear and easy to modify when needed, without messing things up. Plus no need for a package for this relatively simple setup.
 
 In a big project the lint rules have probably been agreed and defined already for you, then just stick to that. If you find that the lint rules have not been defined, nor documented why they are a certain way in the project, well then they really should be.
 
 ## Which Lint Package Should I Use?
 
-If I want to use a package, which lint package should I use? Answering this question got a lot easier with Flutter 2.5. First, both the package
-[Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic) have been deprecated. For a new project I do not recommend them anymore. 
+If I want to use a package, which lint package should I use? 
 
-The Pedantic package from Google was originally intended mostly for their internal use. Despite its name, it was not very strict nor pedantic. It started as a minimum set they could agree on internally for Dart projects.
+Answering this question got a lot easier when Flutter 2.5 was released. 
 
-Starting from Flutter 2.5.0 Dart and Flutter teams launched two new lint packages that are used as default when you make a new Flutter package. Let us take a look at them.
+To start, both the package [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic) have been **deprecated**. For a new project, do not use them, and consider migrating applications and packages that used them, to recommended alternatives further below. The Pedantic package from Google was originally intended mostly for their internal use. Despite its name, it was not very strict nor pedantic at all. It was used as a minimum set they could agree on internally for Dart projects.
+
+Starting from Flutter version 2.5, Flutter and Dart use two new linting packages that are enabled by default when you create a new Flutter project. With the launch of Flutter 3, the used lint packages were updated to version 2, and include more Dart related rules than the rule set in version 1. When you create a new Flutter project with Flutter version 3.0.0 or later, you get version 2 linting rules enabled by default.
 
 ### Lints
-The first one is called [Lints](https://pub.dev/packages/lints). It was launched as version 1.0.0 on May 12, 2021. This package contains the new official recommended selection of lint rules for **Dart** projects.
+
+The first Flutter used linting package is called [`lints`](https://pub.dev/packages/lints). It was launched as version 1.0.0 on May 12, 2021. This package contains the new official recommended selection of lint rules for **Dart** projects. With release of Dart 2.17 and Flutter 3, it was bumped to version 2.0.0.
 
 It comes in two flavors, the absolute minimum lints, called **Core lints**, and a broader set called **Recommended lints**. The recommended set also includes the core lints. In the Dart guide you can read more about it [here](https://dart.dev/guides/language/analysis-options#enabling-linter-rules).
 
 ### Flutter lints
 
-The second package is called [Flutter lints](https://pub.dev/packages/flutter_lints), It was also launched as version 1.0.0 on May 12, 2021. The Flutter lints package includes the recommended set from Dart lints, plus a few more rules that are important in Flutter projects. These Dart and Flutter lint rule sets are built as supersets, with increasing amount of rules enabled.
+The second package is called [Flutter lints](https://pub.dev/packages/flutter_lints). It was also launched as version 1.0.0 on May 12, 2021. The `flutter_lints` package includes the recommended set from Dart `lints`, plus a few more rules that are important in Flutter projects. These Dart and Flutter lint rule sets, are built as supersets with increasing amount of rules enabled.
 
-Starting from Flutter version 2.3.0-12.0.pre and included in stable 2.5.0 and later versions, the package [Flutter lints](https://pub.dev/packages/flutter_lints) defines the latest set of officially recommended lints that encourage good coding practices for **Flutter** apps, packages, and plugins.
+Starting from Flutter version 2.3.0-12.0.pre and included in stable 2.5.0 and later versions, the package [`flutter_lints`](https://pub.dev/packages/flutter_lints) defines the latest set of officially recommended lints that encourage good coding practices for **Flutter** apps, packages, and plugins.
 
-Projects created with **flutter create** using Flutter **version 2.3.0-12.0.pre or newer**, and thus also in stable 2.5.0 and later, are automatically setup to use the **Flutter lints** package. 
+Projects created with **flutter create** using Flutter **version 2.3.0-12.0.pre or newer**, and thus also in stable 2.5.0 and later, are automatically setup to use the **Flutter lints** package. When creating a Flutter project with Flutter 3.0.0 or later, the used `flutter_lints` linting package level is bumped to version 2.0.0, that also uses `lints` 2.0.0.
 
 You can find the instructions [here](https://flutter.dev/docs/release/breaking-changes/flutter-lints-package).
 
-Since this lint rule set is the new default lint package for new Flutter projects, there is no major reason to recommend any other linter package than [Flutter lints](https://pub.dev/packages/flutter_lints) as a general good starting point. However, if you want more and much stricter rules, there are two good options, in addition to rolling your own setup.
+Since this lint rule set is the new default lint package for new Flutter projects, there is no major reason to recommend any other linter package than [`flutter_lints`](https://pub.dev/packages/flutter_lints) as a general good starting point. **However**, if you want more and stricter rules, there are two good options, in addition to rolling your own setup.
 
 ### Other Packaged Linters
 
 Both [Lint](https://pub.dev/packages/lint) and [Very Good Analysis](https://pub.dev/packages/very_good_analysis) are very solid choices offering much tighter linting rule sets than Flutter lints.
 
-They both enable more and even stricter lint rules than the new default **flutter_lints**. Both **lint** and **very_good_analysis** use strong mode and disable implicit casts. Very Good Analysis also wisely opts to disable implicit dynamic. 
+They both enable more and stricter lint rules than the new default **flutter_lints**. Both **lint** and **very_good_analysis** use strong mode and disable implicit casts. Very Good Analysis also wisely opts to disable implicit dynamic. 
 
-From package version 2.3.0 Very Good Analysis (VGA) also started treating missing required parameters and missing return, as code errors. I consider this
-a wise and welcome addition. From version 1.8.1 the **lint** package does this as well, it even adds treating function parameter new value assignments as warnings, bringing its strictness even higher than VGA in this respect. 
+Neither of the packages have yet been updated to use the new Dart `language:` setting, with `strict-casts: true`, `strict-inference: true`, and `strict-raw-types: true`. These settings replace previous `strong-mode` settings `implicit-casts: false` and `implicit-dynamic: false`. See Dart documentation [Enabling stricter type checks](https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks) for more information. The Flutter repo for example uses the newer `language` settings, it is recommended to use them over the older `strong-mode` settings. Most likely Lint and VGA will be updated in the near future to do so.
 
-The **lint** package includes excellent reasoning documentation for its lint rule choices in the source, allowing you to read and understand the author's rationale for the used choices. It also comes with a variant for packages, adding a few more useful rules for public packages. This is actually a very good feature if you write packages. Some of those rules are not so useful or even get in the way when you write applications, but important when you write packages to help your package get a higher score on pub.dev. 
+From package version 2.3.0 Very Good Analysis (VGA) also started treating missing required parameters and missing return, as code errors. I consider this a wise and welcome addition. From version 1.8.1 the **lint** package does this as well, it even adds treating function parameter new value assignments as warnings, bringing its strictness even higher than VGA in this respect. 
 
-I also find it interesting to follow what lint rules the Flutter SDK repo uses. Recently there has been many new rules enabled in the Flutter SDK as well.In the older version (1.4.0) of the comparison table from September 10, 2021, to the current one (1.7.0), the Flutter repo (master channel) has gone from 129 to 152 enabled lint rules.
+The **lint** package includes excellent reasoning documentation for its lint rule choices in the source, allowing you to read and understand the author's rationale for the used choices. It also comes with a variant for packages, adding a few more useful rules for public packages. This is actually a very good feature if you write packages. Some of those rules are not so useful or even get in the way when you write applications, but are important when you write packages to help your package get a higher score on pub.dev. 
 
-Out of the packaged linters **very_good_analysis**, enables the highest number of lint rules of the compared packaged linters. With 82.8% of available lint rules enabled in packages version 2.4.0, it is the most strict and "pedantic" of the compared packaged linters, at least if I exclude my own custom setup from the comparison. 
+Out of the packaged linters **very_good_analysis**, enables the highest number of lint rules of the compared packaged linters. With 177 rules, or 87.2% of available lint rules enabled in package version 3.0.0, it is the most strict and pedantic of the compared packaged linters. The **lint** package is not far behind. With its 1.8.2 version, it is at 152 rules, or 74.9% of lint rules enabled. 
 
-The **lint** package is not far behind. With its 1.8.2 version it is at 74.9% of lint rules enabled. The difference is really minor and matter of taste at this level of lints enabled. 
+Both packages track development of new Dart and Flutter lint rules actively and are updated regularly. They both enable all critical and important rules. Both are excellent choices if you want stricter linting than Flutter offers out of the box and don't want to track and maintain the rule set yourself, and would rather just update a package dependency to update your linting game. 
 
-Both packages track development of new Dart and Flutter lint rules actively and are updated regularly and enable all critical and important rules. Both are excellent choices if you want stricter linting than Flutter offers out of the box and don't want to track and maintain the rule set yourself, and would rather just update a package dependency to update your linting game.
+Personally I would choose **very_good_analysis** over **lint**, mostly because it is stricter, but also because it is a bit more actively maintained, it has for example adopted new Flutter 3 and Dart 2.17 linting rules quicker. Both are still excellent choices, and sometimes a slower update pace of your static analyzer rules might be what you prefer.
 
-You can use my comparison table to compare popular lint setups and the rules they enable and make your own preferred choice based on it.
+### Flutter Repository
 
-If you want to stay on top of your linting rule setup yourself, then do as I do. Roll your own linting rule configuration. Mostly I do this to use even stricter lint rules than current package linters offer, and to make the opinionated choices I prefer. Most lint packages on purpose avoid making any choice for you when it comes to highly opinionated personal preferences rules.
+I also find it interesting to follow what linting rules the Flutter SDK repo uses. Recently there has been many new rules enabled in the Flutter SDK as well. Compared the older version 1.4.0 of the comparison table, from September 10, 2021, to the current one (1.7.0), the Flutter repo (master channel) has gone from 129 (67.2%) to 152 (74.9%) enabled lint rules.
+
+
+### Compare and choose
+
+You can use my comparison table to compare popular linting setups, the rules they enable and make your own choice based on it.
+
+If you want to stay on top of your linting rule setup yourself, then do as I do, roll your own linting rule configuration! Mostly I do this to use even stricter lint rules than current package linters offer, and also to make the opinionated choices I prefer. Most lint packages on purpose avoid making any choice for you when it comes to highly opinionated personal preferences rules.
 
 I also like the clean setup of enabling all rules in one file, by include all currently available rules and then only turning OFF the rules I don't use. This keeps the setup easy to maintain. Feel free to do the same **or** take the easy route and just use default [Flutter lints](https://pub.dev/packages/flutter_lints) or walk the narrow and strict path with [Very Good Analysis](https://pub.dev/packages/very_good_analysis) or [Lint](https://pub.dev/packages/lint).
 
-If you don't care about linting and tuning it yourself, the really nice part is that a good basic linting setup is now part of Flutter. Starting from version 2.5.0 you get a solid rule set enabled by default for new projects. It is a really cool and a smart move by the Dart and Flutter teams to offer this. It means that eventually all Flutter developers will use more strict lint rules by default, rules that will help improve the quality of produced Flutter apps and packages.
+If you don't care about linting and tuning it yourself, the nice part is that a good basic linting setup is a part of Flutter. Starting from Flutter version 2.5.0 you get a solid rule set enabled by default for new projects. It is a really cool and a smart move by the Flutter team to offer this. It means that eventually all Flutter projects will use linting rules by default, rules that will help improve the quality of produced Flutter apps and packages.
 
 ## What Are the Rule Differences Between All These Packages?
 
@@ -243,18 +255,18 @@ What are the lint rule differences between all these packages? That is a **very*
 
 | Lint style   | Previous             |  % of rules | Used now | +/- | % of rules |
 | ----         | ----                   | ---- | ---- | ---- |  ---- |
-|[Dart Core *(v1.0.1)*](https://pub.dev/packages/lints) | 26 | 13.5%| 26 | 0 | 12.8% |
-|[Dart Recommended *(v1.0.1)*](https://pub.dev/packages/lints) | 74 | 38.5% | 74 | 0 | 36.5% |    
-|[Flutter lints *(v1.0.4)*](https://pub.dev/packages/flutter_lints) | 85 | 44.3% | 85 | 0 | 41.9 % | 
+|[Dart Core *(v2.0.0)*](https://pub.dev/packages/lints) | 26 | 13.5%| 28 | +1 | 13.8% |
+|[Dart Recommended *(v2.0.0)*](https://pub.dev/packages/lints) | 74 | 38.5% | 84 | +10 | 41.4% |    
+|[Flutter lints *(v1.0.4)*](https://pub.dev/packages/flutter_lints) | 85 | 44.3% | 97 | +12 | 47.8 % | 
 |[Pedantic *(v1.11.1) (Deprecated)*](https://pub.dev/packages/pedantic) | 52 | 27.1% | 52 | 0 | 25.6% |
 |[Effective Dart *(v1.3.2) (Deprecated)*](https://pub.dev/packages/effective_dart) | 57 | 29.7% | 57 | 0 | 28.1% |
 |[Flutter SDK repository *(v2.13.0-0.2.pre)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.2% | 152 | +23 | 74.9% | 
 |[Lint *(v1.8.2)*](https://pub.dev/packages/lint) | 147 | 76.6% | 152 | +5 | 74.9% |
-|[Very Good Analysis *(v2.4.0)*](https://pub.dev/packages/very_good_analysis) | 153 | 79.7% | 168 | +15 | 82.8% |
-|[RydMike - All ON, then turn OFF some *(v1.2.9)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.1%| 182 | +11 | 89.7% |
+|[Very Good Analysis *(v3.0.0)*](https://pub.dev/packages/very_good_analysis) | 153 | 79.7% | 177 | +24 | 87.2% |
+|[RydMike - All ON, then turn OFF some *(v2.0.0)*](https://gist.github.com/rydmike/fdb53ddd933c37d20e6f3188a936cd4c) | 171 | 89.1%| 183 | +12 | 90.1% |
 |[All LINT rules](https://dart-lang.github.io/linter/lints/options/options.html) | 192 | 100.0% | 203 | +11 | 100.0% |
 
-The "previous" values refer to the number of enabled lint rules in comparison table version 1.4.0 from September 10, 2021, and "used now" to the latest lint rules in comparison table, version 1.7.0 updated April 26, 2022.
+The "previous" values refer to the number of enabled lint rules in comparison table version 1.4.0 from September 10, 2021, and rules used now in the latest lint rules in comparison table, which is version 2.0.0 updated May 21, 2022.
 
 Here is the full comparison in a [**Google Sheet**](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA), enjoy!
 
@@ -268,4 +280,4 @@ Here is the full comparison in a [**Google Sheet**](https://docs.google.com/spre
 If you want to go even deeper into Dart code analysis, I recommend taking a look at [Dart Code Metrics](https://dartcodemetrics.dev/). A static analysis tool that helps you analyze and improve your Dart code quality. It collects analytical data on the code through calculating code metrics with configurable thresholds and provides additional rules for the Dart analyzer.
 
 ---
-*(Page updated May 1, 2022)*
+*(Page updated May 21, 2022)*
