@@ -185,7 +185,7 @@ If I want to use linting based on a package, which linting package should I use?
 
 Starting from Flutter version 2.5, Flutter and Dart use two new linting packages that are **enabled by default** when you create a new Flutter project. With the launch of Flutter 3, the used linting packages were updated to version 2, and include more Dart related rules than the rule set in version 1. When you create a new Flutter project with Flutter version 3.0.0 or later, you get version 2 linting rules enabled by default.
 
-If you created your Flutter project with Flutter 2.5 or later, you are already using the default linting package. This is a perfectly good starting point. Further below you can compare Dart and Flutter default enabled rules to popular 3rd party packages.
+If you created your Flutter project with version 2.5 or later, you are already using the default linting package. This is a perfectly good starting point. Further below you can compare Dart and Flutter default enabled rules to popular 3rd party packages.
 
 ## What About Using a Third Party Linting Package?
 
@@ -195,7 +195,7 @@ For my personal projects I prefer the clarity of enabling all rules in one file,
 
 In a big project the lint rules have probably been agreed and defined already for you, then just stick to that. If you find that the lint rules have not been defined, nor documented why they are a certain way in the project, well then they really should be, maybe something to address.
 
-In the past [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic) used to be very popular. However both packages have been **deprecated**. For a new project, do not use them, and consider migrating applications and packages that used them, to recommended alternatives. 
+In the past [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic) used to be very popular. However, both packages have been **deprecated**. For a new project, do not use them, and consider migrating applications and packages that used them, to recommended alternatives. 
 
 The Pedantic package from Google was originally intended mostly for their internal use. Despite its name, it was not very strict nor pedantic at all. It was used as a minimum set they could agree on internally for Dart projects. 
 
@@ -255,7 +255,7 @@ If you want to stay on top of your linting rule setup yourself, then do as I do,
 
 I also like the clean setup of enabling all rules in one file, by include all currently available rules and then only turning OFF the rules I don't use. This keeps the setup easy to maintain. Feel free to do the same **or** take the easy route and just use default [Flutter lints](https://pub.dev/packages/flutter_lints) or walk the narrow and strict path with [Very Good Analysis](https://pub.dev/packages/very_good_analysis) or [Lint](https://pub.dev/packages/lint).
 
-If you don't care about linting and tuning it yourself, the nice part is that a good basic linting setup is a part of Flutter. From Flutter version 2.5 and later you get a solid rule set enabled by default for new projects. It is a smart move by the Flutter team to offer this. It means that eventually all Flutter projects will use good linting rules by default, rules that will help improve the quality of produced Flutter apps and packages. Since we are now at Flutter 3.0, this goal has already been realized to a large degree.
+If you don't care about linting and tuning it yourself, the nice part is that a good basic linting setup is a part of Flutter. From Flutter version 2.5, and later you get a solid rule set enabled by default for new projects. It is a good move by the Flutter team to offer this. It means that eventually all Flutter projects will use solid linting rules by default, rules that will help improve the quality of produced Flutter apps and packages. Since we are now at Flutter 3.0, this goal has already been realized to a large degree.
 
 ## What Are the Rule Differences Between All These Packages?
 
