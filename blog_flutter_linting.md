@@ -265,7 +265,7 @@ What are the linting rule differences between all these packages? That is a very
 | ----         | ----                   | ---- | ---- | ---- |  ---- |
 |[Dart Core *(v2.0.0)*](https://pub.dev/packages/lints) | 26 | 13.5%| 28 | +2 | 13.8% |
 |[Dart Recommended *(v2.0.0)*](https://pub.dev/packages/lints) | 74 | 38.5% | 84 | +10 | 41.4% |    
-|[Flutter lints *(v1.0.4)*](https://pub.dev/packages/flutter_lints) | 85 | 44.3% | 97 | +12 | 47.8 % | 
+|[Flutter lints *(v2.0.1)*](https://pub.dev/packages/flutter_lints) | 85 | 44.3% | 97 | +12 | 47.8 % | 
 |[Pedantic *(v1.11.1) (Deprecated)*](https://pub.dev/packages/pedantic) | 52 | 27.1% | 52 | 0 | 25.6% |
 |[Effective Dart *(v1.3.2) (Deprecated)*](https://pub.dev/packages/effective_dart) | 57 | 29.7% | 57 | 0 | 28.1% |
 |[Flutter SDK repository *(master)*](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) | 129 | 67.2% | 152 | +23 | 74.9% | 
@@ -281,7 +281,6 @@ Here is the full comparison in a [**Google Sheet**](https://docs.google.com/spre
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare"/>](https://docs.google.com/spreadsheets/d/1Nc1gFjmCOMubWZD7f2E4fLhWN7LYaOE__tsA7bf2NjA)
 
 *I may have made some mistakes in the review of the settings, if you notice any, please let me know, and I will update it. You can find me on [Twitter](https://twitter.com/RydMike)*
-
 
 ## More Code Analysis?
 
