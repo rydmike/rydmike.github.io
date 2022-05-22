@@ -195,7 +195,7 @@ For my personal projects I prefer the clarity of enabling all rules in one file,
 
 In a big project the lint rules have probably been agreed and defined already for you, then just stick to that. If you find that the lint rules have not been defined, nor documented why they are a certain way in the project, well then they really should be, maybe something to address.
 
-In the past [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic) used to be ery popular. However both packages have been **deprecated**. For a new project, do not use them, and consider migrating applications and packages that used them, to recommended alternatives. 
+In the past [Effective Dart](https://pub.dev/packages/effective_dart) and [Pedantic](https://pub.dev/packages/pedantic) used to be very popular. However both packages have been **deprecated**. For a new project, do not use them, and consider migrating applications and packages that used them, to recommended alternatives. 
 
 The Pedantic package from Google was originally intended mostly for their internal use. Despite its name, it was not very strict nor pedantic at all. It was used as a minimum set they could agree on internally for Dart projects. 
 
@@ -205,7 +205,7 @@ I still include both these deprecated packages in my comparison table, so that y
 
 ### Lints
 
-The first Flutter and Dart default used linting package is called [**lints*](https://pub.dev/packages/lints). It was launched as version 1.0.0 on May 12, 2021. This package contains the new official recommended selection of lint rules for **Dart** projects. With release of Dart 2.17.0 and Flutter 3, it was bumped to version 2.0.0, enabling more and new rules.
+The first Flutter and Dart default used linting package is called [**lints**](https://pub.dev/packages/lints). It was launched as version 1.0.0 on May 12, 2021. This package contains the new official recommended selection of lint rules for **Dart** projects. With release of Dart 2.17.0 and Flutter 3, it was bumped to version 2.0.0, enabling more and new rules.
 
 It comes in two flavors, the absolute minimum lints, called **Core lints**, and a broader set called **Recommended lints**. The recommended set also includes the core lints. In the Dart guide you can read more about it [here](https://dart.dev/guides/language/analysis-options#enabling-linter-rules).
 
