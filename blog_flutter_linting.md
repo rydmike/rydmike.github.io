@@ -18,7 +18,7 @@ You can set up the Dart analyzer and linter to do your bidding the way you like 
 
 Enabling very strict linting rules on a code base that previously did not use it, can be time-consuming. For such cases, gradually introducing more stringent lint rules is a good idea. To do that, you may want to get to know the lint rules better and how to set them up yourself, without using a package. 
 
-Many Dart analyzer and linting errors can also be automatically fixed by using `dart fix`. This also works with many lint rules when you enable a rule in a project that did previously not use it. See the docs for more info on how to use [dart fix](https://dart.dev/tools/dart-fix). If there is `dart fix` for a given lint rule, then using it to migrate a code base to use it, is a big time saver.
+Many Dart analyzer and linting errors can also be automatically fixed by using `dart fix`. This also works with many lint rules when you enable a rule in a project that did previously not use it. See the docs for more info on how to use [dart fix](https://dart.dev/tools/dart-fix). If there is a `dart fix` for a given lint rule, then using it to migrate a code base to use it, is a big time saver.
 
 To study and read more about each lint rule, you can head over to the [Linter for Dart](https://dart-lang.github.io/linter/lints/) GitHub page. A reasonably recent addition to the official Dart documentation now also includes the same information in a [nicer format](https://dart.dev/tools/linter-rules).
 
