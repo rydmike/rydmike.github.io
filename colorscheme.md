@@ -32,7 +32,7 @@ key colors, customization features that are currently not available in Flutter.
 
 If you are here for the **FlexColorScheme** companion application that allows you to configure a theme and copy-paste its setup code for use in your application, then head over to the [**Themes Playground**](https://rydmike.com/flexcolorscheme/themesplayground-v5).
 
-[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-pg-01-pageview-3.gif?raw=true" alt="Page view demo"/>](https://rydmike.com/flexcolorscheme/themesplayground-v5)
+[<img src="https://github.com/rydmike/flex_color_scheme_docs/blob/master/docs/images/fcs-v5-pg-01-pageview-3.gif?raw=true" alt="Page view demo"/>](https://rydmike.com/flexcolorscheme/themesplayground-v6)
 ## Funky Theme Names?
 
 So where do the funky scheme names come from? Like Mandy red and Hippie blue among others. I used the Flexfold demo app's custom theme mode, to design some color schemes in FlexColorScheme. While doing that, [**FlexColorPicker**](https://rydmike.com/colorpicker) names the chosen color automatically. Sometimes the automatically assigned color names where just so hip, that I had to use them in the scheme names too.
@@ -43,4 +43,4 @@ Now when the secrets of the color schemes and interactive theming in the Flexfol
 
 ---
 
-Page updated 1.5.2022
+Page updated 6.9.2022
