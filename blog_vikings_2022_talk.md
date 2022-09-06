@@ -41,19 +41,19 @@ No wait, I got it, deep dive into theming Flutter apps, here we go! In the talk 
 
 The talk was streamed live and is available as a stream recording on YouTube. Unfortunately the opening issues of the Flutter Vikings conference meant we had very poor streamed video quality during the opening and the morning talks in Valhalla room. The quality of the stream was very poor, so the YouTube recording of the stream is very fuzzy. There is also no inset of the speaker on the slide deck, or even occasionally showing the speaker. Just voice and fuzzy slides from the stream. Regardless of all these minor issues, you can find my talk here.
 
-[<img src="https://rydmike.com/assets/vikings_video_thumb.jpeg?raw=true" alt="talk" width="600"/>](https://youtu.be/gn1F7GClECY?t=585)
+[<img src="https://rydmike.com/assets/vikings_video_thumb.jpeg?raw=true" alt="talk" width="600"/>](https://youtu.be/gn1F7GClECY?t=624)
 
 The talk was recorded locally too, including speaker video, slides and audio separately. I have been informed that all the talks from the conference will be edited and released as high quality videos on YouTube later. When my talk becomes available, I will update the link above to it instead.
 
-## Presentation Deck
+## Presentation Slide Deck
 
-I made my presentation slide deck available here.
+I made my presentation slide deck available here:
 
 [<img src="https://rydmike.com/assets/Vikings_talk_slides.png?raw=true" alt="Talk slides" width="600"/>](https://docs.google.com/presentation/d/1F7LXlMkD4Z5Eqkvw8uwMQBgBX52IiLqe3yODuakmLQo/edit#slide=id.p1)
 
-I could not keep the 4k videos used in original PowerPoint that I used during the talk. Google Slides refused to convert my 730 MB PowerPoint with 4k videos embedded in it to Google Slides, more suitable for sharing them on the web. So those videos had to be removed. I did replace a few shorter ones with GIFs that Google Slides could handle.
+I could not keep the 4k videos used in original PowerPoint that I used during the talk. Google Slides refused to convert my 730 MB PowerPoint with 4k videos embedded in it, to Google Slides, more suitable for sharing on the web. So those videos had to be removed. I did replace a few shorter ones with GIFs that Google Slides could handle.
 
-I also included a number of extra slides that were not in the talk. They explain certain points in more detail instead of showing them with demos, or needing the talk to get the points across. The slides that were not in
+I also included a number of extra slides that were not in the talk. They explain certain points in detail, instead of showing them with demos, or needing the talk to get the points across. The slides that were not in
 the original talk are clearly marked so.
 
 ### Demo App Used in the Talk
