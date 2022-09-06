@@ -62,7 +62,7 @@ During the talk and to prepare the slides, I used a very simple app that demonst
 
 This demo app is available as a single [Gist file on GitHub](https://gist.github.com/rydmike/6119077e4ba215f7eba87b785c06eaae), and it can be run directly in a browser using **DartPad** here:
 
-[<img src="https://rydmike.com/assets/Vikings_talk_dartpad.png?raw=true" alt="Demo app" width="600"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
+[<img src="https://rydmike.com/assets/Vikings_talk_dartpad.png?raw=true" alt="Demo app"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
 
 ## Talk Mood Shots
 
