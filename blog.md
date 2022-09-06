@@ -11,6 +11,14 @@ Chill, peace and Flutter love to you all! 💙
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
 ---
+## [Deep Dive into Theming](blog_vikings_2022_talk)
+*(Sep 6, 2022)*
+
+I had the pleasure and honor to talk about theming Flutter apps at the **Flutter Vikings 2022** conference, in Oslo at Aug 31, 2022. [[**Read more...**]](blog_vikings_2022_talk)
+
+[<img src="https://rydmike.com/assets/vikings_talk.jpg?raw=true" alt="Vikings talk" width="380"/>](blog_vikings_2022_talk)
+
+---
 ## [Flutter App Theming Talk](blog_m3_talk)
 *(May 19, 2022)*
 
