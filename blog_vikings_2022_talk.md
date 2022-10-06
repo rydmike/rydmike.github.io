@@ -56,7 +56,7 @@ I could not keep the 4k videos used in original PowerPoint that I used during th
 I also included a number of extra slides that were not in the talk. They explain certain points in detail, instead of showing them with demos, or needing the talk to get the points across. The slides that were not in
 the original talk are clearly marked so.
 
-If you for some reason need or want he actual PowerPoint file used during the talk, you can download it [here](https://docs.google.com/presentation/d/1fzYdA15tyJbBkBBzGrr65p7eOcPHsf77/edit?usp=sharing&ouid=115321985664097836247&rtpof=true&sd=true) as well, but fair warning, it is **697MB** in size!
+If you for some reason need or want he actual PowerPoint file used during the talk, you can download it [here](https://drive.google.com/file/d/1fzYdA15tyJbBkBBzGrr65p7eOcPHsf77/view) as well, but fair warning, it is **697MB** in size!
 
 ### Demo App Used in the Talk
 
