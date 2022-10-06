@@ -12,7 +12,7 @@ Chill, peace and Flutter love to you all! 💙
 
 ---
 ## [Deep Dive into Theming](blog_vikings_2022_talk)
-*(Sep 6, 2022)*
+*(Sep 6, 2022, Updated Oct 6, 2022)*
 
 I had the pleasure to talk about theming Flutter apps at the **Flutter Vikings 2022** conference, in Oslo at Aug 31, 2022. [[**Read more...**]](blog_vikings_2022_talk)
 

@@ -1,4 +1,4 @@
-*(Sep 6, 2022)*
+*(Published Sep 6, 2022, Updated Oct 6, 2022)*
 
 # Deep Dive Into Theming
 
@@ -71,4 +71,4 @@ This demo app is available as a single [Gist file on GitHub](https://gist.github
 <img src="https://rydmike.com/assets/Vikings_talk_moods.jpg?raw=true" alt="talk_shots"/>
 
 ---
-Created 06.09.2022
+Created 06.09.2022, Updated 06.10.2022
