@@ -47,14 +47,16 @@ The talk was recorded locally too, including speaker video, slides and audio sep
 
 ## Presentation Slide Deck
 
-I made my presentation slide deck available here:
+I made my presentation slide deck available, just click on the image below to view it:
 
 [<img src="https://rydmike.com/assets/Vikings_talk_slides.png?raw=true" alt="Talk slides" width="600"/>](https://docs.google.com/presentation/d/1F7LXlMkD4Z5Eqkvw8uwMQBgBX52IiLqe3yODuakmLQo/edit#slide=id.p1)
 
-I could not keep the 4k videos used in original PowerPoint that I used during the talk. Google Slides refused to convert my 730 MB PowerPoint with 4k videos embedded in it, to Google Slides, more suitable for sharing on the web. So those videos had to be removed. I did replace a few shorter ones with GIFs that Google Slides could handle.
+I could not keep the 4k videos used in original PowerPoint that I used during the talk. Google Slides refused to convert my 697 MB PowerPoint with 4k videos embedded in it, to Google Slides, more suitable for sharing on the web. So those videos had to be removed. I did replace a few shorter ones with GIFs that Google Slides could handle.
 
 I also included a number of extra slides that were not in the talk. They explain certain points in detail, instead of showing them with demos, or needing the talk to get the points across. The slides that were not in
 the original talk are clearly marked so.
+
+If you for some reason need or want he actual PowerPoint file used during the talk, you can download it [here](https://docs.google.com/presentation/d/1fzYdA15tyJbBkBBzGrr65p7eOcPHsf77/edit?usp=sharing&ouid=115321985664097836247&rtpof=true&sd=true) as well, but fair warning, it is **697MB** in size!
 
 ### Demo App Used in the Talk
 
