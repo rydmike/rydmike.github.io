@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Constrained Centered Layout and Theming Flutter"
 ---
 

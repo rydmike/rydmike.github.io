@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Blog and articles"
-permalink: /404.html
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
@@ -47,7 +45,6 @@ In this article we compare different ways to define and create a `ThemeData` obj
 The Flutter `ThemeData` object defines the look of your application, and to a degree how it behaves. The `ColorScheme` class is a data class that holds 27 `Color` properties. Flutter's built-in components use these colors in predefined ways. [[**Read more...**]](blog_theming_guide)
 
 [<img src="https://rydmike.com/assets/dash-color-scheme-slides.png?raw=true" alt="dash colorscheme slides" width="380"/>](blog_theming_guide)
-
 
 ---
 ## [Flutter Linting Comparison](blog_flutter_linting)

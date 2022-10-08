@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "ClipRect on Container with BoxShadow"
 ---
 

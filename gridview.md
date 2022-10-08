@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Responsive Staggered Grids in Flutter"
 ---
 

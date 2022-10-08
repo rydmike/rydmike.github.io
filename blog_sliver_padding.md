@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Correct Way to Add Padding to Flutter Slivers"
 ---
 

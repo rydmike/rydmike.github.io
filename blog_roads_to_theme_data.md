@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Roads to Flutter ThemeData"
 ---
 

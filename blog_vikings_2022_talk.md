@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Flutter Vikings 2022 - Deep Dive Into Theming"
 ---
 

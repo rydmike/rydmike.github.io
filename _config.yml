@@ -1,13 +1,37 @@
 theme: jekyll-theme-cayman
 title: RydMike Fluttering
-description: Fluttering with RydMike, public Flutter projects and articles.
+description: Public Flutter projects and articles.
 url: "https://rydmike.com"
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-relative-links
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  
 relative_links:
   enabled: true
   collections: true
+
+optional_front_matter:
+  enabled: true
+  remove_originals: true
+
 include:
   - README.md
   - 404.md
@@ -26,3 +50,4 @@ include:
   - blog_theming_guide.md
   - blog_roads_to_theme_data.md
   - blog_vikings_2022_talk.md
+  - _posts
