@@ -1,8 +1,10 @@
+---
 layout: page
 title: "FlexColorScheme"
+---
+
 | [Home](https://rydmike.com) | FlexColorScheme                | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
-
 
 ## FlexColorScheme
 

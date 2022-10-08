@@ -1,8 +1,10 @@
+---
 layout: page
 title: "Talo"
+---
+
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | Talo                 |
-
 
 ## Development of TALO
 

@@ -1,5 +1,8 @@
+---
 layout: page
 title: "Responsive Staggered Grids in Flutter"
+---
+
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | Grid             | [Talo](talo)         |
 

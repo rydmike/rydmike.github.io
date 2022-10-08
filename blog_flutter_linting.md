@@ -1,5 +1,8 @@
+---
 layout: page
 title: "Flutter Linting and Linter Comparison"
+---
+
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 

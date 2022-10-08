@@ -1,6 +1,9 @@
+---
 layout: page
 title: "Blog and articles"
 permalink: /404.html
+---
+
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | Blog                        | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
