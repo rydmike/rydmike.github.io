@@ -1,3 +1,5 @@
+layout: page
+title: "Flutter App Theming"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 

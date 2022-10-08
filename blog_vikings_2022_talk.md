@@ -1,7 +1,9 @@
+layout: page
+title: "Flutter Vikings 2022 - Deep Dive Into Theming"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
-# Deep Dive Into Theming
+# Flutter Vikings 2022 - Deep Dive Into Theming
 *(Published Sep 6, 2022, Updated Oct 6, 2022)*
 
 On **August 31, 2022** at **Flutter Vikings** in Oslo, I had the pleasure and honor to do a talk and deep dive into theming **Flutter** apps.

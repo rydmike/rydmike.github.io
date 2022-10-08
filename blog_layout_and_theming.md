@@ -1,3 +1,5 @@
+layout: page
+title: "Constrained Centered Layout and Theming Flutter"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 

@@ -1,3 +1,5 @@
+layout: page
+title: "FlexColorPicker"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | FlexColorPicker                | [Grid](gridview) | [Talo](talo)         |
 

@@ -1,3 +1,5 @@
+layout: page
+title: "Flexfold"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | Flexfold             |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 

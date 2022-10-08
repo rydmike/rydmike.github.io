@@ -1,7 +1,9 @@
+layout: page
+title: "Flutter Linting and Linter Comparison"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
-# Flutter Linting Comparison
+# Flutter Linting and Linter Comparison
 *(Published July 28, 2021, Updated Oct 7, 2022)*
 
 > Updated to cover Flutter 3.3 and Dart 2.18 linters.

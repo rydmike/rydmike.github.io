@@ -1,3 +1,5 @@
+layout: page
+title: "Flutter Issues"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | Issues           | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 

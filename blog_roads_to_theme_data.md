@@ -1,7 +1,9 @@
+layout: page
+title: "Roads to Flutter ThemeData"
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
-# Roads to ThemeData
+# Roads to Flutter ThemeData
 *(May 2, 2022)*
 
 In this article we compare different ways to define and create a `ThemeData`

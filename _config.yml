@@ -1,4 +1,7 @@
 theme: jekyll-theme-cayman
+title: RydMike's homepage
+description: Fluttering with RydMike, public Flutter projects and articles.
+url: "https://rydmike.com"
 
 plugins:
   - jekyll-relative-links
@@ -7,6 +10,7 @@ relative_links:
   collections: true
 include:
   - README.md
+  - 404.md
   - flexfold.md
   - colorscheme.md
   - colorpicker.md
