@@ -6,7 +6,7 @@ description: "Articles and rumblings by RydMike."
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
 | Blog                        | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
-# Flutter Santa's Blog
+# Articles and Rumblings
 
 I sometimes write blog like articles about Flutter and publish them here. Who knows, maybe I will make some cross posts on other sites too, some rainy day. We will see, but for now you can find Flutter Santa's rumblings here.
 
