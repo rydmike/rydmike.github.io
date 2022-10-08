@@ -1,5 +1,6 @@
 ---
 title: "Flutter Theming Guide"
+description: "Intro to Flutter theming by RydMike."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

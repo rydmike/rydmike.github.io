@@ -1,5 +1,6 @@
 ---
 title: "Roads to Flutter ThemeData"
+description: "Right way to define a ThemeData object in Flutter."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

@@ -24,6 +24,11 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   
+readme_index:
+  enabled:          true
+  remove_originals: true
+  with_frontmatter: true
+
 relative_links:
   enabled: true
   collections: true
@@ -31,6 +36,11 @@ relative_links:
 optional_front_matter:
   enabled: true
   remove_originals: true
+
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false  
 
 include:
   - README.md

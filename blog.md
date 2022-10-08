@@ -1,5 +1,6 @@
 ---
 title: "Blog and articles"
+description: "Articles and rumblings by RydMike."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

@@ -1,5 +1,6 @@
 ---
 title: "Flexfold"
+description: "Demo of an animated responsive Flutter Scaffold."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | Flexfold             |  

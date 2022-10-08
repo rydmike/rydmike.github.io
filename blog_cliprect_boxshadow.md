@@ -1,5 +1,6 @@
 ---
 title: "ClipRect on Container with BoxShadow"
+description: "Nit-picking a Flutter ClipRect, clip bleed issue."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

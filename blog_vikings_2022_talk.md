@@ -1,5 +1,6 @@
 ---
-title: "Flutter Vikings 2022 - Deep Dive Into Theming"
+title: "Deep Dive Into Theming"
+description: "Flutter Vikings 2022 talk by RydMike."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

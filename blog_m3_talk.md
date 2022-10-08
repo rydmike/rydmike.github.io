@@ -1,5 +1,6 @@
 ---
 title: "Flutter App Theming"
+description: "Theming and Material 3, talk by RydMike at Flutter Nordics meetup."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

@@ -1,5 +1,6 @@
 ---
 title: "Flutter Linting and Linter Comparison"
+description: "Custom linting setup and comparing used linting rules by different packages."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

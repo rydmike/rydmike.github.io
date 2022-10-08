@@ -1,5 +1,6 @@
 ---
 title: "Constrained Centered Layout and Theming Flutter"
+description: "Web style center layout in Flutter and theming pointers."
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

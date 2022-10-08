@@ -1,5 +1,6 @@
 ---
 title: "FlexColorScheme"
+description: "Next level Flutter theming."
 ---
 
 | [Home](https://rydmike.com) | FlexColorScheme                | [Issues](issues) | [Flexfold](flexfold) |  
