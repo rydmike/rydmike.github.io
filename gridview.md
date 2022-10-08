@@ -1,6 +1,6 @@
 ---
 title: "Staggered Grids in Flutter"
-description: "Testing masonry style responsive grids."
+description: "Testing masonry style responsive grids"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

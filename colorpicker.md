@@ -1,6 +1,6 @@
 ---
 title: "FlexColorPicker"
-description: "Highly customizable Flutter color picker."
+description: "Highly customizable Flutter color picker"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

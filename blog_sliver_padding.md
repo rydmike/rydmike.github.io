@@ -1,6 +1,6 @@
 ---
 title: "Correct Way to Add Padding to Flutter Slivers"
-description: "Don't use normal padding with Flutter Slivers"
+description: "Don't use normal Padding with Flutter Slivers"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

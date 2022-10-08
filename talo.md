@@ -1,5 +1,6 @@
 ---
 title: "Talo"
+description: "Next generation property and energy management"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  

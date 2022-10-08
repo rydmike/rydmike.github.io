@@ -1,5 +1,6 @@
 ---
 title: "Flutter Issues"
+description: "Diving into some issues reported in Flutter repo by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | Issues           | [Flexfold](flexfold) |  
