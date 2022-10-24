@@ -549,7 +549,7 @@ In the `Settings` statics only class we basically have the following:
 - A static final `StateNotifierProvider` of type `SettingsEntry` for every settings value.
 
 
-```Dart
+```dart
 /// A static container class for all our settings providers, default values and
 /// used key-value DB keys.
 class Settings {
