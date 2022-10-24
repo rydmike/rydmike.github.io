@@ -46,7 +46,7 @@ This app is used to demonstrate **FlexColorScheme** and **Riverpod** concepts, a
 
   
 >**NOTE:**
->This is a **0.9 version** release of this article and demo app. Principles will remain the same in version 1.0. I might tune it, and this article like readme as I review it, and based on feedback before I call it version 1.0. I did however want to release it already in its 0.9.x state, as the previous version was out of date.  
+>This is a **0.9 version** release of this article and demo app. Principles will remain the same in version 1.0. I might tune it, and this article like readme as I review it, and based on feedback, before I call it version 1.0. I did however want to release it already in its 0.9.x state, as the previous version was out of date.  
 
 ## FlexColorScheme 6 and Riverpod 2
 
@@ -134,7 +134,7 @@ The setup of above feature are done in the `main` function and looks as follows.
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // This container can be used to read providers before Flutter app is
-  // initialised with UncontrolledProviderScope
+  // initialized with UncontrolledProviderScope
   final ProviderContainer container = ProviderContainer(
     // This observer is used for logging changes in all Riverpod providers.
     observers: <ProviderObserver>[AppProviderObserver()],
