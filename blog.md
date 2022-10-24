@@ -16,6 +16,14 @@ Chill, peace and Flutter love to you all! 💙
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
 ---
+## [FlexColorScheme and Riverpod Theming](blog_theme_demo)
+*(Oct 24, 2022)*
+
+This article present a Flutter application example that shows how to use [**FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) together with [**Riverpod**](https://pub.dev/packages/flutter_riverpod) to dynamically change your persisted application theme. [[**Read more...**]](blog_theme_demo)
+
+[<img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen05-Drawer.png?raw=true" alt="Theme demo" width="300"/>](blog_theme_demo)
+
+---
 ## [Deep Dive into Theming](blog_vikings_2022_talk)
 *(Sep 6, 2022, Updated Oct 6, 2022)*
 
