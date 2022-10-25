@@ -5,6 +5,7 @@
         "frontmatter",
         "gridview",
         "mathjax",
-        "noscript"
+        "noscript",
+        "themedemo"
     ]
 }
