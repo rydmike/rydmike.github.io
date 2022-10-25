@@ -17,7 +17,7 @@ Chill, peace and Flutter love to you all! 💙
 
 ---
 ## [FlexColorScheme and Riverpod Theming](blog_theme_demo)
-*(Oct 24, 2022)*
+*(Oct 24, 2022, Updated Oct 25, 2022)*
 
 This article present a Flutter application example that shows how to use [**FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) together with [**Riverpod**](https://pub.dev/packages/flutter_riverpod) to dynamically change your persisted application theme. [[**Read more...**]](blog_theme_demo)
 
