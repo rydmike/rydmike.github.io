@@ -7,7 +7,7 @@ description: "Example setup of Flutter persisted theming with FlexColorScheme V6
 | [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Theming using FlexColorScheme and Riverpod
-*(Published Oct 24, 2022, Updated Oct 25, 2022)*
+*(Published Oct 24, 2022, Updated Oct 28, 2022)*
 
 This article presents a Flutter application example that shows how to use [**FlexColorScheme**](https://pub.dev/packages/flex_color_scheme) together with [**Riverpod**](https://pub.dev/packages/flutter_riverpod) to dynamically change your application theme. It uses Riverpod providers to watch FlexColorScheme based light `theme` and `darkTheme` changes in a [`MaterialApp`](https://api.flutter.dev/flutter/material/MaterialApp-class.html), and to change the used [`themeMode`](https://api.flutter.dev/flutter/material/MaterialApp/themeMode.html) as well. The theme settings are persisted locally as they are modified. The used local settings persistence implementation can be changed from the application's user interface.
 
@@ -23,7 +23,7 @@ The source code for the **ThemeDemo** application can be found in the GitHub rep
 
 You can try a live WEB version of the **ThemeDemo** application here [**www.rydmike/themedemo**](https://rydmike.com/themedemo).
 
->This is a **0.9 version** release, but principles will remain the same in version 1.0. The app and this article like readme, may be tuned a bit after second review and feedback, before releasing version 1.0. 
+>This is a **0.9 version** release, but principles will remain the same in **version 1.0**. The app and this article like readme, may be tuned a bit after second review and feedback, before releasing version 1.0. 
 
 ### Contents
 
@@ -61,7 +61,7 @@ This example is designed to work with and use the stable releases of **FlexColor
 
 This demo is provided as an additional example to the six examples already included with the FlexColorScheme package. It is also mentioned in the [FlexColorScheme docs](https://docs.flexcolorscheme.com/examples#themedemo-app).
 
-| Home Screen 1/4                                                                                     | Home Screen 2/4                                                                                     |
+| Home Screen 1/4                                                                                    | Home Screen 2/4                                                                                     |
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen01-Home.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen02-Home.png?raw=true"/> |
 
@@ -70,9 +70,9 @@ This demo is provided as an additional example to the six examples already inclu
 
 The demo UI uses several [ToggleButtons](https://api.flutter.dev/flutter/material/ToggleButtons-class.html) based widgets as well as [SwitchListTile.adaptive](https://api.flutter.dev/flutter/material/SwitchListTile/SwitchListTile.adaptive.html), [Slider.adaptive](https://api.flutter.dev/flutter/material/Slider/Slider.adaptive.html) and [PopupMenuButton](https://api.flutter.dev/flutter/material/PopupMenuButton-class.html), to compose UI widgets used to toggle several input values for the used and demonstrated FlexColorScheme theming features.
 
-The app demonstrates how the `ThemeData`, and `ThemeMode` state of the application can be easily managed using **Riverpod**, together with `Providers` and `StateNotifierProviders`. They are used to define the current `ThemeData` for light and dark theme, as well as theme mode states.
+The app demonstrates how the `ThemeData`, and `ThemeMode` state of the application can be easily managed using **Riverpod**, together with `Providers` and `NotifierProviders`. They are used to define the current `ThemeData` for light and dark theme, as well as theme mode states.
 
-It also shows how simple it is to make small UI theme control widgets that can be dropped in anywhere, were needed in an app, and then used to manipulate and modify the `ThemeData` of the application. The UI view widgets modify Riverpod `StateNotifierProviders`, that act as theme property controllers in `ThemeData` providers. The `MaterialApp` widget watches these providers for changes, and the application is rebuilt using new `ThemeData` whenever a single theming UI widget is changed anywhere in the application.
+It also shows how simple it is to make small UI theme control widgets that can be dropped in anywhere, were needed in an app, and then used to manipulate and modify the `ThemeData` of the application. The UI view widgets modify Riverpod `NotifierProviders`, that act as theme property controllers in `ThemeData` providers. The `MaterialApp` widget watches these providers for changes, and the application is rebuilt using new `ThemeData` whenever a single theming UI widget is changed anywhere in the application.
 
 | Home Screen 3/4                                                                                     | Home Screen 4/4                                                                                     |
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -125,7 +125,7 @@ Another feature is that this demo persists all theme settings as they are change
 
 This example shows how **Riverpod** can be used to change the used key-value database dependency from inside the Flutter app UI. This can be interesting to study, since this app needs this dependency to be able to read its settings and be able to start. Yet we can control this from inside the running Flutter app. In this scenario we are using Riverpod as a service locator and dependency injection replacement.
 
-Is it really necessary to switch the key-value DB persistence implementation at runtime in app? Well maybe not, but the principle might be useful as an in-app development toggle, used during development and testing for other data sources, like using remote data and mock off-line data source. It can be useful to have a setup that allows you to do this, in-app from developer options. Plus I wanted to see if it can be done with just Riverpod, typically I would have done this part with [GetIt](https://pub.dev/packages/get_it), nice to see it can be done with just Riverpod.
+Is it really necessary to switch the key-value DB persistence implementation at runtime from inside the app? Well maybe not, but the principle might be useful as an in-app development toggle, used during development and testing for other data sources, like using remote data and mock off-line data source. It can be useful to have a setup that allows you to do this, in-app from developer options. Plus I wanted to see if it can be done with just Riverpod, typically I would have done this part with [GetIt](https://pub.dev/packages/get_it), nice to see it can be done with just Riverpod.
 
 To be able to do this with only **Riverpod**, we need to define a `ProviderContainer` in just plain Dart before we start the Flutter app. We can then access the provider that gives us the currently used key-value DB implementation. We can then perform whatever async initialization the used key-value DB needs.
 
@@ -390,7 +390,7 @@ That's it for being able to switch in different key-value DB implementation usin
 
 > **Use Cases**
 > 
-> The technique demonstrated above to change the key-value database on the fly, from a toggle inside the running application, has more interesting use cases. It can for example also be used to swap in mock, test and development instances of any data sources that your application needs and uses. This can be handy for both development and demonstration purposes. It can enable you to develop and demo your application off-line, even if it normally requires an on-line data source. You could also also add mock data sources, that contain customer relevant example mock data, that you can change to when you demonstrate the application.
+> The technique demonstrated above to change the key-value database on the fly, from a toggle inside the running application, has more interesting use cases. It can for example also be used to swap in mock, test and development instances of any data sources that your application needs and uses. This can be handy for both development and demonstration purposes. It can enable you to develop and demo your application off-line, even if it normally requires an on-line data source. You could also add mock data sources, that contain customer relevant example mock data, that you can change to when you demonstrate the application.
 
 ## Persistence Design Requirements
 
@@ -398,17 +398,17 @@ One of the goals with the design of the used key-value persistence model and Riv
 
 We could also serialize a big settings class with all the properties to a JSON and save the entire JSON with just one key. We would then be writing the entire "large" JSON file to the key-value DB, every time a single settings value is changed. This was not desired.
 
-We also did not want to use a [**Freezed**](https://pub.dev/packages/freezed) or handwritten immutable class with all the settings properties in it. Then we would have to use a `select` filter for every property in every widget using a settings entry, to ensure it is rebuilt only when its value is changed. We would also need to filter or to store only the property value that was changed into the used key-value DB. In this case we wanted to try avoid this approach, it is a bit more involved. This kind of settings feature, where we need and want full reactive behavior for all its members, is a bit different from a normal data class, where we typically may only need it for a few of its members, and for the rest, the change of entire state it is OK to update everything. I however fits poorly with how we wanted the settings to behave in this application.
+We also did not want to use a [**Freezed**](https://pub.dev/packages/freezed) or handwritten immutable class with all the settings properties in it. Then we would have to use a `select` filter for every property in every widget using a settings entry, to ensure it is rebuilt only when its value is changed. We would also need to filter or to store only the property value that was changed into the used key-value DB. In this case we wanted to avoid this approach, it is a bit more involved. This kind of settings feature, where we need and want full reactive behavior for all its members, is a bit different from a normal data class, where we typically may only need it for a few of its members, and for the rest, the change of entire state, it is OK to update everything. It however fits poorly with how we wanted the settings to behave in this application.
 
 > Maybe later I will add a **ThemeDemo** branch that uses **Freezed** and `myProvider.select()` approach. It is of course possible to do so. It could be an interesting article to compare them and discuss pros and cons with both.
 
-For the settings entry properties, we could alternatively use just simple `StateProviders`. I have done so before, it works well. However, if we use `StateNotifier` and `StateNotifierProvider`, we have more control and can make an API for our settings entries that provides functions that reads very nicely when we use them.
+For the settings entry properties, we could alternatively use just simple `StateProviders`. I have done so before, it works well. However, if we use `Notifier` and `NotifierProvider`, we have more control and can make an API for our settings entries that provides functions that reads very nicely when we use them.
 
 When the app starts, it should set the state for each settings entry value by checking if its key exists in the key-value DB. If it exists, then this previously persisted value is used as start value. If the key did not exist, then a hard coded const default value for the settings entry value in question is used.
 
 ## Key-Value Database
 
-For the key-value database that persists the settings we use an abstract interface, and as an example we offer a three implementations. One using a `Map`, and two using popular Flutter packages for storing simple key-value based data.
+For the key-value database that persists the settings we use an abstract interface, and as an example we offer three implementations. One using a `Map`, and two using popular Flutter packages for storing simple key-value based data.
 
 0. KeyValueDb - Abstract interface.
 1. KeyValueDbMem - Volatile memory implementation, just a `Map`.
@@ -538,7 +538,7 @@ We cannot use the absence of a key in the key-value database to represent `null`
 
 To be able to do this, we need to be able to persist nullable values in the key-value DB. The used map for our volatile memory storage allows us to do that, as does Hive. However, SharedPreferences does support storing `null` at all. So its implementation includes a work-around to use some other suitable value to represent the persisted `null` choice, and return `null` back to us when that value is found.
 
-Both the Hive and the Shared Preferences implementations also include converters to persist different `enum`'s in a type safe way, and `Color` as `ìnt` values. Hive provides its own `TypeAdapter` class that allows us to do so. For the Shared Preferences implementation we baked in the type conversions.
+Both the Hive and the Shared Preferences implementations also include converters to persist different `enum`'s in a type safe way, and `Color` as `ìnt` values. Hive provides its own `TypeAdapter` class that allows us to do so. For the SharedPreferences implementation we baked in the type conversions.
 
 Obviously to add support for any additional type safe data types, we must add handling of them to our Hive and Shared Preferences implementations.
 
@@ -546,7 +546,7 @@ We won't go through these implementations here, but you can find the [Hive one h
 
 ## Settings
 
-The settings approach used in this demo might be considered a bit controversial. I like it for the simplicity it results in when persisting and using the individual key-value pair controllers. Because it also gives each `Settings` entry value its own provider, it is very simple to use in UI widgets.
+The settings approach used in this demo might be considered a bit controversial. I like it for the simplicity it results in when persisting and using all the individual key-value pair controllers. Because it also gives each `Settings` entry value its own provider, it is very simple to use in UI widgets.
 
 The used `Settings` class is actually only a static container class. We could just as well have it all as top level `const` and `final` values. However, wrapping them in `Settings` class, name spaces them and encapsulates them nicely. Basically this is like using classes to wrap app config constant values. Purist Dart guide says don't do this. I say do, even Flutter repo uses them, so in my [lint rules](https://rydmike.com/blog_flutter_linting) I also allow them, in fact I like and prefer them. Do it for the global name spacing and nice code completion it gives you when using them. This demo app also uses this for a number application constants in several `AppNnnn` const classes, you can find them in the `core\constants` folder.
 
@@ -556,7 +556,7 @@ In the `Settings` statics only class, we basically have the following:
 - Private static constant string keys for all the settings entry DB keys.
 - A static function to `reset` all settings to their default values.
 - A static function to `init` all settings entry values to the values they have in the DB.
-- A static final `StateNotifierProvider` of type `SettingsEntry` for every settings value.
+- A static final `NotifierProvider` of type `SettingsEntry` for every settings value.
 
 We can see this below where three settings values implementations are presented as an example.
 
@@ -597,14 +597,13 @@ class Settings {
     // 8< - - - snip, repetitive init code cut. - - - 
   }
 
-  /// String DB key used for defining if we use Material 3 or Material 2.
+  /// String key used for defining if we use Material 3 or Material 2.
   static const String _keyUseMaterial3 = 'useMaterial3';
   /// Provider for swapping primary and secondary colors in light theme mode.
-  static final StateNotifierProvider<SettingsEntry<bool>, bool>
-  useMaterial3Provider = StateNotifierProvider<SettingsEntry<bool>, bool>(
-            (StateNotifierProviderRef<SettingsEntry<bool>, bool> ref) {
+  static final NotifierProvider<SettingsEntry<bool>, bool>
+      useMaterial3Provider = NotifierProvider<SettingsEntry<bool>, bool>(
+    () {
       return SettingsEntry<bool>(
-        ref,
         defaultValue: _useMaterial3,
         key: _keyUseMaterial3,
       );
@@ -613,16 +612,14 @@ class Settings {
     name: '${_keyUseMaterial3}Provider',
   );
 
-  /// String DB key used for storing the last used app theme mode.
+  /// String key used for storing the last used app theme mode.
   static const String _keyThemeMode = 'themeMode';
   /// The themeModeProvider represents a [StateProvider] to provide the state of
   /// the [ThemeMode], so to be able to toggle the application wide theme mode.
-  static final StateNotifierProvider<SettingsEntry<ThemeMode>, ThemeMode>
-  themeModeProvider =
-  StateNotifierProvider<SettingsEntry<ThemeMode>, ThemeMode>(
-            (StateNotifierProviderRef<SettingsEntry<ThemeMode>, ThemeMode> ref) {
+  static final NotifierProvider<SettingsEntry<ThemeMode>, ThemeMode>
+      themeModeProvider = NotifierProvider<SettingsEntry<ThemeMode>, ThemeMode>(
+    () {
       return SettingsEntry<ThemeMode>(
-        ref,
         defaultValue: _themeMode,
         key: _keyThemeMode,
       );
@@ -630,14 +627,14 @@ class Settings {
     name: '${_keyThemeMode}Provider',
   );
 
-  /// String DB key for storing theme settings index.
+  /// String key for storing theme settings index.
   static const String _keySchemeIndex = 'schemeIndex';
+
   /// The index provider of the currently used color scheme and theme.
-  static final StateNotifierProvider<SettingsEntry<int>, int>
-  schemeIndexProvider = StateNotifierProvider<SettingsEntry<int>, int>(
-            (StateNotifierProviderRef<SettingsEntry<int>, int> ref) {
+  static final NotifierProvider<SettingsEntry<int>, int> schemeIndexProvider =
+      NotifierProvider<SettingsEntry<int>, int>(
+    () {
       return SettingsEntry<int>(
-        ref,
         defaultValue: _schemeIndex,
         key: _keySchemeIndex,
       );
@@ -651,19 +648,19 @@ class Settings {
 ```
 
 All the above are just static definitions, sure there is quite a bit of them, but it is
-pretty straight forward. The `SettingsEntry` based `StateNotifierProvider` providers may look a bit complex, perhaps it is because this code base uses lint rules that requires you to explicitly always specify all types.
+pretty straight forward. The `SettingsEntry` based `NotifierProvider` providers may look a bit complex, perhaps it is because this code base uses lint rules that requires you to explicitly always specify all types. 
 
 Let's examine the `SettingsEntry` class to better understand what is happening in it.
 
 ### Settings Entry
 
-The `SettingsEntry` class is a an extension of the `StateNotifier` class. It is also a generic, so we can use it with arbitrary data types. The generic types we can use, does however have the limitation that it also has to be supported by our used `KeyValueDb` implementations.
+The `SettingsEntry` class is an extension of the `Notifier` class, which is a bit simpler to use than the `StateNotifier`. It is also a generic, so we can use it with arbitrary data types. The generic types we can use, do however have the limitation that they also have to be supported by our used `KeyValueDb` implementations.
 
-A `SettingsEntry` gets a Riverpod `Ref` object, that we use to find the currently used `KeyValueDb` implementation via the `keyValueDbProvider`.
+When we use the `Notifier` class instead of `StateNotifier`, we do not need to pass our `SettingsEntry` a Riverpod `Ref` object, that we need to find and read the currently used `KeyValueDb` implementation via the `keyValueDbProvider`. The `ref` is available as a property to all `Notifier` subclasses, we do no need to pass it in. If we use `StateNotifier` we have to pass it a `ref`.
 
-It also requires a default value of same generic type `<T>`, that we will use to tell the DB to return if there is no value stored for the String `key`, that is required to get the stored settings value.
+The `SettingsEntry` class requires a default value of same generic type `<T>`, that we will use to tell the DB to return if there is no value stored for the String `key`, that is also required and used to get the stored settings value for this entry.
 
-When we read a `StateNotifierProvider` of type `SettingsEntry`, it will be instantiated and initialized with appropriate start value via its `init()` method, by getting a value either from the key-value DB, if it had a value stored for the used `key`, or via the provided `defaultValue`.
+When we read a `NotifierProvider` of type `SettingsEntry`, it will be instantiated and initialized with appropriate start value via its `init()` method, by getting a value either from the key-value DB, if it had a value stored for the used `key`, or via the provided `defaultValue`.
 
 We also define a `set(T newValue)` function that will update both the state of the provider, and the key-value DB entry to the new value.
 
@@ -671,30 +668,42 @@ We also define a `set(T newValue)` function that will update both the state of t
 /// A persisted app settings entry class.
 ///
 /// Can be of any value type that the used key-value DB implementation supports.
-class SettingsEntry<T> extends StateNotifier<T> {
-  final Ref ref;
-  final T defaultValue;
-  final String key;
-
-  SettingsEntry(
-    this.ref, {
+class SettingsEntry<T> extends Notifier<T> {
+  SettingsEntry({
     required this.key,
     required this.defaultValue,
-  }) : super(defaultValue) {
-    // Initialize the notifier's state value.
+  });
+
+  /// The default value of the Settings entry, used if no value in ke-value DB
+  /// exists.
+  final T defaultValue;
+
+  /// The key used to retrieve the settings entry value from the key-value DB.
+  final String key;
+
+  /// Creating the Notifier sets state to [defaultValue] runs [init] and
+  /// returns state.
+  ///
+  /// In [init] if key-value db had a value with given key, it sets state to
+  /// it, else it sets state to [defaultValue].
+  @override
+  T build() {
+    // To make sure the Notifier's state is initialized start by giving it,
+    // a default value.
+    state = defaultValue;
     init();
+    return state;
   }
 
   /// Init the settings entry from the used key-value DB implementation.
   void init() {
     // Get the used-key value DB implementation.
+    // Notifier has access to ref directly, new and handy in Riverpod 2.
     final KeyValueDb db = ref.read(keyValueDbProvider);
     // Read the value for the provided key from the used key-value DB.
     // The db value get returns the default value if key does not exist in it.
     final T newValue = db.get(key, defaultValue);
     // Only set state to db value if it is different from current value.
-    // StateNotifier does not emit a new state either if value is identical,
-    // but we check too so we can exit earlier and to be very explicit about it.
     if (state != newValue) state = newValue;
   }
 
@@ -749,7 +758,7 @@ class UseMaterial3Switch extends ConsumerWidget {
 
 It is easy to see with a little of Riverpod insights that the switch `value` will change as soon as the `ref.watch(Settings.useMaterial3Provider)` changes its state value.
 
-You may first think that the `onChanged` callback function `ref.read(Settings.useMaterial3Provider.notifier).set` looks unfamiliar. It is however only a tear-off using the `set` method of the provider, which in this case will also be a function that takes a `bool` value, matching the signature of the switch `onChanged` callback. The `notifier` on the `ref.Read` on the `Settings.useMaterial3Provider` returns the underlying notifier, in this case `StateNotifier<Bool>`, we can then use its methods, in this case `set(bool newValue)`.
+You may first think that the `onChanged` callback function `ref.read(Settings.useMaterial3Provider.notifier).set` looks unfamiliar. It is however only a tear-off using the `set` method of the provider, which in this case will also be a function that takes a `bool` value, matching the signature of the switch `onChanged` callback. The `notifier` on the `ref.Read` on the `Settings.useMaterial3Provider` returns the underlying notifier, in this case `Notifier<Bool>`, we can then use its methods, in this case `set(bool newValue)`.
 
 For the UI we end with a simple `const` constructor widget, that needs no properties, we can drop it in as a widget wherever we want to control this setting in the application's UI. We can use it in **any** screen, dialog, drawer, bottom sheet, etc. When the switch is toggled, the updated settings value will be persisted and the application theme will change to reflect the new theme result.
 
@@ -891,7 +900,7 @@ The one for the dark theme is equivalent and not shown here.
 
 The `AppTheme` is again a very simple class, with only static functions and constants. The core functions are the `AppTheme.light` and `AppTheme.dark` ones. The rest is just constants to define some example custom theme colors, and to build a const list that contains all available color themes we can switch between.
 
-The `AppTheme.light` and `AppTheme.dark` functions are pretty equivalent, the dark theme as a few more parameters. Some used parameters share the `Settings` providers, but in cases where it make sense, we have separate `Settings` providers for the light and dark theme, so light and dark theme parameters can be controlled and configured separately.
+The `AppTheme.light` and `AppTheme.dark` functions are pretty equivalent, the dark theme as a few more parameters. Some used parameters share the `Settings` providers, but in cases where it makes sense, we have separate `Settings` providers for the light and dark theme, so light and dark theme parameters can be controlled and configured separately.
 
 ```dart
 /// The themes for this app are defined here.
@@ -997,7 +1006,7 @@ To make it give us a bit more information, we show the provider `name` and its `
 
 Let's take a look at what our debug logs look in our `ThemeDemo` application when we start the app.
 
-On app startup we see setup of the default key-value DB implementation, which is **Hive**. We see see its local storage path and filename setup. We also see the configuration of the `listener`. These logs come from other `debugPrints` in the app.
+On app startup we see setup of the default key-value DB implementation, which is **Hive**. We see its local storage path and filename setup. We also see the configuration of the `listener`. These logs come from other `debugPrints` in the app.
 
 ```
 flutter: KeyValueDbHive: init called, _isInitialized = false
@@ -1046,7 +1055,7 @@ Next let's only tap the **Theme mode** control and change from current `light` t
 
 ```
 flutter: PROVIDER    : themeModeProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<ThemeMode>, ThemeMode>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<ThemeMode>, ThemeMode>
 flutter:   Old value : ThemeMode.light
 flutter:   New value : ThemeMode.dark
 flutter: Hive put    : ["themeMode"] = ThemeMode.dark (ThemeMode)
@@ -1060,7 +1069,7 @@ Let's then try to toggle something that will only affect the dark theme. The **S
 
 ```
 flutter: PROVIDER    : darkSwapColorsProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<bool>, bool>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<bool>, bool>
 flutter:   Old value : false
 flutter:   New value : true
 flutter: Hive put    : ["darkSwapColors"] = true (bool)
@@ -1070,7 +1079,7 @@ flutter:   Old value : ThemeData#f1f1e
 flutter:   New value : ThemeData#6d366
 ```
 
-Again the UI widgets associated `darkSwapColorsProvider` controller property we was modified and its value persisted, but in this case the `darkThemeProvider` also gave us new `ThemeData` for the `darkTheme` in the `MaterialApp` and we saw the theme change, since the `MaterialApp` got new `ThemeData`for the dark mode that we are looking at.
+Again the UI widgets associated `darkSwapColorsProvider` controller property was modified and its value persisted, but in this case the `darkThemeProvider` also gave us new `ThemeData` for the `darkTheme` in the `MaterialApp` and we saw the theme change, since the `MaterialApp` got new `ThemeData`for the dark mode that we are looking at.
 
 <img src="https://github.com/rydmike/theme_demo/blob/master/resources/observer03.png?raw=true" alt="Observer step 3" width="350"/>
 
@@ -1078,7 +1087,7 @@ Let's try a toggle that will affect both the light and dark theme, one that shar
 
 ```
 flutter: PROVIDER    : useMaterial3Provider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<bool>, bool>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<bool>, bool>
 flutter:   Old value : false
 flutter:   New value : true
 flutter: Hive put    : ["useMaterial3"] = true (bool)
@@ -1100,7 +1109,7 @@ Next let's toggle back to light theme mode:
 
 ```
 flutter: PROVIDER    : themeModeProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<ThemeMode>, ThemeMode>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<ThemeMode>, ThemeMode>
 flutter:   Old value : ThemeMode.dark
 flutter:   New value : ThemeMode.light
 flutter: Hive put    : ["themeMode"] = ThemeMode.light (ThemeMode)
@@ -1138,7 +1147,7 @@ Above we see that the old `keyValueDbProvider` is disposed when we used the UI `
 
 The change in value of the `usedKeyValueDbProvider` triggered the callback on the `listener` we have defined, where the new Shared Preferences key-value DB is initialized with an async `keyValueDb.init()` call, and `Settings.init()` is also called.
 
-Calling `Settings.init` causes all settings values to be retrieved from the Shared Preference key-value DB. If a settings value stored in it, has a different value than the UI control currently has, each impacted UI control is also updated. This happens since each associated provider state is changed in `Settings.init` if its value was different in the swapped in settings key-value DB. Below we see the values gotten from the `KeyValueDbPrefs` and `StateNotifierProvider<SettingsEntry>` providers being updated only if the value changed from previous value. In the app we see it as UI theme controls changing positions and values:
+Calling `Settings.init` causes all settings values to be retrieved from the Shared Preference key-value DB. If a settings value stored in it, has a different value than the UI control currently has, each impacted UI control is also updated. This happens since each associated provider state is changed in `Settings.init` if its value was different in the swapped in settings key-value DB. Below we see the values gotten from the `KeyValueDbPrefs` and `NotifierProvider<SettingsEntry>` providers being updated only if the value changed from previous value. In the app we see it as UI theme controls changing positions and values:
 
 ```
 flutter: Settings: init DB values
@@ -1147,7 +1156,7 @@ flutter: Prefs type  : ThemeMode    : themeMode as 1
 flutter: Prefs get   : ["themeMode"] = 1 (int)
 flutter: Prefs get   : ["schemeIndex"] = 13 (int)
 flutter: PROVIDER    : schemeIndexProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<int>, int>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<int>, int>
 flutter:   Old value : 29
 flutter:   New value : 13
 flutter: Prefs type  : FlexSurfaceMode  : lightSurfaceMode as null
@@ -1156,18 +1165,18 @@ flutter: Prefs type  : FlexSurfaceMode  : darkSurfaceMode as null
 flutter: Prefs get   : ["darkSurfaceMode"] = null (Null)
 flutter: Prefs get   : ["lightBlendLevel"] = 16 (int)
 flutter: PROVIDER    : lightBlendLevelProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<int>, int>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<int>, int>
 flutter:   Old value : 5
 flutter:   New value : 16
 flutter: Prefs get   : ["darkBlendLevel"] = 28 (int)
 flutter: PROVIDER    : darkBlendLevelProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<int>, int>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<int>, int>
 flutter:   Old value : 25
 flutter:   New value : 28
 flutter: Prefs get   : ["lightSwapColors"] = false (bool)
 flutter: Prefs get   : ["darkSwapColors"] = false (bool)
 flutter: PROVIDER    : darkSwapColorsProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<bool>, bool>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<bool>, bool>
 flutter:   Old value : true
 flutter:   New value : false
 flutter: Prefs get   : ["appBarElevation"] = 0.0 (double)
@@ -1176,14 +1185,14 @@ flutter: Prefs get   : ["lightAppBarStyle"] = -1 (int)
 flutter: Prefs type  : FlexAppBarStyle? : darkAppBarStyle as 2
 flutter: Prefs get   : ["darkAppBarStyle"] = 2 (int)
 flutter: PROVIDER    : darkAppBarStyleProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<FlexAppBarStyle?>, FlexAppBarStyle?>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<FlexAppBarStyle?>, FlexAppBarStyle?>
 flutter:   Old value : null
 flutter:   New value : FlexAppBarStyle.surface
 flutter: Prefs get   : ["transparentStatusBar"] = true (bool)
 flutter: Prefs get   : ["lightAppBarOpacity"] = 0.95 (double)
 flutter: Prefs get   : ["darkAppBarOpacity"] = 0.93 (double)
 flutter: PROVIDER    : darkAppBarOpacityProvider
-flutter:   Type      : StateNotifierProvider<SettingsEntry<double>, double>
+flutter:   Type      : NotifierProviderImpl<SettingsEntry<double>, double>
 flutter:   Old value : 0.91
 flutter:   New value : 0.93
 flutter: Prefs get   : ["darkIsTrueBlack"] = false (bool)
@@ -1196,7 +1205,7 @@ flutter: Prefs get   : ["useSubThemes"] = true (bool)
 flutter: Prefs get   : ["defaultRadius"] = -1.0 (double?)
 ```
 
-Lastly and as before, if the settings controller providers, gets new values, the `ThemeData` will update and the `MaterialApp` will rebuild and we see a theme that the matches the settings values that were stored in the settings key-value DB we changed to:
+Lastly and as before, if the settings controller providers, gets new values, the `ThemeData` will update and the `MaterialApp` will rebuild, and we see a theme that the matches the settings values that were stored in the settings key-value DB we changed to:
 
 ```
 flutter: PROVIDER    : lightThemeProvider
@@ -1209,11 +1218,11 @@ flutter:   Old value : ThemeData#67f91
 flutter:   New value : ThemeData#667cc
 ```
 
-As a result we got a totally new new theme that came from whatever settings had been previously stored in the local Shared Preferences storage, could have been app defaults to if it had never been used before on this device.
+As a result we got a totally new theme that came from whatever settings had been previously stored in the local Shared Preferences storage, could have been app defaults to if it had never been used before on this device.
 
 <img src="https://github.com/rydmike/theme_demo/blob/master/resources/observer06.png?raw=true" alt="Observer step 6" width="350"/>
 
-This is honestly pretty cool and handy stuff, and kind of hyper reactive in an very nice "everything is connected" way. 
+This is honestly pretty cool and handy stuff, and kind of hyper reactive in a very nice "everything is connected" way. 
 
 To really see and understand all the above, try building the app yourself and running it in debug mode.First play around and make sure you have modified enough settings values in both Hive and Shared Preferences implementations. Then do a **hot restart** of the app and follow the steps above, observe the app UI and the debug logs as you do. It gives very good insights into what is going on in the app. Feel free to play around with it more to see how other UI control widgets behave. 
 
@@ -1221,15 +1230,15 @@ You will notice that FlexColorScheme and Riverpod plays well together here, and 
 
 ## More About FlexColorScheme
 
-To learn more about what **FlexColorScheme** does with all the properties we used above, and understanding what is involved in all its theming magic, I recommend reading the [FlexColorScheme docs](https://docs.flexcolorscheme.com/) from start to finnish, and also to when needed check out its very complete [API documentation](https://pub.dev/documentation/flex_color_scheme/latest/flex_color_scheme/flex_color_scheme-library.html). Doing so, you will not only learn about FlexcolorScheme, but also get a deeper understand of theming Flutter apps in general, and get a handle on seed generated Material 3 ColorSchemes as well.
+To learn more about what **FlexColorScheme** does with all the properties we used above, and understanding what is involved in all its theming magic, I recommend reading the [FlexColorScheme docs](https://docs.flexcolorscheme.com/) from start to finnish, and also to when needed check out its very complete [API documentation](https://pub.dev/documentation/flex_color_scheme/latest/flex_color_scheme/flex_color_scheme-library.html). Doing so, you will not only learn about FlexColorScheme, but also get a deeper understand of theming Flutter apps in general, and get a handle on seed generated Material 3 ColorSchemes as well.
 
 ## Questions?
 
-If there is anything in this additional stand-alone **FlexColorScheme** with **Riverpod** tutorial **ThemeDemo** app, that you would like further explanations and insights on, or maybe just to discuss the ThemeDemo app in general. Then your are welcome to ask your questions and add comments in the repo [Discussions](https://github.com/rydmike/theme_demo/discussions). I might extend this readme to clarify any frequent questions, or answer your questions directly in the discussions.
+If there is anything in this additional stand-alone **FlexColorScheme** with **Riverpod** tutorial **ThemeDemo** app, that you would like further explanations and insights on, or maybe just to discuss the ThemeDemo app in general. Then you are welcome to ask your questions and add comments in the repo [Discussions](https://github.com/rydmike/theme_demo/discussions). I might extend this readme to clarify any frequent questions, or answer your questions directly in the discussions.
 
 | Theme Showcase 1/2                                                                                   | Theme Showcase 2/2                                                                                   |
 | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen09-Show1.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen10-Show2.png?raw=true"/> |
 
 ---
-Created 24.10.2022, Updated 25.10.2022
+Created 24.10.2022, Updated 28.10.2022
