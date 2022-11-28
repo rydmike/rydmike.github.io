@@ -11,23 +11,23 @@ description: "Intro to Flutter theming by RydMike"
 
 The Flutter `ThemeData` object defines the look of your application, and to a degree how it behaves. The `ColorScheme` class is a data class that holds 27 `Color` properties. Flutter's built-in components use these colors in predefined ways. The property name for the used `ColorScheme` in `ThemeData` is `colorScheme`. 
 
-The color scheme used to be a a lot simpler before Flutter 2.10, the introduction of Material 3 makes it more complex. There are new features that can help with the color design. For more information about the color system, see the [Material 3 guide](https://m3.material.io/styles/color/overview). This [tweet with 15 slides](https://twitter.com/RydMike/status/1518201439780282370), offers an intro to the wondrous world of Material 3 ColorScheme.
+The color scheme used to be a lot simpler before Flutter 2.10, the introduction of Material 3 makes it more complex. There are new features that can help with the color design. For more information about the color system, see the [Material 3 guide](https://m3.material.io/styles/color/overview). This [tweet with 15 slides](https://twitter.com/RydMike/status/1518201439780282370), offers an intro to the wondrous world of Material 3 ColorScheme.
 
 [<img src="https://rydmike.com/assets/dash-color-scheme-slides.png?raw=true" alt="dash colorscheme slides"/>](https://twitter.com/RydMike/status/1518201439780282370)
 
 ## Why Theme an App?
 
-You should strive to make the built-in widgets in Flutter look as close as you can to the look and design you want them to have in your application. You should do this by defining an application theme that gets you as close as possible. By doing so, you are using Flutter and its theming capabilities to work for you, and not against you. When you do this, most of your application's design will fall into place almost automagically.
+You should strive to make the built-in widgets in Flutter look as close as you can to the look and design you want them to have in your application. You should do this by defining an application theme that gets you as close as possible. By doing so, you use Flutter and its theming capabilities to work for you, and not against you. When you do this, most of your application's design will fall into place almost automagically.
 
-You can customize a surprising amount of details with `ThemeData` and all its component themes. There are certainly limitations, but always check first what you can do by theming the app and the built-in components it uses, to match your style requirements as close as possible.
+You can customize a surprising number of details with `ThemeData` and all its component themes. There are certainly limitations, but always check first what you can do by theming the app and the built-in components it uses, to match your style requirements as close as possible.
 
 ## Custom Widgets
 
-When it comes to custom Widgets you make, you should when possible base their default styles on properties in the theme as well. Consider what color, font and other styles it could use as fitting default built-in behavior. Are there properties in `ThemeData` and its component themes that could be applicable to your custom widget as defaults? Also provide direct members to configure your custom widget for those one-off needs when it needs to be different from what you set via the `ThemeData` properties it uses as its defaults.
+When it comes to custom Widgets you make, you should, when possible, base their default styles on properties in the theme as well. Consider what color, font and other styles it could use as fitting default built-in behavior. Are there properties in `ThemeData` and its component themes that could be applicable to your custom widget as defaults? Also provide direct members to configure your custom widget for those one-off needs when it needs to be different from what you set via the `ThemeData` properties it uses as its defaults.
 
-Use the same principle that Flutter's built-in widgets use for their theming and default style behavior. Basically they do a fall-through from widget property, to component theme and maybe even ThemeData and its ColorScheme, and lastly maybe even some default built-in behavior.
+Use the same principle that Flutter's built-in widgets use for their theming and default style behavior. Basically, they do a fall-through from widget property, to component theme and maybe even ThemeData and its ColorScheme, and lastly, maybe even some default built-in behavior.
 
-If you do this, then you are on your way to creating nice reusable custom widgets, that automatically also follows your application's theme as you change it.
+If you do this, then you are on your way to create nice reusable custom widgets that automatically also follow your application's theme as you change it.
 
 As an example, say you have a fancy complex composed custom widget, that contains an icon, among other things. In this design you decided that this particular icon should have a default color that matches the background color of a `FloatingActionButton`, but in some case you may want a custom one-off color. Just do what built-in widgets do, give it a nullable `Color?` property, e.g. `iconColor` and let it fall through the same default color behavior that the FAB has, like this:
 
@@ -38,17 +38,17 @@ As an example, say you have a fancy complex composed custom widget, that contain
       theme.colorScheme.secondary;
 ```
 
-Now you have a color you can use on the icon, that matches that of a default un-themed FAB, using the `ThemeData.colorScheme.secondary` color as its default value, but if there was a FAB theme defined, it gets the background color from it. Additionally you can give it a different custom color, for those one-off needs.
+Now you have a color you can use on the icon, that matches that of a default un-themed FAB, using the `ThemeData.colorScheme.secondary` color as its default value, but if there was a FAB theme defined, it gets the background color from it. Additionally, you can give it a different custom color, for those one-off needs.
 
-Obviously as you change your application's `ThemeData`, the FAB and your custom widget with its matching icon color, will now follow whatever style that is. If you do the change interactively in your app, its default color also lerp animates, since it depends on a theme color. Don't hard code color and styles for your custom widgets. Don't even default them to colors, styles and properties that are not derived from the application's theme. At least not if you want them to change with animation as you modify the theme of your application.
+Obviously as you change your application's `ThemeData`, the FAB and your custom widget, with its matching icon color, will now follow whatever style that is. If you do the change interactively in your app, its default color also lerp animates, since it depends on a theme color. Don't hard code color and styles for your custom widgets. Don't even default them to colors, styles and properties that are not derived from the application's theme. At least not if you want them to change with animation as you modify the theme of your application.
 
-If your application supports different themes that the user can switch between interactively, including dark mode, then it is important that you use theme and theme mode aware properties in your custom widgets. If you do so, all your custom widgets will adjust accordingly when you change the theme, and their change from one theme mode to another, will even animate correctly.
+If your application supports different themes that the user can switch between interactively, including dark mode, then it is important that you use theme and theme mode aware properties in your custom widgets. If you do so, all your custom widgets will adjust accordingly when you change the theme, and their change from one theme mode to another will even animate correctly.
 
 ## More Colors?
 
-With Flutter 2.10 and later we have the new Material 3 based `ColorScheme`, that contains more theme colors than before. Consider first how you can use these colors in your application and design. Also look into if you can compute some additional color shades from the colors in the `ColorScheme`, in case none of them are the right shade.
+With Flutter 2.10 and later we have the new Material 3 based `ColorScheme`, that contains more theme colors than before. Consider first how you can use these colors in your application and design. Also look into if you can compute some additional color shades from the colors in the `ColorScheme`, in case none of them is the right shade.
 
-There are many ways to do this with different results, here is a simple way using white and black colors as overlays with an alpha blend:
+There are many ways to do this with different results. here is a simple way, using white and black colors as overlays with an alpha blend:
 
 ```dart
 // Using alpha blends is a simple way to make a lighter shade of an existing
@@ -63,13 +63,13 @@ final Color darkerPrimary = Color.alphaBlend(
     Colors.black.withAlpha(0x66), Theme.of(context).colorScheme.primary);
 ```
 
-Sometimes you might indeed need a lot of different colors not found in `ThemeData`, its `Colorscheme` or any of its sub-themes. This is common e.g. for legends on charts or maps. For those cases using a collection of const colors that define them and using them globally is often an acceptable and pragmatic solution.
+Sometimes you might indeed need a lot of different colors not found in `ThemeData`, its `Colorscheme` or any of its sub-themes. This is common e.g. for legends on charts or maps. For those cases, using a collection of const colors that define them and using them globally is often an acceptable and pragmatic solution.
 
-These are typically not application design colors, they are more like color attributes that represent certain properties in the real world, or at least a studied data set of it. Such colors, depend more on how you want the visualized data to be presented, and not on how the application design should look. They thus lend themselves well to being outside of the core application design theming.
+These are typically not application design colors. They are more like color attributes. They represent certain properties in the real world, or at least a studied data set of it. Such colors, depend more on how you want the visualized data to be presented, and not on how the application design should look. They thus lend themselves well to being outside the core application design theming.
 
-Of course, if you only need few such colors and are not using all the colors in the `ColorScheme` for your application's design, then nothing really prevents you from tucking in 3 to 4 colors in the `ColorScheme` for this purpose. If you do so, you may need to set colors of some component themes to some other `colorScheme` based color values, if they used those colors. Currently this is not big challenge as most components typically only use `ColorScheme.primary` or `secondary` color by default.
+Of course, if you only need few such colors and are not using all the colors in the `ColorScheme` for your application's design, then nothing really prevents you from tucking in 3 to 4 colors in the `ColorScheme` for this purpose. If you do so, you may need to set colors of some component themes to some other `colorScheme` based color values, if they used those colors. Currently, this is not big challenge as most components typically only use `ColorScheme.primary` or `secondary` color by default.
 
-You can of course in component themes use defined const color values that are not from your `ThemeData.colorScheme` color set. If you change these colors in  our component theme interactively, their transition will also be nicely animated, when you change theme. They are still themed color values, but not just defined via the theme `ColorScheme`. The Flutter's Material components are designed to use a coherent shared `ColorScheme` based design, so if you do this you should verify that your alternative design looks pleasing too.
+You can of course in component themes use defined const color values that are not from your `ThemeData.colorScheme` color set. If you change these colors in our component theme interactively, their transition will also be nicely animated when you change the theme. They are still themed color values but not just defined via the theme `ColorScheme`. The Flutter's Material components are designed to use a coherent shared `ColorScheme` based design, so if you do this you should verify that your alternative design looks pleasing too.
 
 **FlexColorScheme** on purpose only allows you to select colors from the theme's `ColorScheme` based colors when you customize what colors its opinionated component themes should use on themed components. If you make completely custom component themes, you can of course use whatever colors you prefer in them.
 
@@ -77,25 +77,25 @@ You can of course in component themes use defined const color values that are no
 
 What colors and `TextTheme` styles are used by Flutter's widget by default?
 
-This is a good question. Currently they follow the Material 2 design guide defaults, and will eventually move to follow the Material 3 design guide defaults.
+This is a good question. Currently, they follow the Material 2 design guide defaults, and will eventually move to follow the Material 3 design guide defaults.
 
 When it comes to default color usage in Material 3, the design guide does not really yet cover all the details. When widgets start adopting the Material 3 style when you set `ThemeData.useMaterial3` to true, we will be able to both see and check in the source what the new defaults really are.
 
-Saying that components use M2 and M3 defaults as their colors is not really an easy to use answer in my opinion either. As a future update for this guide, I plan to add a cross reference table that lists color defaults for different 
+Saying that components use M2 and M3 defaults as their colors, is not really an easy-to-use answer in my opinion either. As a future update for this guide, I plan to add a cross-reference table that lists color defaults for different 
 widgets. As defined in Material 2, Material 3, FlexColorScheme with no component themes and with them enabled. Hunting for the color defaults in the Flutter SDK source code is possible, but it is a bit tedious. A table listing them "as implemented" in the source code, would be very helpful.
 
 ## Extended Themes?
 
-You can make custom inherited themes for your custom widgets as well, you can even extend Flutter's theme. We won't be going into that in this guide, not in this version at least. In later revisions to this guide I might add some examples of these possibilities too.
+You can make custom inherited themes for your custom widgets as well. You can even extend Flutter's theme. We won't be going into that in this guide, not in this version at least. In later revisions to this guide, I might add some examples of these possibilities too.
 
 However, if you are interested in it right now, then this [article by Didier Boelens](https://www.didierboelens.com/2020/05/material-textstyle-texttheme/)
-is very good and one of my favorite ones on the topic. It is based on older not null safe version of Dart and Flutter, but its principles are still the same.
+is excellent and one of my favorite ones on the topic. It is based on an older not null safe version of Dart and Flutter, but its principles are still the same.
 
 ## Custom TextThemes?
 
-Another thing I frequently look up in Flutter SDK code is the `TextTheme` and which text style is used where by what widget. The main place to find this out is in the Flutter source code. I might consider adding a cross reference table for this as well. 
+Another thing I frequently look up in Flutter SDK code is the `TextTheme` and which text style is used where, by what widget. The main place to find this out is in the Flutter source code. I might consider adding a cross-reference table for this as well. 
 
-The article above also contains an older Excel cross reference table of what TextTheme TextStyle is used as default style by each Flutter Widget. Since the article is a bit aged, some of them might have changed, but I don't think so. There are however some newer widgets that are not covered, simply because they did not exist when the article was written. For the same reason it also does not contain a cross reference of the new M3 style with the past M2 styles.
+The article above also contains an older Excel cross-reference table of what TextTheme TextStyle is used as default style by each Flutter Widget. Since the article is a bit aged, some of them might have changed, but I don't think so. There are, however, some newer widgets that are not covered, simply because they did not exist when the article was written. For the same reason, it also does not contain a cross-reference of the new M3 style with the past M2 styles.
 
 You can find an image comparing the new Material 3 with the Material 2 text styles in this Flutter issue [#89853](https://github.com/flutter/flutter/issues/89853). For easy reference, here is the same image borrowed from the above source:
 
@@ -103,7 +103,7 @@ You can find an image comparing the new Material 3 with the Material 2 text styl
 
 _Comparing Material 3 (M3) and Material 2 (M2) Text Styles_
 
-Defining custom TextThemes for Flutter can be a bit challenging if you do not know exactly which component uses what style. The large heading styles are generally not used much in Flutter SDK. They can mostly be quite freely modified without impacting component defaults in unforeseen ways. As can be seen above, this is exactly what the Material 3 styles did. This was a good move too since pretty much all of the M2 heading text styles were too big to be very useful by default.
+Defining custom TextThemes for Flutter can be a bit challenging if you do not know exactly which component uses what style. The large heading styles are generally not used in Flutter SDK. They can mostly be quite freely modified without impacting component defaults in unforeseen ways. As can be seen above, this is exactly what the Material 3 styles did. This was a good move too, since pretty much all the M2 heading text styles were too big to be very useful by default.
 
 The smaller TextStyles in the TextTheme are used in the SDK all over the place, and it is not well documented anywhere where they are used, other than in the above article. If you need to know, you can use it, or do a search of a style in the SDK source code to find out where they are used.
 

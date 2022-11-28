@@ -8,13 +8,13 @@ description: "Next generation property and energy efficiency management system"
 
 ## Development of TALO
 
-Professionally I'm working on a project we call **TALO**. I am not at liberty to talk too much about TALO at its current stage, but below is a short summary and backstory of TALO and Flutter. Our resources are a bit limited when it comes to TALO's development, so while it is progressing, it is a bit of a slow burn at the moment. We are currently looking for investors and partners to help us speed up the development. If you want to contact us regarding TALO, my [Twitter direct messages](https://twitter.com/RydMike) are open. 
+Professionally, I'm working on a project we call **TALO**. I am not at liberty to talk too much about TALO at its current stage, but below is a short summary and backstory of TALO and Flutter. Our resources are a bit limited when it comes to TALO's development, so while it is progressing, it is a bit of a slow burn at the moment. We are currently looking for investors and partners to help us speed up the development. If you want to contact us regarding TALO, my [Twitter direct messages](https://twitter.com/RydMike) are open. 
 
 <img src="https://rydmike.com/assets/mr2_round400_tr.png?raw=true" alt="rydmike" width="200"/>
 
 ### What is TALO?
 
-The full scope and goal of **TALO** is quite ambitious, a short explanation is that it is a platform and application used to manage buildings during their entire life-cycle, after they have been built, for as long as they remain in use.
+The scope of **TALO** is quite ambitious. A short explanation is, TALO is a platform and application used to manage buildings during their life-cycle, after they have been built, for as long as they remain in use.
 
 **TALO** involves **all parties** in the processes during a building's life cycle, from property owners, property managers, service providers, to building users and tenants. TALO covers aspects like, sustainability and energy efficiency, in-door conditions monitoring, business and cost control, refurbishments and capex planning, maintenance and facility services plus tenants management and services.
 

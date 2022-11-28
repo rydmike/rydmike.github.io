@@ -9,7 +9,7 @@ description: "Theming and Material 3, talk by RydMike at Flutter Nordics meetup"
 # Flutter App Theming
 *(May 19, 2022)*
 
-On **May 17, 2022** at **Flutter Nordics meetup at Wolt HQ** in Helsinki, I had the pleasure of talking about theming Flutter applications, and the state of Material 3 design in Flutter 3.0.
+On **May 17, 2022**, at **Flutter Nordics meetup at Wolt HQ** in Helsinki, I had the pleasure of talking about theming Flutter applications, and the state of Material 3 design in Flutter 3.0.
 
 <img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_banner.jpg?raw=true" alt="Material 3 talk" width="600"/>
 
@@ -47,13 +47,13 @@ During the talk I use a simple demo app to show different ways to construct a `T
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_demo.png?raw=true" alt="Demo app" width="600"/>](https://dartpad.dev/?id=515a014525c91ec55c86b489c30bfad5)
 
 ## Talk by Eralp Karaduman
-Between my two part talk, you can find a very interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about **Mocking APIs using embedded web servers in Flutter apps**. You can read about it in his [blog post](https://eralp.dev/flutter-mock-api-server/) too.
+Between my two-part talk, you can find an interesting presentation by [Eralp Karaduman](https://twitter.com/eralpkaraduman) about **Mocking APIs using embedded web servers in Flutter apps**. You can read about it in his [blog post](https://eralp.dev/flutter-mock-api-server/) too.
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_video_eralp mocking API.jpg?raw=true" alt="talk eralp" width="600"/>](https://youtu.be/M6Uz4ALs2kc?t=5913)
 
 ## Panel Discussion
 
-Thanks to [Wolt](https://wolt.com/) and [Cagatay Ulusoy](https://twitter.com/ulusoyapps) for hosting the meetup, and to [Alessio Salvadorini](https://twitter.com/ASalvadorini) for acting as our Google I/O panel and discussions moderator. If you watch the meetup recording from the [**beginning**](https://www.youtube.com/watch?v=M6Uz4ALs2kc), you will see us, plus [Tom Gilder](https://twitter.com/tomgilder) and [Elliot Tikhomirov](https://twitter.com/tikhomirovi) starting the meetup by talking about our impressions from Google I/O 2022.
+Thanks to [Wolt](https://wolt.com/) and [Cagatay Ulusoy](https://twitter.com/ulusoyapps) for hosting the meetup, and to [Alessio Salvadorini](https://twitter.com/ASalvadorini) for acting as our Google I/O panel and discussions moderator. If you watch the meet-up recording from the [**beginning**](https://www.youtube.com/watch?v=M6Uz4ALs2kc), you will see us, plus [Tom Gilder](https://twitter.com/tomgilder) and [Elliot Tikhomirov](https://twitter.com/tikhomirovi) starting the meet-up by talking about our impressions from Google I/O 2022.
 
 [<img src="https://rydmike.com/assets/Flutter_Nordics_M3Talk_panel.jpg?raw=true" alt="favorites" width="600"/>](https://youtu.be/M6Uz4ALs2kc?t=1703)
 

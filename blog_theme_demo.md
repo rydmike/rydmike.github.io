@@ -62,7 +62,7 @@ This example is designed to work with and use the stable releases of **FlexColor
 This demo is provided as an additional example to the six examples already included with the FlexColorScheme package. It is also mentioned in the [FlexColorScheme docs](https://docs.flexcolorscheme.com/examples#themedemo-app).
 
 | Home Screen 1/4                                                                                     | Home Screen 2/4                                                                                     |
-| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen01-Home.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen02-Home.png?raw=true"/> |
 
 
@@ -75,7 +75,7 @@ The app demonstrates how the `ThemeData`, and `ThemeMode` state of the applicati
 It also shows how simple it is to make small UI theme control widgets that can be dropped in anywhere, were needed in an app, and then used to manipulate and modify the `ThemeData` of the application. The UI view widgets modify Riverpod `NotifierProviders`, that act as theme property controllers in `ThemeData` providers. The `MaterialApp` widget watches these providers for changes, and the application is rebuilt using new `ThemeData` whenever a single theming UI widget is changed anywhere in the application.
 
 | Home Screen 3/4                                                                                     | Home Screen 4/4                                                                                     |
-| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen03-Home.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen04-Home.png?raw=true"/> |
 
 ## Used `MaterialApp`
@@ -111,7 +111,7 @@ class ThemeDemoApp extends ConsumerWidget {
 This setup works regardless of were in the widget tree the actual theme UI controlling widgets are. In this example this is demonstrated by placing all made theme widget controls on the classical default Flutter counter page. Yes, there is still a counter on the Home page. Some theme settings widgets are also used in the application drawer, and even more can be found in a bottom sheet.
 
 | Theme Control Widgets in App Drawer                                                                   | Theme Control Widgets in a BottomSheet                                                                |
-| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen05-Drawer.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen06-Bottom.png?raw=true"/> |
 
 
@@ -535,7 +535,7 @@ The used SharedPreferences and Hive key-value database implementations are the s
 We cannot use the absence of a key in the key-value database to represent `null`. No key found, gives us our coded const default value for a theme setting. This is usually not `null`, but it might be, and even if it is not, we might in some cases want to be able to select a default `null` choice, to get the SDK default `null` un-themed behavior. In this demo, the `AppBar` style **Default** below is one example of that.
 
 | AppBar Style Nullable 1/2                                                                              | AppBar Style Nullable 2/2                                                                              |
-| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen07-AppBar1.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen08-AppBar2.png?raw=true"/> |
 
 To be able to do this, we need to be able to persist nullable values in the key-value DB. The used map for our volatile memory storage allows us to do that, as does Hive. However, SharedPreferences does support storing `null` at all. So its implementation includes a work-around to use some other suitable value to represent the persisted `null` choice, and return `null` back to us when that value is found.
@@ -1220,7 +1220,7 @@ flutter:   Old value : ThemeData#67f91
 flutter:   New value : ThemeData#667cc
 ```
 
-As a result we got a totally new theme that came from whatever settings had been previously stored in the local Shared Preferences storage, could have been app defaults to if it had never been used before on this device.
+As a result, we got a totally new theme that came from whatever settings had been previously stored in the local Shared Preferences storage, could have been app defaults to if it had never been used before on this device.
 
 <img src="https://github.com/rydmike/theme_demo/blob/master/resources/observer06.png?raw=true" alt="Observer step 6" width="350"/>
 
@@ -1239,7 +1239,7 @@ To learn more about what **FlexColorScheme** does with all the properties we use
 If there is anything in this additional stand-alone **FlexColorScheme** with **Riverpod** tutorial **ThemeDemo** app, that you would like further explanations and insights on, or maybe just to discuss the ThemeDemo app in general. Then you are welcome to ask your questions and add comments in the repo [Discussions](https://github.com/rydmike/theme_demo/discussions). I might extend this readme to clarify any frequent questions, or answer your questions directly in the discussions.
 
 | Theme Showcase 1/2                                                                                   | Theme Showcase 2/2                                                                                   |
-| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen09-Show1.png?raw=true"/> | <img src="https://github.com/rydmike/theme_demo/blob/master/resources/Screen10-Show2.png?raw=true"/> |
 
 ---

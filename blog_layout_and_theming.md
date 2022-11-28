@@ -9,7 +9,7 @@ description: "Web style center layout in Flutter and theming pointers"
 # Constrained Centered Layout and Theming Flutter
 *(Oct 26, 2021)*
 
-In this article I discuss challenges with the web center constrained layout in Flutter, and provide an introduction and example on how to theme Flutter applications.
+In this article, I discuss challenges with the web center constrained layout in Flutter. I provide an introduction and an example of how-to theme Flutter applications.
 
 ## Why Another Theming Example?
 
@@ -19,18 +19,18 @@ The "right", or at least easy way to effectively theme a Flutter application is 
 
 The example in this article can be run and tested in DartPad [here](https://dartpad.dev/?id=f2f45a57d4998f3c61d3fa197b5a7370&null_safety=true), and its source code is available in a GIST [here](https://gist.github.com/rydmike/f2f45a57d4998f3c61d3fa197b5a7370).
 
-# The Challenge - Constrained Center Layout
+# The Challenge: Constrained Center Layout
 
 In this [Tweet](https://twitter.com/biz84/status/1445400059894542337?s=20) FlutterDev course producer and Flutter connoisseur [Andrea Bizzotto](https://twitter.com/biz84) shows us how to make a typical web like layout in Flutter.
 
-A layout that is centered and width constrained. This keeps a reasonable max column width on the content, also on very wide screens. This makes the content easier to read, since it never expands to fill the max width of typically very wide desktop screens.
+A layout that is centered and width constrained. This keeps reasonable max column width on the content, also on very wide screens. This makes the content easier to read, since it never expands to fill the max width of typically very wide desktop screens.
 
 A solution, where wrapping the child body content like this, is presented by Andrea:
 
 ![image](https://user-images.githubusercontent.com/39990307/138179067-83b6065d-b90b-4766-8352-05e91b7fc778.png)   
 _**Shown Web style constrained center layout.**_
 
-This works well and produces the desired result in the example. But, what happens if we use this approach with scrolling content?
+This works well and produces the desired result in the example. But what happens if we use this approach with scrolling content?
 
 ## What is wrong with the above solution?
 
@@ -45,7 +45,7 @@ As shown, we got scrollbars next to the body content. That is not so nice, they 
 
 In this example we start with the same setup, but use a `Center`, with `ConstrainedBox` and `Padding`, that gets their configuration via properties that have defaults. We loose the extra `Card`. We make it more generic and leave it to parent widget to decide if it wants to be in a `Card` or not.
 
-Here is our new starting point, that also produces the same result concerning the not desired content centered scrollbars.
+Here is our new starting point. It also produces the same result, concerning the not desired content-centered scrollbars.
 
 ![image](https://user-images.githubusercontent.com/39990307/138179190-c3d2e7b3-89f8-4576-83b3-fc9513d7374b.png)  
 _**Alternative starting point.**_
@@ -55,7 +55,7 @@ This is actually very simple to fix. We disable the scrollbars for the child and
 ![image](https://user-images.githubusercontent.com/39990307/138179261-66df7b87-3a1b-4ab0-9006-d8b02ad468e6.png)  
 _**Moving scrollbars to the edge.**_
 
-We also assigned a `ScrollController` to `Scrollbar`. This controller may when needed be passed in from parent, where it is created and connected to the actual scrolling view.
+We also assigned a `ScrollController` to `Scrollbar`. This controller may, when needed, be passed in from the parent, where it is created and connected to the actual scrolling view.
 
 ```dart
   /// Optional scroll controller for the constrained page body.
@@ -74,7 +74,7 @@ This seems to work OK, right? The scrollbars are now on the edge, so that is goo
 ![scrollbars2b](https://user-images.githubusercontent.com/39990307/138181444-164a1e52-a4bf-405f-8ea8-cfcf5726c50f.gif)
 _**Scrollbars now next to view end side, but...**_
 
-There is an issue with this solution, if you touch or mouse wheel scroll from the expanding margins that do not contain any content, the content does not scroll.
+There is an issue with this solution. If you touch or mouse-wheel scroll from the expanding margins that do not contain any content, the content does not scroll.
 
 Web pages, using this layout, do not behave this way. They do scroll from the empty margins too. It is poor UX that it does not do so here as well.
 
@@ -83,7 +83,7 @@ Have you solved this layout problem in Flutter? Do you already have the perfect 
 
 I have not seen a good simple solution for it yet. I admit I only looked at the issue briefly once. There might be a simple solution, or it might actually need a lower level custom layout to be solvable effectively. I do plan to look into eventually when I really must have a solution for it. However, I'm putting on hold looking into further for now.
 
-Next, let's dissect this example app further, it contains many other fascinating goodies.
+Next, let's dissect this example app further. It also contains many other fascinating goodies.
 
 # The HomePage in this Demo
 
@@ -99,15 +99,15 @@ The `HomePage` has these interesting features:
 _**Parts of the example HomePage.**_
 
 
-The slivers have been written about in many other blog posts with great detail. We will skip that part here, but let's dig deeper into the theme.
+The slivers have been written about in many other blog posts in great detail. We will skip that part here, but let's dig deeper into the theme.
 
 # Demo App Theme
 
-Let's back up a bit, the theme looks a bit fancy. It is not totally ordinary, what is going here with the theme?
+Let's back up a bit. The theme looks a bit fancy. It is not totally ordinary, what is going here with the theme?
 
-If you look at the demo code, you can see that we have for example not put the border rounding on the widgets, they are a part of the global theme for the demo application. If we want to make everything more round, like in MaterialYou (Material 3), then obviously this is the way to do it.
+If you look at the demo code, you can see that we have, for example, not put the border rounding on the widgets, they are a part of the global theme for the demo application. If we want to make everything more rounded, like in MaterialYou (Material 3), then obviously this is the way to do it.
 
-The dark mode and light mode also have a hint of primary color mixed into the background color. This is called alpha blend of a color, in this case the primary color, into background and other surface colors.
+The dark mode and light mode also have a hint of primary color mixed into the background color. This is called alpha blend of a color. In this case, of the primary color, into background and other surface colors.
 
 This color design principle appears to be used quite extensively in the new MaterialYou based designs as well. We can see it used a lot in Android 12, creating very neat and personal touches to the visuals.
 
@@ -121,7 +121,7 @@ The theme toggle is a simple `StatelessWidget` using Flutter `ToggleButtons`. Yo
 ![image](https://user-images.githubusercontent.com/39990307/138179489-0a026c77-089a-4e69-8e31-fac456bc8801.png)  
 _**ToggleButtons based theme mode switch.**_
 
-The `MaterialApp` setup is just a very basic example, a light and a dark theme with a call back to toggle the mode. Yes, you can use system mode too and let the theme change with host's light and dark mode changes.
+The `MaterialApp` setup is just a very basic example, a light and a dark theme with a call back to toggle the mode. Yes, you can use the system mode too and let the theme change with the host's light and dark mode changes.
 
 ![image](https://user-images.githubusercontent.com/39990307/138179556-dc165154-128b-4c3f-bf7a-0e83b9b0c1e2.png)  
 _**Setup of the MaterialApp.**_
@@ -163,14 +163,14 @@ There is also a custom app bar and bottom navigation bar theme data definition.
 ![image](https://user-images.githubusercontent.com/39990307/138183872-8e0db2f8-7a37-4536-ab14-c4677003e6b5.png)   
 _**BottomNavigationBar**_
 
-These just to demonstrate a few simple sub-theme examples, including among other things the more rounded shapes.
+These just demonstrate a few simple sub-theme examples, including among other things, the more rounded shapes.
 
-All in all, pretty straight forward and the end result is pretty cool and nice looking.
+All in all, pretty straight forward, and the end result is pretty cool and nice looking.
 
 ![image](https://user-images.githubusercontent.com/39990307/138179840-0502d56f-5a31-4423-a98d-8304506d7345.png)
-_**Example shown running in DartPad**_
+_**Example running in DartPad**_
 
-As mentioned at the beginning of the article, you can try the example in a live DartPad demo here [here](https://dartpad.dev/?id=f2f45a57d4998f3c61d3fa197b5a7370&null_safety=true)
+As mentioned at the beginning of the article, you can try the example in a live DartPad [demo here](https://dartpad.dev/?id=f2f45a57d4998f3c61d3fa197b5a7370&null_safety=true).
 
 # State of Flutter Theming
 
@@ -179,9 +179,9 @@ You might have noticed that some of Flutter's sub-theme data classes do not end 
 There are also many legacy colors that widgets still depend on in the `ThemeData` class directly. There is a migration plan on how to clean up `ThemeData` and move towards having the colors that widgets depend on for their
 default color design, to be based on `ColorScheme` class, via property `colorScheme` in `ThemeData`.
 
-To some extent this migration has progressed, but there is still a lot of work pending. Some of it is hard to clean up without breaking past Flutter code that a lot of application use. You can read more about this design change and migration in this [Flutter design document](https://docs.google.com/document/d/1kzIOQN4QYfVsc5lMZgy_A-FWGXBAJBMySGqZqsJytcE/edit).
+To some extent, this migration has progressed, but there is still a lot of work pending. Some of it is hard to clean up without breaking past Flutter code that a lot of applications use. You can read more about this design change and migration in this [Flutter design document](https://docs.google.com/document/d/1kzIOQN4QYfVsc5lMZgy_A-FWGXBAJBMySGqZqsJytcE/edit).
 
-At the time of writing we do not yet know what kind of adjustments Material You will bring to theming in Flutter. It could be very minimal changes, or we might even see a new cleaner theming solution.
+At the time of writing, we do not yet know what kind of adjustment Material 3 will bring to theming in Flutter. It could be very minimal changes, or we might even see a new cleaner theming solution.
 
 # Finally
 
