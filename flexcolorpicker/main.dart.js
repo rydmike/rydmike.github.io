@@ -7603,7 +7603,7 @@ _.a=m},
 Qs:function Qs(a,b){var _=this
 _.d=a
 _.e=!1
-_.x=_.w=_.r=_.f=$
+_.y=_.x=_.w=_.r=_.f=$
 _.a=null
 _.b=b
 _.c=null},
@@ -23090,13 +23090,13 @@ if(s)throw A.f(A.qB("`const Object()` cannot be used as the token."))
 A.atj(a)
 if(b!==r.a.get(a))throw A.f(A.qB("Platform interfaces must not be implemented with `implements`"))},
 a8_:function a8_(){},
-aIU(a,b,c){var s,r,q=A.c([],t.NK),p=t.N7,o=A.e5(p,p),n=A.e5(t.Sf,t.IU),m=c==null,l=m?0:c.e+1,k=A.c([],t.BF)
+aIU(a,b,c){var s,r,q=A.c([],t.NK),p=t.N7,o=A.e5(p,p),n=A.e5(t.Sf,t.IU),m=c==null,l=m?0:c.d+1,k=A.c([],t.BF)
 B.c.Y(k,a)
 s=!m
-if(s)B.c.Y(k,c.Q)
+if(s)B.c.Y(k,c.z)
 p=A.J(p,t.Kc)
-if(s)for(s=c.z,s=s.geZ(s),s=s.gae(s);s.B();){r=s.gP(s)
-if(!r.gj(r).d)p.n(0,r.gd5(r),r.gj(r))}m=m?null:c.f
+if(s)for(s=c.y,s=s.geZ(s),s=s.gae(s);s.B();){r=s.gP(s)
+if(!r.gj(r).d)p.n(0,r.gd5(r),r.gj(r))}m=m?null:c.e
 q=new A.hW(0,l,m==null?c:m,c,q,o,n,p,k)
 q.VW(a,b,c)
 return q},
@@ -23112,16 +23112,16 @@ anW:function anW(a){this.a=a},
 anX:function anX(a){this.a=a},
 hW:function hW(a,b,c,d,e,f,g,h,i){var _=this
 _.a=a
-_.d=_.c=$
-_.e=b
-_.f=c
-_.r=d
-_.w=e
-_.x=f
-_.y=g
-_.z=h
-_.Q=i
-_.at=!1},
+_.c=$
+_.d=b
+_.e=c
+_.f=d
+_.r=e
+_.w=f
+_.x=g
+_.y=h
+_.z=i
+_.as=!1},
 a8t:function a8t(a,b){this.a=a
 this.b=b},
 a8u:function a8u(a,b){this.a=a
@@ -36423,7 +36423,7 @@ n.toString
 o=o.Q
 o.toString
 s=n.c0(p.ay.b)
-A.aOu(B.afx,"\xa9 2020, 2021, 2022 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","3.0.0",A.c([new A.au(B.a6j,A.au_(r,r,B.ba,r,r,!0,r,A.dY(A.c([A.dY(r,r,n,"This example shows the features of the FlexColorPicker package. To learn more, check out the package on "),A.aHE(s,"pub.dev",$.aCq()),A.dY(r,r,n,". It contains extensive documentation and the source of this example application.\n\n"),A.dY(r,r,o,"Live Web demo built with Channel stable 3.3.8, using FlexColorPicker package 3.0.0\n\n")],t.Ne),r,r,r),B.aW,r,r,1,B.ab),r)],t.p),q)},
+A.aOu(B.afx,"\xa9 2020 - 2023 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","3.0.1",A.c([new A.au(B.a6j,A.au_(r,r,B.ba,r,r,!0,r,A.dY(A.c([A.dY(r,r,n,"This example shows the features of the FlexColorPicker package. To learn more, check out the package on "),A.aHE(s,"pub.dev",$.aCq()),A.dY(r,r,n,". It contains extensive documentation and the source of this example application.\n\n"),A.dY(r,r,o,"Live Web demo built with Channel stable 3.3.10, using FlexColorPicker package 3.0.1\n\n")],t.Ne),r,r,r),B.aW,r,r,1,B.ab),r)],t.p),q)},
 $S:0}
 A.L2.prototype={}
 A.a66.prototype={
@@ -37177,7 +37177,7 @@ J.S(s).V(s,B.fY)}}},
 $S:30}
 A.Ks.prototype={
 H(a){var s=null,r=A.D(a).ay.a===B.B,q=r?B.B:B.X,p=r?B.X:B.B,o=r?B.oj:B.o7,n=r?B.X:B.B,m=t.p
-return A.awn(A.Nt(s,A.cf(A.c([new A.bK(s,a.K(t.w).f.f.b,s,s),B.mD,A.aA("FlexColorPicker",s,s,s,A.D(a).RG.e,s,s),B.du,A.i1(A.c([A.hD(s,8,B.oc,4,!1,60,!0,s,!0,B.af,!1,60),B.dt,A.hD(s,10,B.hI,0,!0,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,30,B.o9,8,!1,60,!1,s,!0,B.af,!1,60)],m),B.ae,B.db,B.D),B.du,A.i1(A.c([A.hD(s,30,B.of,9,!1,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,0,B.ol,0,!0,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,16,B.oe,5,!1,60,!0,s,!0,B.af,!1,60)],m),B.ae,B.db,B.D),B.du,A.i1(A.c([A.hD(s,4,B.op,1,!1,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,30,B.oo,1,!1,60,!0,s,!0,B.af,!1,60),B.dt,A.hD(s,10,B.om,0,!1,60,!1,s,!0,B.af,!1,60)],m),B.ae,B.db,B.D),B.afz,A.a7v(new A.au(B.p1,A.aA("Try the color picker",s,s,s,A.D(a).RG.r,s,s),s),new A.a4y(a)),B.du,B.alh,B.du,B.ae9,B.du,B.ame,B.mD,A.aA("Using flex_color_picker version 3.0.0",s,s,s,A.D(a).RG.Q,s,s),A.aA("Web build with Flutter Channel stable 3.3.8",s,s,s,A.D(a).RG.Q,s,s),B.afy],m),B.ae,B.db,B.D,B.y),!0,!0,s),new A.i4(o,s,n,s,B.G,q,p,s),t.lu)}}
+return A.awn(A.Nt(s,A.cf(A.c([new A.bK(s,a.K(t.w).f.f.b,s,s),B.mD,A.aA("FlexColorPicker",s,s,s,A.D(a).RG.e,s,s),B.du,A.i1(A.c([A.hD(s,8,B.oc,4,!1,60,!0,s,!0,B.af,!1,60),B.dt,A.hD(s,10,B.hI,0,!0,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,30,B.o9,8,!1,60,!1,s,!0,B.af,!1,60)],m),B.ae,B.db,B.D),B.du,A.i1(A.c([A.hD(s,30,B.of,9,!1,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,0,B.ol,0,!0,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,16,B.oe,5,!1,60,!0,s,!0,B.af,!1,60)],m),B.ae,B.db,B.D),B.du,A.i1(A.c([A.hD(s,4,B.op,1,!1,60,!1,s,!0,B.af,!1,60),B.dt,A.hD(s,30,B.oo,1,!1,60,!0,s,!0,B.af,!1,60),B.dt,A.hD(s,10,B.om,0,!1,60,!1,s,!0,B.af,!1,60)],m),B.ae,B.db,B.D),B.afz,A.a7v(new A.au(B.p1,A.aA("Try the color picker",s,s,s,A.D(a).RG.r,s,s),s),new A.a4y(a)),B.du,B.alh,B.du,B.ae9,B.du,B.ame,B.mD,A.aA("Using flex_color_picker version 3.0.1",s,s,s,A.D(a).RG.Q,s,s),A.aA("Web build with Flutter Channel stable 3.3.10",s,s,s,A.D(a).RG.Q,s,s),B.afy],m),B.ae,B.db,B.D,B.y),!0,!0,s),new A.i4(o,s,n,s,B.G,q,p,s),t.lu)}}
 A.a4y.prototype={
 $0(){var s=A.Lh(new A.a4x(),null,t.K)
 A.cY(this.a,!1).j1(s)},
@@ -38209,19 +38209,21 @@ ah(){return new A.Qs(new A.bv(null,t.A),B.i)},
 rf(a){return this.d.$1(a)},
 DD(a,b){return this.r.$1(b)}}
 A.Qs.prototype={
-aC(){var s=this
-s.aY()
-s.f=A.hN(s.a.c).b
-s.r=A.hN(s.a.c).c
-s.w=A.hN(s.a.c).d
-s.x=A.js(!0,null,!0,!0,null,null,!1)},
-m(){var s=this.x
+aC(){var s,r=this
+r.aY()
+r.f=A.hN(r.a.c).b
+s=r.a.c
+r.x=s
+r.r=A.hN(s).c
+r.w=A.hN(r.a.c).d
+r.y=A.js(!0,null,!0,!0,null,null,!1)},
+m(){var s=this.y
 s===$&&A.d()
 s.m()
 this.aS()},
 aW(a){var s,r,q=this
 q.b7(a)
-if(q.a.at&&!a.at){s=q.x
+if(q.a.at&&!a.at){s=q.y
 s===$&&A.d()
 s.eS()}s=q.a
 if(s.as){s=A.hN(s.c)
@@ -38235,7 +38237,7 @@ if(s.c!==r)q.r=A.hN(q.a.c).c
 s=A.hN(q.a.c)
 r=q.w
 r===$&&A.d()
-if(s.d!==r)q.w=A.hN(q.a.c).d}},
+if(s.d!==r)q.w=A.hN(q.a.c).d}if(!a.c.l(0,q.a.c))q.x=q.a.c},
 PV(a,b){return Math.min(a.a,a.b)/2-b},
 wC(a){var s,r,q,p,o,n,m,l=this,k=$.L.G$.z.h(0,l.d).gF()
 k.toString
@@ -38262,13 +38264,16 @@ n===$&&A.d()
 m=l.w
 m===$&&A.d()
 k.rf(new A.jw(s.a,q,n,m).ih())}},
-Ds(a){var s
-this.a.DD(0,!1)
-s=this.a
+Ds(a){var s,r,q=this
+q.a.DD(0,!1)
+s=q.a
 s.f.$1(s.c)
-s=this.a
-s.rf(s.c)},
-H(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.x
+s=q.a.c
+r=q.x
+r===$&&A.d()
+if(!s.l(0,r)){s=q.a
+s.rf(s.c)}},
+H(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.y
 i===$&&A.d()
 s=k.f
 s===$&&A.d()
@@ -77049,8 +77054,8 @@ r=o==null?p.a(o):o
 J.YA(r)}n.cb=null}},
 A(a,b){return b.a(J.aEY(this.G.bU(0,a,new A.a_Y(this,a,b))))},
 ii(){var s,r,q,p
-for(s=this.G,s=s.gb5(s),r=A.m(s),r=r.i("@<1>").a8(r.z[1]),s=new A.bX(J.aM(s.a),s.b,r.i("bX<1,2>")),r=r.z[1];s.B();){q=s.a;(q==null?r.a(q):q).dh(0)}for(s=this.q,p=0;p<s.length;++p)s[p].dh(0)
-this.U6()},
+this.U6()
+for(s=this.G,s=s.gb5(s),r=A.m(s),r=r.i("@<1>").a8(r.z[1]),s=new A.bX(J.aM(s.a),s.b,r.i("bX<1,2>")),r=r.z[1];s.B();){q=s.a;(q==null?r.a(q):q).dh(0)}for(s=this.q,p=0;p<s.length;++p)s[p].dh(0)},
 $iazX:1}
 A.a_Y.prototype={
 $0(){var s=this,r=s.a,q=r.cb,p=q==null?null:q.E(0,s.b)
@@ -78550,23 +78555,23 @@ s.fy.of(0,new A.anW(l),new A.anX(l))
 return s}finally{if(J.j($.XU,k))$.XU=null}}}
 A.anW.prototype={
 $1(a){var s,r,q,p,o,n,m
-for(r=this.a,q=r.c,p=q.Q,o=p.length,r=r.a,n=a.a,m=0;m<p.length;p.length===o||(0,A.P)(p),++m){s=p[m]
+for(r=this.a,q=r.c,p=q.z,o=p.length,r=r.a,n=a.a,m=0;m<p.length;p.length===o||(0,A.P)(p),++m){s=p[m]
 A.aCe(s.gN2(),r,n,q)}},
 $S:480}
 A.anX.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k
-for(q=this.a,p=q.c,o=p.Q,n=o.length,q=q.a,m=0;l=o.length,m<l;o.length===n||(0,A.P)(o),++m){s=o[m]
+for(q=this.a,p=q.c,o=p.z,n=o.length,q=q.a,m=0;l=o.length,m<l;o.length===n||(0,A.P)(o),++m){s=o[m]
 A.aCe(s.gN2(),q,null,p)}for(n=a.a,k=a.b,m=0;m<o.length;o.length===l||(0,A.P)(o),++m){r=o[m]
 A.avA(r.gP6(),q,n,k,p)}},
 $S:481}
 A.hW.prototype={
 VW(a,b,c){var s,r,q,p,o=this
-if(c!=null){c.w.push(o)
-o.y.Y(0,c.y)}for(s=o.x,r=o.z,q=0;!1;++q){p=b[q]
+if(c!=null){c.r.push(o)
+o.x.Y(0,c.x)}for(s=o.w,r=o.y,q=0;!1;++q){p=b[q]
 s.n(0,p,p)
 r.n(0,p,new A.qe(p,p,o,!1))}},
 gK2(){var s,r,q=this,p=q.c
-if(p===$){s=q.r
+if(p===$){s=q.f
 r=s==null?null:s.gK2()
 if(r==null)r=new A.amf(A.c([],t.c6),A.c([],t.AZ))
 q.c!==$&&A.bb()
@@ -78575,8 +78580,8 @@ IT(a,b,c,d){var s=new A.uG(b,a,c,d.i("uG<0>"))
 a.f.push(s)
 return s},
 afT(a){var s,r,q,p,o,n
-if(this.at)throw A.f(A.an("Called updateOverrides on a ProviderContainer that was already disposed"))
-for(s=this.z,r=this.x,q=0;!1;++q){p=a[q]
+if(this.as)throw A.f(A.an("Called updateOverrides on a ProviderContainer that was already disposed"))
+for(s=this.y,r=this.w,q=0;!1;++q){p=a[q]
 o=s.h(0,p)
 o.toString
 r.n(0,p,p)
@@ -78585,22 +78590,22 @@ n=o.e
 if(n==null)continue
 A.aOs(n.gafM(n),p)}},
 wP(a,b){var s,r
-if(this.at)throw A.f(A.an("Tried to read a provider from a ProviderContainer that was already disposed"))
+if(this.as)throw A.f(A.an("Tried to read a provider from a ProviderContainer that was already disposed"))
 s=this.ZI(a)
 r=s.e
 if(r==null)r=s.e=s.XH()
 return b.i("fk<0>").a(r)},
-ZI(a){var s,r=this.z,q=r.h(0,a)
+ZI(a){var s,r=this.y,q=r.h(0,a)
 if(q!=null)return q
 s=new A.a8t(this,a).$0()
 r.n(0,a,s)
 return s},
 m(){var s,r,q,p=this
-if(p.at)return
-s=p.r
-if(s!=null)B.c.E(s.w,p)
-p.at=!0
-for(s=p.Es(),s=A.av(s,!0,s.$ti.i("u.E")),r=A.Z(s).i("bS<1>"),s=new A.bS(s,r),s=new A.by(s,s.gt(s),r.i("by<aR.E>")),r=r.i("aR.E");s.B();){q=s.d;(q==null?r.a(q):q).m()}if(p.f==null){s=p.gK2()
+if(p.as)return
+s=p.f
+if(s!=null)B.c.E(s.r,p)
+p.as=!0
+for(s=p.Es(),s=A.av(s,!0,s.$ti.i("u.E")),r=A.Z(s).i("bS<1>"),s=new A.bS(s,r),s=new A.by(s,s.gt(s),r.i("by<aR.E>")),r=r.i("aR.E");s.B();){q=s.d;(q==null?r.a(q):q).m()}if(p.e==null){s=p.gK2()
 r=s.c
 if(r!=null)r.hi(0)
 s.c=null}},
@@ -78613,7 +78618,7 @@ f=new A.pY(g)
 f.a=f
 f.b=f
 o=new A.op(f,t.Do)
-for(n=s.z,n=n.gb5(n),m=A.m(n),m=m.i("@<1>").a8(m.z[1]),n=new A.bX(J.aM(n.a),n.b,m.i("bX<1,2>")),m=m.z[1],g=g.i("pX<1>");n.B();){l={}
+for(n=s.y,n=n.gb5(n),m=A.m(n),m=m.i("@<1>").a8(m.z[1]),n=new A.bX(J.aM(n.a),n.b,m.i("bX<1,2>")),m=m.z[1],g=g.i("pX<1>");n.B();){l={}
 k=n.a
 if(k==null)k=m.a(k)
 if(k.c!==s)continue
@@ -78635,14 +78640,14 @@ break
 case 3:return A.auD()
 case 1:return A.auE(p)}}},t.C9)}}
 A.a8t.prototype={
-$0(){var s,r,q=this,p=q.a,o=p.f,n=o==null,m=!n
+$0(){var s,r,q=this,p=q.a,o=p.e,n=o==null,m=!n
 m
-s=n?null:o.z.aw(0,q.b)
-if(s===!0){p=o.z.h(0,q.b)
+s=n?null:o.y.aw(0,q.b)
+if(s===!0){p=o.y.h(0,q.b)
 p.toString
 return p}s=q.b
 r=new A.qe(s,s,n?p:o,!0)
-if(m)o.z.n(0,s,r)
+if(m)o.y.n(0,s,r)
 return r},
 $S:482}
 A.a8u.prototype={
@@ -78714,11 +78719,11 @@ a.of(0,new A.a8A(n,r,l,q),new A.a8B(n,r,q))
 for(m=n.w,p=0;p<m.length;++p)m[p].agq()
 m=n.e
 m===$&&A.d()
-m=m.Q
+m=m.z
 s=m.length
 o=0
 for(;o<m.length;m.length===s||(0,A.P)(m),++o)A.avA(m[o].ga9W(),n.d,l,a.gxQ(),n.e)
-for(m=n.e.Q,s=m.length,o=0;o<m.length;m.length===s||(0,A.P)(m),++o)a.of(0,new A.a8C(n),new A.a8D(n,m[o]))},
+for(m=n.e.z,s=m.length,o=0;o<m.length;m.length===s||(0,A.P)(m),++o)a.of(0,new A.a8C(n),new A.a8D(n,m[o]))},
 ag1(a,b){var s,r
 for(s=this.w,r=0;r<s.length;++r)a.$1(s[r])
 for(s=this.x,r=0;!1;++r)a.$1(s[r].gagx())},
@@ -78738,7 +78743,7 @@ n.dy=!1
 for(s=n.r;s.length!==0;)B.c.ga_(s).dh(0)
 s=n.e
 s===$&&A.d()
-s=s.Q
+s=s.z
 r=s.length
 q=0
 for(;q<s.length;s.length===r||(0,A.P)(s),++q){p=s[q].ga9Q()
