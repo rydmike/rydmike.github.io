@@ -37815,7 +37815,7 @@ m.toString
 s=l.aX(n.ax.b)
 r=o.A(t.w).f.a
 q=t.fc
-A.aCv(B.Eq,"\xa9 2022, 2023\nMike Rydstrom\nBSD 3-Clause License",o.tn(q).CW,"1.2.1 Build-01",A.a([new A.a0(B.GK,A.ad3(p,p,B.aB,p,p,!0,p,A.c9(A.a([A.c9(p,p,l,"The "+o.tn(q).CW+" application demonstrates features of the FlexSeed\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.aO3(s,"pub.dev",$.aII()),A.c9(p,p,l,". It also includes the source code of this application.\n\n"),A.c9(p,p,m,"Built with Flutter 3.7.0,\nusing FlexSeed\xadScheme 1.2.1\nMedia size (w:"+B.c.Y(r.a,0)+", h:"+B.c.Y(r.b,0)+")\n\n")],t.Ne),p,p,p),B.ac,p,p,1,B.a_),p)],t.p),o)},
+A.aCv(B.Eq,"\xa9 2022, 2023\nMike Rydstrom\nBSD 3-Clause License",o.tn(q).CW,"1.2.2 Build-01",A.a([new A.a0(B.GK,A.ad3(p,p,B.aB,p,p,!0,p,A.c9(A.a([A.c9(p,p,l,"The "+o.tn(q).CW+" application demonstrates features of the FlexSeed\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.aO3(s,"pub.dev",$.aII()),A.c9(p,p,l,". It also includes the source code of this application.\n\n"),A.c9(p,p,m,"Built with Flutter 3.7.0,\nusing FlexSeed\xadScheme 1.2.2\nMedia size (w:"+B.c.Y(r.a,0)+", h:"+B.c.Y(r.b,0)+")\n\n")],t.Ne),p,p,p),B.ac,p,p,1,B.a_),p)],t.p),o)},
 $S:0}
 A.LN.prototype={}
 A.a8A.prototype={
