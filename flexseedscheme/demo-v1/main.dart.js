@@ -38173,7 +38173,7 @@ m.toString
 s=l.aT(n.ax.b)
 r=o.A(t.w).f.a
 q=t.fc
-A.aDI(B.EL,"\xa9 2022, 2023\nMike Rydstrom\nBSD 3-Clause License",o.ty(q).CW,"1.2.3 Build-01",A.a([new A.a_(B.H5,A.adP(p,p,B.aA,p,p,!0,p,A.ce(A.a([A.ce(p,p,l,"The "+o.ty(q).CW+" application demonstrates features of the FlexSeed\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.aPq(s,"pub.dev",$.aJZ()),A.ce(p,p,l,". It also includes the source code of this application.\n\n"),A.ce(p,p,m,"Built with Flutter 3.7.7,\nusing FlexSeed\xadScheme 1.2.3\nMedia size (w:"+B.c.Y(r.a,0)+", h:"+B.c.Y(r.b,0)+")\n\n")],t.Ne),p,p,p),B.ae,p,p,1,B.a1),p)],t.p),o,!0)},
+A.aDI(B.EL,"\xa9 2022, 2023\nMike Rydstrom\nBSD 3-Clause License",o.ty(q).CW,"1.2.4 Build-01",A.a([new A.a_(B.H5,A.adP(p,p,B.aA,p,p,!0,p,A.ce(A.a([A.ce(p,p,l,"The "+o.ty(q).CW+" application demonstrates features of the FlexSeed\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.aPq(s,"pub.dev",$.aJZ()),A.ce(p,p,l,". It also includes the source code of this application.\n\n"),A.ce(p,p,m,"Built with Flutter 3.7.11,\nusing FlexSeed\xadScheme 1.2.4\nMedia size (w:"+B.c.Y(r.a,0)+", h:"+B.c.Y(r.b,0)+")\n\n")],t.Ne),p,p,p),B.ae,p,p,1,B.a1),p)],t.p),o,!0)},
 $S:0}
 A.Mo.prototype={}
 A.a9s.prototype={
@@ -40797,7 +40797,7 @@ u(a){return A.aM(null,null,1/a.A(t.w).f.b)}}
 A.Kg.prototype={
 u(a){var s,r=a.A(t.w).f,q=r.f,p=q.b+8,o=this.c,n=o.b,m=n>=p+8+43,l=26+q.a,k=r.a.a-q.c-26,j=new A.j(A.v(o.a,l,k),n-8-p)
 n=this.d
-s=new A.j(A.v(n.a,l,k),n.b-8+p)
+s=new A.j(A.v(n.a,l,k),n.b+8-p)
 q=m?j:s
 return new A.a_(new A.ac(8,p,8,8),new A.fJ(new A.Q7(j,s,m),new A.D6(q,A.aNA(this.e),m,A.aWE(),null),null),null)}}
 A.Sg.prototype={
