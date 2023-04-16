@@ -38494,7 +38494,7 @@ n.toString
 o=o.Q
 o.toString
 s=n.bc(p.ax.b)
-A.aVA(B.agY,"\xa9 2020 - 2023 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","3.2.0",A.c([new A.as(B.a76,A.azC(r,r,B.b7,r,r,!0,r,A.cp(A.c([A.cp(r,r,n,"This example shows the features of the FlexColorPicker package. To learn more, check out the package on "),A.aO9(s,"pub.dev",$.aIk()),A.cp(r,r,n,". It contains extensive documentation and the source of this example application.\n\n"),A.cp(r,r,o,"Live Web demo built with Channel stable 3.7.9, using FlexColorPicker package 3.2.0\n\n")],t.Ne),r,r,r),B.aW,r,r,1,B.ac),r)],t.p),q)},
+A.aVA(B.agY,"\xa9 2020 - 2023 Mike Rydstrom BSD 3-Clause License","FlexColorPicker","3.2.1",A.c([new A.as(B.a76,A.azC(r,r,B.b7,r,r,!0,r,A.cp(A.c([A.cp(r,r,n,"This example shows the features of the FlexColorPicker package. To learn more, check out the package on "),A.aO9(s,"pub.dev",$.aIk()),A.cp(r,r,n,". It contains extensive documentation and the source of this example application.\n\n"),A.cp(r,r,o,"Live Web demo built with Channel stable 3.7.11, using FlexColorPicker package 3.2.1\n\n")],t.Ne),r,r,r),B.aW,r,r,1,B.ac),r)],t.p),q)},
 $S:0}
 A.MD.prototype={}
 A.a9z.prototype={
@@ -39247,7 +39247,7 @@ J.U(s).a_(s,B.hz)}}},
 $S:32}
 A.M6.prototype={
 H(a){var s=null,r=A.v(a).ax.a===B.A,q=r?B.A:B.R,p=r?B.R:B.A,o=r?B.pt:B.p8,n=r?B.R:B.A,m=t.p
-return A.aCa(A.Pf(s,A.cc(A.c([new A.bE(s,a.L(t.w).f.f.b,s,s),B.nn,A.aB("FlexColorPicker",s,s,s,A.v(a).p3.e,s,s),B.dH,A.hF(A.c([A.hP(s,8,B.pf,4,!1,60,!0,s,!0,B.ah,!1,60),B.dG,A.hP(s,10,B.ik,0,!0,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,30,B.pc,8,!1,60,!1,s,!0,B.ah,!1,60)],m),B.aa,B.dq,B.I),B.dH,A.hF(A.c([A.hP(s,30,B.pl,9,!1,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,0,B.pv,0,!0,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,16,B.pj,5,!1,60,!0,s,!0,B.ah,!1,60)],m),B.aa,B.dq,B.I),B.dH,A.hF(A.c([A.hP(s,4,B.pz,1,!1,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,30,B.py,1,!1,60,!0,s,!0,B.ah,!1,60),B.dG,A.hP(s,10,B.pw,0,!1,60,!1,s,!0,B.ah,!1,60)],m),B.aa,B.dq,B.I),B.ah_,A.aaW(new A.as(B.qe,A.aB("Try the color picker",s,s,s,A.v(a).p3.r,s,s),s),new A.a87(a)),B.dH,B.amN,B.dH,B.afs,B.dH,B.anK,B.nn,A.aB("Using flex_color_picker version 3.2.0",s,s,s,A.v(a).p3.Q,s,s),A.aB("Web build with Flutter Channel stable 3.7.9",s,s,s,A.v(a).p3.Q,s,s),B.agZ],m),B.aa,B.dq,B.I,B.F),!0,!0,s),new A.hJ(o,s,n,s,B.D,q,p,s),t.lu)}}
+return A.aCa(A.Pf(s,A.cc(A.c([new A.bE(s,a.L(t.w).f.f.b,s,s),B.nn,A.aB("FlexColorPicker",s,s,s,A.v(a).p3.e,s,s),B.dH,A.hF(A.c([A.hP(s,8,B.pf,4,!1,60,!0,s,!0,B.ah,!1,60),B.dG,A.hP(s,10,B.ik,0,!0,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,30,B.pc,8,!1,60,!1,s,!0,B.ah,!1,60)],m),B.aa,B.dq,B.I),B.dH,A.hF(A.c([A.hP(s,30,B.pl,9,!1,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,0,B.pv,0,!0,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,16,B.pj,5,!1,60,!0,s,!0,B.ah,!1,60)],m),B.aa,B.dq,B.I),B.dH,A.hF(A.c([A.hP(s,4,B.pz,1,!1,60,!1,s,!0,B.ah,!1,60),B.dG,A.hP(s,30,B.py,1,!1,60,!0,s,!0,B.ah,!1,60),B.dG,A.hP(s,10,B.pw,0,!1,60,!1,s,!0,B.ah,!1,60)],m),B.aa,B.dq,B.I),B.ah_,A.aaW(new A.as(B.qe,A.aB("Try the color picker",s,s,s,A.v(a).p3.r,s,s),s),new A.a87(a)),B.dH,B.amN,B.dH,B.afs,B.dH,B.anK,B.nn,A.aB("Using flex_color_picker version 3.2.1",s,s,s,A.v(a).p3.Q,s,s),A.aB("Web build with Flutter Channel stable 3.7.11",s,s,s,A.v(a).p3.Q,s,s),B.agZ],m),B.aa,B.dq,B.I,B.F),!0,!0,s),new A.hJ(o,s,n,s,B.D,q,p,s),t.lu)}}
 A.a87.prototype={
 $0(){var s=A.MT(new A.a86(),null,t.K)
 A.d6(this.a,!1).jO(s)},
