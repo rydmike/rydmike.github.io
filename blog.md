@@ -4,7 +4,7 @@ description: "Flutter articles and random rumblings by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| Blog                        | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| Articles                    | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Articles and Rumblings
 
@@ -27,7 +27,7 @@ This article presents a Flutter application example that shows how to use [**Fle
 ## [Deep Dive into Theming](blog_vikings_2022_talk)
 *(Sep 6, 2022, Updated Nov 28, 2022)*
 
-I had the pleasure of talking about theming Flutter apps at the **Flutter Vikings 2022** conference, in Oslo at Aug 31, 2022. [[**Read more...**]](blog_vikings_2022_talk)
+I had the pleasure of talking about theming Flutter apps at the **Flutter Vikings 2022** conference, in Oslo on Aug 31, 2022. [[**Read more...**]](blog_vikings_2022_talk)
 
 [<img src="https://rydmike.com/assets/vikings_talk.jpeg?raw=true" alt="Vikings talk" width="380"/>](blog_vikings_2022_talk)
 
@@ -43,7 +43,7 @@ On **May 17, 2022**, at **Flutter Nordics meetup at Wolt HQ** in Helsinki, I had
 ## [Roads to ThemeData](blog_roads_to_theme_data)
 *(May 2, 2022)*
 
-In this article we compare different ways to define and create a `ThemeData` object and look at the differences we get in effective colors in the theme. We examine 13 different ways, or roads to make a ThemeData object. [[**Read more...**]](blog_roads_to_theme_data)
+In this article we compare different ways to define and create a `ThemeData` object and look at the differences we get in effective colors in the theme. We examine 13 different roads to make a ThemeData object. [[**Read more...**]](blog_roads_to_theme_data)
 
 [<img src="https://rydmike.com/assets/roadd-to-td.png?raw=true" alt="roads to themedata" width="380"/>](blog_roads_to_theme_data)
 
@@ -59,7 +59,7 @@ The Flutter `ThemeData` object defines the look of your application, and to a de
 ## [Flutter Linting Comparison](blog_flutter_linting)
 *(Jul 28, 2021, Updated Oct 7, 2022)*
 
-Dart linting is important, if you have not used it before it is a good idea to start now. At the end of this article, I also present a comparison of different popular lint packages and the Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
+Dart linting is important, if you have not used it before, it is a good idea to start now. At the end of this article, I also present a comparison of different popular lint packages and the Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
 
 [<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="380"/>](blog_flutter_linting)
 ---

@@ -4,7 +4,7 @@ description: "Theming and Material 3, talk by RydMike at Flutter Nordics meetup"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Flutter App Theming
 *(May 19, 2022)*

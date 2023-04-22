@@ -4,7 +4,7 @@ description: "Highly customizable Flutter color picker"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | FlexColorPicker                | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | FlexColorPicker                | [Grid](gridview) | [Talo](talo)         |
 
 ## FlexColorPicker
 

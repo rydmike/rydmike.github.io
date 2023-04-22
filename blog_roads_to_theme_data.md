@@ -4,7 +4,7 @@ description: "Right way to define a ThemeData object in Flutter"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Roads to Flutter ThemeData
 *(May 2, 2022)*
@@ -24,7 +24,7 @@ In this article we compare different ways to define and create a `ThemeData` obj
 11. FlexThemeData.light/dark(colorScheme, keyColors)
 12. FlexThemeData.light/dark(colorScheme, keyColors, subThemesData)
 
-In all cases we will see the results for both light and dark theme mode, compare the different methods and analyze the results. Yes that's a lot of methods and roads to make a `ThemeData` object. Last three ones are **FlexColorScheme** methods, with a few significant different parameters. Recommendations on what to use will also be given.
+In all the cases we will see the results for both light and dark theme mode, compare the different methods and analyze the results. Yes that's a lot of methods and roads to make a `ThemeData` object. Last three ones are **FlexColorScheme** methods, with a few significant different parameters. Recommendations on what to use will also be given.
 
 ## Reference Scheme
 

@@ -4,7 +4,7 @@ description: "Testing masonry style responsive grids"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | Grid             | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | Grid             | [Talo](talo)         |
 
 # Responsive Staggered Grids in Flutter
 

@@ -4,12 +4,12 @@ description: "Don't use normal Padding with Flutter Slivers"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Correct Way to Add Padding to Flutter Slivers
 *(Feb 21, 2020)*
 
-You cannot wrap a Sliver with a normal Padding in Flutter. Well, you can, but it will not render correctly if you have objects in the list with shadows that extend out into the padded area.
+You cannot wrap a Sliver with normal Padding in Flutter. Well, you can, but it will not render correctly if you have objects in the list with shadows that extend out into the padded area.
 
 In this Gist demo when clicking on the **example 1** button, we see that padding works OK on a normal grid view, but in **example 2** we can see that using padding covers the shadows that should extend into the padded area, so we get a sharply cut shadow.
 
@@ -18,7 +18,7 @@ In **examples 3 and 4** it is demonstrated how this rendering issue can be solve
 You can see this demo in a browser with [**DartPad here**](https://www.dartpad.dev/?id=e199cb754fc08f4e1500efc96e322eee&null_safety=true).  
 <img src="https://rydmike.com/assets/sliverpadding.png?raw=true" alt="Sliver padding"/>
 
-The difference is not so large on the WEB build using the HTML render with this example. It is more clear on SKIA or desktop builds, due to the used elevation in the example and the difference in how HTML and SKIA renderer draws elevations.
+The difference is not so large on the WEB build using the HTML render with this example. It is more visible on SKIA or desktop builds, due to the used elevation in the example and the difference in how HTML and SKIA renderer paints elevations.
 
 Source GIST: [**Padding Slivers with SliverPadding and demo of why Padding does not work**](https://gist.github.com/rydmike/e199cb754fc08f4e1500efc96e322eee)  
 

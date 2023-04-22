@@ -4,7 +4,7 @@ description: "Flutter Vikings 2022 talk by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Flutter Vikings 2022 - Deep Dive Into Theming
 *(Published Sep 6, 2022, Updated Nov 28, 2022)*
@@ -15,7 +15,7 @@ In the evening before the talk, Flutter 3.3 had just been released.
 
 <img src="https://rydmike.com/assets/Flutter-3-3.gif?raw=true" alt="Flutter-3-3" width="400"/>
 
-Luckily, all my material had been prepared using the beta release of Flutter 3.3, so I was all set. Well after a few updates late into the night, I was.
+Luckily, all my material had been prepared using the beta release of Flutter 3.3, so I was all set. Well, after a few updates late into the night, I was.
 
 My talk was the first one on the conference opening day in the main room. I was going on stage right after [Majid Hajian](https://twitter.com/mhadaily) had welcomed everyone to the conference. This was exciting, anticipations were high among the audience and speakers, as this was the first in person major Flutter conference in a long time.
 
@@ -23,9 +23,9 @@ Wait, we have technical problems and at a tech conference, who would have guesse
 
 <img src="https://rydmike.com/assets/tech_problems.jpeg?raw=true" alt="tech-problems" width="600"/>
 
-Now we are very late to start the conference. My main concern before was already, will I be able to do it in my 40-minute time slot? We started so late, can I still use 40 minutes? Ok apparently I can, cool.
+Now we are very late to start the conference. My main concern before was already, will I be able to do it in my 40-minute time slot? We started so late, can I still use 40 minutes? Ok, apparently I can, cool.
 
-The tech issues appear to be sorted out, and Majid is opening the conference now. He says something about that everything was working last night, and today a world of problems. I'm barely listening, so excited that this is finally happening. Now he is back on track and welcoming all to the conference. [Tim Sneath](https://twitter.com/timsneath) is on the stage now too. He sounds happy and excited as always, back to Majid, he is thanking all the sponsors.
+The tech issues appear to be sorted out, and Majid is opening the conference now. He says something about that everything was working last night, and today, a world of problems. I'm barely listening, so excited that this is finally happening. Now he is back on track and welcoming all to the conference. [Tim Sneath](https://twitter.com/timsneath) is on the stage now too. He sounds happy and excited as always, back to Majid, he is thanking all the sponsors.
 
 [<img src="https://rydmike.com/assets/majid-opens-conference.jpg?raw=true" alt="talk" width="600"/>](https://youtu.be/gn1F7GClECY?t=117)
 
@@ -60,7 +60,7 @@ I made my presentation slide deck available, just click on the image below to vi
 
 [<img src="https://rydmike.com/assets/Vikings_talk_slides.png?raw=true" alt="Talk slides" width="600"/>](https://docs.google.com/presentation/d/1F7LXlMkD4Z5Eqkvw8uwMQBgBX52IiLqe3yODuakmLQo/edit#slide=id.p1)
 
-I could not keep the 4k videos used in original PowerPoint that I used during the talk. Google Slides refused to convert my 697 MB PowerPoint with 4k videos embedded in it, to Google Slides, more suitable for sharing on the web. So those videos had to be removed. I did replace a few shorter ones with GIFs that Google Slides could handle.
+I could not keep the 4k videos used in the original PowerPoint that I used during the talk. Google Slides refused to convert my 697 MB PowerPoint with 4k videos embedded in it, to Google Slides, more suitable for sharing on the web. So those videos had to be removed. I did replace a few shorter ones with GIFs that Google Slides could handle.
 
 I also included a number of extra slides that were not in the talk. They explain certain points in detail, instead of showing them with demos, or needing the talk to get the points across. The slides that were not in
 the original talk are clearly marked so.

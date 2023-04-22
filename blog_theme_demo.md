@@ -4,7 +4,7 @@ description: "Example setup of Flutter persisted theming with FlexColorScheme V7
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Theming using FlexColorScheme and Riverpod
 *(Published Oct 24, 2022, Updated April 23, 2022)*

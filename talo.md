@@ -4,7 +4,7 @@ description: "Next generation property and energy efficiency management system"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | Talo                 |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | Talo                 |
 
 ## Development of TALO
 

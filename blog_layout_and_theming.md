@@ -4,7 +4,7 @@ description: "Web style center layout in Flutter and theming pointers"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Blog](blog)                | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
 
 # Constrained Centered Layout and Theming Flutter
 *(Oct 26, 2021)*
@@ -23,9 +23,9 @@ The example in this article can be run and tested in DartPad [here](https://dart
 
 In this [Tweet](https://twitter.com/biz84/status/1445400059894542337?s=20) FlutterDev course producer and Flutter connoisseur [Andrea Bizzotto](https://twitter.com/biz84) shows us how to make a typical web like layout in Flutter.
 
-A layout that is centered and width constrained. This keeps reasonable max column width on the content, also on very wide screens. This makes the content easier to read, since it never expands to fill the max width of typically very wide desktop screens.
+A layout that is centered and width constrained. This keeps a reasonable max column width on the content, also on very wide screens. This makes the content easier to read, since it never expands to fill the max width of typically very wide desktop screens.
 
-A solution, where wrapping the child body content like this, is presented by Andrea:
+A solution, where wrapping child content like this, is presented by Andrea:
 
 ![image](https://user-images.githubusercontent.com/39990307/138179067-83b6065d-b90b-4766-8352-05e91b7fc778.png)   
 _**Shown Web style constrained center layout.**_
@@ -91,9 +91,9 @@ The `HomePage` has these interesting features:
 
 1. The constrained body via `CenterConstrainedBody`
 2. Having a `CustomScrollView`, with `SliverList`s, `SliverGrid`  (6) and `SliverToBoxAdapter`s.
-4. We can toggle theme mode with the `ThemeModeSwitch`
-5. See theme colors via `ShowThemeColors`
-6. And yes, Andrea's mock sign-in card is there too.
+3. We can toggle theme mode with the `ThemeModeSwitch`
+4. See theme colors via `ShowThemeColors`
+5. And yes, Andrea's mock sign-in card is there too.
 
 ![image](https://user-images.githubusercontent.com/39990307/138179441-efecf76a-4e29-46ea-8989-712e2b6e87b2.png)  
 _**Parts of the example HomePage.**_
@@ -181,7 +181,7 @@ default color design, to be based on `ColorScheme` class, via property `colorSch
 
 To some extent, this migration has progressed, but there is still a lot of work pending. Some of it is hard to clean up without breaking past Flutter code that a lot of applications use. You can read more about this design change and migration in this [Flutter design document](https://docs.google.com/document/d/1kzIOQN4QYfVsc5lMZgy_A-FWGXBAJBMySGqZqsJytcE/edit).
 
-At the time of writing, we do not yet know what kind of adjustment Material 3 will bring to theming in Flutter. It could be very minimal changes, or we might even see a new cleaner theming solution.
+At the time of writing, we do not yet know what kind of adjustment Material 3 will bring to the theming in Flutter. It could be very minimal changes, or we might even see a new cleaner theming solution.
 
 # Finally
 
