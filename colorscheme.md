@@ -148,6 +148,7 @@ If you are using **FlexColorScheme version 5**, you can go here to use [**Themes
 If you are using **FlexColorScheme version 4**, you should really upgrade, but you can still use [**Themes Playground V4** here](https://rydmike.com/flexcolorschemeV4Tut5). It does not offer any API code generation, since version 4 did not have that feature.
 
 You can also build Windows, macOS or Linux desktop versions of the **Themes Playground**, it is highly recommended, as it runs much smoother and nicer than the WEB build. As mentioned above, the **Themes Playground** app is bundled with the package GitHub repository as **Example 5**. If you need a Themes Playground companion build for a specific older FlexColorScheme version, you can download a ZIP bundle from the GitHub repo for any past [release here](https://github.com/rydmike/flex_color_scheme/releases).
+
 ---
 
 Page updated 22.4.2023
