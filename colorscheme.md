@@ -141,23 +141,23 @@ Complete generated package [**API documentation**](https://pub.dev/documentation
 
 ## Themes Playground
 
-To make it even easier to configure and setup **FlexColorScheme**, it comes with a WEB companion app called the [**Themes Playground**](https://rydmike.com/flexcolorscheme/themesplayground-v7-2).
+To make it even easier to configure and setup **FlexColorScheme**, it comes with a WEB companion app called the [**Themes Playground**](https://rydmike.com/flexcolorscheme/themesplayground-latest).
 
 The **Themes Playground** is a useful tool to find **FlexColorScheme** themes and settings you like. You can use it to discover what you can do with FlexColorScheme. The playground persists all its settings. You can reset settings back to their default values, so you can always start over if you get lost in all the configuration possibilities.
 
 The most useful and popular feature of the **Playground** is that it can generate **FlexColorScheme API** setup code needed to produce the shown active theme configuration. The themed style of the app itself and the same styled demo apps shown in the included theme simulator, is what you get when you copy the code of the current theme configuration to your app, and use it with the **FlexColorScheme** package.
 
-[<img src="https://raw.githubusercontent.com/rydmike/flex_color_scheme_docs/master/docs/images/themes_playground_7_2.png" alt="Themes Playround Image"/>](https://rydmike.com/flexcolorscheme/themesplayground-v7-2)
+[<img src="https://raw.githubusercontent.com/rydmike/flex_color_scheme_docs/master/docs/images/themes_playground_7_2.png" alt="Themes Playround Image"/>](https://rydmike.com/flexcolorscheme/themesplayground-latest)
 
-*In [Themes Playground](https://rydmike.com/flexcolorscheme/themesplayground-v7-2) you can visually configure your theme and copy its setup code.*
+*In [Themes Playground](https://rydmike.com/flexcolorscheme/themesplayground-latest) you can visually configure your theme and copy its setup code.*
 
 If you use the code view panel side-by-side, as you change settings, the Playground modifies the code as you change settings. This is a fun way to get familiar with the API.
 
-[<img src="https://raw.githubusercontent.com/rydmike/flex_color_scheme_docs/master/docs/images/themes_playground_7_2_dark_code.png" alt="Themes Playround Image"/>](https://rydmike.com/flexcolorscheme/themesplayground-v7-2)
+[<img src="https://raw.githubusercontent.com/rydmike/flex_color_scheme_docs/master/docs/images/themes_playground_7_2_dark_code.png" alt="Themes Playround Image"/>](https://rydmike.com/flexcolorscheme/themesplayground-latest)
 
-*Viewing API configuration and its updates as you change setting in [Themes Playground](https://rydmike.com/flexcolorscheme/themesplayground-v7-2).*
+*Viewing API configuration and its updates as you change setting in [Themes Playground](https://rydmike.com/flexcolorscheme/themesplayground-latest).*
 
-The latest **Themes Playground v7.2** build can be used as a [web app here](https://rydmike.com/flexcolorscheme/themesplayground-v7-2). For guidance on how to use the Themes Playground, please read the [Themes Playground chapter](https://docs.flexcolorscheme.com/playground) available in the documentation site.
+The latest **Themes Playground** build can be used as a [web app here](https://rydmike.com/flexcolorscheme/themesplayground-latest). For guidance on how to use the Themes Playground, please read the [Themes Playground chapter](https://docs.flexcolorscheme.com/playground) available in the documentation site.
 
 Beware, fiddling with all the different themes and settings can be quite fun and addictive, happy theming! 💙
 
@@ -170,15 +170,17 @@ The Playground app is also the last step in the package tutorial series. The [tu
 
 ### Older versions of the Themes Playground
 
-If you are using **FlexColorScheme version 7.1**, you can go here to use [**Themes Playground V7.1**](https://rydmike.com/flexcolorscheme/themesplayground-v7) and generate API setup code for version 7.1. Prefer updating to version 7.2.
+If you are using **FlexColorScheme version 7.2**, you can go here to use [**Themes Playground v7.2**](https://rydmike.com/flexcolorscheme/themesplayground-v7-2) and generate API setup code for version 7.2. Prefer updating to version 7.3 if you can use Flutter 3.13.
 
-If you are using **FlexColorScheme version 7.0**, you can go here to use [**Themes Playground V7.0**](https://rydmike.com/flexcolorscheme/themesplayground-v7) and generate API setup code for version 7.0. Prefer updating to version 7.2.
+If you are using **FlexColorScheme version 7.1**, you can go here to use [**Themes Playground v7.1**](https://rydmike.com/flexcolorscheme/themesplayground-v7-1) and generate API setup code for version 7.1. Prefer updating to version 7.3 if you can use Flutter 3.13.
 
-If you are using **FlexColorScheme version 6**, you can go here to use [**Themes Playground V6**](https://rydmike.com/flexcolorscheme/themesplayground-v6) and generate API setup code for version 6. It supports FlexColorScheme version 6.1, you can also use this version of the Playground with FlexColorScheme version 6.0. If you do, you may have to delete some generated API config setup code for properties only available in version 6.1 that are not supported by FlexColorScheme 6.0. You will see those as unsupported API errors when you copy/paste the Themes Playground code to Flutter if you use 6.0 and not 6.1. Delete such rows, or you can of course upgrade the package to 6.1 to get those features, or even better move up to the latest version.
+If you are using **FlexColorScheme version 7.0**, you can go here to use [**Themes Playground v7.0**](https://rydmike.com/flexcolorscheme/themesplayground-v7) and generate API setup code for version 7.0. Prefer updating to version 7.3 if you can use Flutter 3.13.
 
-If you are using **FlexColorScheme version 5**, you can go here to use [**Themes Playground V5**](https://rydmike.com/flexcolorscheme/themesplayground-v5), to generate API setup code for it.
+If you are using **FlexColorScheme version 6**, you can go here to use [**Themes Playground v6**](https://rydmike.com/flexcolorscheme/themesplayground-v6) and generate API setup code for version 6. It supports FlexColorScheme version 6.1, you can also use this version of the Playground with FlexColorScheme version 6.0. If you do, you may have to delete some generated API config setup code for properties only available in version 6.1 that are not supported by FlexColorScheme 6.0. You will see those as unsupported API errors when you copy/paste the Themes Playground code to Flutter if you use 6.0 and not 6.1. Delete such rows, or you can of course upgrade the package to 6.1 to get those features, or even better move up to the latest version.
 
-If you are using **FlexColorScheme version 4**, you should **really** upgrade, but you can still use [**Themes Playground V4** here](https://rydmike.com/flexcolorschemeV4Tut5). It does not offer any API code generation, since version 4 did not have that feature.
+If you are using **FlexColorScheme version 5**, you can go here to use [**Themes Playground v5**](https://rydmike.com/flexcolorscheme/themesplayground-v5), to generate API setup code for it.
+
+If you are using **FlexColorScheme version 4**, you should **really** upgrade, but you can still use [**Themes Playground v4** here](https://rydmike.com/flexcolorschemeV4Tut5). It does not offer any API code generation, since version 4 did not have that feature.
 
 You can also build Windows, macOS or Linux desktop versions of the **Themes Playground**, it is highly recommended, as it runs much smoother and nicer than the WEB build. As mentioned above, the **Themes Playground** app is bundled with the package GitHub repository as **Example 5**. If you need a Themes Playground companion build for a specific older FlexColorScheme version, you can download a ZIP bundle from the GitHub repo for any past [release here](https://github.com/rydmike/flex_color_scheme/releases).
 
