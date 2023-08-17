@@ -42681,7 +42681,7 @@ if(i==null)i=r
 h=s.f
 s=s.w
 g=t.p
-A.aG4(A.bO(A.d([A.a8u(f,4,0,new A.am(r,i,h,s==null?h:s,f,f,f,f,f,!1),f,30,f,f,!0,f,f,j,f,f,f,!0,f,f,30)],g),B.x,B.cV,B.p,f),"\xa9 2020 - 2023\nMike Rydstrom\nBSD 3-Clause License",k,"7.3.0 \nBuild-01",A.d([new A.U(B.aju,A.afq(f,f,B.aO,f,f,!0,f,A.c8(A.d([A.c8(f,f,b,"The "+e.vK(l).CW+" application demonstrates features of the FlexColor\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.aT1(q,"pub.dev",$.aNj()),A.c8(f,f,b,". It also includes the source code of this application.\n\n"),A.c8(f,f,c,"Built with Flutter stable 3.13.0 (canvaskit), using FlexColor\xadScheme 7.3.0\nMedia size (w:"+B.c.a6(p.a,0)+", h:"+B.c.a6(p.b,0)+")\n\n")],t.Ne),f,f,f),B.af,f,f,1,B.a7),f)],g),e,!0)},
+A.aG4(A.bO(A.d([A.a8u(f,4,0,new A.am(r,i,h,s==null?h:s,f,f,f,f,f,!1),f,30,f,f,!0,f,f,j,f,f,f,!0,f,f,30)],g),B.x,B.cV,B.p,f),"\xa9 2020 - 2023\nMike Rydstrom\nBSD 3-Clause License",k,"7.3.1 \nBuild-01",A.d([new A.U(B.aju,A.afq(f,f,B.aO,f,f,!0,f,A.c8(A.d([A.c8(f,f,b,"The "+e.vK(l).CW+" application demonstrates features of the FlexColor\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.aT1(q,"pub.dev",$.aNj()),A.c8(f,f,b,". It also includes the source code of this application.\n\n"),A.c8(f,f,c,"Built with Flutter stable 3.13.0 (canvaskit), using FlexColor\xadScheme 7.3.1\nMedia size (w:"+B.c.a6(p.a,0)+", h:"+B.c.a6(p.b,0)+")\n\n")],t.Ne),f,f,f),B.af,f,f,1,B.a7),f)],g),e,!0)},
 $S:0}
 A.yG.prototype={
 T(){return new A.T5(B.e)}}
