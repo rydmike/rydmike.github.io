@@ -16,6 +16,13 @@ Chill, peace and Flutter love to you all! 💙
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
 ---
+## [Flutter Linting Comparison](blog_flutter_linting)
+*(Jul 28, 2021, Updated Nov 20, 2023)*
+
+Dart linting is important, if you have not used it before, it is a good idea to start now. At the end of this article, I also present a comparison of different popular lint packages and the Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
+
+[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="380"/>](blog_flutter_linting)
+---
 ## [FlexColorScheme and Riverpod Theming](blog_theme_demo)
 *(Oct 24, 2022, Updated April 22, 2023)*
 
@@ -55,13 +62,6 @@ The Flutter `ThemeData` object defines the look of your application, and to a de
 
 [<img src="https://rydmike.com/assets/dash-color-scheme-slides.png?raw=true" alt="dash colorscheme slides" width="380"/>](blog_theming_guide)
 
----
-## [Flutter Linting Comparison](blog_flutter_linting)
-*(Jul 28, 2021, Updated Oct 7, 2022)*
-
-Dart linting is important, if you have not used it before, it is a good idea to start now. At the end of this article, I also present a comparison of different popular lint packages and the Dart and Flutter lint rules they use. [[**Read more...**]](blog_flutter_linting)
-
-[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="380"/>](blog_flutter_linting)
 ---
 
 ## [Constrained Centered Layout and Theming Flutter](blog_layout_and_theming)
