@@ -13,7 +13,7 @@ description: "Custom linting setup and comparing used linting rules by different
 
 At the end of this article, I present a comparison of Flutter default linting and popular packages, comparing the Dart and Flutter lint rules they use.
 
-[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="400"/>](#what-are-the-rule-differences-between-all-these-packages)
+[<img src="https://rydmike.com/assets/lint_compare.png?raw=true" alt="lint_compare" width="400"/>](#compare-and-choose)
 
 ## What Is the Dart Linter?
 
