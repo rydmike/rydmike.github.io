@@ -304,7 +304,7 @@ What are the linting rule differences between all these packages? That is a good
 
 The starting point values refer to the number of enabled lint rules in comparison table version 1.4.0 from **September 10, 2021**, and rules used now in the latest linting rules comparison table, which is version 2.2.0, updated **Nov 20, 2023**. 
 
-> **NOTE:** The legacy deprecated linting packages **Pedantic** and **Effective Dart**, used two linting rules that have now also been deprecated. That is why their number of used rules have gone done, even if the packages themselves have not been updated since they were deprecated.
+> **NOTE:** The legacy deprecated linting packages **Pedantic** and **Effective Dart**, used two linting rules that have now also been deprecated. That is why their number of used rules have gone down, even if the packages themselves have not been updated since they were deprecated.
 
 ### Compare and Choose
 
