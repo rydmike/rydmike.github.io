@@ -253,29 +253,30 @@ There is no real winner here, both are excellent and stricter than the default `
 
 ### Third-party - Other options?
 
-There are many additional third-party linting packages available on [pub.dev](https://pub.dev/). Below you can find some of them in order of number of likes (as of Nov 20, 2023). I have not analyzed them any further. Packages using custom lint rules, for special use cases and other packages, like e.g., `riverpod_lints` are not included. Only packages that mainly configure the Dart built-in static analyzer rules are listed below.
+There are many additional third-party linting packages available on [pub.dev](https://pub.dev/). Below you can find some of them in order of number of likes (as of Dec 29, 2023). I have not analyzed them any further. Packages using custom lint rules, for special use cases and other packages, like e.g., `riverpod_lints` are not included. Only packages that mainly configure the Dart built-in static analyzer rules are listed below.
 
-| Num | Third-party lint package                                                        | Likes |
-|:---:|:--------------------------------------------------------------------------------|:------|
-|  1  | [lint](https://pub.dev/packages/lint)                                           | 814   |
-|  2  | [very_good_analysis](https://pub.dev/packages/very_good_analysis)               | 498   |
-|  3  | [pedantic_mono](https://pub.dev/packages/pedantic_mono)                         | 66    |
-|  4  | [surf_lint_rules](https://pub.dev/packages/surf_lint_rules)                     | 48    |
-|  5  | [solid_lints](https://pub.dev/packages/solid_lints)                             | 37    |
-|  6  | [linteo](https://pub.dev/packages/linteo)                                       | 30    |
-|  7  | [flutterando_analysis](https://pub.dev/packages/flutterando_analysis)           | 25    |
-|  8  | [extra_pedantic](https://pub.dev/packages/extra_pedantic)                       | 22    |
-|  9  | [austerity](https://pub.dev/packages/austerity)                                 | 20    |
-| 10  | [netglade_analysis](https://pub.dev/packages/netglade_analysis) (also uses DCM) | 16    |
-| 11  | [total_lints](https://pub.dev/packages/total_lints)                             | 12    |
-| 12  | [lint_quido](https://pub.dev/packages/lint_quido) (also uses DCM)               | 11    |
-| 13  | [carapacik_lints](https://pub.dev/packages/carapacik_lints)                     | 9     |
-| 14  | [dart_analysis](https://pub.dev/packages/dart_analysis)                         | 9     |
-| 15  | [yumemi_lints](https://pub.dev/packages/yumemi_lints)                           | 8     |
-| 16  | [appandup_lint](https://pub.dev/packages/appandup_lint)                         | 7     |
-| 17  | [altive_lints](https://pub.dev/packages/altive_lints)                           | 6     |
-| 18  | [deckweiss_lints](https://pub.dev/packages/deckweiss_lints)                     | 6     |
-| 19  | [strict](https://pub.dev/packages/strict)                                       | 6     |
+| Num  | Third-party lint package                                                                             | Likes |
+|:----:|:-----------------------------------------------------------------------------------------------------|:------|
+|  1   | [lint](https://pub.dev/packages/lint)                                                                | 821   |
+|  2   | [very_good_analysis](https://pub.dev/packages/very_good_analysis)                                    | 521   |
+|  3   | [pedantic_mono](https://pub.dev/packages/pedantic_mono)                                              | 67    |
+|  4   | [surf_lint_rules](https://pub.dev/packages/surf_lint_rules)                                          | 48    |
+|  5   | [solid_lints](https://pub.dev/packages/solid_lints)                                                  | 43    |
+|  6   | [linteo](https://pub.dev/packages/linteo)                                                            | 30    |
+|  7   | [flutterando_analysis](https://pub.dev/packages/flutterando_analysis)                                | 25    |
+|  8   | [austerity](https://pub.dev/packages/austerity)                                                      | 22    |
+|  9   | [extra_pedantic](https://pub.dev/packages/extra_pedantic)                                            | 22    |
+|  10  | [netglade_analysis](https://pub.dev/packages/netglade_analysis) (also uses DCM)                      | 16    |
+|  11  | [total_lints](https://pub.dev/packages/total_lints)                                                  | 14    |
+|  12  | [lint_quido](https://pub.dev/packages/lint_quido) (also uses DCM)                                    | 11    |
+|  13  | [carapacik_lints](https://pub.dev/packages/carapacik_lints)                                          | 10    |
+|  14  | [yumemi_lints](https://pub.dev/packages/yumemi_lints)                                                | 9     |
+|  15  | [dart_analysis](https://pub.dev/packages/dart_analysis)                                              | 9     |
+|  16  | [altive_lints](https://pub.dev/packages/altive_lints)                                                | 8     |
+|  17  | [appandup_lint](https://pub.dev/packages/appandup_lint)                                              | 7     |
+|  18  | [deckweiss_lints](https://pub.dev/packages/deckweiss_lints)                                          | 6     |
+|  19  | [strict](https://pub.dev/packages/strict)                                                            | 6     |
+| 20   | [blackfoot_flutter_lint](https://pub.dev/packages/blackfoot_flutter_lint)    | 5     |
 
 If there are some important third-party linter packages that are not included, please let me know and I will add them to the list. Maybe if/when some other linting rule package approaches the popularity of **lint** or **very_good_analysis**, I will also add it to my comparsion sheet further below. 
 
