@@ -4,7 +4,7 @@ description: "Flutter articles and random rumblings by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| Articles                    | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| Articles                    | [FlexColorPicker](colorpicker) | [Grid](gridview) |          |
 
 # Articles and Rumblings
 

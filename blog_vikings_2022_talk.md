@@ -4,7 +4,7 @@ description: "Flutter Vikings 2022 talk by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |          |
 
 # Flutter Vikings 2022 - Deep Dive Into Theming
 *(Published Sep 6, 2022, Updated Nov 28, 2022)*

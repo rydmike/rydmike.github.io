@@ -4,7 +4,7 @@ description: "Right way to define a ThemeData object in Flutter"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |       |
 
 # Roads to Flutter ThemeData
 *(May 2, 2022)*

@@ -4,7 +4,7 @@ description: "Nit-picking a Flutter ClipRect, clip bleed issue"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |        |
 
 # ClipRect on Container with BoxShadow
 *(Jun 4, 2020)*

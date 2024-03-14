@@ -50,7 +50,6 @@ include:
   - colorpicker.md
   - gridview.md
   - issues.md
-  - talo.md
   - blog.md
   - blog_m3_talk.md
   - blog_flutter_linting.md

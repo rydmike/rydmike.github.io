@@ -4,7 +4,7 @@ description: "Web style center layout in Flutter and theming pointers"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |         |
 
 # Constrained Centered Layout and Theming Flutter
 *(Oct 26, 2021)*

@@ -4,7 +4,7 @@ description: "Custom linting setup and comparing used linting rules by different
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |         |
 
 # Flutter Linting and Linter Comparison
 *(Published July 28, 2021, Updated Nov 20, 2023)*

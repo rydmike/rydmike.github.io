@@ -4,7 +4,7 @@ description: "Intro to Flutter theming by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |        |
 
 # Flutter Theming Guide
 *(Published May 1, 2022, Updated May 4, 2022)*

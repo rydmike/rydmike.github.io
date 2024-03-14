@@ -4,7 +4,7 @@ description: "Don't use normal Padding with Flutter Slivers"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |         |
 
 # Correct Way to Add Padding to Flutter Slivers
 *(Feb 21, 2020)*

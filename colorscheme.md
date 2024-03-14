@@ -4,7 +4,7 @@ description: "Next level Flutter theming with a playground"
 ---
 
 | [Home](https://rydmike.com) | FlexColorScheme                | [Issues](issues) | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |          |
 
 ## FlexColorScheme
 

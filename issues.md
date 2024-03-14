@@ -4,7 +4,7 @@ description: "Diving into some issues reported in Flutter repo by RydMike"
 ---
 
 | [Home](https://rydmike.com) | [FlexColorScheme](colorscheme) | Issues           | [Flexfold](flexfold) |  
-| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) | [Talo](talo)         |
+| [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |          |
 
 ## Flutter Issues
 
