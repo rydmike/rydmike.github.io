@@ -7,7 +7,7 @@ description: "Flutter Vikings 2022 talk by RydMike"
 | [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |          |
 
 # Flutter Vikings 2022 - Deep Dive Into Theming
-*(Published Sep 6, 2022, Updated Nov 28, 2022)*
+*(Published Sep 6, 2022, Updated Jul 1, 2024)*
 
 On **August 31, 2022**, at **Flutter Vikings** in Oslo, I had the pleasure and honor to do a talk and deep dive into theming **Flutter** apps.
 
@@ -65,7 +65,7 @@ I could not keep the 4k videos used in the original PowerPoint that I used durin
 I also included a number of extra slides that were not in the talk. They explain certain points in detail, instead of showing them with demos, or needing the talk to get the points across. The slides that were not in
 the original talk are clearly marked so.
 
-If you, for some reason, need or want the actual PowerPoint file used during the talk, you can download it [here](https://drive.google.com/file/d/1fzYdA15tyJbBkBBzGrr65p7eOcPHsf77/view) as well, but fair warning, it is **697MB** in size!
+If you, for some reason, need or want the actual PowerPoint file used during the talk, you can unfortunately no longer download it here. If contact me on Twitter DM @Rydmike I can setup a link to it again, but fair warning, it is **697MB** in size!
 
 ### Demo App Used in the Talk
 
@@ -82,4 +82,4 @@ This demo app is available as a single [Gist file on GitHub](https://gist.github
 If you want to see more photos from the **Flutter Vikings 2022**, you can check the flickr album published from the [event here](https://www.flickr.com/photos/196990263@N07/sets/72177720303912223/).
 
 ---
-Created 06.09.2022, Updated 28.11.2022
+Created 06.09.2022, Updated 1.7.2024
