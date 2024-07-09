@@ -16,6 +16,14 @@ Chill, peace and Flutter love to you all! 💙
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
 ---
+## [Advanced Theming Guide](blog_adaptive_theming_guide)
+*(Published July 9, 2024)*
+
+In this theming guide, we will walk through how to create a custom Flutter Material theme that is adaptive to the platform it runs on. We will use a custom seed generated `ColorScheme` that is colorful and vibrant and uses multiple seed colors. [[**Read more...**]](blog_adaptive_theming_guide)
+
+[<img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/pixel-demo.gif" alt="Pixel result demo" width="250"/>](blog_adaptive_theming_guide)
+
+---
 ## [Flutter Linting Comparison](blog_flutter_linting)
 *(Jul 28, 2021, Updated Nov 20, 2023)*
 

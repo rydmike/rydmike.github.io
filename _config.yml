@@ -52,6 +52,7 @@ include:
   - issues.md
   - blog.md
   - blog_m3_talk.md
+  - blog_adaptive_theming_guide.md
   - blog_flutter_linting.md
   - blog_cliprect_boxshadow.md
   - blog_sliver_padding.md
