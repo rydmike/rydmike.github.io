@@ -17,9 +17,9 @@ Chill, peace and Flutter love to you all! 💙
 
 ---
 ## [Adaptive Theming Guide](blog_adaptive_theming_guide)
-*(Published July 9, 2024)*
+*(Published July 9, 2024, Updated July 12, 2024)*
 
-In this advanced theming guide, we will walk through how to create a custom Flutter Material theme that is adaptive to the platform it runs on. We will use a custom seed generated `ColorScheme` that is colorful and vibrant and uses multiple seed colors. [[**Read more...**]](blog_adaptive_theming_guide)
+In this advanced theming guide, we walk through how to create a custom Flutter Material theme that adapts to the platform it runs on. We use a custom seed generated `ColorScheme` that gets vibrant colors and uses multiple seed colors. We give the `ColorScheme` a platform adaptive response, so that surface colors are only primary color tinted on Android, while using monochrome greyscale surfaces on all other platforms. [[**Read more...**]](blog_adaptive_theming_guide)
 
 [<img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/pixel-demo.gif" alt="Pixel result demo" width="250"/>](blog_adaptive_theming_guide)
 
