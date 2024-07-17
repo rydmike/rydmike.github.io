@@ -7,7 +7,7 @@ description: "Advanced Flutter theming by RydMike"
 | [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |        |
 
 # Adaptive Theming Guide
-*(Published July 9, 2024, Updated July 12, 2024)*
+*(Published July 9, 2024, Updated July 17, 2024)*
 
 In this advanced theming guide, we walk through how to create a custom Flutter Material theme that adapts to the platform it runs on. We use a custom seed generated `ColorScheme` that gets vibrant colors and uses multiple seed colors. We give the `ColorScheme` a platform adaptive response, so that surface colors are only primary color tinted on Android, while using monochrome greyscale surfaces on all other platforms.
 
@@ -113,16 +113,14 @@ sealed class ThemeTokens {
       defaultTargetPlatform != TargetPlatform.android || kIsWeb;
   // Tokens for used button border radius on none Android platforms.
   static const double appRadius = 10.0;
-      BorderRadius.all(Radius.circular(appRadius));
+  static const BorderRadius borderRadius = BorderRadius.all(Radius.circular(appRadius));
   static const OutlinedBorder buttonsShape = RoundedRectangleBorder(
-  borderRadius: borderRadius,
+    borderRadius: borderRadius,
   );
   // We need a stadium like border radius for our ToggleButtons on Android.
   // If we make it big enough, it will look like a stadium shape.
   static const BorderRadius borderRadiusStadiumLike =
       BorderRadius.all(Radius.circular(100));
-  static const BorderRadius borderRadius =
-
   // Outlined width used by some styled buttons.
   static const double outlineWidth = 1.0;
 
@@ -130,7 +128,7 @@ sealed class ThemeTokens {
   // The values results in width 40 and height 40.
   // The Material-3 guide specifies width 48 and height 40. This is an
   // opinionated choice in order to make ToggleButtons min size squared.
-  static const Size toggleButtonMinSize =
+  static const Size toggleButtonMinSize = 
       Size(kMinInteractiveDimension - 8, kMinInteractiveDimension - 8);
 }
 ```
@@ -157,7 +155,7 @@ Since `ColorScheme.fromSeed` can only use one seed color, we are going to take a
 
 With the `flex_seed_scheme` package we can use the `SeedColorScheme.fromSeeds` constructor to generate a `ColorScheme` from multiple seed colors. It also offers many other useful methods to tune and modify the generated `ColorScheme`. We will use some of those features as well.
 
-In addition to creating our `ColorScheme` from multiple seed colors, we use a seed generation algorithm that creates a `ColorScheme` that is **colorful**, which is what we want for our app. To do so, we as `tones` for the `ColorScheme` generation use the `FlexTones.chroma` configuration. It creates a colorful `ColorScheme` based on the **chromacity** of each seed color, or key colors, as they are called in the `flex_seed_scheme` package. That this algorithm uses the **chromacity** or "colorfulness" of our seed color inputs, means that if they are colorful, the generated `ColorScheme` colors will be that as well.
+In addition to creating our `ColorScheme` from multiple seed colors, we use a seed generation algorithm that creates a `ColorScheme` that is **colorful**, which is what we want for our app. To do so, we use the `FlexTones.chroma` configuration as the `tones` property to configure the `ColorScheme` generation algorithm. This creates a colorful `ColorScheme` based on the **chromacity** of each seed color, or key colors, as they are called in the `flex_seed_scheme` package. That this algorithm uses the **chromacity** or "colorfulness" of our seed color inputs, means that if they are colorful, the generated `ColorScheme` colors will be that as well.
 
 As primary key color we use the `avocado` color. As secondary the `avocadoRipe` color. We selected the `avocadoRipe` color as secondary, because it is a color that is close to the primary color, but also a bit dimmer and less colorful that our primary `avocvado` color selection. This selection fits well with the design intent of the Material-3 color system.
 
