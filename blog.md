@@ -12,7 +12,7 @@ I sometimes write blog-like articles about Flutter and publish them here. Who kn
 
 Occasionally, I also publish Flutter Gists that you can try in DartPad. The Gists might be a Flutter example, snippet, issue or a setup that I found useful and wanted to share in a short blog-like format and also document it. This way I can find it myself when I need it again. My more or less documented Flutter Gists can be found [here](https://gist.github.com/rydmike). 
 
-Chill, peace and Flutter love to you all! 💙  
+Chill, peace and Flutter love to you all! 💙
 [<img src="https://rydmike.com/assets/flutter_santa.png?raw=true" alt="flutter santa" width="380"/>](https://rydmike.com/assets/flutter_santa.png?raw=true)
 
 ---
