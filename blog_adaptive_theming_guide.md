@@ -7,7 +7,7 @@ description: "Advanced Flutter theming by RydMike"
 | [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |        |
 
 # Adaptive Theming Guide
-*(Published July 9, 2024, Updated July 17, 2024)*
+*(Published July 9, 2024, Updated July 31, 2024)*
 
 In this advanced theming guide, we walk through how to create a custom Flutter Material theme that adapts to the platform it runs on. We use a custom seed generated `ColorScheme` that gets vibrant colors and uses multiple seed colors. We give the `ColorScheme` a platform adaptive response, so that surface colors are only primary color tinted on Android, while using monochrome greyscale surfaces on all other platforms.
 
@@ -257,15 +257,15 @@ The light mode `ColorScheme` result Android platform. There is a very subtle pri
 
 <img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/result_and_light.png" alt="ColorScheme result on Android in light mode" />
 
-### ColorScheme Result in  Dark Mode
+### ColorScheme Result in Dark Mode
 
 The dark mode `ColorScheme` result on iOS and all none Android platforms:
 
-<img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/result_ios_dark.png" alt="ColorScheme result on iOS in dark mode" />
+<img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/result_and_dark.png" alt="ColorScheme result on Android in dark mode" />
 
 The dark mode `ColorScheme` result Android platform. There is a very subtle primary color tint in all the surface colors:
 
-<img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/result_and_dark.png" alt="ColorScheme result on Android in dark mode" />
+<img src="https://raw.githubusercontent.com/rydmike/adaptive_theme_demo/master/images/result_ios_dark.png" alt="ColorScheme result on iOS in dark mode" />
 
 The tinting used on Android is quite subtle, the difference to the tinted version is not super obvious, but it is there.
 
