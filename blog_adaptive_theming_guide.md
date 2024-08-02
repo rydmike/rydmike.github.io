@@ -1763,5 +1763,5 @@ We also looked at a practical example of using theme extensions for semantic col
 > The walk through of the `AppTheme` class was pretty long, but the setup is not that long and complicated. It might be easier to get an overview by looking at its code [here](https://github.com/rydmike/adaptive_theme_demo/blob/master/lib/theme/app_theme.dart).
 
 
-Hope you enjoyed this **Flutter adaptive theming guide** by [@RydMike (on X/Twitter)](https://x.com/RydMike) aka "MaterialMike" :smiley: 
+Hope you enjoyed this **Flutter adaptive theming guide** by [@RydMike (on X/Twitter)](https://x.com/RydMike) aka "MaterialMike" 
 
