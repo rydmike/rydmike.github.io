@@ -7,7 +7,7 @@ description: "Advanced Flutter theming by RydMike"
 | [Articles](blog)            | [FlexColorPicker](colorpicker) | [Grid](gridview) |        |
 
 # Adaptive Theming Guide
-*(Published July 9, 2024, Updated July 31, 2024)*
+*(Published July 9, 2024, Updated Oct 21, 2024)*
 
 In this advanced theming guide, we walk through how to create a custom Flutter Material theme that adapts to the platform it runs on. We use a custom seed generated `ColorScheme` that gets vibrant colors and uses multiple seed colors. We give the `ColorScheme` a platform adaptive response, so that surface colors are only primary color tinted on Android, while using monochrome greyscale surfaces on all other platforms.
 
