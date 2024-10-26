@@ -4,11 +4,11 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
-"main.dart.js": "97eb1f6f47d75cb8254f7989f0efe6bc",
+"main.dart.js": "ae591a2fc3889726284d1d679074d327",
 "assets/loading2.gif": "2761411cf1769dd3609709ba6be57a1e",
 "assets/FontManifest.json": "e133a9137b72b954712b83379e736460",
 "assets/AssetManifest.bin": "25530640e3ac7ba7ebfd176034e60f0b",
-"assets/fonts/MaterialIcons-Regular.otf": "6b73e2ba23698abc73d37c12d46959a0",
+"assets/fonts/MaterialIcons-Regular.otf": "f44607486b07818cc61e13bfce94dbee",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "e986ebe42ef785b27164c36a9abc7818",
 "assets/packages/flex_color_picker/assets/opacity.png": "49c4f3bcb1b25364bb4c255edcaaf5b2",
 "assets/assets/google_fonts/FiraMono-Regular.ttf": "aa00c5d91c47e7b718b5cdca3dea7875",
@@ -62,7 +62,7 @@ const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
 "assets/assets/images/ud_verified.svg": "b2bbe6d00635c4da07b8013c79eb1a52",
 "assets/assets/images/ud_set_preferences.svg": "164e0e23d0897428bd42ced3b4ed9841",
 "assets/loading.gif": "cb4ffe4ab1cc04057cbd2c5959f51b91",
-"assets/NOTICES": "8190f8515aa84b2d332633013dd6135a",
+"assets/NOTICES": "369c20973ea6e232c19e1477a5fc98fa",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.json": "7a20bc8f6a26b1441a486ed9fce57cb8",
 "assets/AssetManifest.bin.json": "47b965c638facd44292dcc7cd1fe2a12",
@@ -85,7 +85,7 @@ const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
 "icons/Icon-maskable-512.png": "3917503fe2d1bf649fb519323cd8df32",
 "favicon.png": "30432e1d4e747b9dab8b3e2e47d9ff0f",
 "version.json": "7941caf3239f0b0fe011481bb97bf479",
-"flutter_bootstrap.js": "748424dd6b821a9ce49e168f7f2f76ce"};
+"flutter_bootstrap.js": "13da62cc1060a12a5a2ccd48031aeb25"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
