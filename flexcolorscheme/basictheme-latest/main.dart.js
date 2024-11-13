@@ -43660,7 +43660,7 @@ if(j==null)j=r
 i=s.y
 s=s.Q
 h=t.p
-A.aLN(A.bF(A.d([A.a9V(g,4,0,new A.al(r,j,g,i,s==null?i:s,g,g,g,g,g,g,g,!1),g,30,g,g,!0,g,g,n,g,g,g,!0,g,g,30)],h),B.w,B.cN,B.l,g),"\xa9 2020 - 2024\nMike Rydstrom\nBSD 3-Clause License",k,"8.0.0\nBuild-01",A.d([new A.Q(B.amk,new A.ct(B.Lz,A.R9(g,g,g,B.b0,g,g,!0,g,A.c4(A.d([A.c4(g,g,c,"The "+A.aIr(f)+" application demonstrates features of the FlexColor\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.b__(q,"pub.dev",$.aTO()),A.c4(g,g,c,". It also includes the source code of this application.\n\n"),A.c4(g,g,d,"Built with Flutter stable 3.24.4 (canvaskit, Web-JS), using FlexColor\xadScheme 8.0.0. Media size (w:"+B.c.a6(p.a,0)+", h:"+B.c.a6(p.b,0)+")\n\n")],t.Ne),g,g,g),B.ac,g,g,B.H,B.a4),g),g)],h),f,!0)},
+A.aLN(A.bF(A.d([A.a9V(g,4,0,new A.al(r,j,g,i,s==null?i:s,g,g,g,g,g,g,g,!1),g,30,g,g,!0,g,g,n,g,g,g,!0,g,g,30)],h),B.w,B.cN,B.l,g),"\xa9 2020 - 2024\nMike Rydstrom\nBSD 3-Clause License",k,"8.0.1\nBuild-01",A.d([new A.Q(B.amk,new A.ct(B.Lz,A.R9(g,g,g,B.b0,g,g,!0,g,A.c4(A.d([A.c4(g,g,c,"The "+A.aIr(f)+" application demonstrates features of the FlexColor\xadScheme Flutter theming package.\n\nTo learn more, check out the package on "),A.b__(q,"pub.dev",$.aTO()),A.c4(g,g,c,". It also includes the source code of this application.\n\n"),A.c4(g,g,d,"Built with Flutter stable 3.24.4 (canvaskit, Web-JS), using FlexColor\xadScheme 8.0.1. Media size (w:"+B.c.a6(p.a,0)+", h:"+B.c.a6(p.b,0)+")\nkReleaseMode: true kProfileMode: false kDebugMode: false.")],t.Ne),g,g,g),B.ac,g,g,B.H,B.a4),g),g)],h),f,!0)},
 $S:0}
 A.zH.prototype={
 O(){return new A.Uh()}}
@@ -108707,7 +108707,7 @@ B.t2=new A.W(96,96,96,96)
 B.Lw=new A.W(0,1/0,48,48)
 B.Lv=new A.W(0,1/0,56,56)
 B.Ly=new A.W(112,280,0,1/0)
-B.Lz=new A.W(0,400,0,1/0)
+B.Lz=new A.W(0,410,0,1/0)
 B.t5=new A.W(0,600,0,1/0)
 B.t3=new A.W(0,640,0,1/0)
 B.t4=new A.W(360,800,56,1/0)
