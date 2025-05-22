@@ -4642,7 +4642,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
 
-You may obtain a copy of this library's Source Code Form from: https://dart.googlesource.com/sdk/+/87965ab4864e444c521023820eb06e569d007059
+You may obtain a copy of this library's Source Code Form from: https://dart.googlesource.com/sdk/+/8f85d89fdc2322db41aad9008399a5ecf84786b7
 /third_party/fallback_root_certificates/
 
 --------------------------------------------------------------------------------
@@ -4931,7 +4931,7 @@ flex_color_picker
 
 BSD 3-Clause License
 
-Copyright (c) 2020-2024 Mike Rydstrom (Rydmike)
+Copyright (c) 2020-2025 Mike Rydstrom (Rydmike)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4964,7 +4964,7 @@ flex_seed_scheme
 
 BSD 3-Clause License
 
-FlexSeedScheme Copyright (c) 2022-2024
+FlexSeedScheme Copyright (c) 2022-2025
 Mike Rydstrom (Twitter @RydMike GitHub rydmike)
 All rights reserved.
 
