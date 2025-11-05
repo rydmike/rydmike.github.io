@@ -50171,7 +50171,7 @@ n=n.Q
 n.toString
 s=m.aI(o.ax.b)
 r=A.ab(p,q,t.w).w.a
-A.aWL(B.Ni,"\xa9 2022-2025\nMike Rydstrom\nBSD 3-Clause License",A.aTc(p),"3.6.0",A.d([new A.K(B.ahR,A.V4(q,q,q,B.aC,q,q,!0,q,A.ci(A.d([A.ci(q,q,q,m,"The "+A.aTc(p)+" application demonstrates features\nof the FlexSeed\xadScheme custom key colors ColorScheme generation package.\n\nTo learn more, check out the package on "),A.baQ(s,"pub.dev",$.b4m()),A.ci(q,q,q,m,".\nIt also includes the source code of this application.\n\n"),A.ci(q,q,q,n,"Built with Flutter stable 3.35.7 (JS),\nusing FlexSeed\xadScheme 3.6.0\nMedia size (w:"+B.d.ab(r.a,0)+", h:"+B.d.ab(r.b,0)+")\n\n")],t.Ne),q,q,q,q),B.a9,q,q,B.S,B.a4),q)],t.p),p,!0)},
+A.aWL(B.Ni,"\xa9 2022-2025\nMike Rydstrom\nBSD 3-Clause License",A.aTc(p),"3.6.1",A.d([new A.K(B.ahR,A.V4(q,q,q,B.aC,q,q,!0,q,A.ci(A.d([A.ci(q,q,q,m,"The "+A.aTc(p)+" application demonstrates features\nof the FlexSeed\xadScheme custom key colors ColorScheme generation package.\n\nTo learn more, check out the package on "),A.baQ(s,"pub.dev",$.b4m()),A.ci(q,q,q,m,".\nIt also includes the source code of this application.\n\n"),A.ci(q,q,q,n,"Built with Flutter stable 3.35.7 (JS),\nusing FlexSeed\xadScheme 3.6.1\nMedia size (w:"+B.d.ab(r.a,0)+", h:"+B.d.ab(r.b,0)+")\n\n")],t.Ne),q,q,q,q),B.a9,q,q,B.S,B.a4),q)],t.p),p,!0)},
 $S:0}
 A.SI.prototype={}
 A.ahC.prototype={
